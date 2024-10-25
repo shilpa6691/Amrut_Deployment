@@ -1,0 +1,201 @@
+18-Mar-24 10:00:12 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 10:00:12 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 10:37:32 INFO [server.py] Started server process [851624]
+18-Mar-24 10:37:32 INFO [on.py] Waiting for application startup.
+18-Mar-24 10:37:32 INFO [on.py] Application startup complete.
+18-Mar-24 10:40:41 INFO [h11_impl.py] 192.168.150.14:49481 - "GET /docs HTTP/1.1" 200
+18-Mar-24 10:40:41 INFO [h11_impl.py] 192.168.150.14:49481 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 10:47:41 INFO [server.py] Started server process [853228]
+18-Mar-24 10:47:41 INFO [on.py] Waiting for application startup.
+18-Mar-24 10:47:41 INFO [on.py] Application startup complete.
+18-Mar-24 10:47:41 INFO [h11_impl.py] 192.168.150.14:49584 - "GET /docs HTTP/1.1" 200
+18-Mar-24 10:47:41 INFO [h11_impl.py] 192.168.150.14:49584 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 11:02:11 INFO [server.py] Started server process [855627]
+18-Mar-24 11:02:11 INFO [on.py] Waiting for application startup.
+18-Mar-24 11:02:11 INFO [on.py] Application startup complete.
+18-Mar-24 11:02:59 INFO [h11_impl.py] 192.168.150.14:49811 - "GET /docs HTTP/1.1" 200
+18-Mar-24 11:03:00 INFO [h11_impl.py] 192.168.150.14:49811 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 11:05:14 INFO [server.py] Started server process [856353]
+18-Mar-24 11:05:14 INFO [on.py] Waiting for application startup.
+18-Mar-24 11:05:14 INFO [on.py] Application startup complete.
+18-Mar-24 11:05:14 INFO [h11_impl.py] 192.168.150.14:49849 - "GET /docs HTTP/1.1" 200
+18-Mar-24 11:05:14 INFO [h11_impl.py] 192.168.150.14:49849 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 11:10:03 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 11:10:03 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 11:13:18 INFO [server.py] Started server process [858069]
+18-Mar-24 11:13:18 INFO [on.py] Waiting for application startup.
+18-Mar-24 11:13:18 INFO [on.py] Application startup complete.
+18-Mar-24 11:13:18 INFO [h11_impl.py] 192.168.150.14:49959 - "GET /docs HTTP/1.1" 200
+18-Mar-24 11:13:18 INFO [h11_impl.py] 192.168.150.14:49959 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 11:23:49 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 11:23:49 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 11:38:51 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 11:38:51 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 11:40:18 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 11:40:18 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 12:00:39 INFO [server.py] Started server process [867885]
+18-Mar-24 12:00:39 INFO [on.py] Waiting for application startup.
+18-Mar-24 12:00:39 INFO [on.py] Application startup complete.
+18-Mar-24 12:00:39 INFO [h11_impl.py] 192.168.150.14:50502 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:00:40 INFO [h11_impl.py] 192.168.150.14:50502 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:04:26 INFO [server.py] Started server process [868421]
+18-Mar-24 12:04:26 INFO [on.py] Waiting for application startup.
+18-Mar-24 12:04:26 INFO [on.py] Application startup complete.
+18-Mar-24 12:04:26 INFO [h11_impl.py] 192.168.150.14:50559 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:04:27 INFO [h11_impl.py] 192.168.150.14:50559 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:04:27 INFO [h11_impl.py] 192.168.150.14:50559 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:04:27 INFO [h11_impl.py] 192.168.150.14:50559 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:34:42 INFO [server.py] Started server process [871925]
+18-Mar-24 12:34:42 INFO [on.py] Waiting for application startup.
+18-Mar-24 12:34:42 INFO [on.py] Application startup complete.
+18-Mar-24 12:34:42 INFO [h11_impl.py] 192.168.150.14:50965 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:34:42 INFO [h11_impl.py] 192.168.150.14:50965 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:37:16 INFO [server.py] Started server process [872260]
+18-Mar-24 12:37:16 INFO [on.py] Waiting for application startup.
+18-Mar-24 12:37:16 INFO [on.py] Application startup complete.
+18-Mar-24 12:37:16 INFO [h11_impl.py] 192.168.150.14:51003 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:37:16 INFO [h11_impl.py] 192.168.150.14:51003 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:37:17 INFO [h11_impl.py] 192.168.150.14:51003 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:37:17 INFO [h11_impl.py] 192.168.150.14:51003 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 12:57:31 INFO [server.py] Started server process [874705]
+18-Mar-24 12:57:31 INFO [on.py] Waiting for application startup.
+18-Mar-24 12:57:31 INFO [on.py] Application startup complete.
+18-Mar-24 12:57:31 INFO [h11_impl.py] 192.168.150.14:51233 - "GET /docs HTTP/1.1" 200
+18-Mar-24 12:57:32 INFO [h11_impl.py] 192.168.150.14:51233 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:00:17 INFO [server.py] Started server process [875151]
+18-Mar-24 13:00:17 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:00:17 INFO [on.py] Application startup complete.
+18-Mar-24 13:00:17 INFO [h11_impl.py] 192.168.150.14:51280 - "GET /docs HTTP/1.1" 200
+18-Mar-24 13:00:17 INFO [h11_impl.py] 192.168.150.14:51280 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:02:54 INFO [server.py] Started server process [875526]
+18-Mar-24 13:02:54 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:02:54 INFO [on.py] Application startup complete.
+18-Mar-24 13:02:54 INFO [h11_impl.py] 192.168.150.14:51321 - "GET /docs HTTP/1.1" 200
+18-Mar-24 13:02:54 INFO [h11_impl.py] 192.168.150.14:51321 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:07:58 INFO [server.py] Started server process [876150]
+18-Mar-24 13:07:58 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:07:58 INFO [on.py] Application startup complete.
+18-Mar-24 13:08:21 INFO [server.py] Shutting down
+18-Mar-24 13:08:21 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 13:08:21 INFO [on.py] Application shutdown complete.
+18-Mar-24 13:08:21 INFO [server.py] Finished server process [876150]
+18-Mar-24 13:10:45 INFO [server.py] Started server process [877241]
+18-Mar-24 13:10:45 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:10:45 INFO [on.py] Application startup complete.
+18-Mar-24 13:10:45 INFO [h11_impl.py] 192.168.150.14:51433 - "GET /docs HTTP/1.1" 200
+18-Mar-24 13:10:45 INFO [h11_impl.py] 192.168.150.14:51433 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:11:18 INFO [server.py] Shutting down
+18-Mar-24 13:11:18 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 13:11:18 INFO [on.py] Application shutdown complete.
+18-Mar-24 13:11:18 INFO [server.py] Finished server process [877241]
+18-Mar-24 13:13:13 INFO [server.py] Started server process [877803]
+18-Mar-24 13:13:13 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:13:13 INFO [on.py] Application startup complete.
+18-Mar-24 13:17:41 INFO [server.py] Started server process [878848]
+18-Mar-24 13:17:41 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:17:41 INFO [on.py] Application startup complete.
+18-Mar-24 13:17:41 INFO [h11_impl.py] 192.168.150.14:51538 - "GET /docs HTTP/1.1" 200
+18-Mar-24 13:17:41 INFO [h11_impl.py] 192.168.150.14:51538 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:21:00 INFO [server.py] Started server process [879218]
+18-Mar-24 13:21:00 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:21:00 INFO [on.py] Application startup complete.
+18-Mar-24 13:21:46 INFO [server.py] Shutting down
+18-Mar-24 13:21:47 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 13:21:47 INFO [on.py] Application shutdown complete.
+18-Mar-24 13:21:47 INFO [server.py] Finished server process [879218]
+18-Mar-24 13:26:18 INFO [server.py] Started server process [881192]
+18-Mar-24 13:26:18 INFO [on.py] Waiting for application startup.
+18-Mar-24 13:26:18 INFO [on.py] Application startup complete.
+18-Mar-24 13:26:18 INFO [h11_impl.py] 192.168.150.14:51662 - "GET /docs HTTP/1.1" 200
+18-Mar-24 13:26:18 INFO [h11_impl.py] 192.168.150.14:51662 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 13:29:22 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 13:29:22 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 14:07:49 INFO [server.py] Started server process [893876]
+18-Mar-24 14:07:49 INFO [on.py] Waiting for application startup.
+18-Mar-24 14:07:49 INFO [on.py] Application startup complete.
+18-Mar-24 14:11:12 INFO [server.py] Shutting down
+18-Mar-24 14:11:12 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 14:11:12 INFO [on.py] Application shutdown complete.
+18-Mar-24 14:11:12 INFO [server.py] Finished server process [893876]
+18-Mar-24 14:12:34 INFO [server.py] Started server process [894931]
+18-Mar-24 14:12:34 INFO [on.py] Waiting for application startup.
+18-Mar-24 14:12:34 INFO [on.py] Application startup complete.
+18-Mar-24 14:22:47 INFO [server.py] Shutting down
+18-Mar-24 14:22:47 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 14:22:47 INFO [on.py] Application shutdown complete.
+18-Mar-24 14:22:47 INFO [server.py] Finished server process [894931]
+18-Mar-24 14:24:08 INFO [server.py] Started server process [897644]
+18-Mar-24 14:24:08 INFO [on.py] Waiting for application startup.
+18-Mar-24 14:24:08 INFO [on.py] Application startup complete.
+18-Mar-24 14:24:08 INFO [h11_impl.py] 192.168.150.14:52143 - "GET /docs HTTP/1.1" 200
+18-Mar-24 14:24:09 INFO [h11_impl.py] 192.168.150.14:52143 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 14:24:16 INFO [h11_impl.py] 192.168.150.10:54511 - "GET /docs HTTP/1.1" 200
+18-Mar-24 14:24:16 INFO [h11_impl.py] 192.168.150.10:54511 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 14:42:36 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 14:42:36 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 14:47:03 INFO [server.py] Started server process [904094]
+18-Mar-24 14:47:03 INFO [on.py] Waiting for application startup.
+18-Mar-24 14:47:03 INFO [on.py] Application startup complete.
+18-Mar-24 14:47:03 INFO [h11_impl.py] 192.168.150.10:54799 - "GET /docs HTTP/1.1" 200
+18-Mar-24 14:47:04 INFO [h11_impl.py] 192.168.150.10:54799 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 14:49:50 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 14:49:50 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 14:53:06 INFO [server.py] Started server process [906486]
+18-Mar-24 14:53:06 INFO [on.py] Waiting for application startup.
+18-Mar-24 14:53:06 INFO [on.py] Application startup complete.
+18-Mar-24 14:53:06 INFO [h11_impl.py] 192.168.150.10:54859 - "GET /docs HTTP/1.1" 200
+18-Mar-24 14:53:06 INFO [h11_impl.py] 192.168.150.10:54859 - "GET /openapi.json HTTP/1.1" 200
+18-Mar-24 15:05:45 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:05:45 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:14:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:14:00 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:25:32 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:25:32 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:35:05 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:35:05 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:40:39 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:40:39 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:41:14 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:41:14 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:42:36 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:42:36 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:49:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:49:09 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 15:51:17 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 15:51:17 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:00:37 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:00:37 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:06:55 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:06:55 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:16:06 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:16:06 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:49:25 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:49:25 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:53:28 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:53:28 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 16:53:33 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 16:53:33 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 17:43:21 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 17:43:21 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 17:56:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 17:56:09 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 18:59:25 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 18:59:25 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 19:00:51 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 19:00:51 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 19:39:46 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 19:39:46 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 19:42:21 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 19:42:21 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:21:04 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:21:04 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:41:28 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:41:28 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:45:57 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:45:57 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:47:57 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:47:57 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:50:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:50:00 ERROR [config.py] [Errno 98] Address already in use
+18-Mar-24 23:52:23 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+18-Mar-24 23:52:23 ERROR [config.py] [Errno 98] Address already in use

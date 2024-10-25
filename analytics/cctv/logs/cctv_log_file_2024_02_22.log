@@ -1,0 +1,133 @@
+22-Feb-24 10:28:39 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 10:28:45 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 10:28:50 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 10:28:50 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 10:28:53 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 10:29:29 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 10:29:32 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 10:29:33 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 10:29:33 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 10:29:36 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 10:29:37 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 10:34:59 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 10:35:00 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 10:35:01 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 10:35:01 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 10:35:02 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 10:47:06 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 10:47:09 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 10:47:11 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 10:47:11 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 10:47:14 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 12:43:12 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 12:43:15 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 12:43:17 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 12:43:17 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 12:43:17 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 12:43:17 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'Zone_Ward'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Zone_Ward'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 60, in total_number_of_cameras
+    max_row_total1 = total_cam_data1[total_cam_data1[config.CCTV_NAME['cctv_name1']]==max_value_total1]['Zone_Ward'].unique()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Zone_Ward'
+22-Feb-24 12:43:18 INFO [h11_impl.py] 192.168.150.10:63495 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 500
+22-Feb-24 12:45:29 INFO [server.py] Shutting down
+22-Feb-24 12:45:29 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:45:29 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:45:29 INFO [server.py] Finished server process [2854226]
+22-Feb-24 12:47:35 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 12:47:37 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 12:47:38 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 12:47:38 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 12:47:38 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 12:47:38 INFO [h11_impl.py] 192.168.150.10:63548 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+22-Feb-24 12:54:15 INFO [server.py] Shutting down
+22-Feb-24 12:54:16 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:54:16 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:54:16 INFO [server.py] Finished server process [2854928]
+22-Feb-24 12:56:00 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 12:56:01 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 12:56:03 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 12:56:03 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 12:56:04 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 12:56:04 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 12:56:05 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 12:56:05 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 12:56:05 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 12:56:05 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 12:56:05 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 12:56:05 INFO [h11_impl.py] 192.168.150.10:63629 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=1000 HTTP/1.1" 200
+22-Feb-24 12:56:57 INFO [server.py] Shutting down
+22-Feb-24 12:56:57 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+22-Feb-24 12:56:59 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:56:59 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:56:59 INFO [server.py] Finished server process [2856244]
+22-Feb-24 14:15:25 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 14:15:27 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 14:15:28 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 14:15:28 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 14:15:30 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 14:15:30 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 14:15:30 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 14:15:30 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 14:15:30 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:name 'i' is not defined.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 168, in number_of_cameras_per_day
+    faulty_percent_data1 = data_processor_class.calculate_faulty_percent(total_cam_data1,faulty_cam_data1,config.CCTV_NAME['cctv_name1'])
+  File "/opt/siap/analytics/cctv/cctv_model.py", line 57, in calculate_faulty_percent
+    df_cam_percent.loc[i][cctv_name+'_faulty_percent'] = ((df_cam_percent[cctv_name+'_faulty'] / df_cam_percent[cctv_name].expanding().max()) * 100).round(2)
+NameError: name 'i' is not defined
+22-Feb-24 14:15:30 INFO [h11_impl.py] 192.168.150.10:64886 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=1000 HTTP/1.1" 500
+22-Feb-24 14:17:24 INFO [server.py] Shutting down
+22-Feb-24 14:17:24 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 14:17:24 INFO [on.py] Application shutdown complete.
+22-Feb-24 14:17:24 INFO [server.py] Finished server process [2869570]
+22-Feb-24 14:19:45 INFO [cctv_visualization.py] Loading cleaned data files.
+22-Feb-24 14:19:47 INFO [cctv_visualization.py] Counting number of cameras...
+22-Feb-24 14:19:48 INFO [cctv_visualization.py] Counting completed!
+22-Feb-24 14:19:48 INFO [cctv_visualization.py] Counting number of faulty cameras...
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Merging total comera dataframes...
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Merging completed!
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Calculating faulty cam percentage
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Merging dataframes
+22-Feb-24 14:19:50 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+22-Feb-24 14:19:50 INFO [h11_impl.py] 192.168.150.10:64937 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=1000 HTTP/1.1" 200

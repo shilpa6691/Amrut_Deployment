@@ -1,0 +1,40 @@
+05-Apr-24 11:46:13 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+05-Apr-24 11:46:13 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+05-Apr-24 11:46:13 INFO [basereload.py] Started reloader process [996996] using StatReload
+05-Apr-24 11:47:03 INFO [server.py] Started server process [997525]
+05-Apr-24 11:47:03 INFO [on.py] Waiting for application startup.
+05-Apr-24 11:47:03 INFO [on.py] Application startup complete.
+05-Apr-24 12:24:25 INFO [server.py] Shutting down
+05-Apr-24 12:24:25 INFO [on.py] Waiting for application shutdown.
+05-Apr-24 12:24:25 INFO [on.py] Application shutdown complete.
+05-Apr-24 12:24:25 INFO [server.py] Finished server process [997525]
+05-Apr-24 12:24:28 INFO [basereload.py] Stopping reloader process [996996]
+05-Apr-24 12:26:22 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+05-Apr-24 12:26:22 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+05-Apr-24 12:26:22 INFO [basereload.py] Started reloader process [1001448] using StatReload
+05-Apr-24 12:27:12 INFO [server.py] Started server process [1002090]
+05-Apr-24 12:27:12 INFO [on.py] Waiting for application startup.
+05-Apr-24 12:27:12 INFO [on.py] Application startup complete.
+05-Apr-24 12:27:48 INFO [server.py] Shutting down
+05-Apr-24 12:27:48 INFO [on.py] Waiting for application shutdown.
+05-Apr-24 12:27:48 INFO [on.py] Application shutdown complete.
+05-Apr-24 12:27:48 INFO [server.py] Finished server process [1002090]
+05-Apr-24 12:27:49 INFO [basereload.py] Stopping reloader process [1001448]
+05-Apr-24 12:29:31 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+05-Apr-24 12:29:31 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+05-Apr-24 12:29:31 INFO [basereload.py] Started reloader process [1003086] using StatReload
+05-Apr-24 12:30:16 INFO [server.py] Started server process [1003194]
+05-Apr-24 12:30:16 INFO [on.py] Waiting for application startup.
+05-Apr-24 12:30:16 INFO [on.py] Application startup complete.
+05-Apr-24 16:37:09 INFO [server.py] Shutting down
+05-Apr-24 16:37:09 INFO [server.py] Finished server process [1003194]
+05-Apr-24 16:37:09 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+05-Apr-24 16:37:11 INFO [basereload.py] Stopping reloader process [1003086]

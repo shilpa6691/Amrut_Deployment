@@ -1,0 +1,415 @@
+21-Feb-24 09:46:34 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 09:46:42 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 09:46:42 INFO [analysis.py] Counting completed!
+21-Feb-24 09:46:42 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 09:46:43 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 09:46:43 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 09:46:43 INFO [analysis.py] Merging completed!
+21-Feb-24 09:46:43 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 09:46:43 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 09:46:43 INFO [analysis.py] Merging dataframes
+21-Feb-24 09:46:43 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 09:46:43 INFO [h11_impl.py] 192.168.150.10:55090 - "GET /total_cameras_Vs_faulty_cameras HTTP/1.1" 200
+21-Feb-24 09:51:29 INFO [server.py] Shutting down
+21-Feb-24 09:51:30 INFO [on.py] Waiting for application shutdown.
+21-Feb-24 09:51:30 INFO [on.py] Application shutdown complete.
+21-Feb-24 09:51:30 INFO [server.py] Finished server process [2428446]
+21-Feb-24 09:52:23 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 09:52:31 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 09:52:32 INFO [analysis.py] Counting completed!
+21-Feb-24 09:52:32 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 09:52:33 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 09:52:33 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 09:52:33 INFO [analysis.py] Merging completed!
+21-Feb-24 09:52:33 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 09:52:33 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 09:52:33 INFO [analysis.py] Merging dataframes
+21-Feb-24 09:52:33 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 09:52:33 ERROR [analysis.py] Exception occurred during faulty camera dataframe preparation.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/analysis.py", line 84, in number_of_cameras
+    'Inferences': Inferences,
+NameError: name 'Inferences' is not defined
+21-Feb-24 09:52:33 INFO [h11_impl.py] 192.168.150.10:55124 - "GET /total_cameras_Vs_faulty_cameras HTTP/1.1" 500
+21-Feb-24 09:53:32 INFO [server.py] Shutting down
+21-Feb-24 09:53:32 INFO [on.py] Waiting for application shutdown.
+21-Feb-24 09:53:32 INFO [on.py] Application shutdown complete.
+21-Feb-24 09:53:32 INFO [server.py] Finished server process [2563102]
+21-Feb-24 09:55:03 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 09:55:09 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 09:55:10 INFO [analysis.py] Counting completed!
+21-Feb-24 09:55:10 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 09:55:11 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 09:55:11 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 09:55:11 INFO [analysis.py] Merging completed!
+21-Feb-24 09:55:11 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 09:55:11 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 09:55:11 INFO [analysis.py] Merging dataframes
+21-Feb-24 09:55:11 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 09:55:11 INFO [h11_impl.py] 192.168.150.10:55133 - "GET /total_cameras_Vs_faulty_cameras HTTP/1.1" 200
+21-Feb-24 09:55:57 INFO [h11_impl.py] 192.168.150.14:63107 - "GET /docs HTTP/1.1" 200
+21-Feb-24 09:55:57 INFO [h11_impl.py] 192.168.150.14:63107 - "GET /openapi.json HTTP/1.1" 200
+21-Feb-24 11:44:04 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 11:44:07 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 11:44:08 INFO [analysis.py] Counting completed!
+21-Feb-24 11:44:08 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 11:44:10 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 11:44:10 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 11:44:10 INFO [analysis.py] Merging completed!
+21-Feb-24 11:44:10 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 11:44:10 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 11:44:10 INFO [analysis.py] Merging dataframes
+21-Feb-24 11:44:10 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 11:44:10 INFO [h11_impl.py] 192.168.150.10:55497 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10 HTTP/1.1" 200
+21-Feb-24 11:45:58 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 11:45:58 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 11:45:58 INFO [analysis.py] Counting completed!
+21-Feb-24 11:45:58 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 11:45:58 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 11:45:58 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 11:45:58 INFO [analysis.py] Merging completed!
+21-Feb-24 11:45:58 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 11:45:58 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 11:45:58 INFO [analysis.py] Merging dataframes
+21-Feb-24 11:45:58 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 11:48:47 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 11:48:49 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 11:48:50 INFO [analysis.py] Counting completed!
+21-Feb-24 11:48:50 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 11:48:51 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 11:48:51 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 11:48:51 INFO [analysis.py] Merging completed!
+21-Feb-24 11:48:51 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 11:48:51 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 11:48:51 INFO [analysis.py] Merging dataframes
+21-Feb-24 11:48:51 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 11:52:47 INFO [server.py] Shutting down
+21-Feb-24 11:52:47 INFO [on.py] Waiting for application shutdown.
+21-Feb-24 11:52:47 INFO [on.py] Application shutdown complete.
+21-Feb-24 11:52:47 INFO [server.py] Finished server process [2580969]
+21-Feb-24 11:56:20 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 11:56:23 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 11:56:24 INFO [analysis.py] Counting completed!
+21-Feb-24 11:56:24 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 11:56:25 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 11:56:25 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 11:56:25 INFO [analysis.py] Merging completed!
+21-Feb-24 11:56:25 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 11:56:25 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 11:56:25 INFO [analysis.py] Merging dataframes
+21-Feb-24 11:56:25 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 12:39:29 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 12:39:31 INFO [analysis.py] Counting number of events captured in each cameras...
+21-Feb-24 12:39:31 INFO [analysis.py] Preparation of number of events captured is completed!
+21-Feb-24 12:39:31 INFO [analysis.py] {'ptz': (165, 4)}
+21-Feb-24 12:39:31 INFO [analysis.py] {'dome': (130, 4)}
+21-Feb-24 12:39:31 INFO [analysis.py] {'fixed': (168, 4)}
+21-Feb-24 12:39:31 INFO [analysis.py] Returning data
+21-Feb-24 13:06:48 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 13:06:51 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 13:06:52 INFO [analysis.py] Counting completed!
+21-Feb-24 13:06:52 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 13:06:54 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 13:06:54 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 13:06:54 INFO [analysis.py] Merging completed!
+21-Feb-24 13:06:54 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 13:06:54 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 13:06:54 INFO [analysis.py] Merging dataframes
+21-Feb-24 13:06:54 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 14:11:09 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 14:11:14 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 14:11:16 INFO [analysis.py] Counting completed!
+21-Feb-24 14:11:16 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 14:11:17 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 14:11:17 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 14:11:17 INFO [analysis.py] Merging completed!
+21-Feb-24 14:11:17 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 14:11:17 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 14:11:17 INFO [analysis.py] Merging dataframes
+21-Feb-24 14:11:17 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 14:17:57 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 14:17:59 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 14:18:01 INFO [analysis.py] Counting completed!
+21-Feb-24 14:18:01 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 14:18:02 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 14:18:02 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 14:18:02 INFO [analysis.py] Merging completed!
+21-Feb-24 14:18:02 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 14:18:02 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 14:18:02 INFO [analysis.py] Merging dataframes
+21-Feb-24 14:18:02 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 14:23:55 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 14:23:57 INFO [analysis.py] Counting number of cameras...
+21-Feb-24 14:23:58 INFO [analysis.py] Counting completed!
+21-Feb-24 14:23:58 INFO [analysis.py] Counting number of faulty cameras...
+21-Feb-24 14:24:00 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 14:24:00 INFO [analysis.py] Merging total comera dataframes...
+21-Feb-24 14:24:00 INFO [analysis.py] Merging completed!
+21-Feb-24 14:24:00 INFO [analysis.py] Calculating faulty cam percentage
+21-Feb-24 14:24:00 INFO [analysis.py] Calculation of faulty camera percentage completed!
+21-Feb-24 14:24:00 INFO [analysis.py] Merging dataframes
+21-Feb-24 14:24:00 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 14:30:19 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 14:30:20 INFO [analysis.py] Counting number of events captured in each cameras...
+21-Feb-24 14:30:20 INFO [analysis.py] Preparation of number of events captured is completed!
+21-Feb-24 14:30:20 INFO [analysis.py] {'ptz': (20, 4)}
+21-Feb-24 14:30:20 INFO [analysis.py] {'dome': (25, 4)}
+21-Feb-24 14:30:20 INFO [analysis.py] {'fixed': (0, 4)}
+21-Feb-24 14:30:20 INFO [analysis.py] Returning data
+21-Feb-24 14:31:40 INFO [analysis.py] Loading cleaned data files.
+21-Feb-24 14:31:40 INFO [analysis.py] Counting number of events captured in each cameras...
+21-Feb-24 14:31:40 INFO [analysis.py] Preparation of number of events captured is completed!
+21-Feb-24 14:31:40 INFO [analysis.py] {'ptz': (4, 4)}
+21-Feb-24 14:31:40 INFO [analysis.py] {'dome': (6, 4)}
+21-Feb-24 14:31:40 INFO [analysis.py] {'fixed': (0, 4)}
+21-Feb-24 14:31:40 INFO [analysis.py] Returning data
+21-Feb-24 16:04:07 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:04:10 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:04:12 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:04:12 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:04:14 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:12:29 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:12:32 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:12:33 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:12:33 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:12:36 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:13:55 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:13:57 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:13:58 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:13:58 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:13:59 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:14:00 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:18:18 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:18:20 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:18:22 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:18:22 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:18:23 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:18:24 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:18:24 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'str' object has no attribute 'unique'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 99, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(f'({row.Zone}, {row.Ward})' for index,row in max_row1.iterrows()).unique()}")
+AttributeError: 'str' object has no attribute 'unique'
+21-Feb-24 16:32:25 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:32:28 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:32:29 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:32:29 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'Zone_Ward'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Zone_Ward'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 63, in number_of_cameras
+    max_row_total3 = total_cam_data3[total_cam_data3[config.CCTV_NAME['cctv_name3']]==max_value_total3]['Zone_Ward'].unique()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Zone_Ward'
+21-Feb-24 16:37:32 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:37:35 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:37:36 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:37:36 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'numpy.ndarray' object has no attribute 'iterrows'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 65, in number_of_cameras
+    Inferences.append(f"Maximum count of {config.CCTV_NAME['cctv_name1']} cameras is {max_value_total1} and is located in {' and '.join(f'({row.Zone}, {row.Ward})' for index,row in max_row_total1.iterrows())}")
+AttributeError: 'numpy.ndarray' object has no attribute 'iterrows'
+21-Feb-24 16:52:56 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:52:58 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:52:59 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:52:59 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'numpy.ndarray' object has no attribute 'values'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 63, in number_of_cameras
+    max_row_total3 = total_cam_data3[total_cam_data3[config.CCTV_NAME['cctv_name3']]==max_value_total3]['Zone_Ward'].unique().values
+AttributeError: 'numpy.ndarray' object has no attribute 'values'
+21-Feb-24 16:55:51 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:55:53 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:55:54 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:55:54 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:55:57 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:55:57 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'str' object has no attribute 'unique'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 109, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(f'({row.Zone}, {row.Ward})' for index,row in max_row1.iterrows()).unique()}")
+AttributeError: 'str' object has no attribute 'unique'
+21-Feb-24 16:57:59 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 16:58:03 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 16:58:06 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 16:58:06 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 16:58:09 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 16:58:10 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 16:58:10 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:'str' object has no attribute 'unique'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 109, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(f'({row.Zone}, {row.Ward})' for index,row in max_row1.iterrows())}")
+AttributeError: 'str' object has no attribute 'unique'
+21-Feb-24 17:01:47 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:01:51 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:01:55 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:01:55 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:02:00 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:02:20 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:02:23 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:02:24 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:02:24 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:02:27 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:27:37 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:27:40 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:27:42 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:27:42 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:27:44 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:27:44 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:sequence item 0: expected str instance, int found.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 109, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(max_row1)}")
+TypeError: sequence item 0: expected str instance, int found
+21-Feb-24 17:42:01 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:42:05 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:42:09 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:42:09 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:42:12 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:42:12 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:sequence item 0: expected str instance, int found.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 120, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(max_row1)} on dates {' and '.join(max_date1)}")
+TypeError: sequence item 0: expected str instance, int found
+21-Feb-24 17:47:52 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:47:55 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:47:57 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:47:57 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:48:01 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:48:01 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:sequence item 0: expected str instance, int found.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 120, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(max_row1)} on dates")# {' , '.join(max_date1)}")
+TypeError: sequence item 0: expected str instance, int found
+21-Feb-24 17:52:01 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:52:04 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:52:06 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:52:06 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:52:12 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 17:52:12 ERROR [cctv_visualization.py] Exception occurred during faulty camera dataframe preparation:sequence item 0: expected str instance, int found.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/cctv/router/cctv_visualization.py", line 123, in number_of_cameras
+    Inference1.append(f"Maximum percentage of {config.CCTV_NAME['cctv_name1']} faulty cameras is {max_value1} and is located in {' and '.join(max_row1)} on dates")# {' , '.join(max_date1)}")
+TypeError: sequence item 0: expected str instance, int found
+21-Feb-24 17:57:35 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 17:57:39 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 17:57:41 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 17:57:41 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 17:57:44 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 18:08:29 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 18:08:32 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 18:08:35 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 18:08:35 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 18:08:37 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 18:48:56 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 18:48:59 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 18:49:02 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 18:49:02 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 18:49:04 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+21-Feb-24 19:06:32 INFO [cctv_visualization.py] Loading cleaned data files.
+21-Feb-24 19:06:35 INFO [cctv_visualization.py] Counting number of cameras...
+21-Feb-24 19:06:37 INFO [cctv_visualization.py] Counting completed!
+21-Feb-24 19:06:37 INFO [cctv_visualization.py] Counting number of faulty cameras...
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Merging total comera dataframes...
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Merging completed!
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Calculating faulty cam percentage
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Merging dataframes
+21-Feb-24 19:06:39 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!

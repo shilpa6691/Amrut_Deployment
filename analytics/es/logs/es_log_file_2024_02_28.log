@@ -1,0 +1,248 @@
+28-Feb-24 11:23:57 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 11:24:02 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 11:24:06 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 11:24:10 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 11:24:15 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 11:24:19 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 11:24:24 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 11:24:24 INFO [es_visualization.py] {'len_result': 6}
+28-Feb-24 14:05:39 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:05:43 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:05:48 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 14:05:52 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 14:05:56 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 14:06:00 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 14:06:04 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 14:06:04 INFO [es_visualization.py] {'len_result': 6}
+28-Feb-24 14:07:45 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:07:49 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:07:52 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 14:07:56 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 14:07:58 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 14:08:00 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 14:08:03 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 14:08:03 INFO [es_visualization.py] {'len_result': 6}
+28-Feb-24 14:31:13 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:31:17 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:31:36 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:31:38 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:34:13 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:34:15 ERROR [es_visualization.py] Exception occurred:name 'processed_data_PM10' is not defined.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization.py", line 228, in daywise_valuecounts_for_pollutants
+    print(processed_data_PM10)
+NameError: name 'processed_data_PM10' is not defined
+28-Feb-24 14:49:54 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:49:58 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:50:01 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 14:50:06 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 14:50:11 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 14:50:15 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 14:50:18 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 14:50:18 INFO [h11_impl.py] 192.168.150.14:52851 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+28-Feb-24 14:50:18 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 230, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'numpy.int64' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 235, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 291, in app
+    content = await serialize_response(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 179, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 195, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 239, in jsonable_encoder
+    return jsonable_encoder(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 195, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 239, in jsonable_encoder
+    return jsonable_encoder(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 195, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/encoders.py", line 238, in jsonable_encoder
+    raise ValueError(errors) from e
+ValueError: [TypeError("'numpy.int64' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+28-Feb-24 14:52:16 INFO [server.py] Shutting down
+28-Feb-24 14:52:16 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+28-Feb-24 14:52:46 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 14:52:46 INFO [on.py] Application shutdown complete.
+28-Feb-24 14:52:46 INFO [server.py] Finished server process [903304]
+28-Feb-24 14:54:40 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 14:54:44 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 14:54:48 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 14:54:52 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 14:54:57 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 14:55:01 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 14:55:05 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 14:55:05 ERROR [es_visualization.py] Exception occurred:'dict' object has no attribute 'to_dict'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization.py", line 255, in daywise_valuecounts_for_pollutants
+    return processed_data_dict.to_dict('records')
+AttributeError: 'dict' object has no attribute 'to_dict'
+28-Feb-24 14:55:05 INFO [h11_impl.py] 192.168.150.14:52876 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+28-Feb-24 14:57:22 INFO [server.py] Shutting down
+28-Feb-24 14:57:22 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 14:57:22 INFO [on.py] Application shutdown complete.
+28-Feb-24 14:57:22 INFO [server.py] Finished server process [906717]
+28-Feb-24 15:01:36 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:01:38 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:01:40 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:01:42 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:01:47 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:01:49 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:01:52 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:01:53 INFO [h11_impl.py] 192.168.150.14:52920 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+28-Feb-24 15:05:41 INFO [server.py] Shutting down
+28-Feb-24 15:05:41 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:05:41 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:05:41 INFO [server.py] Finished server process [911143]
+28-Feb-24 15:07:47 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:07:49 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:07:52 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:07:58 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:08:02 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:08:06 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:08:11 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:08:11 INFO [h11_impl.py] 192.168.150.14:52955 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+28-Feb-24 15:09:42 INFO [server.py] Shutting down
+28-Feb-24 15:09:42 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:09:42 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:09:42 INFO [server.py] Finished server process [915200]
+28-Feb-24 15:15:28 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:15:30 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:15:32 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:15:34 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:15:36 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:15:38 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:15:40 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:15:40 ERROR [es_visualization.py] Exception occurred:'list' object has no attribute 'to_dict'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization.py", line 268, in daywise_valuecounts_for_pollutants
+    processed_data_subset = merged_dataframe[start_index:end_index].to_dict('records')
+AttributeError: 'list' object has no attribute 'to_dict'
+28-Feb-24 15:15:40 INFO [h11_impl.py] 192.168.150.14:53004 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+28-Feb-24 15:19:50 INFO [server.py] Shutting down
+28-Feb-24 15:19:50 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:19:50 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:19:50 INFO [server.py] Finished server process [920412]
+28-Feb-24 15:21:43 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:21:45 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:21:47 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:21:49 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:21:51 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:21:53 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:21:56 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:21:56 INFO [h11_impl.py] 192.168.150.14:53044 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+28-Feb-24 15:36:11 INFO [server.py] Shutting down
+28-Feb-24 15:36:11 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:36:11 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:36:11 INFO [server.py] Finished server process [924541]
+28-Feb-24 15:42:02 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:42:06 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:42:10 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:42:14 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:42:16 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:42:20 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:42:23 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:42:23 ERROR [es_visualization.py] Exception occurred:'DataFrame' object has no attribute 'split'.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization.py", line 257, in daywise_valuecounts_for_pollutants
+    df['pollutant'] = key.split('_')[2]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'split'
+28-Feb-24 15:42:23 INFO [h11_impl.py] 192.168.150.14:53159 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+28-Feb-24 15:42:44 INFO [server.py] Shutting down
+28-Feb-24 15:42:44 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:42:44 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:42:44 INFO [server.py] Finished server process [934627]
+28-Feb-24 15:44:42 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:44:44 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:44:46 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:44:48 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:44:53 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:44:55 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:44:57 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:44:57 INFO [h11_impl.py] 192.168.150.14:53182 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+28-Feb-24 15:45:18 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:45:22 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:45:26 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:45:31 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:45:34 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:45:36 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:45:38 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:45:38 INFO [h11_impl.py] 192.168.150.14:53187 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=20 HTTP/1.1" 200
+28-Feb-24 15:45:54 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 15:45:56 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 15:45:59 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 15:46:00 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 15:46:04 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 15:46:08 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 15:46:10 INFO [es_visualization.py] Value counts data processing NO2 completed.
+28-Feb-24 15:46:10 INFO [h11_impl.py] 192.168.150.14:53193 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=10&rows_per_page=20 HTTP/1.1" 200
+28-Feb-24 15:50:40 INFO [server.py] Shutting down
+28-Feb-24 15:50:40 INFO [on.py] Waiting for application shutdown.
+28-Feb-24 15:50:40 INFO [on.py] Application shutdown complete.
+28-Feb-24 15:50:40 INFO [server.py] Finished server process [938916]
+28-Feb-24 15:52:25 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 15:52:26 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 15:52:35 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 15:52:35 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 15:56:07 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 15:56:07 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 15:56:18 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 15:56:18 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 15:56:25 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 15:56:26 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 16:05:56 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 16:05:56 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 16:31:11 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+28-Feb-24 16:31:11 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+28-Feb-24 16:31:29 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+28-Feb-24 16:31:30 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+28-Feb-24 16:31:50 INFO [es_visualization.py] Processing data to generate outlier...
+28-Feb-24 16:31:50 INFO [es_visualization.py] Outlier detection completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Processing value counts data...
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing PM10 completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing PM25 completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing SO2 completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing CO completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing O3 completed.
+28-Feb-24 16:32:02 INFO [es_visualization.py] Value counts data processing NO2 completed.

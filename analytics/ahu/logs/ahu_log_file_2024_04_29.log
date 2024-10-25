@@ -1,0 +1,124 @@
+29-Apr-24 15:06:11 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:06:11 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:06:12 INFO [ahu_anomaly_detection.py]        RA TEMP Anomaly
+0         26.6   Value
+1         26.6   Value
+2         26.6   Value
+3         26.5   Value
+4         26.5   Value
+...        ...     ...
+17460     25.3   Value
+17461     25.3   Value
+17462     25.3   Value
+17463     25.3   Value
+17464     25.3   Value
+
+[17465 rows x 2 columns]
+29-Apr-24 15:06:12 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:06:12 INFO [h11_impl.py] 192.168.0.100:47146 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:15:47 INFO [h11_impl.py] 192.168.150.10:52875 - "GET /docs HTTP/1.1" 200
+29-Apr-24 15:15:47 INFO [h11_impl.py] 192.168.150.10:52875 - "GET /openapi.json HTTP/1.1" 200
+29-Apr-24 15:15:51 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:15:51 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:15:53 INFO [ahu_anomaly_detection.py]        RA TEMP Anomaly
+0         26.6   Value
+1         26.6   Value
+2         26.6   Value
+3         26.5   Value
+4         26.5   Value
+...        ...     ...
+17460     25.3   Value
+17461     25.3   Value
+17462     25.3   Value
+17463     25.3   Value
+17464     25.3   Value
+
+[17465 rows x 2 columns]
+29-Apr-24 15:15:53 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:15:54 INFO [h11_impl.py] 192.168.150.10:52875 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:35:52 INFO [server.py] Shutting down
+29-Apr-24 15:35:52 INFO [on.py] Waiting for application shutdown.
+29-Apr-24 15:35:52 INFO [on.py] Application shutdown complete.
+29-Apr-24 15:35:52 INFO [server.py] Finished server process [3962632]
+29-Apr-24 15:36:47 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:36:47 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:36:49 INFO [ahu_anomaly_detection.py]                       Time  RA TEMP Anomaly
+0      2021-01-01 00:00:00     26.6   Value
+1      2021-01-01 00:30:00     26.6   Value
+2      2021-01-01 01:00:00     26.6   Value
+3      2021-01-01 01:30:00     26.5   Value
+4      2021-01-01 02:00:00     26.5   Value
+...                    ...      ...     ...
+17460  2021-12-31 21:30:00     25.3   Value
+17461  2021-12-31 22:00:00     25.3   Value
+17462  2021-12-31 22:30:00     25.3   Value
+17463  2021-12-31 23:00:00     25.3   Value
+17464  2021-12-31 23:30:00     25.3   Value
+
+[17465 rows x 3 columns]
+29-Apr-24 15:36:49 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:36:49 INFO [h11_impl.py] 192.168.0.100:35898 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:46:29 INFO [h11_impl.py] 192.168.150.10:53414 - "GET /docs HTTP/1.1" 200
+29-Apr-24 15:46:29 INFO [h11_impl.py] 192.168.150.10:53414 - "GET /openapi.json HTTP/1.1" 200
+29-Apr-24 15:46:32 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:46:32 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:46:33 INFO [ahu_anomaly_detection.py]                       Time  RA TEMP Anomaly
+0      2021-01-01 00:00:00     26.6   Value
+1      2021-01-01 00:30:00     26.6   Value
+2      2021-01-01 01:00:00     26.6   Value
+3      2021-01-01 01:30:00     26.5   Value
+4      2021-01-01 02:00:00     26.5   Value
+...                    ...      ...     ...
+17460  2021-12-31 21:30:00     25.3   Value
+17461  2021-12-31 22:00:00     25.3   Value
+17462  2021-12-31 22:30:00     25.3   Value
+17463  2021-12-31 23:00:00     25.3   Value
+17464  2021-12-31 23:30:00     25.3   Value
+
+[17465 rows x 3 columns]
+29-Apr-24 15:46:33 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:46:34 INFO [h11_impl.py] 192.168.150.10:53414 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:48:49 INFO [server.py] Shutting down
+29-Apr-24 15:48:49 INFO [on.py] Waiting for application shutdown.
+29-Apr-24 15:48:49 INFO [on.py] Application shutdown complete.
+29-Apr-24 15:48:49 INFO [server.py] Finished server process [3968999]
+29-Apr-24 15:49:48 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:49:48 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:49:49 INFO [ahu_anomaly_detection.py]                       Time  RA TEMP Anomaly
+0      2021-01-01 00:00:00     26.6   False
+1      2021-01-01 00:30:00     26.6   False
+2      2021-01-01 01:00:00     26.6   False
+3      2021-01-01 01:30:00     26.5   False
+4      2021-01-01 02:00:00     26.5   False
+...                    ...      ...     ...
+17460  2021-12-31 21:30:00     25.3   False
+17461  2021-12-31 22:00:00     25.3   False
+17462  2021-12-31 22:30:00     25.3   False
+17463  2021-12-31 23:00:00     25.3   False
+17464  2021-12-31 23:30:00     25.3   False
+
+[17465 rows x 3 columns]
+29-Apr-24 15:49:49 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:49:49 INFO [h11_impl.py] 192.168.0.100:53024 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:50:19 INFO [h11_impl.py] 192.168.150.10:53544 - "GET /docs HTTP/1.1" 200
+29-Apr-24 15:50:20 INFO [h11_impl.py] 192.168.150.10:53544 - "GET /openapi.json HTTP/1.1" 200
+29-Apr-24 15:50:25 INFO [ahu_anomaly_detection.py] Loading csv file
+29-Apr-24 15:50:25 INFO [ahu_anomaly_detection.py] Detecting anomalies
+29-Apr-24 15:50:26 INFO [ahu_anomaly_detection.py]                       Time  RA TEMP Anomaly
+0      2021-01-01 00:00:00     26.6   False
+1      2021-01-01 00:30:00     26.6   False
+2      2021-01-01 01:00:00     26.6   False
+3      2021-01-01 01:30:00     26.5   False
+4      2021-01-01 02:00:00     26.5   False
+...                    ...      ...     ...
+17460  2021-12-31 21:30:00     25.3   False
+17461  2021-12-31 22:00:00     25.3   False
+17462  2021-12-31 22:30:00     25.3   False
+17463  2021-12-31 23:00:00     25.3   False
+17464  2021-12-31 23:30:00     25.3   False
+
+[17465 rows x 3 columns]
+29-Apr-24 15:50:26 INFO [ahu_anomaly_detection.py] Storing the result as json file
+29-Apr-24 15:50:26 INFO [h11_impl.py] 192.168.150.10:53548 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200
+29-Apr-24 15:53:59 INFO [h11_impl.py] 192.168.150.10:53728 - "GET /docs HTTP/1.1" 200
+29-Apr-24 15:53:59 INFO [h11_impl.py] 192.168.150.10:53728 - "GET /openapi.json HTTP/1.1" 200

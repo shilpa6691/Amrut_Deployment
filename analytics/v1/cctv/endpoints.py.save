@@ -1,0 +1,7 @@
+from cctv.router.analysis import *
+
+router = APIRouter()
+
+@router.get('/total_cameras_Vs_faulty_cameras')
+@router.get('/faulty_cameras_per_day')
+

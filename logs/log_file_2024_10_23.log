@@ -1,0 +1,226 @@
+23-Oct-24 11:43:02 ERROR [usecases.py] Exception occurred: Data_Visualization.calculate_voltage_imbalance() missing 1 required positional argument: 'row'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 101, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Data_Visualization.calculate_voltage_imbalance() missing 1 required positional argument: 'row'
+23-Oct-24 11:47:01 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:47:03 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:47:06 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:51:45 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:53:30 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:54:50 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:56:46 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:57:21 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 147, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:57:49 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 11:58:37 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 12:01:22 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 102, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 12:01:57 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 102, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 147, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 12:02:53 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 102, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 12:03:21 ERROR [usecases.py] Exception occurred: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 102, in voltage_imbalance
+    processed_data = data_processor.calculate_voltage_imbalance(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 146, in calculate_voltage_imbalance
+    if all(i != 0 for i in currents_volt):
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+23-Oct-24 12:29:59 INFO [usecases.py] Processing ebill data...
+23-Oct-24 12:42:23 INFO [visualization_model.py]        MeterId                 Time   Phase1_W  Phase1_I  Phase1_V_RY  ...  Lh  Status  Voltage_Imbalance_%  Current_Imbalance_%  Efficiency
+0            5  2024-10-11 14:50:20  50.155187   230.477      422.070  ...   0    True             0.501502             2.400544   68.325905
+2            1  2024-10-11 14:51:25  41.153499   196.609      423.652  ...   0    True             0.600256             6.900245   74.303238
+3            2  2024-10-11 14:51:28  49.110960   224.704      421.696  ...   0    True             0.602816             4.045686   70.900534
+5            5  2024-10-11 14:51:33  50.646601   232.442      421.462  ...   0    True             0.613891             3.124529   68.209390
+7            1  2024-10-11 14:52:39  41.043964   198.210      421.439  ...   0    True             0.678210             6.797765   74.567539
+...        ...                  ...        ...       ...          ...  ...  ..     ...                  ...                  ...         ...
+15022        6  2024-10-14 05:02:34  47.901347   218.026      426.603  ...   0    True             0.779157             4.272428   73.136392
+15023        1  2024-10-14 05:03:36  40.511948   192.752      420.350  ...   0    True             0.821607             8.310954   74.576165
+15025        3  2024-10-14 05:03:41  46.198144   224.134      419.735  ...   0    True             0.834648             4.794822   69.068511
+15027        6  2024-10-14 05:03:47  47.805085   220.735      419.352  ...   0    True             0.791224             4.358864   73.182354
+15028        1  2024-10-14 05:04:49  40.487886   193.138      426.619  ...   0    True             0.887278             8.100753   74.847740
+
+[8038 rows x 25 columns]
+23-Oct-24 12:42:23 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'to_json'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 103, in energy_meter_analysis
+    processed_data.to_json(config.JSON_FILE_PATH['upload_file_path']+'energy_meter_calculator.json',orient='records')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'to_json'
+23-Oct-24 12:43:35 INFO [visualization_model.py]        MeterId                 Time   Phase1_W  Phase1_I  Phase1_V_RY  ...  Lh  Status  Voltage_Imbalance_%  Current_Imbalance_%  Efficiency
+0            5  2024-10-11 14:50:20  50.155187   230.477      422.070  ...   0    True             0.501502             2.400544   68.325905
+2            1  2024-10-11 14:51:25  41.153499   196.609      423.652  ...   0    True             0.600256             6.900245   74.303238
+3            2  2024-10-11 14:51:28  49.110960   224.704      421.696  ...   0    True             0.602816             4.045686   70.900534
+5            5  2024-10-11 14:51:33  50.646601   232.442      421.462  ...   0    True             0.613891             3.124529   68.209390
+7            1  2024-10-11 14:52:39  41.043964   198.210      421.439  ...   0    True             0.678210             6.797765   74.567539
+...        ...                  ...        ...       ...          ...  ...  ..     ...                  ...                  ...         ...
+15022        6  2024-10-14 05:02:34  47.901347   218.026      426.603  ...   0    True             0.779157             4.272428   73.136392
+15023        1  2024-10-14 05:03:36  40.511948   192.752      420.350  ...   0    True             0.821607             8.310954   74.576165
+15025        3  2024-10-14 05:03:41  46.198144   224.134      419.735  ...   0    True             0.834648             4.794822   69.068511
+15027        6  2024-10-14 05:03:47  47.805085   220.735      419.352  ...   0    True             0.791224             4.358864   73.182354
+15028        1  2024-10-14 05:04:49  40.487886   193.138      426.619  ...   0    True             0.887278             8.100753   74.847740
+
+[8038 rows x 25 columns]
+23-Oct-24 12:43:35 INFO [usecases.py] Processing energy_meter data...
+23-Oct-24 12:45:03 INFO [visualization_model.py]        MeterId                 Time  Phase1_W  Phase1_I  Phase1_V_RY  ...  Lh  Status  Voltage_Imbalance_%  Current_Imbalance_%    Efficiency
+0            5  2024-10-11 14:50:20  0.050155   230.477      422.070  ...   0    True             0.501502             2.400544 -68325.905116
+2            1  2024-10-11 14:51:25  0.041153   196.609      423.652  ...   0    True             0.600256             6.900245  74303.237871
+3            2  2024-10-11 14:51:28  0.049111   224.704      421.696  ...   0    True             0.602816             4.045686 -70900.534090
+5            5  2024-10-11 14:51:33  0.050647   232.442      421.462  ...   0    True             0.613891             3.124529 -68209.390268
+7            1  2024-10-11 14:52:39  0.041044   198.210      421.439  ...   0    True             0.678210             6.797765  74567.539071
+...        ...                  ...       ...       ...          ...  ...  ..     ...                  ...                  ...           ...
+15022        6  2024-10-14 05:02:34  0.047901   218.026      426.603  ...   0    True             0.779157             4.272428 -73136.392429
+15023        1  2024-10-14 05:03:36  0.040512   192.752      420.350  ...   0    True             0.821607             8.310954  74576.164834
+15025        3  2024-10-14 05:03:41  0.046198   224.134      419.735  ...   0    True             0.834648             4.794822 -69068.511460
+15027        6  2024-10-14 05:03:47  0.047805   220.735      419.352  ...   0    True             0.791224             4.358864 -73182.354154
+15028        1  2024-10-14 05:04:49  0.040488   193.138      426.619  ...   0    True             0.887278             8.100753  74847.739810
+
+[8038 rows x 25 columns]
+23-Oct-24 12:45:03 INFO [usecases.py] Processing energy_meter data...
+23-Oct-24 12:48:54 INFO [visualization_model.py]        MeterId                 Time   Phase1_W  Phase1_I  Phase1_V_RY  ...  Lh  Status  Voltage_Imbalance_%  Current_Imbalance_%  Efficiency
+0            5  2024-10-11 14:50:20  50.155187   230.477      422.070  ...   0    True             0.501502             2.400544   68.325905
+2            1  2024-10-11 14:51:25  41.153499   196.609      423.652  ...   0    True             0.600256             6.900245   74.303238
+3            2  2024-10-11 14:51:28  49.110960   224.704      421.696  ...   0    True             0.602816             4.045686   70.900534
+5            5  2024-10-11 14:51:33  50.646601   232.442      421.462  ...   0    True             0.613891             3.124529   68.209390
+7            1  2024-10-11 14:52:39  41.043964   198.210      421.439  ...   0    True             0.678210             6.797765   74.567539
+...        ...                  ...        ...       ...          ...  ...  ..     ...                  ...                  ...         ...
+15022        6  2024-10-14 05:02:34  47.901347   218.026      426.603  ...   0    True             0.779157             4.272428   73.136392
+15023        1  2024-10-14 05:03:36  40.511948   192.752      420.350  ...   0    True             0.821607             8.310954   74.576165
+15025        3  2024-10-14 05:03:41  46.198144   224.134      419.735  ...   0    True             0.834648             4.794822   69.068511
+15027        6  2024-10-14 05:03:47  47.805085   220.735      419.352  ...   0    True             0.791224             4.358864   73.182354
+15028        1  2024-10-14 05:04:49  40.487886   193.138      426.619  ...   0    True             0.887278             8.100753   74.847740
+
+[8038 rows x 25 columns]
+23-Oct-24 12:48:55 INFO [usecases.py] Processing energy_meter data...

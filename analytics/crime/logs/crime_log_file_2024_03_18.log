@@ -1,0 +1,8 @@
+18-Mar-24 10:00:26 INFO [crime_analysis.py] Loading cleaned data files.
+18-Mar-24 10:00:27 INFO [crime_analysis.py] Counting number of monthly crimes....
+18-Mar-24 10:00:27 INFO [crime_analysis.py] Counting completed!
+18-Mar-24 10:00:28 INFO [h11_impl.py] 192.168.150.14:65329 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+18-Mar-24 16:42:19 INFO [crime_analysis.py] Loading cleaned data files.
+18-Mar-24 16:42:22 INFO [crime_analysis.py] Counting number of monthly crimes....
+18-Mar-24 16:42:22 INFO [crime_analysis.py] Counting completed!
+18-Mar-24 16:42:22 INFO [h11_impl.py] 192.168.150.14:55353 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200

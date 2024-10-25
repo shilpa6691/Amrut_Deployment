@@ -1,0 +1,14 @@
+29-Apr-24 15:04:29 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+29-Apr-24 15:04:29 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+29-Apr-24 15:04:29 INFO [basereload.py] Started reloader process [3962458] using StatReload
+29-Apr-24 15:05:15 INFO [server.py] Started server process [3962632]
+29-Apr-24 15:05:15 INFO [on.py] Waiting for application startup.
+29-Apr-24 15:05:15 INFO [on.py] Application startup complete.
+29-Apr-24 15:35:52 WARNING [basereload.py] StatReload detected changes in 'ahu/ahu_model.py'. Reloading...
+29-Apr-24 15:36:47 INFO [server.py] Started server process [3968999]
+29-Apr-24 15:36:47 INFO [on.py] Waiting for application startup.
+29-Apr-24 15:36:47 INFO [on.py] Application startup complete.
+29-Apr-24 15:48:49 WARNING [basereload.py] StatReload detected changes in 'ahu/ahu_model.py'. Reloading...
+29-Apr-24 15:49:42 INFO [server.py] Started server process [3972202]
+29-Apr-24 15:49:42 INFO [on.py] Waiting for application startup.
+29-Apr-24 15:49:42 INFO [on.py] Application startup complete.

@@ -1,0 +1,88 @@
+18-Mar-24 11:14:21 INFO [es_forecasting.py] Forecasted data was saved successfully
+18-Mar-24 11:14:21 INFO [h11_impl.py] 192.168.150.14:49968 - "GET /ES_DEMO_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es_demo HTTP/1.1" 200
+18-Mar-24 13:27:53 INFO [es_forecasting.py] Forecasted data was saved successfully
+18-Mar-24 13:27:53 INFO [h11_impl.py] 192.168.150.14:51669 - "GET /ES_DEMO_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es_demo HTTP/1.1" 200
+18-Mar-24 14:06:19 INFO [server.py] Shutting down
+18-Mar-24 14:06:19 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 14:06:19 INFO [on.py] Application shutdown complete.
+18-Mar-24 14:06:19 INFO [server.py] Finished server process [881192]
+18-Mar-24 14:24:33 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+18-Mar-24 14:24:34 INFO [es_model_fitting.py] TS data cleaning completed.
+18-Mar-24 14:24:44 INFO [es_model_fitting.py] The model is fitted for region A.
+18-Mar-24 14:24:44 INFO [es_model_fitting.py] pickle file for modelresults zone A created successfully
+18-Mar-24 14:24:44 INFO [es_model_fitting.py] pickle file for fitresults zone A created successfully
+18-Mar-24 14:24:46 INFO [es_model_fitting.py] The model is fitted for region B.
+18-Mar-24 14:24:46 INFO [es_model_fitting.py] pickle file for modelresults zone B created successfully
+18-Mar-24 14:24:46 INFO [es_model_fitting.py] pickle file for fitresults zone B created successfully
+18-Mar-24 14:24:48 INFO [es_model_fitting.py] The model is fitted for region C.
+18-Mar-24 14:24:48 INFO [es_model_fitting.py] pickle file for modelresults zone C created successfully
+18-Mar-24 14:24:48 INFO [es_model_fitting.py] pickle file for fitresults zone C created successfully
+18-Mar-24 14:25:16 INFO [es_model_fitting.py] The model is fitted for region D.
+18-Mar-24 14:25:16 INFO [es_model_fitting.py] pickle file for modelresults zone D created successfully
+18-Mar-24 14:25:16 INFO [es_model_fitting.py] pickle file for fitresults zone D created successfully
+18-Mar-24 14:25:18 INFO [es_model_fitting.py] The model is fitted for region E.
+18-Mar-24 14:25:18 INFO [es_model_fitting.py] pickle file for modelresults zone E created successfully
+18-Mar-24 14:25:18 INFO [es_model_fitting.py] pickle file for fitresults zone E created successfully
+18-Mar-24 14:25:20 INFO [es_model_fitting.py] The model is fitted for region F.
+18-Mar-24 14:25:20 INFO [es_model_fitting.py] pickle file for modelresults zone F created successfully
+18-Mar-24 14:25:20 INFO [es_model_fitting.py] pickle file for fitresults zone F created successfully
+18-Mar-24 14:25:23 INFO [es_model_fitting.py] The model is fitted for region G.
+18-Mar-24 14:25:23 INFO [es_model_fitting.py] pickle file for modelresults zone G created successfully
+18-Mar-24 14:25:23 INFO [es_model_fitting.py] pickle file for fitresults zone G created successfully
+18-Mar-24 14:25:25 INFO [es_model_fitting.py] The model is fitted for region H.
+18-Mar-24 14:25:25 INFO [es_model_fitting.py] pickle file for modelresults zone H created successfully
+18-Mar-24 14:25:25 INFO [es_model_fitting.py] pickle file for fitresults zone H created successfully
+18-Mar-24 14:25:25 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+18-Mar-24 14:25:25 INFO [h11_impl.py] 192.168.150.10:54520 - "POST /ES_DEMO_model_fitting?subsystem_name_for_pickle_file=es_demo&test_size=12&validation_size=4 HTTP/1.1" 200
+18-Mar-24 14:25:42 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+18-Mar-24 14:25:43 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+18-Mar-24 14:25:43 INFO [h11_impl.py] 192.168.150.10:54530 - "POST /ES_DEMO_storing_csv_pickle?subsystem_name_for_pickle_file=es_demo HTTP/1.1" 200
+18-Mar-24 14:26:42 INFO [es_forecasting.py] Forecasted data was saved successfully
+18-Mar-24 14:26:42 INFO [h11_impl.py] 192.168.150.10:54533 - "GET /ES_DEMO_forecasting?test_size=12&validation_size=4&subsystem_name_for_pickle_file=es_demo HTTP/1.1" 200
+18-Mar-24 14:29:15 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+18-Mar-24 14:29:15 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+18-Mar-24 14:29:15 INFO [h11_impl.py] 192.168.150.10:54579 - "GET /ES_DEMO_aqi_classification HTTP/1.1" 200
+18-Mar-24 14:29:34 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+18-Mar-24 14:29:35 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+18-Mar-24 14:29:35 INFO [h11_impl.py] 192.168.150.10:54593 - "GET /ES_DEMO_monthly_average_values_of_pollutants_and_aqi?start_date=2021-06&end_date=2023-05 HTTP/1.1" 200
+18-Mar-24 14:30:17 INFO [es_visualization.py] Processing data to generate outlier...
+18-Mar-24 14:30:17 INFO [es_visualization.py] Outlier detection completed.
+18-Mar-24 14:30:17 INFO [h11_impl.py] 192.168.150.10:54597 - "GET /ES_DEMO_outlier?start_date=2021-06-04&end_date=2022-11-16 HTTP/1.1" 200
+18-Mar-24 14:31:55 INFO [es_visualization.py] Processing data to generate outlier...
+18-Mar-24 14:31:55 INFO [es_visualization.py] Outlier detection completed.
+18-Mar-24 14:31:55 INFO [h11_impl.py] 192.168.150.10:54617 - "GET /ES_DEMO_outlier?start_date=2021-06-04&end_date=2023-03-15 HTTP/1.1" 200
+18-Mar-24 14:32:44 INFO [es_visualization.py] Processing value counts data...
+18-Mar-24 14:32:48 INFO [es_visualization.py] Value counts data processing PM10 completed.
+18-Mar-24 14:32:50 INFO [es_visualization.py] Value counts data processing PM25 completed.
+18-Mar-24 14:32:53 INFO [es_visualization.py] Value counts data processing SO2 completed.
+18-Mar-24 14:32:55 INFO [es_visualization.py] Value counts data processing CO completed.
+18-Mar-24 14:32:57 INFO [es_visualization.py] Value counts data processing O3 completed.
+18-Mar-24 14:33:00 INFO [es_visualization.py] Value counts data processing NO2 completed.
+18-Mar-24 14:33:00 INFO [h11_impl.py] 192.168.150.10:54629 - "GET /ES_DEMO_pollutants_value_count?start_date=2021-06-04&end_date=2023-03-14 HTTP/1.1" 200
+18-Mar-24 14:45:26 INFO [server.py] Shutting down
+18-Mar-24 14:45:26 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 14:45:26 INFO [on.py] Application shutdown complete.
+18-Mar-24 14:45:26 INFO [server.py] Finished server process [897644]
+18-Mar-24 14:48:20 INFO [es_visualization.py] Processing data to generate outlier...
+18-Mar-24 14:48:21 INFO [es_visualization.py] Outlier detection completed.
+18-Mar-24 14:48:21 INFO [h11_impl.py] 192.168.150.10:54810 - "GET /ES_DEMO_outlier?start_date=2021-06-04&end_date=2023-05-16 HTTP/1.1" 200
+18-Mar-24 14:48:53 INFO [es_visualization.py] Processing value counts data...
+18-Mar-24 14:48:58 INFO [es_visualization.py] Value counts data processing PM10 completed.
+18-Mar-24 14:49:02 INFO [es_visualization.py] Value counts data processing PM25 completed.
+18-Mar-24 14:49:10 INFO [es_visualization.py] Value counts data processing SO2 completed.
+18-Mar-24 14:49:15 INFO [es_visualization.py] Value counts data processing PM25 completed.
+18-Mar-24 14:49:21 INFO [es_visualization.py] Value counts data processing CO completed.
+18-Mar-24 14:49:25 INFO [es_visualization.py] Value counts data processing O3 completed.
+18-Mar-24 14:49:30 INFO [es_visualization.py] Value counts data processing NO2 completed.
+18-Mar-24 14:49:31 INFO [h11_impl.py] 192.168.150.10:54825 - "GET /ES_DEMO_pollutants_value_count?start_date=2021-06-04&end_date=2023-05-16 HTTP/1.1" 200
+18-Mar-24 14:49:36 INFO [es_visualization.py] Value counts data processing SO2 completed.
+18-Mar-24 14:49:54 INFO [es_visualization.py] Value counts data processing CO completed.
+18-Mar-24 14:50:06 INFO [es_visualization.py] Value counts data processing O3 completed.
+18-Mar-24 14:50:20 INFO [es_visualization.py] Loading csv file
+18-Mar-24 14:50:20 INFO [es_visualization.py] Processing es map creation data...
+18-Mar-24 14:50:21 INFO [es_visualization.py] Processing of es map creation data completed
+18-Mar-24 14:50:21 INFO [h11_impl.py] 192.168.150.10:54832 - "GET /ES_DEMO_data_for_map HTTP/1.1" 200
+18-Mar-24 14:50:21 INFO [es_visualization.py] Value counts data processing NO2 completed.
+18-Mar-24 14:50:21 INFO [h11_impl.py] 192.168.0.100:38260 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200

@@ -1,0 +1,42 @@
+24-Apr-24 18:09:38 INFO [ahu_anomaly_detection.py] Loading csv file
+24-Apr-24 18:09:38 INFO [ahu_anomaly_detection.py] Detecting anomalies
+24-Apr-24 18:09:39 INFO [ahu_anomaly_detection.py] Storing the result as json file
+24-Apr-24 18:09:39 ERROR [ahu_anomaly_detection.py] Exception occurred: unsupported type: <class 'str'>
+Traceback (most recent call last):
+  File "/opt/siap/analytics/ahu/router/ahu_anomaly_detection.py", line 27, in RA_temp_anomaly_detection
+    processed_data = processed_data.to_dict('records')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/series.py", line 1894, in to_dict
+    into_c = com.standardize_mapping(into)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/common.py", line 410, in standardize_mapping
+    raise TypeError(f"unsupported type: {into}")
+TypeError: unsupported type: <class 'str'>
+24-Apr-24 18:09:39 INFO [h11_impl.py] 192.168.150.10:53668 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 500
+24-Apr-24 18:14:59 INFO [server.py] Shutting down
+24-Apr-24 18:14:59 INFO [on.py] Waiting for application shutdown.
+24-Apr-24 18:14:59 INFO [on.py] Application shutdown complete.
+24-Apr-24 18:14:59 INFO [server.py] Finished server process [3199082]
+24-Apr-24 18:17:32 INFO [ahu_anomaly_detection.py] Loading csv file
+24-Apr-24 18:17:32 INFO [ahu_anomaly_detection.py] Detecting anomalies
+24-Apr-24 18:17:33 INFO [ahu_anomaly_detection.py] Storing the result as json file
+24-Apr-24 18:17:33 ERROR [ahu_anomaly_detection.py] Exception occurred: unsupported type: <class 'str'>
+Traceback (most recent call last):
+  File "/opt/siap/analytics/ahu/router/ahu_anomaly_detection.py", line 28, in RA_temp_anomaly_detection
+    processed_data = processed_data.to_dict('records')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/series.py", line 1894, in to_dict
+    into_c = com.standardize_mapping(into)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/common.py", line 410, in standardize_mapping
+    raise TypeError(f"unsupported type: {into}")
+TypeError: unsupported type: <class 'str'>
+24-Apr-24 18:17:33 INFO [h11_impl.py] 192.168.150.10:53827 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 500
+24-Apr-24 18:20:05 INFO [server.py] Shutting down
+24-Apr-24 18:20:06 INFO [on.py] Waiting for application shutdown.
+24-Apr-24 18:20:06 INFO [on.py] Application shutdown complete.
+24-Apr-24 18:20:06 INFO [server.py] Finished server process [3200870]
+24-Apr-24 18:26:12 INFO [ahu_anomaly_detection.py] Loading csv file
+24-Apr-24 18:26:12 INFO [ahu_anomaly_detection.py] Detecting anomalies
+24-Apr-24 18:26:13 INFO [ahu_anomaly_detection.py]          count
+Anomaly       
+ 1       17438
+-1          27
+24-Apr-24 18:26:13 INFO [ahu_anomaly_detection.py] Storing the result as json file
+24-Apr-24 18:26:13 INFO [h11_impl.py] 192.168.150.10:54030 - "POST /AHU_RA_Temp_Anomaly_Detection HTTP/1.1" 200

@@ -1,0 +1,221 @@
+14-Mar-24 11:19:01 INFO [swm_model_fitting.py] TS data cleaning completed.
+14-Mar-24 11:19:04 INFO [swm_model_fitting.py] The model is fitted for zoneZoneB
+14-Mar-24 11:19:04 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneB created successfully
+14-Mar-24 11:19:04 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneB created successfully
+14-Mar-24 11:19:07 INFO [swm_model_fitting.py] The model is fitted for zoneZoneC
+14-Mar-24 11:19:07 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneC created successfully
+14-Mar-24 11:19:07 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneC created successfully
+14-Mar-24 11:19:08 INFO [swm_model_fitting.py] The model is fitted for zoneZoneD
+14-Mar-24 11:19:08 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneD created successfully
+14-Mar-24 11:19:08 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneD created successfully
+14-Mar-24 11:19:14 INFO [swm_model_fitting.py] The model is fitted for zoneZoneE
+14-Mar-24 11:19:14 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneE created successfully
+14-Mar-24 11:19:14 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneE created successfully
+14-Mar-24 11:19:17 INFO [swm_model_fitting.py] The model is fitted for zoneZoneF
+14-Mar-24 11:19:17 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneF created successfully
+14-Mar-24 11:19:17 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneF created successfully
+14-Mar-24 11:19:19 INFO [swm_model_fitting.py] The model is fitted for zoneZoneA
+14-Mar-24 11:19:19 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneA created successfully
+14-Mar-24 11:19:19 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneA created successfully
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] The model is fitted for zoneZoneG
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneG created successfully
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneG created successfully
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] The model is fitted for zoneZoneH
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneH created successfully
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneH created successfully
+14-Mar-24 11:19:24 INFO [swm_model_fitting.py] Model fitting of all zones completed successfully
+14-Mar-24 11:19:25 INFO [h11_impl.py] 192.168.150.10:51629 - "POST /swm_model_fitting?subsystem_name_for_pickle_file=swm&test_size=8&validation_size=8 HTTP/1.1" 200
+14-Mar-24 11:21:22 INFO [swm_model_fitting.py] TS data cleaning completed.
+14-Mar-24 11:21:24 INFO [swm_model_fitting.py] The model is fitted for zoneZoneB
+14-Mar-24 11:21:24 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneB created successfully
+14-Mar-24 11:21:24 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneB created successfully
+14-Mar-24 11:21:28 INFO [swm_model_fitting.py] The model is fitted for zoneZoneC
+14-Mar-24 11:21:28 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneC created successfully
+14-Mar-24 11:21:28 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneC created successfully
+14-Mar-24 11:21:29 INFO [swm_model_fitting.py] The model is fitted for zoneZoneD
+14-Mar-24 11:21:29 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneD created successfully
+14-Mar-24 11:21:29 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneD created successfully
+14-Mar-24 11:21:35 INFO [swm_model_fitting.py] The model is fitted for zoneZoneE
+14-Mar-24 11:21:35 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneE created successfully
+14-Mar-24 11:21:35 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneE created successfully
+14-Mar-24 11:21:37 INFO [swm_model_fitting.py] The model is fitted for zoneZoneF
+14-Mar-24 11:21:37 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneF created successfully
+14-Mar-24 11:21:37 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneF created successfully
+14-Mar-24 11:21:39 INFO [swm_model_fitting.py] The model is fitted for zoneZoneA
+14-Mar-24 11:21:39 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneA created successfully
+14-Mar-24 11:21:39 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneA created successfully
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] The model is fitted for zoneZoneG
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneG created successfully
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneG created successfully
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] The model is fitted for zoneZoneH
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneH created successfully
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneH created successfully
+14-Mar-24 11:21:42 INFO [swm_model_fitting.py] Model fitting of all zones completed successfully
+14-Mar-24 11:21:42 INFO [h11_impl.py] 192.168.0.100:58718 - "POST /swm_model_fitting?subsystem_name_for_pickle_file=swm&test_size=8&validation_size=8 HTTP/1.1" 200
+14-Mar-24 11:30:35 INFO [swm_model_fitting.py] TS data cleaning completed.
+14-Mar-24 11:30:39 INFO [swm_model_fitting.py] The model is fitted for zoneZoneB
+14-Mar-24 11:30:39 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneB created successfully
+14-Mar-24 11:30:39 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneB created successfully
+14-Mar-24 11:30:42 INFO [swm_model_fitting.py] The model is fitted for zoneZoneC
+14-Mar-24 11:30:42 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneC created successfully
+14-Mar-24 11:30:42 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneC created successfully
+14-Mar-24 11:30:44 INFO [swm_model_fitting.py] The model is fitted for zoneZoneD
+14-Mar-24 11:30:44 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneD created successfully
+14-Mar-24 11:30:44 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneD created successfully
+14-Mar-24 11:30:50 INFO [swm_model_fitting.py] The model is fitted for zoneZoneE
+14-Mar-24 11:30:50 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneE created successfully
+14-Mar-24 11:30:50 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneE created successfully
+14-Mar-24 11:30:53 INFO [swm_model_fitting.py] The model is fitted for zoneZoneF
+14-Mar-24 11:30:53 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneF created successfully
+14-Mar-24 11:30:53 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneF created successfully
+14-Mar-24 11:30:55 INFO [swm_model_fitting.py] The model is fitted for zoneZoneA
+14-Mar-24 11:30:55 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneA created successfully
+14-Mar-24 11:30:55 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneA created successfully
+14-Mar-24 11:30:57 INFO [swm_model_fitting.py] The model is fitted for zoneZoneG
+14-Mar-24 11:30:57 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneG created successfully
+14-Mar-24 11:30:57 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneG created successfully
+14-Mar-24 11:30:58 INFO [swm_model_fitting.py] The model is fitted for zoneZoneH
+14-Mar-24 11:30:58 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneH created successfully
+14-Mar-24 11:30:58 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneH created successfully
+14-Mar-24 11:30:58 INFO [swm_model_fitting.py] Model fitting of all zones completed successfully
+14-Mar-24 11:30:58 INFO [h11_impl.py] 192.168.0.100:41948 - "POST /swm_model_fitting?subsystem_name_for_pickle_file=swm&test_size=8&validation_size=8 HTTP/1.1" 200
+14-Mar-24 11:32:03 INFO [swm_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 11:32:03 INFO [h11_impl.py] 192.168.150.10:51665 - "POST /swm_storing_csv_pickle?subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 11:32:31 INFO [swm_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 11:32:31 INFO [h11_impl.py] 192.168.0.100:35928 - "POST /swm_storing_csv_pickle?subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 11:33:13 INFO [swm_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 11:33:13 INFO [h11_impl.py] 192.168.150.10:51668 - "GET /swm_forecasting?test_size=8&validation_size=8&subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 11:33:43 INFO [swm_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 11:33:43 INFO [h11_impl.py] 192.168.0.100:42402 - "GET /swm_forecasting?test_size=8&validation_size=8&subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 11:37:23 INFO [server.py] Shutting down
+14-Mar-24 11:37:24 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 11:37:24 INFO [on.py] Application shutdown complete.
+14-Mar-24 11:37:24 INFO [server.py] Finished server process [149441]
+14-Mar-24 12:19:16 INFO [swm_model_fitting.py] TS data cleaning completed.
+14-Mar-24 12:19:18 INFO [swm_model_fitting.py] The model is fitted for zoneZoneB
+14-Mar-24 12:19:18 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneB created successfully
+14-Mar-24 12:19:18 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneB created successfully
+14-Mar-24 12:19:22 INFO [swm_model_fitting.py] The model is fitted for zoneZoneC
+14-Mar-24 12:19:22 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneC created successfully
+14-Mar-24 12:19:22 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneC created successfully
+14-Mar-24 12:19:23 INFO [swm_model_fitting.py] The model is fitted for zoneZoneD
+14-Mar-24 12:19:23 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneD created successfully
+14-Mar-24 12:19:23 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneD created successfully
+14-Mar-24 12:19:28 INFO [swm_model_fitting.py] The model is fitted for zoneZoneE
+14-Mar-24 12:19:28 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneE created successfully
+14-Mar-24 12:19:28 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneE created successfully
+14-Mar-24 12:19:31 INFO [swm_model_fitting.py] The model is fitted for zoneZoneF
+14-Mar-24 12:19:31 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneF created successfully
+14-Mar-24 12:19:31 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneF created successfully
+14-Mar-24 12:19:33 INFO [swm_model_fitting.py] The model is fitted for zoneZoneA
+14-Mar-24 12:19:33 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneA created successfully
+14-Mar-24 12:19:33 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneA created successfully
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] The model is fitted for zoneZoneG
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneG created successfully
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneG created successfully
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] The model is fitted for zoneZoneH
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] pickle file for modelresults zone ZoneH created successfully
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] pickle file for fitresults zone ZoneH created successfully
+14-Mar-24 12:19:35 INFO [swm_model_fitting.py] Model fitting of all zones completed successfully
+14-Mar-24 12:19:35 INFO [h11_impl.py] 192.168.0.100:37304 - "POST /swm_model_fitting?subsystem_name_for_pickle_file=swm&test_size=8&validation_size=8 HTTP/1.1" 200
+14-Mar-24 12:19:50 INFO [swm_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 12:19:50 INFO [h11_impl.py] 192.168.0.100:46586 - "POST /swm_storing_csv_pickle?subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 12:20:03 INFO [swm_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 12:20:03 INFO [h11_impl.py] 192.168.0.100:34534 - "GET /swm_forecasting?test_size=8&validation_size=8&subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 12:37:45 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:37:48 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:37:48 INFO [h11_impl.py] 192.168.150.10:52676 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:38:42 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:38:45 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:38:45 INFO [h11_impl.py] 192.168.0.100:37594 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:38:54 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:38:54 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:38:54 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:38:55 INFO [h11_impl.py] 192.168.150.10:52681 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 12:39:16 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:39:16 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:39:17 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:39:17 INFO [h11_impl.py] 192.168.0.100:48588 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 12:40:08 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:40:11 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:40:11 INFO [h11_impl.py] 192.168.0.100:44524 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:40:11 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:40:11 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:40:12 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:40:12 INFO [h11_impl.py] 192.168.0.100:44524 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 12:42:08 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:42:10 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:42:10 INFO [h11_impl.py] 192.168.0.100:45012 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:42:10 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:42:10 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:42:11 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:42:11 INFO [h11_impl.py] 192.168.0.100:45016 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 12:42:42 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:42:42 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:42:43 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:42:43 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:42:43 INFO [h11_impl.py] 192.168.0.100:58938 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 12:42:46 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:42:46 INFO [h11_impl.py] 192.168.0.100:58924 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:46:28 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 12:46:32 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 12:46:32 INFO [h11_impl.py] 192.168.0.100:43660 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 12:46:32 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 12:46:32 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 12:46:33 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 12:46:33 INFO [h11_impl.py] 192.168.0.100:43668 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 13:06:20 INFO [h11_impl.py] 192.168.150.10:52788 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 401
+14-Mar-24 13:07:22 INFO [server.py] Shutting down
+14-Mar-24 13:07:22 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 13:07:22 INFO [on.py] Application shutdown complete.
+14-Mar-24 13:07:22 INFO [server.py] Finished server process [162645]
+14-Mar-24 13:08:33 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 13:08:34 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 13:08:34 INFO [h11_impl.py] 192.168.150.10:52806 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:09:42 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 13:09:44 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 13:09:44 INFO [h11_impl.py] 192.168.0.100:59830 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:11:13 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 13:11:14 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 13:11:14 INFO [h11_impl.py] 192.168.0.100:44118 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:11:14 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 13:11:14 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 13:11:15 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 13:11:15 INFO [h11_impl.py] 192.168.0.100:44128 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 13:14:42 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 13:14:43 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 13:14:43 INFO [h11_impl.py] 192.168.0.100:57708 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:14:44 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 13:14:46 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 13:14:46 INFO [h11_impl.py] 192.168.0.100:57718 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 13:14:46 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 13:14:46 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 13:14:47 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 13:14:47 INFO [h11_impl.py] 192.168.0.100:51350 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 13:19:06 INFO [swm_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 13:19:06 INFO [h11_impl.py] 192.168.0.100:35518 - "POST /swm_storing_csv_pickle?subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 13:19:29 INFO [swm_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 13:19:29 INFO [h11_impl.py] 192.168.0.100:35014 - "GET /swm_forecasting?test_size=8&validation_size=8&subsystem_name_for_pickle_file=swm HTTP/1.1" 200
+14-Mar-24 13:19:35 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 13:19:36 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 13:19:36 INFO [h11_impl.py] 192.168.0.100:56878 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:19:38 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+14-Mar-24 13:19:42 INFO [swm_visualization.py] SWM sunburst data processing completed.
+14-Mar-24 13:19:42 INFO [h11_impl.py] 192.168.0.100:46820 - "GET /swm_sunburst?start_date=2022-02&end_date=2023-08 HTTP/1.1" 200
+14-Mar-24 13:19:42 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 13:19:42 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 13:19:43 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 13:19:43 INFO [h11_impl.py] 192.168.0.100:46832 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 13:34:23 INFO [h11_impl.py] 192.168.150.10:53148 - "GET /docs HTTP/1.1" 200
+14-Mar-24 13:34:24 INFO [h11_impl.py] 192.168.150.10:53148 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:15:42 INFO [swm_visualization.py] Loading csv file
+14-Mar-24 15:15:42 INFO [swm_visualization.py] Processing swm map creation data...
+14-Mar-24 15:15:42 INFO [swm_visualization.py] Processing of swm map creation data completed
+14-Mar-24 15:15:42 INFO [h11_impl.py] 192.168.150.14:57032 - "GET /swm_data_for_map HTTP/1.1" 200
+14-Mar-24 17:39:26 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+14-Mar-24 17:39:27 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+14-Mar-24 17:39:27 INFO [h11_impl.py] 192.168.150.10:55934 - "GET /swm_bargraph?start_date=2022-02&end_date=2023-08&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:40:33 INFO [server.py] Shutting down
+14-Mar-24 17:40:33 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 17:40:33 INFO [on.py] Application shutdown complete.
+14-Mar-24 17:40:33 INFO [server.py] Finished server process [232305]

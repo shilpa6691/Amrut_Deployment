@@ -1,0 +1,110 @@
+20-Feb-24 09:47:09 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 09:47:19 INFO [analysis.py] Counting number of cameras...
+20-Feb-24 09:47:20 INFO [analysis.py] Counting completed!
+20-Feb-24 09:47:20 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 09:47:21 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 09:47:21 INFO [analysis.py] Merging total comera dataframes...
+20-Feb-24 09:47:21 INFO [analysis.py] Merging completed!
+20-Feb-24 09:47:21 INFO [analysis.py] Calculating faulty cam percentage
+20-Feb-24 09:47:21 INFO [analysis.py] Calculation of faulty camera percentage completed!
+20-Feb-24 09:47:21 INFO [analysis.py] Merging dataframes
+20-Feb-24 09:47:21 INFO [analysis.py] Merging of faulty camera percentage dataframe completed!
+20-Feb-24 09:47:21 INFO [h11_impl.py] 192.168.150.10:52574 - "GET /total_cameras_Vs_faulty_cameras HTTP/1.1" 200
+20-Feb-24 09:53:35 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 09:53:42 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 09:53:43 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 09:53:43 INFO [h11_impl.py] 192.168.150.10:52582 - "GET /faulty_cameras_per_day HTTP/1.1" 200
+20-Feb-24 09:54:34 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 09:54:44 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 09:54:45 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 09:54:45 INFO [analysis.py] {'ptz': (1678, 4)}
+20-Feb-24 09:54:45 INFO [analysis.py] {'dome': (1016, 4)}
+20-Feb-24 09:54:45 INFO [analysis.py] {'fixed': (822, 4)}
+20-Feb-24 09:54:45 INFO [analysis.py] Returning data
+20-Feb-24 09:54:45 INFO [h11_impl.py] 192.168.150.10:52584 - "GET /events_captured_per_day HTTP/1.1" 200
+20-Feb-24 10:01:08 INFO [h11_impl.py] 192.168.150.14:59153 - "GET /docs HTTP/1.1" 200
+20-Feb-24 10:01:08 INFO [h11_impl.py] 192.168.150.14:59153 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 12:29:16 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:29:29 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:29:32 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:29:32 INFO [h11_impl.py] 192.168.150.10:53129 - "GET /faulty_cameras_per_day HTTP/1.1" 200
+20-Feb-24 12:30:23 INFO [server.py] Shutting down
+20-Feb-24 12:30:23 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 12:30:23 INFO [on.py] Application shutdown complete.
+20-Feb-24 12:30:23 INFO [server.py] Finished server process [2339389]
+20-Feb-24 12:51:39 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:51:39 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:51:39 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:51:39 INFO [h11_impl.py] 192.168.150.10:53226 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2022-07-08 HTTP/1.1" 200
+20-Feb-24 12:51:56 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:51:57 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:51:57 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:51:57 INFO [h11_impl.py] 192.168.150.10:53227 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2022-08-10 HTTP/1.1" 200
+20-Feb-24 12:52:04 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:52:05 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:52:05 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:52:05 INFO [h11_impl.py] 192.168.150.10:53228 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2022-11-14 HTTP/1.1" 200
+20-Feb-24 12:52:10 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:52:10 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:52:10 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:52:10 INFO [h11_impl.py] 192.168.150.10:53229 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2022-11-14 HTTP/1.1" 200
+20-Feb-24 12:52:14 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:52:14 INFO [analysis.py] Counting number of faulty cameras...
+20-Feb-24 12:52:14 INFO [analysis.py] Preparation of number of faulty cameras dataframe completed!
+20-Feb-24 12:52:14 INFO [h11_impl.py] 192.168.150.10:53229 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-01-10 HTTP/1.1" 200
+20-Feb-24 12:54:57 INFO [server.py] Shutting down
+20-Feb-24 12:54:57 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 12:54:57 INFO [on.py] Application shutdown complete.
+20-Feb-24 12:54:57 INFO [server.py] Finished server process [2346835]
+20-Feb-24 12:56:12 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:56:12 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 12:56:12 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 12:56:12 INFO [analysis.py] {'ptz': (4, 4)}
+20-Feb-24 12:56:12 INFO [analysis.py] {'dome': (6, 4)}
+20-Feb-24 12:56:12 INFO [analysis.py] {'fixed': (0, 4)}
+20-Feb-24 12:56:12 INFO [analysis.py] Returning data
+20-Feb-24 12:56:12 INFO [h11_impl.py] 192.168.150.10:53243 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2022-06-30 HTTP/1.1" 200
+20-Feb-24 12:56:37 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:56:38 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 12:56:38 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 12:56:38 INFO [analysis.py] {'ptz': (33, 4)}
+20-Feb-24 12:56:38 INFO [analysis.py] {'dome': (45, 4)}
+20-Feb-24 12:56:38 INFO [analysis.py] {'fixed': (0, 4)}
+20-Feb-24 12:56:38 INFO [analysis.py] Returning data
+20-Feb-24 12:56:38 INFO [h11_impl.py] 192.168.150.10:53244 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2022-07-12 HTTP/1.1" 200
+20-Feb-24 12:57:12 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:57:12 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 12:57:13 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 12:57:13 INFO [analysis.py] {'ptz': (1004, 4)}
+20-Feb-24 12:57:13 INFO [analysis.py] {'dome': (640, 4)}
+20-Feb-24 12:57:13 INFO [analysis.py] {'fixed': (75, 4)}
+20-Feb-24 12:57:13 INFO [analysis.py] Returning data
+20-Feb-24 12:57:13 INFO [h11_impl.py] 192.168.150.10:53246 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-06-29 HTTP/1.1" 200
+20-Feb-24 12:58:06 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 12:58:17 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 12:58:18 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 12:58:18 INFO [analysis.py] {'ptz': (165, 4)}
+20-Feb-24 12:58:18 INFO [analysis.py] {'dome': (130, 4)}
+20-Feb-24 12:58:18 INFO [analysis.py] {'fixed': (168, 4)}
+20-Feb-24 12:58:18 INFO [analysis.py] Returning data
+20-Feb-24 12:58:18 INFO [h11_impl.py] 192.168.150.10:53247 - "GET /events_captured_Vs_time_of_the_day HTTP/1.1" 200
+20-Feb-24 13:00:46 INFO [server.py] Shutting down
+20-Feb-24 13:00:46 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 13:00:46 INFO [on.py] Application shutdown complete.
+20-Feb-24 13:00:46 INFO [server.py] Finished server process [2349156]
+20-Feb-24 13:21:08 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 13:21:08 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 13:21:08 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 13:21:08 INFO [analysis.py] {'ptz': (37, 4)}
+20-Feb-24 13:21:08 INFO [analysis.py] {'dome': (27, 4)}
+20-Feb-24 13:21:08 INFO [analysis.py] {'fixed': (38, 4)}
+20-Feb-24 13:21:08 INFO [analysis.py] Returning data
+20-Feb-24 13:21:08 INFO [h11_impl.py] 192.168.150.10:53335 - "GET /events_captured_Vs_time_of_the_day?start_date=2023-09-06&end_date=2023-09-10 HTTP/1.1" 200
+20-Feb-24 13:21:34 INFO [analysis.py] Loading cleaned data files.
+20-Feb-24 13:21:34 INFO [analysis.py] Counting number of events captured in each cameras...
+20-Feb-24 13:21:34 INFO [analysis.py] Preparation of number of events captured is completed!
+20-Feb-24 13:21:34 INFO [analysis.py] {'ptz': (84, 4)}
+20-Feb-24 13:21:34 INFO [analysis.py] {'dome': (55, 4)}
+20-Feb-24 13:21:34 INFO [analysis.py] {'fixed': (101, 4)}
+20-Feb-24 13:21:34 INFO [analysis.py] Returning data
+20-Feb-24 13:21:34 INFO [h11_impl.py] 192.168.150.10:53344 - "GET /events_captured_Vs_time_of_the_day?start_date=2023-08-05&end_date=2023-09-02 HTTP/1.1" 200

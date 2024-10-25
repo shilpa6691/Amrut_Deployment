@@ -1,0 +1,27 @@
+11-Mar-24 12:59:08 INFO [h11_impl.py] 192.168.150.10:50863 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward1 HTTP/1.1" 404
+11-Mar-24 12:59:52 INFO [server.py] Shutting down
+11-Mar-24 12:59:52 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 12:59:52 INFO [on.py] Application shutdown complete.
+11-Mar-24 12:59:52 INFO [server.py] Finished server process [1349782]
+11-Mar-24 13:01:14 ERROR [crime_forecasting.py] Exception occurred during forecasting:name 'ward1' is not defined
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 188, in forecasting_crime_type_and_wardwise
+    crime_dataframe=class_for_model_fitting.column_type_dataframe_for_2_columns(crime_type_column,crime,ward_name_column,ward1)
+NameError: name 'ward1' is not defined
+11-Mar-24 13:01:14 INFO [h11_impl.py] 192.168.150.10:50877 - "GET /forecasting_crime_type_and_wardwise?test_size=2&validation_size=2&name_for_pickle_file=crimetype_ward HTTP/1.1" 500
+11-Mar-24 13:01:37 INFO [server.py] Shutting down
+11-Mar-24 13:01:37 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 13:01:37 INFO [on.py] Application shutdown complete.
+11-Mar-24 13:01:37 INFO [server.py] Finished server process [1350944]
+11-Mar-24 13:04:20 ERROR [crime_forecasting.py] Exception occurred during forecasting:[Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/crime_modelresults_AccidentW_1.pkl'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 191, in forecasting_crime_type_and_wardwise
+    model_results=load_pickle_file(config.PICKLE_FILES_DIRECTORY['pickle_files_path']+f'{name_for_pickle_file}_modelresults_{crime}{ward}.pkl')
+  File "/opt/siap/analytics/utils/file_operations.py", line 36, in load_pickle_file
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/crime_modelresults_AccidentW_1.pkl'
+11-Mar-24 13:04:20 INFO [h11_impl.py] 192.168.150.10:50898 - "GET /forecasting_crime_type_and_wardwise?test_size=2&validation_size=2&name_for_pickle_file=crime HTTP/1.1" 500
+11-Mar-24 13:10:53 INFO [server.py] Shutting down
+11-Mar-24 13:10:53 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 13:10:53 INFO [on.py] Application shutdown complete.
+11-Mar-24 13:10:53 INFO [server.py] Finished server process [1351893]

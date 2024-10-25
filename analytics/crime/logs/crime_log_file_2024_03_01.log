@@ -1,0 +1,1155 @@
+01-Mar-24 09:54:46 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 09:54:46 INFO [h11_impl.py] 192.168.150.18:65242 - "GET /forecasting_singapore_wardwise?test_size=2&validation_size=2&name_for_pickle_file=WARD HTTP/1.1" 200
+01-Mar-24 09:55:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:55:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:55:32 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:55:32 INFO [h11_impl.py] 192.168.150.11:59077 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=07-2023&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:55:34 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:55:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:55:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:55:36 INFO [h11_impl.py] 192.168.150.18:49235 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:55:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:55:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:55:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:55:49 INFO [h11_impl.py] 192.168.150.18:49290 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:56:16 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:56:18 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:56:18 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:56:18 INFO [h11_impl.py] 192.168.150.11:59083 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=05-2022&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:56:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:56:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:56:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:56:50 INFO [h11_impl.py] 192.168.150.14:60404 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:57:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:57:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:57:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:57:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:57:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:57:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:57:40 INFO [h11_impl.py] 192.168.150.18:49731 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 09:57:41 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 09:57:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 09:57:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 09:57:48 INFO [h11_impl.py] 192.168.150.18:49731 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:02:43 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:04:13 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:04:13 INFO [h11_impl.py] 192.168.150.14:60430 - "GET /forecasting_singapore_wardwise?test_size=2&validation_size=2&name_for_pickle_file=WARD HTTP/1.1" 200
+01-Mar-24 10:04:31 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:04:31 INFO [h11_impl.py] 192.168.150.18:49551 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+01-Mar-24 10:04:49 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:04:49 INFO [h11_impl.py] 192.168.150.18:49598 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+01-Mar-24 10:04:56 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:05:27 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:05:27 INFO [h11_impl.py] 192.168.150.18:49791 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+01-Mar-24 10:05:33 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 10:06:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:06:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:06:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:06:17 INFO [h11_impl.py] 192.168.150.18:51927 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:06:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:06:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:06:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:06:19 INFO [h11_impl.py] 192.168.150.18:51927 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:06:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:06:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:06:34 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:06:35 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:06:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:06:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:06:36 INFO [h11_impl.py] 192.168.150.18:52013 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:06:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:06:38 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:06:38 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:06:38 INFO [h11_impl.py] 192.168.150.18:52013 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:07:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:16 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:16 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:17 INFO [h11_impl.py] 192.168.150.18:52192 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:07:17 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:19 INFO [h11_impl.py] 192.168.150.18:52192 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:07:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:37 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:37 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:37 INFO [h11_impl.py] 192.168.150.18:52276 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:07:38 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:07:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:07:39 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:07:40 INFO [h11_impl.py] 192.168.150.18:52276 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:08:19 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:08:20 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:08:21 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:08:21 INFO [h11_impl.py] 192.168.150.18:52304 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:08:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:08:23 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:08:23 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:08:23 INFO [h11_impl.py] 192.168.150.18:52304 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:08:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:08:41 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:08:41 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:08:41 INFO [h11_impl.py] 192.168.150.18:52484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:08:41 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:08:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:08:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:08:43 INFO [h11_impl.py] 192.168.150.18:52484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:03 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:04 INFO [h11_impl.py] 192.168.150.18:52571 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:06 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:06 INFO [h11_impl.py] 192.168.150.18:52571 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:11 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:11 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:11 INFO [h11_impl.py] 192.168.150.18:52571 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:11 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:13 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:13 INFO [h11_impl.py] 192.168.150.18:52675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:16 INFO [h11_impl.py] 192.168.150.18:52675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:47 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:48 INFO [h11_impl.py] 192.168.150.18:52729 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:09:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:09:51 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:09:51 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:09:51 INFO [h11_impl.py] 192.168.150.18:52729 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:10:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:10:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:10:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:10:50 INFO [h11_impl.py] 192.168.150.18:52878 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:10:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:10:51 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:10:51 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:10:52 INFO [h11_impl.py] 192.168.150.18:52878 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:02 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:02 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:05 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:10 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:11 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:11 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:11 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:12 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:12 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:12 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:14 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:14 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:14 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:16 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:16 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:16 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:16 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:18 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:18 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:18 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:20 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:20 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:20 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:22 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:22 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:22 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:24 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:24 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:24 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:24 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:25 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:26 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:26 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:27 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:27 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:28 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:29 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:31 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:31 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:33 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:33 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:35 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:35 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:37 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:37 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:37 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:39 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:39 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:42 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:42 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:42 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:45 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:45 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:47 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:47 INFO [h11_impl.py] 192.168.150.18:53132 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:47 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:49 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:55 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:56 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:11:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:11:57 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:11:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:11:58 INFO [h11_impl.py] 192.168.150.18:53189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:13:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:13:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:13:22 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:13:22 INFO [h11_impl.py] 192.168.150.18:53770 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:13:22 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:13:24 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:13:24 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:13:24 INFO [h11_impl.py] 192.168.150.18:53770 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:13:53 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:13:54 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:13:54 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:13:55 INFO [h11_impl.py] 192.168.150.18:53784 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:13:55 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:13:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:13:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:13:56 INFO [h11_impl.py] 192.168.150.18:53784 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:05 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:07 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:07 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:07 INFO [h11_impl.py] 192.168.150.18:53921 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:09 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:09 INFO [h11_impl.py] 192.168.150.18:53921 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:12 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:13 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:14 INFO [h11_impl.py] 192.168.150.18:53921 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:15 INFO [h11_impl.py] 192.168.150.18:53981 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:20 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:20 INFO [h11_impl.py] 192.168.150.18:53981 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:22 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:22 INFO [h11_impl.py] 192.168.150.18:53981 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:33 INFO [h11_impl.py] 192.168.150.18:54039 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:35 INFO [h11_impl.py] 192.168.150.18:54039 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:40 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:40 INFO [h11_impl.py] 192.168.150.18:54039 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:42 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:42 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:42 INFO [h11_impl.py] 192.168.150.18:54099 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:47 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:49 INFO [h11_impl.py] 192.168.150.18:54099 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:14:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:14:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:14:51 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:14:51 INFO [h11_impl.py] 192.168.150.18:54099 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:16:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:16:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:16:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:16:56 INFO [h11_impl.py] 192.168.150.18:54692 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:16:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:16:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:16:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:16:59 INFO [h11_impl.py] 192.168.150.18:54692 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:16:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:02 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:02 INFO [h11_impl.py] 192.168.150.18:54702 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:04 INFO [h11_impl.py] 192.168.150.18:54692 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:28 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:30 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:30 INFO [h11_impl.py] 192.168.150.18:54846 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:32 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:32 INFO [h11_impl.py] 192.168.150.18:54846 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:50 INFO [h11_impl.py] 192.168.150.18:54856 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:51 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:53 INFO [h11_impl.py] 192.168.150.18:54856 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:57 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:17:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:17:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:17:59 INFO [h11_impl.py] 192.168.150.18:54856 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:17:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:18:01 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:18:01 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:18:01 INFO [h11_impl.py] 192.168.150.18:54943 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:18:03 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:18:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:18:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:18:04 INFO [h11_impl.py] 192.168.150.18:54943 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:18:05 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:18:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:18:07 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:18:07 INFO [h11_impl.py] 192.168.150.18:54943 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:18:08 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:18:10 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:18:11 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:18:11 INFO [h11_impl.py] 192.168.150.18:54943 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:18:11 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:18:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:18:13 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:18:13 INFO [h11_impl.py] 192.168.150.18:55013 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:20:27 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:20:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:20:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:20:29 INFO [h11_impl.py] 192.168.150.18:55603 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:23 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:23 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:23 INFO [h11_impl.py] 192.168.150.18:55829 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:25 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:25 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:25 INFO [h11_impl.py] 192.168.150.18:55829 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:27 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:28 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:28 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:29 INFO [h11_impl.py] 192.168.150.18:55829 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:30 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:30 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:30 INFO [h11_impl.py] 192.168.150.18:55840 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:46 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:46 INFO [h11_impl.py] 192.168.150.18:55936 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:48 INFO [h11_impl.py] 192.168.150.18:55936 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:55 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:55 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:55 INFO [h11_impl.py] 192.168.150.18:55950 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:21:58 INFO [h11_impl.py] 192.168.150.18:55950 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:21:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:21:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:21:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:00 INFO [h11_impl.py] 192.168.150.18:56000 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:01 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:01 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:01 INFO [h11_impl.py] 192.168.150.18:55950 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:04 INFO [h11_impl.py] 192.168.150.18:55950 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:06 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:06 INFO [h11_impl.py] 192.168.150.18:56000 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:08 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:08 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:08 INFO [h11_impl.py] 192.168.150.18:56000 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:19 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:21 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:21 INFO [h11_impl.py] 192.168.150.18:56048 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:22 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:23 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:23 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:23 INFO [h11_impl.py] 192.168.150.18:56048 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:52 INFO [h11_impl.py] 192.168.150.18:56131 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:22:53 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:22:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:22:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:22:56 INFO [h11_impl.py] 192.168.150.18:56131 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:08 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:08 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:09 INFO [h11_impl.py] 192.168.150.18:56264 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:10 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:10 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:11 INFO [h11_impl.py] 192.168.150.18:56264 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:12 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:13 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:13 INFO [h11_impl.py] 192.168.150.18:56264 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:15 INFO [h11_impl.py] 192.168.150.18:56338 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:42 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:42 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:42 INFO [h11_impl.py] 192.168.150.18:56474 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:44 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:44 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:44 INFO [h11_impl.py] 192.168.150.18:56484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:47 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:48 INFO [h11_impl.py] 192.168.150.18:56484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:50 INFO [h11_impl.py] 192.168.150.18:56513 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:51 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:52 INFO [h11_impl.py] 192.168.150.18:56513 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:53 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:23:54 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:23:54 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:23:54 INFO [h11_impl.py] 192.168.150.18:56484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:23:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:24:00 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:24:00 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:24:01 INFO [h11_impl.py] 192.168.150.18:56484 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:24:01 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:24:03 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:24:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:24:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:24:07 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:24:07 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:24:07 INFO [h11_impl.py] 192.168.150.18:56579 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:24:08 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:24:10 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:24:10 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:24:10 INFO [h11_impl.py] 192.168.150.18:56615 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:27:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:27:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:27:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:27:56 INFO [h11_impl.py] 192.168.150.18:57540 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:27:57 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:27:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:27:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:27:58 INFO [h11_impl.py] 192.168.150.18:57540 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:27:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:00 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:00 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:00 INFO [h11_impl.py] 192.168.150.18:57550 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:02 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:02 INFO [h11_impl.py] 192.168.150.18:57540 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:12 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:14 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:15 INFO [h11_impl.py] 192.168.150.18:57620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:17 INFO [h11_impl.py] 192.168.150.18:57620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:22 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:23 INFO [h11_impl.py] 192.168.150.18:57620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:24 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:24 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:24 INFO [h11_impl.py] 192.168.150.18:57634 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:24 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:26 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:27 INFO [h11_impl.py] 192.168.150.18:57620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:27 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:28 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:29 INFO [h11_impl.py] 192.168.150.18:57634 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:30 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:30 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:30 INFO [h11_impl.py] 192.168.150.18:57620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:32 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:32 INFO [h11_impl.py] 192.168.150.18:57634 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:34 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:34 INFO [h11_impl.py] 192.168.150.18:57634 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:46 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:46 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:48 INFO [h11_impl.py] 192.168.150.18:57771 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:28:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:28:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:28:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:28:50 INFO [h11_impl.py] 192.168.150.18:57771 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:16 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:17 INFO [h11_impl.py] 192.168.150.18:57801 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:20 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:20 INFO [h11_impl.py] 192.168.150.18:57801 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:27 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:28 INFO [h11_impl.py] 192.168.150.18:57925 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:28 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:30 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:31 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:31 INFO [h11_impl.py] 192.168.150.18:57971 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:33 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:33 INFO [h11_impl.py] 192.168.150.18:57971 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:50 INFO [h11_impl.py] 192.168.150.18:58068 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:29:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:29:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:29:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:29:52 INFO [h11_impl.py] 192.168.150.18:58068 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:07 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:08 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:09 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:09 INFO [h11_impl.py] 192.168.150.18:58163 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:10 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:11 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:11 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:12 INFO [h11_impl.py] 192.168.150.18:58163 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:25 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:25 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:25 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:27 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:27 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:33 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:36 INFO [h11_impl.py] 192.168.150.18:58249 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:36 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:38 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:38 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:38 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:38 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:39 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:40 INFO [h11_impl.py] 192.168.150.18:58249 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:41 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:41 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:41 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:43 INFO [h11_impl.py] 192.168.150.18:58249 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:45 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:49 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:30:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:30:51 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:30:51 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:30:51 INFO [h11_impl.py] 192.168.150.18:58179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:31:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:31:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:31:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:31:56 INFO [h11_impl.py] 192.168.150.18:58636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:31:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:31:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:31:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:31:58 INFO [h11_impl.py] 192.168.150.18:58636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:31:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:00 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:00 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:00 INFO [h11_impl.py] 192.168.150.18:58636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:01 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:02 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:02 INFO [h11_impl.py] 192.168.150.18:58650 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:04 INFO [h11_impl.py] 192.168.150.18:58636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:06 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:06 INFO [h11_impl.py] 192.168.150.18:58650 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:08 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:08 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:08 INFO [h11_impl.py] 192.168.150.18:58636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:08 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:10 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:10 INFO [h11_impl.py] 192.168.150.18:58650 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:45 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:45 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:47 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:47 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:52 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:52 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:56 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:32:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:32:58 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:32:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:32:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:00 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:00 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:01 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:01 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:02 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:03 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:04 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:05 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:05 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:05 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:07 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:07 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:07 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:08 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:09 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:09 INFO [h11_impl.py] 192.168.150.18:58850 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:11 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:11 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:11 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:16 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:16 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:18 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:19 INFO [h11_impl.py] 192.168.150.18:59012 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:21 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:21 INFO [h11_impl.py] 192.168.150.18:58860 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:40 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:40 INFO [h11_impl.py] 192.168.150.18:59111 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:33:41 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:33:44 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:44 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:33:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:33:45 INFO [h11_impl.py] 192.168.150.18:59128 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:34:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:34:54 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:34:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:34:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:34:57 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:34:57 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:34:57 INFO [h11_impl.py] 192.168.150.18:59445 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:34:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:34:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:34:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:34:59 INFO [h11_impl.py] 192.168.150.18:59445 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:33 INFO [h11_impl.py] 192.168.150.18:59465 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:35 INFO [h11_impl.py] 192.168.150.18:59465 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:36 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:37 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:37 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:38 INFO [h11_impl.py] 192.168.150.18:59465 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:38 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:39 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:39 INFO [h11_impl.py] 192.168.150.18:59620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:44 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:44 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:45 INFO [h11_impl.py] 192.168.150.18:59620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:45 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:47 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:47 INFO [h11_impl.py] 192.168.150.18:59675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:47 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:50 INFO [h11_impl.py] 192.168.150.18:59620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:53 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:53 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:53 INFO [h11_impl.py] 192.168.150.18:59675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:53 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:55 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:55 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:55 INFO [h11_impl.py] 192.168.150.18:59620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:55 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:57 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:57 INFO [h11_impl.py] 192.168.150.18:59675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:57 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:35:58 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:35:58 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:35:58 INFO [h11_impl.py] 192.168.150.18:59620 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:35:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:00 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:00 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:00 INFO [h11_impl.py] 192.168.150.18:59675 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:02 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:04 INFO [h11_impl.py] 192.168.150.18:59747 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:05 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:07 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:07 INFO [h11_impl.py] 192.168.150.18:59767 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:08 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:09 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:09 INFO [h11_impl.py] 192.168.150.18:59747 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:10 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:10 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:11 INFO [h11_impl.py] 192.168.150.18:59767 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:52 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:54 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:54 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:54 INFO [h11_impl.py] 192.168.150.18:59981 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:36:55 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:36:56 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:36:56 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:36:56 INFO [h11_impl.py] 192.168.150.18:59981 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:37:27 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:37:28 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:37:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:37:29 INFO [h11_impl.py] 192.168.150.18:59999 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:37:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:37:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:37:31 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:37:31 INFO [h11_impl.py] 192.168.150.18:59999 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:37:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:37:40 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:37:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:37:40 INFO [h11_impl.py] 192.168.150.18:60146 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:37:41 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:37:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:37:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:37:43 INFO [h11_impl.py] 192.168.150.18:60204 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:37:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:37:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:37:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:37:45 INFO [h11_impl.py] 192.168.150.18:60204 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:38:10 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:14 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:14 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:14 INFO [h11_impl.py] 192.168.150.18:60220 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:38:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:16 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:16 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:16 INFO [h11_impl.py] 192.168.150.18:60220 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:38:17 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:19 INFO [h11_impl.py] 192.168.150.18:60220 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:38:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:31 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:33 INFO [h11_impl.py] 192.168.150.18:60431 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:38:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:38:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:38:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:38:35 INFO [h11_impl.py] 192.168.150.18:60431 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:06 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:06 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:06 INFO [h11_impl.py] 192.168.150.18:61075 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:09 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:09 INFO [h11_impl.py] 192.168.150.18:61075 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:11 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:12 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:12 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:12 INFO [h11_impl.py] 192.168.150.18:61075 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:14 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:14 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:14 INFO [h11_impl.py] 192.168.150.18:61085 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:27 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:27 INFO [h11_impl.py] 192.168.150.18:61179 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:28 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:29 INFO [h11_impl.py] 192.168.150.18:61189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:32 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:32 INFO [h11_impl.py] 192.168.150.18:61189 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:41:56 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:57 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:41:57 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:57 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:41:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:41:59 INFO [h11_impl.py] 192.168.150.18:61319 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:00 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:01 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:01 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:02 INFO [h11_impl.py] 192.168.150.18:61319 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:14 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:14 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:14 INFO [h11_impl.py] 192.168.150.18:61337 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:17 INFO [h11_impl.py] 192.168.150.18:61337 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:44 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:46 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:46 INFO [h11_impl.py] 192.168.150.18:61404 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:48 INFO [h11_impl.py] 192.168.150.18:61404 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:50 INFO [h11_impl.py] 192.168.150.18:61539 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:52 INFO [h11_impl.py] 192.168.150.18:61404 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:42:52 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:42:55 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:42:55 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:42:55 INFO [h11_impl.py] 192.168.150.18:61539 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:43:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:43:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:43:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:43:15 INFO [h11_impl.py] 192.168.150.18:61661 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:43:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:43:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:43:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:43:17 INFO [h11_impl.py] 192.168.150.18:61671 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:43:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:43:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:43:22 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:43:23 INFO [h11_impl.py] 192.168.150.18:61671 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:43:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:43:25 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:43:25 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:43:25 INFO [h11_impl.py] 192.168.150.18:61671 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:43:25 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:43:27 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:43:27 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:43:28 INFO [h11_impl.py] 192.168.150.18:61671 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:44:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:44:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:44:50 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:44:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:44:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:44:52 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:44:52 INFO [h11_impl.py] 192.168.150.18:62070 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:44:52 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:44:54 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:44:54 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:44:54 INFO [h11_impl.py] 192.168.150.18:62070 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:45:04 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:45:05 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:45:05 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:45:06 INFO [h11_impl.py] 192.168.150.18:62090 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:45:06 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:45:08 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:45:08 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:45:08 INFO [h11_impl.py] 192.168.150.18:62158 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:45:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:45:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:45:34 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:45:34 INFO [h11_impl.py] 192.168.150.18:62270 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:45:35 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:45:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:45:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:45:36 INFO [h11_impl.py] 192.168.150.18:62270 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:45:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:45:38 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:45:38 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:45:38 INFO [h11_impl.py] 192.168.150.18:62280 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:32 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:32 INFO [h11_impl.py] 192.168.150.18:62519 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:34 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:34 INFO [h11_impl.py] 192.168.150.18:62519 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:34 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:36 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:36 INFO [h11_impl.py] 192.168.150.18:62529 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:36 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:38 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:38 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:38 INFO [h11_impl.py] 192.168.150.18:62519 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:38 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:40 INFO [h11_impl.py] 192.168.150.18:62529 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:41 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:42 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:42 INFO [h11_impl.py] 192.168.150.18:62519 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:43 INFO [h11_impl.py] 192.168.150.18:62529 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:44 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:45 INFO [h11_impl.py] 192.168.150.18:62519 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:46:45 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:46:47 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:46:47 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:46:47 INFO [h11_impl.py] 192.168.150.18:62529 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:47:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:47:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:47:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:47:17 INFO [h11_impl.py] 192.168.150.18:62717 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:47:17 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:47:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:47:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:47:19 INFO [h11_impl.py] 192.168.150.18:62717 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:47:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:47:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:47:40 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:47:40 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:47:41 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:47:41 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:47:41 INFO [h11_impl.py] 192.168.150.18:62825 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:47:42 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:47:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:47:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:47:43 INFO [h11_impl.py] 192.168.150.18:62825 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:48:12 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:48:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:48:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:48:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:48:16 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:48:16 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:48:16 INFO [h11_impl.py] 192.168.150.18:62980 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:48:17 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:48:18 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:48:19 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:48:19 INFO [h11_impl.py] 192.168.150.18:62980 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 10:48:25 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 10:48:26 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 10:48:26 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 10:48:26 INFO [h11_impl.py] 192.168.150.18:63002 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:04:19 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:04:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:04:21 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:04:21 INFO [h11_impl.py] 192.168.150.18:50597 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=2&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:05:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:05:34 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:05:34 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:05:34 INFO [h11_impl.py] 192.168.150.18:50896 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023 HTTP/1.1" 200
+01-Mar-24 11:06:08 INFO [h11_impl.py] 192.168.150.18:51043 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts HTTP/1.1" 422
+01-Mar-24 11:06:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:06:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:06:21 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:06:21 INFO [h11_impl.py] 192.168.150.18:51089 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023 HTTP/1.1" 200
+01-Mar-24 11:09:24 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:09:26 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:09:26 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:09:26 INFO [h11_impl.py] 192.168.150.18:51843 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=2&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:12:11 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:12:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:12:13 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:12:13 INFO [h11_impl.py] 192.168.150.18:52542 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:12:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:12:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:12:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:12:15 INFO [h11_impl.py] 192.168.150.18:52542 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:12:55 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:12:57 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:12:57 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:12:57 INFO [h11_impl.py] 192.168.150.18:52552 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:12:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:12:59 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:12:59 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:12:59 INFO [h11_impl.py] 192.168.150.18:52737 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:04 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:04 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:04 INFO [h11_impl.py] 192.168.150.18:52737 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:29 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:29 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:29 INFO [h11_impl.py] 192.168.150.18:52872 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:33 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:33 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:33 INFO [h11_impl.py] 192.168.150.18:52894 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:35 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:35 INFO [h11_impl.py] 192.168.150.18:52872 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:35 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:37 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:37 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:37 INFO [h11_impl.py] 192.168.150.18:52894 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:39 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:39 INFO [h11_impl.py] 192.168.150.18:52872 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:41 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:41 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:41 INFO [h11_impl.py] 192.168.150.18:52894 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:13:41 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:13:43 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:13:43 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:13:43 INFO [h11_impl.py] 192.168.150.18:52872 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:14:13 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:14:15 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:14:15 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:14:15 INFO [h11_impl.py] 192.168.150.18:53098 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:14:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:14:17 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:14:17 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:14:17 INFO [h11_impl.py] 192.168.150.18:53098 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:14:44 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:14:45 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:14:45 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:14:46 INFO [h11_impl.py] 192.168.150.18:53108 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:14:46 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:14:48 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:14:48 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:14:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:14:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:14:49 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:14:50 INFO [h11_impl.py] 192.168.150.18:53235 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+01-Mar-24 11:17:25 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:17:26 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:17:26 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:17:27 INFO [h11_impl.py] 192.168.150.11:60636 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=05-2022&end_date=07-2023 HTTP/1.1" 200
+01-Mar-24 11:17:27 INFO [h11_impl.py] 192.168.150.11:60636 - "GET /favicon.ico HTTP/1.1" 404
+01-Mar-24 11:17:58 INFO [server.py] Shutting down
+01-Mar-24 11:17:58 INFO [on.py] Waiting for application shutdown.
+01-Mar-24 11:17:58 INFO [on.py] Application shutdown complete.
+01-Mar-24 11:17:58 INFO [server.py] Finished server process [1842050]
+01-Mar-24 11:18:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+01-Mar-24 11:18:51 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+01-Mar-24 11:18:51 INFO [crime_analysis_singapore.py] Counting completed!
+01-Mar-24 11:18:51 INFO [h11_impl.py] 192.168.150.11:60656 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=05-2022&end_date=07-2023&page=2 HTTP/1.1" 200
+01-Mar-24 14:23:06 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 14:23:06 INFO [crime_forecasting.py] Forecasted data was saved successfully
+01-Mar-24 14:23:06 INFO [h11_impl.py] 192.168.150.18:50083 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200

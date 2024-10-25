@@ -1,0 +1,28 @@
+20-Mar-24 14:26:39 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+20-Mar-24 14:26:39 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+20-Mar-24 14:26:39 INFO [h11_impl.py] 192.168.150.14:51595 - "GET /ES_DEMO_aqi_classification HTTP/1.1" 200
+20-Mar-24 14:27:04 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+20-Mar-24 14:27:06 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+20-Mar-24 14:27:06 INFO [h11_impl.py] 192.168.150.14:51601 - "GET /ES_DEMO_monthly_average_values_of_pollutants_and_aqi?start_date=2021-06&end_date=2023-05 HTTP/1.1" 200
+20-Mar-24 14:27:31 INFO [es_visualization.py] Processing data to generate outlier...
+20-Mar-24 14:27:31 INFO [es_visualization.py] Outlier detection completed.
+20-Mar-24 14:27:31 INFO [h11_impl.py] 192.168.150.14:51608 - "GET /ES_DEMO_outlier?start_date=2021-06-04&end_date=2023-05-16 HTTP/1.1" 200
+20-Mar-24 14:27:48 INFO [es_visualization.py] Processing value counts data...
+20-Mar-24 14:27:51 INFO [es_visualization.py] Value counts data processing PM10 completed.
+20-Mar-24 14:27:54 INFO [es_visualization.py] Value counts data processing PM25 completed.
+20-Mar-24 14:27:57 INFO [es_visualization.py] Value counts data processing SO2 completed.
+20-Mar-24 14:28:01 INFO [es_visualization.py] Value counts data processing CO completed.
+20-Mar-24 14:28:07 INFO [es_visualization.py] Value counts data processing O3 completed.
+20-Mar-24 14:28:10 INFO [es_visualization.py] Value counts data processing NO2 completed.
+20-Mar-24 14:28:10 INFO [h11_impl.py] 192.168.150.14:51611 - "GET /ES_DEMO_pollutants_value_count?start_date=2021-06-04&end_date=2023-05-16 HTTP/1.1" 200
+20-Mar-24 14:28:37 INFO [es_visualization.py] Loading csv file
+20-Mar-24 14:28:37 INFO [es_visualization.py] Processing es map creation data...
+20-Mar-24 14:28:37 INFO [es_visualization.py] Processing of es map creation data completed
+20-Mar-24 14:28:37 INFO [h11_impl.py] 192.168.150.14:51625 - "GET /ES_DEMO_data_for_map HTTP/1.1" 200
+20-Mar-24 14:29:55 INFO [server.py] Shutting down
+20-Mar-24 14:29:55 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+20-Mar-24 14:30:22 INFO [es_forecasting.py] Forecasted data was saved successfully
+20-Mar-24 14:30:22 INFO [h11_impl.py] 192.168.150.14:51640 - "GET /ES_DEMO_forecasting?test_size=12&validation_size=4&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+20-Mar-24 14:35:24 INFO [on.py] Waiting for application shutdown.
+20-Mar-24 14:35:24 INFO [on.py] Application shutdown complete.
+20-Mar-24 14:35:24 INFO [server.py] Finished server process [1384262]

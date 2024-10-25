@@ -1,0 +1,12 @@
+25-Mar-24 12:12:31 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+25-Mar-24 12:12:31 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+25-Mar-24 12:12:31 INFO [basereload.py] Started reloader process [34381] using StatReload
+25-Mar-24 12:13:24 INFO [server.py] Started server process [34659]
+25-Mar-24 12:13:24 INFO [on.py] Waiting for application startup.
+25-Mar-24 12:13:24 INFO [on.py] Application startup complete.
+25-Mar-24 12:15:32 INFO [h11_impl.py] 127.0.0.1:58090 - "POST /storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 404
+25-Mar-24 12:15:35 INFO [h11_impl.py] 127.0.0.1:42758 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 404
+25-Mar-24 12:15:38 INFO [h11_impl.py] 192.168.0.100:38046 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 404
+25-Mar-24 12:15:38 INFO [h11_impl.py] 192.168.0.100:38056 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 404
+25-Mar-24 12:15:38 INFO [h11_impl.py] 192.168.0.100:38072 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 404
+25-Mar-24 12:15:38 INFO [h11_impl.py] 192.168.0.100:38084 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 404

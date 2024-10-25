@@ -1,0 +1,117 @@
+13-Mar-24 11:09:15 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:09:15 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:09:15 INFO [h11_impl.py] 192.168.150.14:65215 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:09:38 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:09:38 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:09:38 INFO [h11_impl.py] 192.168.150.14:65221 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:09:49 INFO [h11_impl.py] 192.168.150.14:65225 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:09:54 INFO [h11_impl.py] 192.168.150.14:65227 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:09:58 INFO [h11_impl.py] 192.168.150.14:65227 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:10:07 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:10:07 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:10:07 INFO [h11_impl.py] 192.168.150.14:65232 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:10:13 INFO [h11_impl.py] 192.168.150.14:65235 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:10:18 INFO [h11_impl.py] 192.168.150.14:65235 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:10:22 INFO [h11_impl.py] 192.168.150.14:65235 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:10:26 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:10:26 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:10:26 INFO [h11_impl.py] 192.168.150.14:65235 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:12:45 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:12:45 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:12:45 INFO [h11_impl.py] 192.168.150.14:65274 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:13:31 INFO [server.py] Shutting down
+13-Mar-24 11:13:32 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 11:13:32 INFO [on.py] Application shutdown complete.
+13-Mar-24 11:13:32 INFO [server.py] Finished server process [2025868]
+13-Mar-24 11:15:00 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:15:00 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:15:00 INFO [h11_impl.py] 192.168.150.14:65307 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:17:57 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:17:58 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:17:58 INFO [h11_impl.py] 192.168.150.14:65350 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:18:45 INFO [server.py] Shutting down
+13-Mar-24 11:18:45 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 11:18:45 INFO [on.py] Application shutdown complete.
+13-Mar-24 11:18:45 INFO [server.py] Finished server process [2027718]
+13-Mar-24 11:31:26 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:31:26 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:31:26 INFO [h11_impl.py] 192.168.150.14:65496 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:31:58 INFO [server.py] Shutting down
+13-Mar-24 11:31:58 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 11:31:58 INFO [on.py] Application shutdown complete.
+13-Mar-24 11:31:58 INFO [server.py] Finished server process [2030038]
+13-Mar-24 11:34:00 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:34:00 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:34:00 INFO [h11_impl.py] 192.168.150.14:49154 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:34:42 INFO [server.py] Shutting down
+13-Mar-24 11:34:42 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 11:34:42 INFO [on.py] Application shutdown complete.
+13-Mar-24 11:34:42 INFO [server.py] Finished server process [2030423]
+13-Mar-24 11:44:28 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:44:28 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:44:28 INFO [h11_impl.py] 192.168.150.14:49281 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:48:37 INFO [server.py] Shutting down
+13-Mar-24 11:48:37 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 11:48:37 INFO [on.py] Application shutdown complete.
+13-Mar-24 11:48:37 INFO [server.py] Finished server process [2031858]
+13-Mar-24 11:50:50 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:50:50 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:50:50 INFO [h11_impl.py] 192.168.150.14:49359 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:54:13 INFO [h11_impl.py] 192.168.150.14:49418 - "GET /docs HTTP/1.1" 200
+13-Mar-24 11:54:14 INFO [h11_impl.py] 192.168.150.14:49418 - "GET /openapi.json HTTP/1.1" 200
+13-Mar-24 11:54:42 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:54:42 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:54:42 INFO [h11_impl.py] 192.168.150.14:49426 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 11:56:36 INFO [h11_impl.py] 192.168.150.14:49449 - "GET /docs HTTP/1.1" 200
+13-Mar-24 11:56:36 INFO [h11_impl.py] 192.168.150.14:49449 - "GET /openapi.json HTTP/1.1" 200
+13-Mar-24 11:56:42 INFO [h11_impl.py] 192.168.150.14:49452 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:58:20 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 11:58:21 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 11:58:21 INFO [h11_impl.py] 192.168.150.14:49475 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 12:01:18 INFO [h11_impl.py] 192.168.150.14:49510 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 12:01:49 INFO [h11_impl.py] 192.168.150.14:49518 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 12:01:56 INFO [h11_impl.py] 192.168.150.14:49522 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 12:02:32 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 12:02:32 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 12:02:32 INFO [h11_impl.py] 192.168.150.14:49536 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 12:03:36 INFO [server.py] Shutting down
+13-Mar-24 12:03:36 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:03:36 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:03:36 INFO [server.py] Finished server process [2032625]
+13-Mar-24 12:39:39 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 12:39:39 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 12:39:39 INFO [h11_impl.py] 192.168.150.14:50036 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 12:40:27 INFO [server.py] Shutting down
+13-Mar-24 12:40:27 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:40:27 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:40:27 INFO [server.py] Finished server process [2039747]
+13-Mar-24 12:42:08 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 12:42:08 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 12:42:08 INFO [h11_impl.py] 192.168.150.14:50079 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 12:49:50 INFO [server.py] Shutting down
+13-Mar-24 12:49:50 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:49:50 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:49:50 INFO [server.py] Finished server process [2040497]
+13-Mar-24 13:34:06 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 13:34:06 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 13:34:06 INFO [h11_impl.py] 192.168.150.14:50655 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 13:34:48 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 13:34:48 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 13:34:48 INFO [h11_impl.py] 192.168.150.14:50667 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 13:35:19 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 13:35:19 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 13:35:19 INFO [h11_impl.py] 192.168.150.14:50676 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 13:37:33 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 13:37:33 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 13:37:33 INFO [h11_impl.py] 192.168.150.14:50722 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 13:37:42 INFO [h11_impl.py] 192.168.150.14:50725 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 13:37:48 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+13-Mar-24 13:37:48 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+13-Mar-24 13:37:48 INFO [h11_impl.py] 192.168.150.14:50727 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+13-Mar-24 13:38:08 INFO [h11_impl.py] 192.168.150.14:50734 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 13:38:22 INFO [h11_impl.py] 192.168.150.14:50736 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 13:38:34 INFO [h11_impl.py] 192.168.150.14:50740 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 13:39:42 INFO [server.py] Shutting down
+13-Mar-24 13:39:42 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 13:39:42 INFO [on.py] Application shutdown complete.
+13-Mar-24 13:39:42 INFO [server.py] Finished server process [2046308]

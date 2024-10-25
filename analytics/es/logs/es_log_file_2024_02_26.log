@@ -1,0 +1,356 @@
+26-Feb-24 10:26:05 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:26:06 INFO [h11_impl.py] 192.168.150.14:51274 - "GET /Aqi_classification?page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:26:57 INFO [server.py] Shutting down
+26-Feb-24 10:26:57 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 10:26:57 INFO [on.py] Application shutdown complete.
+26-Feb-24 10:26:57 INFO [server.py] Finished server process [13931]
+26-Feb-24 10:28:37 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:28:37 INFO [h11_impl.py] 192.168.150.14:51327 - "GET /Aqi_classification?page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:28:47 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:28:47 INFO [h11_impl.py] 192.168.150.14:51326 - "GET /Aqi_classification?page=2&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:29:02 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:29:02 INFO [h11_impl.py] 192.168.150.14:51334 - "GET /Aqi_classification?page=3&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:29:13 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:29:13 INFO [h11_impl.py] 192.168.150.14:51338 - "GET /Aqi_classification?page=6&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:29:20 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:29:20 INFO [h11_impl.py] 192.168.150.14:51340 - "GET /Aqi_classification?page=8&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 10:29:41 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:29:41 INFO [h11_impl.py] 192.168.150.14:51345 - "GET /Aqi_classification?page=1&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 10:29:50 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:29:51 INFO [h11_impl.py] 192.168.150.14:51344 - "GET /Aqi_classification?page=2&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 10:30:07 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:30:07 INFO [h11_impl.py] 192.168.150.14:51351 - "GET /Aqi_classification?page=5&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 10:30:16 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:30:16 INFO [h11_impl.py] 192.168.150.14:51353 - "GET /Aqi_classification?page=1&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 10:30:27 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:30:27 INFO [h11_impl.py] 192.168.150.14:51357 - "GET /Aqi_classification?page=2&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 10:30:38 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:30:38 INFO [h11_impl.py] 192.168.150.14:51362 - "GET /Aqi_classification?page=1&rows_per_page=9 HTTP/1.1" 200
+26-Feb-24 10:30:55 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:30:55 INFO [h11_impl.py] 192.168.150.14:51366 - "GET /Aqi_classification?page=2&rows_per_page=9 HTTP/1.1" 200
+26-Feb-24 10:31:07 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:31:07 INFO [h11_impl.py] 192.168.150.14:51370 - "GET /Aqi_classification?page=1&rows_per_page=7 HTTP/1.1" 200
+26-Feb-24 10:31:16 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 10:31:16 INFO [h11_impl.py] 192.168.150.14:51372 - "GET /Aqi_classification?page=2&rows_per_page=7 HTTP/1.1" 200
+26-Feb-24 10:46:53 INFO [server.py] Shutting down
+26-Feb-24 10:46:53 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 10:46:53 INFO [on.py] Application shutdown complete.
+26-Feb-24 10:46:53 INFO [server.py] Finished server process [14516]
+26-Feb-24 11:15:33 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:15:33 INFO [h11_impl.py] 192.168.150.10:62065 - "GET /Aqi_classification?page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:15:43 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:15:43 INFO [h11_impl.py] 192.168.150.10:62067 - "GET /Aqi_classification?page=2&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:15:55 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:15:55 INFO [h11_impl.py] 192.168.150.10:62071 - "GET /Aqi_classification?page=3&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:16:04 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:16:04 INFO [h11_impl.py] 192.168.150.10:62074 - "GET /Aqi_classification?page=4&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:16:17 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:16:17 INFO [h11_impl.py] 192.168.150.10:62078 - "GET /Aqi_classification?page=8&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:16:40 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:16:40 INFO [h11_impl.py] 192.168.150.10:62084 - "GET /Aqi_classification?page=1&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 11:16:55 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:16:56 INFO [h11_impl.py] 192.168.150.10:62088 - "GET /Aqi_classification?page=2&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 11:17:11 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:17:11 INFO [h11_impl.py] 192.168.150.10:62093 - "GET /Aqi_classification?page=3&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 11:17:21 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:17:21 INFO [h11_impl.py] 192.168.150.10:62095 - "GET /Aqi_classification?page=5&rows_per_page=8 HTTP/1.1" 200
+26-Feb-24 11:17:34 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:17:34 INFO [h11_impl.py] 192.168.150.10:62099 - "GET /Aqi_classification?page=1&rows_per_page=2 HTTP/1.1" 200
+26-Feb-24 11:17:44 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:17:44 INFO [h11_impl.py] 192.168.150.10:62103 - "GET /Aqi_classification?page=4&rows_per_page=2 HTTP/1.1" 200
+26-Feb-24 11:18:20 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:18:20 INFO [h11_impl.py] 192.168.150.10:62110 - "GET /Aqi_classification?page=4&rows_per_page=3 HTTP/1.1" 200
+26-Feb-24 11:18:28 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:18:28 INFO [h11_impl.py] 192.168.150.10:62111 - "GET /Aqi_classification?page=3&rows_per_page=3 HTTP/1.1" 200
+26-Feb-24 11:35:06 INFO [server.py] Shutting down
+26-Feb-24 11:35:06 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 11:35:06 INFO [on.py] Application shutdown complete.
+26-Feb-24 11:35:06 INFO [server.py] Finished server process [25292]
+26-Feb-24 11:41:57 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:41:58 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+26-Feb-24 11:41:58 INFO [h11_impl.py] 192.168.150.10:62333 - "GET /Aqi_classification?page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 11:42:29 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+26-Feb-24 11:42:29 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+26-Feb-24 11:42:29 INFO [h11_impl.py] 192.168.150.10:62339 - "GET /Aqi_classification?page=3&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 12:02:42 INFO [server.py] Shutting down
+26-Feb-24 12:02:42 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:02:42 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:02:42 INFO [server.py] Finished server process [33333]
+26-Feb-24 12:18:40 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:18:40 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:18:40 INFO [h11_impl.py] 192.168.150.10:62646 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 12:18:59 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:19:02 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:19:02 INFO [h11_impl.py] 192.168.150.10:62651 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=1&rows_per_page=10 HTTP/1.1" 200
+26-Feb-24 12:19:13 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:19:14 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:19:14 ERROR [es_visualization.py] Exception occurred: local variable 'pollutants_data_subset' referenced before assignment
+26-Feb-24 12:19:14 INFO [h11_impl.py] 192.168.150.10:62655 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=12&rows_per_page=10 HTTP/1.1" 500
+26-Feb-24 12:20:49 INFO [server.py] Shutting down
+26-Feb-24 12:20:49 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:20:49 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:20:49 INFO [server.py] Finished server process [39374]
+26-Feb-24 12:23:36 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:23:38 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:23:38 INFO [h11_impl.py] 192.168.150.10:62752 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=1&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:24:09 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:24:09 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:24:09 INFO [h11_impl.py] 192.168.150.10:62758 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=2&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:24:24 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:24:27 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:24:27 INFO [h11_impl.py] 192.168.150.10:62762 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=3&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:24:38 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:24:39 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:24:39 INFO [h11_impl.py] 192.168.150.10:62766 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=5&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:24:51 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:24:52 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:24:52 INFO [h11_impl.py] 192.168.150.10:62768 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=6&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:25:19 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:25:21 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:25:21 INFO [h11_impl.py] 192.168.150.10:62774 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=5&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:26:35 INFO [server.py] Shutting down
+26-Feb-24 12:26:35 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:26:35 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:26:35 INFO [server.py] Finished server process [47408]
+26-Feb-24 12:35:26 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:35:27 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:35:27 INFO [h11_impl.py] 192.168.150.10:62877 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=1&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:35:41 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:35:42 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:35:42 INFO [h11_impl.py] 192.168.150.10:62889 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=5&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:35:51 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:35:52 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:35:52 INFO [h11_impl.py] 192.168.150.10:62893 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=6&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:36:02 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:36:03 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:36:03 INFO [h11_impl.py] 192.168.150.10:62898 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=12&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:36:14 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:36:16 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:36:16 INFO [h11_impl.py] 192.168.150.10:62902 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=10&rows_per_page=12 HTTP/1.1" 200
+26-Feb-24 12:36:48 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:36:51 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:36:51 INFO [h11_impl.py] 192.168.150.10:62912 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=1&rows_per_page=13 HTTP/1.1" 200
+26-Feb-24 12:37:05 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:37:06 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:37:06 INFO [h11_impl.py] 192.168.150.10:62917 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02&page=5&rows_per_page=13 HTTP/1.1" 200
+26-Feb-24 12:39:41 INFO [server.py] Shutting down
+26-Feb-24 12:39:41 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:39:41 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:39:41 INFO [server.py] Finished server process [50148]
+26-Feb-24 12:41:35 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:41:35 ERROR [es_visualization.py] Exception occurred: "Column(s) ['PM25'] do not exist"
+26-Feb-24 12:41:35 INFO [h11_impl.py] 192.168.150.10:62987 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=1&rows_per_page=25 HTTP/1.1" 500
+26-Feb-24 12:42:55 INFO [server.py] Shutting down
+26-Feb-24 12:42:55 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:42:55 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:42:55 INFO [server.py] Finished server process [56481]
+26-Feb-24 12:44:43 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:44:46 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:44:46 INFO [h11_impl.py] 192.168.150.10:63028 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=1&rows_per_page=25 HTTP/1.1" 200
+26-Feb-24 12:45:34 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:45:36 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:45:36 INFO [h11_impl.py] 192.168.150.10:63040 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=1&rows_per_page=50 HTTP/1.1" 200
+26-Feb-24 12:45:53 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:45:55 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:45:55 INFO [h11_impl.py] 192.168.150.10:63046 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=16&rows_per_page=50 HTTP/1.1" 200
+26-Feb-24 12:46:11 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:46:13 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:46:13 INFO [h11_impl.py] 192.168.150.10:63051 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=17&rows_per_page=50 HTTP/1.1" 200
+26-Feb-24 12:46:26 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+26-Feb-24 12:46:28 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+26-Feb-24 12:46:28 INFO [h11_impl.py] 192.168.150.10:63055 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07&page=18&rows_per_page=50 HTTP/1.1" 200
+26-Feb-24 12:47:59 INFO [server.py] Shutting down
+26-Feb-24 12:47:59 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 12:47:59 INFO [on.py] Application shutdown complete.
+26-Feb-24 12:47:59 INFO [server.py] Finished server process [57979]
+26-Feb-24 12:58:09 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 12:58:10 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 12:58:10 INFO [h11_impl.py] 192.168.150.10:63225 - "GET /Es_outlier?page=1&rows_per_page=10 HTTP/1.1" 200
+26-Feb-24 12:58:52 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 12:58:52 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 12:58:52 INFO [h11_impl.py] 192.168.150.10:63235 - "GET /Es_outlier?page=4&rows_per_page=10 HTTP/1.1" 200
+26-Feb-24 13:00:03 INFO [server.py] Shutting down
+26-Feb-24 13:00:03 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 13:00:03 INFO [on.py] Application shutdown complete.
+26-Feb-24 13:00:03 INFO [server.py] Finished server process [61784]
+26-Feb-24 13:01:43 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:01:43 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 13:01:43 INFO [h11_impl.py] 192.168.150.10:63282 - "GET /Es_outlier?page=1&rows_per_page=25 HTTP/1.1" 200
+26-Feb-24 13:03:35 INFO [server.py] Shutting down
+26-Feb-24 13:03:35 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 13:03:35 INFO [on.py] Application shutdown complete.
+26-Feb-24 13:03:35 INFO [server.py] Finished server process [62639]
+26-Feb-24 13:07:58 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:07:59 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 13:07:59 INFO [h11_impl.py] 192.168.150.10:63358 - "GET /Es_outlier?page=1&rows_per_page=25 HTTP/1.1" 200
+26-Feb-24 13:25:40 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:25:41 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 13:25:41 INFO [h11_impl.py] 192.168.150.10:63698 - "GET /Es_outlier?page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 13:26:32 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:26:33 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 13:29:22 INFO [server.py] Shutting down
+26-Feb-24 13:29:22 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 13:29:22 INFO [on.py] Application shutdown complete.
+26-Feb-24 13:29:22 INFO [server.py] Finished server process [63420]
+26-Feb-24 13:33:57 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:33:57 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 13:33:57 INFO [h11_impl.py] 192.168.150.10:63803 - "GET /Es_outlier?page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 13:35:15 INFO [server.py] Shutting down
+26-Feb-24 13:35:15 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 13:35:15 INFO [on.py] Application shutdown complete.
+26-Feb-24 13:35:15 INFO [server.py] Finished server process [69458]
+26-Feb-24 13:44:55 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:44:55 ERROR [es_visualization.py] Exception occurred: 'PM25'
+26-Feb-24 13:48:25 INFO [es_visualization.py] Processing data to generate outlier...
+26-Feb-24 13:48:25 INFO [es_visualization.py] Outlier detection completed.
+26-Feb-24 14:21:45 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:21:48 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:21:52 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:21:56 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:21:58 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:22:01 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:22:03 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:22:03 INFO [h11_impl.py] 192.168.150.10:64532 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 14:22:34 INFO [server.py] Shutting down
+26-Feb-24 14:22:34 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+26-Feb-24 14:22:38 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:22:38 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:22:38 INFO [server.py] Finished server process [80153]
+26-Feb-24 14:25:07 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:25:09 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:25:12 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:25:14 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:25:17 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:25:19 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:25:23 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:25:35 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:25:38 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:25:40 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:25:43 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:25:45 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:25:48 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:25:50 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:25:50 INFO [h11_impl.py] 192.168.150.10:64596 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 14:33:07 INFO [server.py] Shutting down
+26-Feb-24 14:33:07 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:33:07 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:33:07 INFO [server.py] Finished server process [81159]
+26-Feb-24 14:35:29 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:35:29 ERROR [es_visualization.py] Exception occurred: name 'processed_data_CO' is not defined
+26-Feb-24 14:35:29 INFO [h11_impl.py] 192.168.150.10:64721 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+26-Feb-24 14:36:31 INFO [server.py] Shutting down
+26-Feb-24 14:36:31 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:36:31 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:36:31 INFO [server.py] Finished server process [84191]
+26-Feb-24 14:38:50 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:38:50 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:38:50 ERROR [es_visualization.py] Exception occurred: name 'processed_data' is not defined
+26-Feb-24 14:41:59 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:41:59 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:41:59 INFO [h11_impl.py] 192.168.150.10:64837 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 14:42:33 INFO [server.py] Shutting down
+26-Feb-24 14:42:33 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+26-Feb-24 14:42:49 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:42:49 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:42:49 INFO [server.py] Finished server process [85972]
+26-Feb-24 14:45:11 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:45:11 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:45:11 INFO [h11_impl.py] 192.168.150.10:64887 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 14:46:59 INFO [server.py] Shutting down
+26-Feb-24 14:46:59 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:46:59 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:46:59 INFO [server.py] Finished server process [86810]
+26-Feb-24 14:49:23 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:49:23 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:49:23 INFO [h11_impl.py] 192.168.150.10:64959 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 14:52:54 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 14:52:54 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 14:54:58 INFO [server.py] Shutting down
+26-Feb-24 14:54:58 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 14:54:58 INFO [on.py] Application shutdown complete.
+26-Feb-24 14:54:58 INFO [server.py] Finished server process [87743]
+26-Feb-24 14:57:16 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 14:57:16 ERROR [es_visualization.py] Exception occurred: name 'processed_data_PM10' is not defined
+26-Feb-24 15:02:07 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:02:09 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 15:02:12 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 15:02:14 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 15:02:17 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 15:02:20 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 15:02:22 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 15:05:32 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:05:35 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 15:05:38 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 15:05:40 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 15:05:43 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 15:05:46 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 15:05:48 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 15:06:06 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:06:09 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 15:06:12 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 15:06:15 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 15:06:17 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 15:06:20 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 15:06:22 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 15:06:22 INFO [h11_impl.py] 192.168.150.10:65191 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 15:06:26 INFO [h11_impl.py] 192.168.150.10:65191 - "GET /docs HTTP/1.1" 200
+26-Feb-24 15:06:26 INFO [h11_impl.py] 192.168.150.10:65191 - "GET /openapi.json HTTP/1.1" 200
+26-Feb-24 15:07:40 INFO [server.py] Shutting down
+26-Feb-24 15:07:40 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 15:07:40 INFO [on.py] Application shutdown complete.
+26-Feb-24 15:07:40 INFO [server.py] Finished server process [91881]
+26-Feb-24 15:49:05 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:49:09 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 15:49:11 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 15:49:14 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 15:49:16 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 15:49:19 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 15:49:21 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 15:54:43 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:54:46 ERROR [es_visualization.py] Exception occurred: name 'processed_data_PM10' is not defined
+26-Feb-24 15:54:46 INFO [h11_impl.py] 192.168.150.10:65432 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 500
+26-Feb-24 15:58:31 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 15:58:34 ERROR [es_visualization.py] Exception occurred: name 'processed_data_PM10' is not defined
+26-Feb-24 16:02:28 INFO [server.py] Shutting down
+26-Feb-24 16:02:28 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 16:02:28 INFO [on.py] Application shutdown complete.
+26-Feb-24 16:02:28 INFO [server.py] Finished server process [102767]
+26-Feb-24 16:04:53 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 16:04:53 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 16:10:25 INFO [es_visualization.py] Processing value counts data...
+26-Feb-24 16:10:27 INFO [es_visualization.py] Value counts data processing PM10 completed.
+26-Feb-24 16:10:30 INFO [es_visualization.py] Value counts data processing PM25 completed.
+26-Feb-24 16:10:32 INFO [es_visualization.py] Value counts data processing SO2 completed.
+26-Feb-24 16:10:34 INFO [es_visualization.py] Value counts data processing CO completed.
+26-Feb-24 16:10:37 INFO [es_visualization.py] Value counts data processing O3 completed.
+26-Feb-24 16:10:39 INFO [es_visualization.py] Value counts data processing NO2 completed.
+26-Feb-24 16:10:39 INFO [h11_impl.py] 192.168.150.10:49262 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 17:33:44 INFO [server.py] Shutting down
+26-Feb-24 17:33:44 INFO [on.py] Waiting for application shutdown.
+26-Feb-24 17:33:44 INFO [on.py] Application shutdown complete.
+26-Feb-24 17:33:44 INFO [server.py] Finished server process [106607]

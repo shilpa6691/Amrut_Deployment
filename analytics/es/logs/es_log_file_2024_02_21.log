@@ -1,0 +1,48 @@
+21-Feb-24 09:44:18 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+21-Feb-24 09:44:18 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+21-Feb-24 09:44:18 INFO [h11_impl.py] 192.168.150.14:62980 - "GET /Aqi%20classification HTTP/1.1" 200
+21-Feb-24 09:46:23 INFO [h11_impl.py] 192.168.150.10:55089 - "GET /docs HTTP/1.1" 200
+21-Feb-24 09:46:23 INFO [h11_impl.py] 192.168.150.10:55089 - "GET /openapi.json HTTP/1.1" 200
+21-Feb-24 09:56:02 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+21-Feb-24 09:56:02 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+21-Feb-24 09:56:02 INFO [h11_impl.py] 192.168.150.14:63107 - "GET /Aqi%20classification HTTP/1.1" 200
+21-Feb-24 11:41:54 INFO [server.py] Shutting down
+21-Feb-24 11:41:54 INFO [on.py] Waiting for application shutdown.
+21-Feb-24 11:41:54 INFO [on.py] Application shutdown complete.
+21-Feb-24 11:41:54 INFO [server.py] Finished server process [2563406]
+21-Feb-24 12:53:43 INFO [es_visualization.py] Processing value counts data...
+21-Feb-24 12:53:46 INFO [es_visualization.py] Value counts data processing PM10 completed.
+21-Feb-24 12:53:48 INFO [es_visualization.py] Value counts data processing PM25 completed.
+21-Feb-24 12:53:51 INFO [es_visualization.py] Value counts data processing SO2 completed.
+21-Feb-24 12:53:53 INFO [es_visualization.py] Value counts data processing CO completed.
+21-Feb-24 12:53:56 INFO [es_visualization.py] Value counts data processing O3 completed.
+21-Feb-24 12:53:59 INFO [es_visualization.py] Value counts data processing NO2 completed.
+21-Feb-24 13:00:56 INFO [es_visualization.py] Processing data to generate outlier...
+21-Feb-24 13:00:56 INFO [es_visualization.py] Outlier detection completed.
+21-Feb-24 13:02:09 INFO [es_visualization.py] Processing value counts data...
+21-Feb-24 13:02:12 INFO [es_visualization.py] Value counts data processing PM10 completed.
+21-Feb-24 13:02:15 INFO [es_visualization.py] Value counts data processing PM25 completed.
+21-Feb-24 13:02:19 INFO [es_visualization.py] Value counts data processing SO2 completed.
+21-Feb-24 13:02:24 INFO [es_visualization.py] Value counts data processing CO completed.
+21-Feb-24 13:02:27 INFO [es_visualization.py] Value counts data processing O3 completed.
+21-Feb-24 13:02:31 INFO [es_visualization.py] Value counts data processing NO2 completed.
+21-Feb-24 13:03:41 INFO [es_visualization.py] Processing value counts data...
+21-Feb-24 13:03:42 INFO [es_visualization.py] Value counts data processing PM10 completed.
+21-Feb-24 13:03:43 INFO [es_visualization.py] Value counts data processing PM25 completed.
+21-Feb-24 13:03:44 INFO [es_visualization.py] Value counts data processing SO2 completed.
+21-Feb-24 13:03:46 INFO [es_visualization.py] Value counts data processing CO completed.
+21-Feb-24 13:03:47 INFO [es_visualization.py] Value counts data processing O3 completed.
+21-Feb-24 13:03:48 INFO [es_visualization.py] Value counts data processing NO2 completed.
+21-Feb-24 13:04:09 INFO [es_visualization.py] Processing value counts data...
+21-Feb-24 13:04:12 INFO [es_visualization.py] Value counts data processing PM10 completed.
+21-Feb-24 13:04:15 INFO [es_visualization.py] Value counts data processing PM25 completed.
+21-Feb-24 13:04:18 INFO [es_visualization.py] Value counts data processing SO2 completed.
+21-Feb-24 13:04:22 INFO [es_visualization.py] Value counts data processing CO completed.
+21-Feb-24 13:04:25 INFO [es_visualization.py] Value counts data processing O3 completed.
+21-Feb-24 13:04:28 INFO [es_visualization.py] Value counts data processing NO2 completed.
+21-Feb-24 14:27:00 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+21-Feb-24 14:27:01 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+21-Feb-24 14:27:34 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+21-Feb-24 14:27:34 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+21-Feb-24 15:58:52 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+21-Feb-24 15:58:52 INFO [es_visualization.py] Aqi location and zonewise classification completed.

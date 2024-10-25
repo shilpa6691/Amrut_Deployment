@@ -1,0 +1,44 @@
+06-Apr-24 15:54:47 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+06-Apr-24 15:54:47 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+06-Apr-24 15:54:47 INFO [basereload.py] Started reloader process [1034987] using StatReload
+06-Apr-24 15:55:40 INFO [server.py] Started server process [1035557]
+06-Apr-24 15:55:40 INFO [on.py] Waiting for application startup.
+06-Apr-24 15:55:40 INFO [on.py] Application startup complete.
+06-Apr-24 16:05:42 INFO [server.py] Shutting down
+06-Apr-24 16:05:42 INFO [on.py] Waiting for application shutdown.
+06-Apr-24 16:05:42 INFO [on.py] Application shutdown complete.
+06-Apr-24 16:05:42 INFO [server.py] Finished server process [1035557]
+06-Apr-24 16:05:44 INFO [basereload.py] Stopping reloader process [1034987]
+06-Apr-24 16:07:36 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+06-Apr-24 16:07:36 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+06-Apr-24 16:07:36 INFO [basereload.py] Started reloader process [1039944] using StatReload
+06-Apr-24 16:08:32 INFO [server.py] Started server process [1040582]
+06-Apr-24 16:08:32 INFO [on.py] Waiting for application startup.
+06-Apr-24 16:08:32 INFO [on.py] Application startup complete.
+06-Apr-24 16:12:26 INFO [h11_impl.py] 192.168.0.100:38394 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+06-Apr-24 16:13:45 INFO [h11_impl.py] 192.168.0.100:39254 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+06-Apr-24 16:17:47 INFO [h11_impl.py] 192.168.0.100:54278 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+06-Apr-24 18:11:41 INFO [server.py] Shutting down
+06-Apr-24 18:11:41 INFO [on.py] Waiting for application shutdown.
+06-Apr-24 18:11:41 INFO [on.py] Application shutdown complete.
+06-Apr-24 18:11:41 INFO [server.py] Finished server process [1040582]
+06-Apr-24 18:11:42 INFO [basereload.py] Stopping reloader process [1039944]
+06-Apr-24 18:13:51 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+06-Apr-24 18:13:51 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+06-Apr-24 18:13:51 INFO [basereload.py] Started reloader process [1054007] using StatReload
+06-Apr-24 18:14:49 INFO [server.py] Started server process [1054467]
+06-Apr-24 18:14:49 INFO [on.py] Waiting for application startup.
+06-Apr-24 18:14:49 INFO [on.py] Application startup complete.
+06-Apr-24 18:15:11 INFO [h11_impl.py] 192.168.0.100:38720 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+06-Apr-24 18:16:29 INFO [h11_impl.py] 192.168.0.100:44562 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+06-Apr-24 18:29:19 INFO [server.py] Shutting down
+06-Apr-24 18:29:19 INFO [on.py] Waiting for application shutdown.
+06-Apr-24 18:29:19 INFO [on.py] Application shutdown complete.
+06-Apr-24 18:29:19 INFO [server.py] Finished server process [1054467]
+06-Apr-24 18:29:21 INFO [basereload.py] Stopping reloader process [1054007]
+06-Apr-24 18:31:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+06-Apr-24 18:31:09 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+06-Apr-24 18:31:09 INFO [basereload.py] Started reloader process [1058698] using StatReload
+06-Apr-24 18:31:54 INFO [server.py] Started server process [1059069]
+06-Apr-24 18:31:54 INFO [on.py] Waiting for application startup.
+06-Apr-24 18:31:54 INFO [on.py] Application startup complete.

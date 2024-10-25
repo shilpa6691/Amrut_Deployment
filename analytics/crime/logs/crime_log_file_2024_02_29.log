@@ -1,0 +1,409 @@
+29-Feb-24 10:22:46 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 10:41:27 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:41:29 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 10:41:30 INFO [crime_analysis.py] Counting completed
+29-Feb-24 10:42:19 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:42:24 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 10:42:25 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:43:45 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:43:47 INFO [crime_analysis.py] Counting time...
+29-Feb-24 10:43:48 INFO [crime_analysis.py] counting completed
+29-Feb-24 10:44:23 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:44:26 INFO [crime_analysis.py] Counting number of crime rates of cctv and streetlight...
+29-Feb-24 10:44:30 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:47:01 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:47:04 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:47:04 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:47:04 INFO [h11_impl.py] 192.168.150.14:54013 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:48:06 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:48:08 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:48:08 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:48:08 INFO [h11_impl.py] 192.168.150.14:54017 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:48:09 INFO [h11_impl.py] 192.168.150.14:54017 - "GET /favicon.ico HTTP/1.1" 404
+29-Feb-24 10:49:02 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:49:04 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:49:04 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:49:04 INFO [h11_impl.py] 192.168.150.10:65355 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:49:04 INFO [h11_impl.py] 192.168.150.10:65355 - "GET /favicon.ico HTTP/1.1" 404
+29-Feb-24 10:50:07 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:50:09 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:50:09 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:50:09 INFO [h11_impl.py] 192.168.150.10:65377 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:50:28 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:50:30 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:50:31 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:50:31 INFO [h11_impl.py] 192.168.150.10:65384 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:51:02 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:51:04 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:51:04 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:51:04 INFO [h11_impl.py] 192.168.150.10:65391 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2023&page=313&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:55:43 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 10:56:42 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 10:56:42 INFO [h11_impl.py] 192.168.150.14:54027 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 10:58:15 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 10:58:39 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:58:51 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:58:51 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:58:51 INFO [h11_impl.py] 192.168.150.14:54133 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 10:59:10 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 10:59:17 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 10:59:17 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 10:59:17 INFO [h11_impl.py] 192.168.150.14:54134 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 11:00:04 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 11:01:46 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 11:01:46 INFO [h11_impl.py] 192.168.150.14:54127 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 11:02:09 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 11:02:09 INFO [h11_impl.py] 192.168.150.14:54131 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 11:11:37 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 11:11:37 INFO [h11_impl.py] 192.168.150.18:52165 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 11:48:23 INFO [server.py] Shutting down
+29-Feb-24 11:48:24 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 11:48:24 INFO [on.py] Application shutdown complete.
+29-Feb-24 11:48:24 INFO [server.py] Finished server process [1014137]
+29-Feb-24 12:13:43 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:13:43 INFO [h11_impl.py] 192.168.150.18:55045 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:13:44 INFO [h11_impl.py] 192.168.150.14:54540 - "GET /docs HTTP/1.1" 200
+29-Feb-24 12:13:45 INFO [h11_impl.py] 192.168.150.14:54540 - "GET /openapi.json HTTP/1.1" 200
+29-Feb-24 12:14:04 INFO [h11_impl.py] 192.168.150.14:54542 - "POST /token HTTP/1.1" 404
+29-Feb-24 12:17:28 INFO [h11_impl.py] 192.168.150.18:58428 - "GET / HTTP/1.1" 404
+29-Feb-24 12:17:28 INFO [h11_impl.py] 192.168.150.18:58428 - "GET /favicon.ico HTTP/1.1" 404
+29-Feb-24 12:17:38 INFO [h11_impl.py] 192.168.150.18:58474 - "GET / HTTP/1.1" 404
+29-Feb-24 12:17:58 INFO [h11_impl.py] 192.168.150.18:58564 - "GET /forecasting_ward_wise HTTP/1.1" 422
+29-Feb-24 12:19:48 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:19:51 INFO [h11_impl.py] 192.168.150.14:54587 - "GET /docs HTTP/1.1" 200
+29-Feb-24 12:19:51 INFO [h11_impl.py] 192.168.150.14:54587 - "GET /openapi.json HTTP/1.1" 200
+29-Feb-24 12:19:57 INFO [h11_impl.py] 192.168.150.18:59071 - "GET /docs HTTP/1.1" 200
+29-Feb-24 12:19:57 INFO [h11_impl.py] 192.168.150.18:59071 - "GET /openapi.json HTTP/1.1" 200
+29-Feb-24 12:22:20 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:22:20 INFO [h11_impl.py] 192.168.150.14:54590 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:25:30 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:25:30 INFO [h11_impl.py] 192.168.150.18:59623 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:27:06 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:27:06 INFO [h11_impl.py] 192.168.150.14:54613 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:28:38 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:28:38 INFO [h11_impl.py] 192.168.150.18:60649 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:30:37 INFO [h11_impl.py] 192.168.150.18:61715 - "OPTIONS /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 405
+29-Feb-24 12:30:41 INFO [h11_impl.py] 192.168.150.18:61715 - "OPTIONS /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 405
+29-Feb-24 12:31:05 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:31:05 INFO [h11_impl.py] 192.168.150.18:61313 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:40:43 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:40:45 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:40:45 INFO [h11_impl.py] 192.168.150.18:63547 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:45:53 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:48:51 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:49:02 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:51:47 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:51:48 INFO [h11_impl.py] 192.168.150.18:64837 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:52:54 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:54:45 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:55:13 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:55:21 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:55:32 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 12:55:32 INFO [h11_impl.py] 192.168.150.18:49903 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 12:56:19 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 12:56:21 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 12:56:22 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 12:56:22 INFO [h11_impl.py] 192.168.150.14:55038 - "GET /hotspot_detection_of_crimes?page=294&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 12:57:08 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 12:57:11 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 12:57:11 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 12:57:11 INFO [h11_impl.py] 192.168.150.14:55046 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 12:59:26 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 12:59:30 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 12:59:30 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 12:59:31 INFO [h11_impl.py] 192.168.150.14:55067 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 13:02:09 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:02:09 INFO [h11_impl.py] 192.168.150.18:52825 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 13:06:43 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:07:57 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 13:08:03 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 13:08:05 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 13:08:05 INFO [h11_impl.py] 192.168.150.14:55152 - "GET /hotspot_detection_of_crimes?page=294&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 13:08:51 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:10:06 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:10:18 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:10:18 INFO [h11_impl.py] 192.168.150.18:53843 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 13:10:40 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 13:10:40 INFO [h11_impl.py] 192.168.150.18:54144 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 13:29:15 INFO [server.py] Shutting down
+29-Feb-24 13:29:15 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+29-Feb-24 16:36:20 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+29-Feb-24 16:36:23 INFO [crime_model_fitting.py] TS data cleaning completed.
+29-Feb-24 16:37:03 INFO [crime_model_fitting.py] The model is fitted for ward W_1.
+29-Feb-24 16:37:03 INFO [crime_model_fitting.py] pickle file for modelresults ward W_1 created successfully
+29-Feb-24 16:37:03 INFO [crime_model_fitting.py] pickle file for fitresults ward W_1 created successfully
+29-Feb-24 16:37:06 INFO [crime_model_fitting.py] The model is fitted for ward W_2.
+29-Feb-24 16:37:06 INFO [crime_model_fitting.py] pickle file for modelresults ward W_2 created successfully
+29-Feb-24 16:37:06 INFO [crime_model_fitting.py] pickle file for fitresults ward W_2 created successfully
+29-Feb-24 16:37:09 INFO [crime_model_fitting.py] The model is fitted for ward W_3.
+29-Feb-24 16:37:09 INFO [crime_model_fitting.py] pickle file for modelresults ward W_3 created successfully
+29-Feb-24 16:37:09 INFO [crime_model_fitting.py] pickle file for fitresults ward W_3 created successfully
+29-Feb-24 16:38:29 INFO [crime_model_fitting.py] The model is fitted for ward W_4.
+29-Feb-24 16:38:29 INFO [crime_model_fitting.py] pickle file for modelresults ward W_4 created successfully
+29-Feb-24 16:38:29 INFO [crime_model_fitting.py] pickle file for fitresults ward W_4 created successfully
+29-Feb-24 16:38:32 INFO [crime_model_fitting.py] The model is fitted for ward W_5.
+29-Feb-24 16:38:32 INFO [crime_model_fitting.py] pickle file for modelresults ward W_5 created successfully
+29-Feb-24 16:38:32 INFO [crime_model_fitting.py] pickle file for fitresults ward W_5 created successfully
+29-Feb-24 16:39:04 INFO [crime_model_fitting.py] The model is fitted for ward W_6.
+29-Feb-24 16:39:04 INFO [crime_model_fitting.py] pickle file for modelresults ward W_6 created successfully
+29-Feb-24 16:39:04 INFO [crime_model_fitting.py] pickle file for fitresults ward W_6 created successfully
+29-Feb-24 16:39:04 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+29-Feb-24 16:40:04 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+29-Feb-24 16:40:06 INFO [crime_model_fitting.py] TS data cleaning completed.
+29-Feb-24 16:40:46 INFO [crime_model_fitting.py] The model is fitted for ward W_1.
+29-Feb-24 16:40:46 INFO [crime_model_fitting.py] pickle file for modelresults ward W_1 created successfully
+29-Feb-24 16:40:46 INFO [crime_model_fitting.py] pickle file for fitresults ward W_1 created successfully
+29-Feb-24 16:40:49 INFO [crime_model_fitting.py] The model is fitted for ward W_2.
+29-Feb-24 16:40:49 INFO [crime_model_fitting.py] pickle file for modelresults ward W_2 created successfully
+29-Feb-24 16:40:49 INFO [crime_model_fitting.py] pickle file for fitresults ward W_2 created successfully
+29-Feb-24 16:40:52 INFO [crime_model_fitting.py] The model is fitted for ward W_3.
+29-Feb-24 16:40:52 INFO [crime_model_fitting.py] pickle file for modelresults ward W_3 created successfully
+29-Feb-24 16:40:52 INFO [crime_model_fitting.py] pickle file for fitresults ward W_3 created successfully
+29-Feb-24 16:42:15 INFO [crime_model_fitting.py] The model is fitted for ward W_4.
+29-Feb-24 16:42:15 INFO [crime_model_fitting.py] pickle file for modelresults ward W_4 created successfully
+29-Feb-24 16:42:15 INFO [crime_model_fitting.py] pickle file for fitresults ward W_4 created successfully
+29-Feb-24 16:42:19 INFO [crime_model_fitting.py] The model is fitted for ward W_5.
+29-Feb-24 16:42:19 INFO [crime_model_fitting.py] pickle file for modelresults ward W_5 created successfully
+29-Feb-24 16:42:20 INFO [crime_model_fitting.py] pickle file for fitresults ward W_5 created successfully
+29-Feb-24 16:42:55 INFO [crime_model_fitting.py] The model is fitted for ward W_6.
+29-Feb-24 16:42:55 INFO [crime_model_fitting.py] pickle file for modelresults ward W_6 created successfully
+29-Feb-24 16:42:55 INFO [crime_model_fitting.py] pickle file for fitresults ward W_6 created successfully
+29-Feb-24 16:42:55 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+29-Feb-24 16:46:12 INFO [crime_singapore_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+29-Feb-24 16:46:14 INFO [crime_singapore_model_fitting.py] TS data cleaning completed.
+29-Feb-24 16:46:56 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Bedok.
+29-Feb-24 16:46:56 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Bedok created successfully
+29-Feb-24 16:46:56 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Bedok created successfully
+29-Feb-24 16:47:01 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Changi Simei.
+29-Feb-24 16:47:01 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Changi Simei created successfully
+29-Feb-24 16:47:01 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Changi Simei created successfully
+29-Feb-24 16:47:35 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Fengshan.
+29-Feb-24 16:47:35 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Fengshan created successfully
+29-Feb-24 16:47:35 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Fengshan created successfully
+29-Feb-24 16:47:38 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Kampong Chai Chee.
+29-Feb-24 16:47:38 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Kampong Chai Chee created successfully
+29-Feb-24 16:47:38 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Kampong Chai Chee created successfully
+29-Feb-24 16:47:41 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Siglap.
+29-Feb-24 16:47:41 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Siglap created successfully
+29-Feb-24 16:47:41 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Siglap created successfully
+29-Feb-24 16:47:41 INFO [crime_singapore_model_fitting.py] Model fitting of all wards completed successfully
+29-Feb-24 16:52:58 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 16:57:58 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 16:57:58 INFO [h11_impl.py] 192.168.150.14:57846 - "GET /forecasting_singapore_wardwise?test_size=2&validation_size=2&name_for_pickle_file=WARD HTTP/1.1" 200
+29-Feb-24 17:02:44 INFO [server.py] Shutting down
+29-Feb-24 17:02:44 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:02:44 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:02:44 INFO [server.py] Finished server process [1470569]
+29-Feb-24 17:07:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:07:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:07:35 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:07:35 INFO [h11_impl.py] 192.168.150.14:57978 - "GET /monthly_count_of_crimes_wardwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:08:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:08:42 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:08:42 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:08:43 INFO [h11_impl.py] 192.168.150.14:57989 - "GET /monthly_count_of_crimes_wardwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=9&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:09:17 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:09:20 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:09:21 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:09:21 INFO [h11_impl.py] 192.168.150.14:58000 - "GET /monthly_count_of_crimes_wardwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:15:19 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:15:21 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:15:21 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:15:21 INFO [h11_impl.py] 192.168.150.14:58066 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:17:57 INFO [server.py] Shutting down
+29-Feb-24 17:17:57 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+29-Feb-24 17:21:55 INFO [server.py] Finished server process [1476798]
+29-Feb-24 17:21:55 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+29-Feb-24 17:23:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:23:52 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:23:52 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:23:52 INFO [h11_impl.py] 192.168.150.14:58418 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:26:58 INFO [server.py] Shutting down
+29-Feb-24 17:26:58 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:26:58 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:26:58 INFO [server.py] Finished server process [1486426]
+29-Feb-24 17:27:55 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:27:57 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:27:57 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:27:57 INFO [h11_impl.py] 192.168.150.14:58483 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:29:20 INFO [server.py] Shutting down
+29-Feb-24 17:29:20 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:29:20 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:29:20 INFO [server.py] Finished server process [1488992]
+29-Feb-24 17:30:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:30:33 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:30:34 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:30:34 INFO [h11_impl.py] 192.168.150.14:58515 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:31:42 INFO [server.py] Shutting down
+29-Feb-24 17:31:42 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:31:42 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:31:42 INFO [server.py] Finished server process [1490658]
+29-Feb-24 17:32:39 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:32:41 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:32:41 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:32:41 INFO [h11_impl.py] 192.168.150.14:58546 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:37:25 INFO [server.py] Shutting down
+29-Feb-24 17:37:25 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:37:25 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:37:25 INFO [server.py] Finished server process [1492079]
+29-Feb-24 17:39:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:39:08 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:39:09 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:39:09 INFO [h11_impl.py] 192.168.150.14:58630 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:43:19 INFO [server.py] Shutting down
+29-Feb-24 17:43:19 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:43:19 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:43:19 INFO [server.py] Finished server process [1495967]
+29-Feb-24 17:44:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:44:51 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:44:51 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:44:51 ERROR [crime_analysis_singapore.py] Exception occurred during spatial_distribution_of_crimes:'time_window'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'time_window'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 107, in spatial_distribution_of_crimes
+    max_time_window=total_locationwise_data['time_window'].iloc[0]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'time_window'
+29-Feb-24 17:44:51 INFO [h11_impl.py] 192.168.150.14:59046 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 500
+29-Feb-24 17:45:12 INFO [server.py] Shutting down
+29-Feb-24 17:45:12 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:45:12 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:45:12 INFO [server.py] Finished server process [1499021]
+29-Feb-24 17:46:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:46:30 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:46:31 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:46:31 INFO [h11_impl.py] 192.168.150.14:59074 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:47:51 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:47:52 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:47:52 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:47:52 INFO [h11_impl.py] 192.168.150.14:59100 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:48:37 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:48:39 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:48:39 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:48:39 INFO [h11_impl.py] 192.168.150.14:59110 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:48:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:49:00 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:49:01 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:49:01 INFO [h11_impl.py] 192.168.150.14:59120 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:51:42 INFO [server.py] Shutting down
+29-Feb-24 17:51:42 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:51:42 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:51:42 INFO [server.py] Finished server process [1500445]
+29-Feb-24 17:53:01 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:53:03 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 17:53:03 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:53:03 INFO [h11_impl.py] 192.168.150.14:59178 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:53:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 17:53:34 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 17:53:34 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 17:53:34 INFO [h11_impl.py] 192.168.150.14:59184 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:54:49 ERROR [crime_singapore_forecasting.py] Exception occurred during forecasting:[Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/ward_modelresults_Bedok.pkl'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_singapore_forecasting.py", line 41, in forecasting_ward_wise
+    model_results=load_pickle_file(config.PICKLE_FILES_DIRECTORY['pickle_files_path']+f'{name_for_pickle_file}_modelresults_{ward}.pkl')
+  File "/opt/siap/analytics/utils/file_operations.py", line 36, in load_pickle_file
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/ward_modelresults_Bedok.pkl'
+29-Feb-24 17:54:49 INFO [h11_impl.py] 192.168.150.14:59204 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 500
+29-Feb-24 17:56:06 INFO [server.py] Shutting down
+29-Feb-24 17:56:06 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 17:56:06 INFO [on.py] Application shutdown complete.
+29-Feb-24 17:56:06 INFO [server.py] Finished server process [1504144]
+29-Feb-24 17:59:38 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 17:59:40 INFO [crime_analysis.py] Counting number of monthly crimes....
+29-Feb-24 17:59:41 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 17:59:41 INFO [h11_impl.py] 192.168.150.14:59270 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 17:59:58 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 18:00:01 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 18:00:02 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 18:00:02 INFO [h11_impl.py] 192.168.150.14:59277 - "GET /hotspot_detection_of_crimes?page=294&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:00:16 INFO [crime_analysis.py] Loading cleaned data files.
+29-Feb-24 18:00:17 INFO [crime_analysis.py] Counting number of crimes...
+29-Feb-24 18:00:18 INFO [crime_analysis.py] Counting completed!
+29-Feb-24 18:00:18 INFO [h11_impl.py] 192.168.150.14:59282 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:00:52 INFO [server.py] Shutting down
+29-Feb-24 18:00:52 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 18:00:52 INFO [on.py] Application shutdown complete.
+29-Feb-24 18:00:52 INFO [server.py] Finished server process [1508061]
+29-Feb-24 18:03:48 INFO [crime_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 18:03:48 INFO [h11_impl.py] 192.168.150.14:59306 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+29-Feb-24 18:04:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:04:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 18:04:22 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:04:22 INFO [h11_impl.py] 192.168.150.14:59328 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:05:58 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:06:00 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 18:06:00 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:06:00 INFO [h11_impl.py] 192.168.150.14:59347 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:07:26 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 18:07:26 INFO [h11_impl.py] 192.168.150.14:59359 - "GET /forecasting_singapore_wardwise?test_size=2&validation_size=2&name_for_pickle_file=WARD HTTP/1.1" 200
+29-Feb-24 18:08:22 INFO [crime_singapore_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+29-Feb-24 18:08:23 INFO [crime_singapore_model_fitting.py] TS data cleaning completed.
+29-Feb-24 18:09:04 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Bedok.
+29-Feb-24 18:09:04 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Bedok created successfully
+29-Feb-24 18:09:04 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Bedok created successfully
+29-Feb-24 18:09:07 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Changi Simei.
+29-Feb-24 18:09:07 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Changi Simei created successfully
+29-Feb-24 18:09:08 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Changi Simei created successfully
+29-Feb-24 18:09:41 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Fengshan.
+29-Feb-24 18:09:41 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Fengshan created successfully
+29-Feb-24 18:09:41 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Fengshan created successfully
+29-Feb-24 18:09:43 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Kampong Chai Chee.
+29-Feb-24 18:09:43 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Kampong Chai Chee created successfully
+29-Feb-24 18:09:43 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Kampong Chai Chee created successfully
+29-Feb-24 18:09:46 INFO [crime_singapore_model_fitting.py] The model is fitted for ward Siglap.
+29-Feb-24 18:09:46 INFO [crime_singapore_model_fitting.py] pickle file for modelresults ward Siglap created successfully
+29-Feb-24 18:09:46 INFO [crime_singapore_model_fitting.py] pickle file for fitresults ward Siglap created successfully
+29-Feb-24 18:09:46 INFO [crime_singapore_model_fitting.py] Model fitting of all wards completed successfully
+29-Feb-24 18:09:46 INFO [h11_impl.py] 192.168.150.14:59378 - "POST /model_fitting_singapore_wardwise?name_for_pickle_file=WARD&test_size=2&validation_size=2 HTTP/1.1" 200
+29-Feb-24 18:10:53 INFO [crime_singapore_forecasting.py] Forecasted data was saved successfully
+29-Feb-24 18:10:53 INFO [h11_impl.py] 192.168.150.14:59400 - "GET /forecasting_singapore_wardwise?test_size=2&validation_size=2&name_for_pickle_file=WARD HTTP/1.1" 200
+29-Feb-24 18:13:26 INFO [server.py] Shutting down
+29-Feb-24 18:13:26 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 18:13:26 INFO [on.py] Application shutdown complete.
+29-Feb-24 18:13:26 INFO [server.py] Finished server process [1509608]
+29-Feb-24 18:16:47 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:16:49 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 18:16:49 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:16:49 INFO [h11_impl.py] 192.168.150.14:59487 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:17:16 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:17:18 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 18:17:18 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:17:18 INFO [h11_impl.py] 192.168.150.14:59494 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:18:10 INFO [server.py] Shutting down
+29-Feb-24 18:18:10 INFO [on.py] Waiting for application shutdown.
+29-Feb-24 18:18:10 INFO [on.py] Application shutdown complete.
+29-Feb-24 18:18:10 INFO [server.py] Finished server process [1519713]
+29-Feb-24 18:19:08 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:19:10 INFO [crime_analysis_singapore.py] Counting number of crimes...
+29-Feb-24 18:19:10 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:19:10 INFO [h11_impl.py] 192.168.150.14:59524 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+29-Feb-24 18:19:50 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+29-Feb-24 18:19:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+29-Feb-24 18:19:52 INFO [crime_analysis_singapore.py] Counting completed!
+29-Feb-24 18:19:52 INFO [h11_impl.py] 192.168.150.14:59535 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200

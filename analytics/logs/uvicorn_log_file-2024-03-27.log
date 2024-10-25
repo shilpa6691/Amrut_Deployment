@@ -1,0 +1,24 @@
+27-Mar-24 10:01:48 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 10:01:48 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 10:01:48 INFO [basereload.py] Started reloader process [125731] using StatReload
+27-Mar-24 10:19:37 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 10:19:37 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 10:19:37 INFO [basereload.py] Started reloader process [126996] using StatReload
+27-Mar-24 10:23:42 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 10:23:42 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 10:23:42 INFO [basereload.py] Started reloader process [127818] using StatReload
+27-Mar-24 10:30:31 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 10:30:31 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 10:30:31 INFO [basereload.py] Started reloader process [130058] using StatReload
+27-Mar-24 11:55:14 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 11:55:14 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 11:55:14 INFO [basereload.py] Started reloader process [136409] using StatReload
+27-Mar-24 11:57:28 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 11:57:28 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 11:57:28 INFO [basereload.py] Started reloader process [137069] using StatReload
+27-Mar-24 12:07:43 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 12:07:43 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 12:07:43 INFO [basereload.py] Started reloader process [138409] using StatReload
+27-Mar-24 12:20:15 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+27-Mar-24 12:20:15 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+27-Mar-24 12:20:15 INFO [basereload.py] Started reloader process [139210] using StatReload

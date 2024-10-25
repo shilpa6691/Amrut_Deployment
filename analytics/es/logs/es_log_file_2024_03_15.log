@@ -1,0 +1,98 @@
+15-Mar-24 16:19:01 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:19:01 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:19:01 INFO [h11_impl.py] 192.168.150.10:60300 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:19:16 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+15-Mar-24 16:19:19 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+15-Mar-24 16:19:19 INFO [h11_impl.py] 192.168.150.10:60304 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03 HTTP/1.1" 200
+15-Mar-24 16:19:31 INFO [es_visualization.py] Processing data to generate outlier...
+15-Mar-24 16:19:31 INFO [es_visualization.py] Outlier detection completed.
+15-Mar-24 16:19:31 INFO [h11_impl.py] 192.168.150.10:60306 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13 HTTP/1.1" 200
+15-Mar-24 16:19:43 INFO [es_visualization.py] Processing value counts data...
+15-Mar-24 16:19:53 INFO [es_visualization.py] Value counts data processing PM10 completed.
+15-Mar-24 16:20:07 INFO [es_visualization.py] Value counts data processing PM25 completed.
+15-Mar-24 16:20:17 INFO [es_visualization.py] Value counts data processing SO2 completed.
+15-Mar-24 16:20:28 INFO [es_visualization.py] Value counts data processing CO completed.
+15-Mar-24 16:20:42 INFO [es_visualization.py] Value counts data processing O3 completed.
+15-Mar-24 16:20:53 INFO [es_visualization.py] Value counts data processing NO2 completed.
+15-Mar-24 16:20:53 INFO [h11_impl.py] 192.168.150.10:60308 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13 HTTP/1.1" 200
+15-Mar-24 16:21:20 INFO [es_visualization.py] Loading csv file
+15-Mar-24 16:21:20 INFO [es_visualization.py] Processing es map creation data...
+15-Mar-24 16:21:21 INFO [es_visualization.py] Processing of es map creation data completed
+15-Mar-24 16:21:21 INFO [h11_impl.py] 192.168.150.10:60326 - "GET /ES_data_for_map HTTP/1.1" 200
+15-Mar-24 16:22:15 INFO [es_visualization_pagination.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:22:16 INFO [es_visualization_pagination.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:22:16 INFO [h11_impl.py] 192.168.150.10:60333 - "GET /aqi_classification_with_pagination?page=1&rows_per_page=1000 HTTP/1.1" 200
+15-Mar-24 16:22:24 INFO [es_visualization_pagination.py] Loading csv file
+15-Mar-24 16:22:24 INFO [es_visualization_pagination.py] Processing es map creation data...
+15-Mar-24 16:22:25 INFO [es_visualization_pagination.py] Processing of es map creation data completed
+15-Mar-24 16:22:25 ERROR [es_visualization_pagination.py] Exception occurred: 'list' object has no attribute 'to_dict'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization_pagination.py", line 267, in aqi_map_creation_data_page
+    processed_data_subset = processed_data[start_index:end_index].to_dict('records')
+AttributeError: 'list' object has no attribute 'to_dict'
+15-Mar-24 16:22:25 INFO [h11_impl.py] 192.168.150.10:60336 - "GET /ES_data_for_map_with_pagination?page=1&rows_per_page=1000 HTTP/1.1" 500
+15-Mar-24 16:23:02 INFO [server.py] Shutting down
+15-Mar-24 16:23:02 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:23:02 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:23:02 INFO [server.py] Finished server process [449018]
+15-Mar-24 16:24:20 INFO [es_visualization_pagination.py] Loading csv file
+15-Mar-24 16:24:20 INFO [es_visualization_pagination.py] Processing es map creation data...
+15-Mar-24 16:24:21 INFO [es_visualization_pagination.py] Processing of es map creation data completed
+15-Mar-24 16:24:21 INFO [h11_impl.py] 192.168.150.10:60381 - "GET /ES_data_for_map_with_pagination?page=1&rows_per_page=1000 HTTP/1.1" 200
+15-Mar-24 16:29:59 INFO [server.py] Shutting down
+15-Mar-24 16:29:59 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:29:59 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:29:59 INFO [server.py] Finished server process [450247]
+15-Mar-24 16:33:09 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:33:10 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:33:10 INFO [h11_impl.py] 192.168.150.10:60525 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:34:47 INFO [server.py] Shutting down
+15-Mar-24 16:34:47 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:34:47 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:34:47 INFO [server.py] Finished server process [451817]
+15-Mar-24 16:36:01 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:36:02 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:36:02 INFO [h11_impl.py] 192.168.150.10:60578 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:37:57 INFO [server.py] Shutting down
+15-Mar-24 16:37:57 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:37:57 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:37:57 INFO [server.py] Finished server process [452141]
+15-Mar-24 16:44:20 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:44:21 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:44:21 INFO [h11_impl.py] 192.168.150.10:60695 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:45:09 INFO [server.py] Shutting down
+15-Mar-24 16:45:09 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:45:09 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:45:09 INFO [server.py] Finished server process [452966]
+15-Mar-24 16:46:24 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:46:25 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:46:25 INFO [h11_impl.py] 192.168.150.10:60738 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:52:14 INFO [server.py] Shutting down
+15-Mar-24 16:52:15 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 16:52:15 INFO [on.py] Application shutdown complete.
+15-Mar-24 16:52:15 INFO [server.py] Finished server process [453212]
+15-Mar-24 16:53:33 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+15-Mar-24 16:53:34 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+15-Mar-24 16:53:34 INFO [h11_impl.py] 192.168.150.10:60878 - "GET /aqi_classification HTTP/1.1" 200
+15-Mar-24 16:53:46 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+15-Mar-24 16:53:49 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+15-Mar-24 16:53:49 INFO [h11_impl.py] 192.168.150.10:60883 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03 HTTP/1.1" 200
+15-Mar-24 16:54:02 INFO [es_visualization.py] Processing data to generate outlier...
+15-Mar-24 16:54:03 INFO [es_visualization.py] Outlier detection completed.
+15-Mar-24 16:54:03 INFO [h11_impl.py] 192.168.150.10:60892 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13 HTTP/1.1" 200
+15-Mar-24 16:54:16 INFO [es_visualization.py] Processing value counts data...
+15-Mar-24 16:54:29 INFO [es_visualization.py] Value counts data processing PM10 completed.
+15-Mar-24 16:54:39 INFO [es_visualization.py] Value counts data processing PM25 completed.
+15-Mar-24 16:54:50 INFO [es_visualization.py] Value counts data processing SO2 completed.
+15-Mar-24 16:55:03 INFO [es_visualization.py] Value counts data processing CO completed.
+15-Mar-24 16:55:14 INFO [es_visualization.py] Value counts data processing O3 completed.
+15-Mar-24 16:55:24 INFO [es_visualization.py] Value counts data processing NO2 completed.
+15-Mar-24 16:55:24 INFO [h11_impl.py] 192.168.150.10:60895 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13 HTTP/1.1" 200
+15-Mar-24 16:55:36 INFO [es_visualization.py] Loading csv file
+15-Mar-24 16:55:36 INFO [es_visualization.py] Processing es map creation data...
+15-Mar-24 16:55:37 INFO [es_visualization.py] Processing of es map creation data completed
+15-Mar-24 16:55:37 INFO [h11_impl.py] 192.168.150.10:60908 - "GET /ES_data_for_map HTTP/1.1" 200
+15-Mar-24 17:44:12 INFO [server.py] Shutting down
+15-Mar-24 17:44:13 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 17:44:13 INFO [on.py] Application shutdown complete.
+15-Mar-24 17:44:13 INFO [server.py] Finished server process [453940]

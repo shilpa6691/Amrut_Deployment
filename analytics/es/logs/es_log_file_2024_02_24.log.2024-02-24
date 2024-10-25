@@ -1,0 +1,21 @@
+24-Feb-24 23:48:33 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+24-Feb-24 23:48:34 ERROR [es_visualization.py] Exception occurred: "Column(s) ['PM25'] do not exist"
+24-Feb-24 23:48:34 INFO [h11_impl.py] 192.168.150.10:60099 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2021-02&end_date=2023-07 HTTP/1.1" 500
+24-Feb-24 23:49:10 INFO [server.py] Shutting down
+24-Feb-24 23:49:10 INFO [on.py] Waiting for application shutdown.
+24-Feb-24 23:49:10 INFO [on.py] Application shutdown complete.
+24-Feb-24 23:49:10 INFO [server.py] Finished server process [3778377]
+24-Feb-24 23:51:54 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+24-Feb-24 23:51:55 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+24-Feb-24 23:51:55 INFO [h11_impl.py] 192.168.150.10:60147 - "GET /Monthly_average_values_of_pollutants_and_aqi?start_date=2023-10&end_date=2024-02 HTTP/1.1" 200
+24-Feb-24 23:52:40 INFO [es_visualization.py] Processing data to generate outlier...
+24-Feb-24 23:52:40 INFO [es_visualization.py] Outlier detection completed.
+24-Feb-24 23:52:40 INFO [h11_impl.py] 192.168.150.10:60155 - "GET /Es_outlier?page=1&rows_per_page=1000 HTTP/1.1" 200
+24-Feb-24 23:53:03 INFO [es_visualization.py] Processing value counts data...
+24-Feb-24 23:53:06 INFO [es_visualization.py] Value counts data processing PM10 completed.
+24-Feb-24 23:53:09 INFO [es_visualization.py] Value counts data processing PM25 completed.
+24-Feb-24 23:53:11 INFO [es_visualization.py] Value counts data processing SO2 completed.
+24-Feb-24 23:53:14 INFO [es_visualization.py] Value counts data processing CO completed.
+24-Feb-24 23:53:17 INFO [es_visualization.py] Value counts data processing O3 completed.
+24-Feb-24 23:53:20 INFO [es_visualization.py] Value counts data processing NO2 completed.
+24-Feb-24 23:53:20 INFO [h11_impl.py] 192.168.150.10:60162 - "GET /Pollutants_value_count?start_date=2023-10-24&end_date=2024-02-13 HTTP/1.1" 200

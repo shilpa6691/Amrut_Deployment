@@ -1,0 +1,14 @@
+12-Mar-24 16:58:27 INFO [h11_impl.py] 192.168.150.14:63348 - "GET /docs HTTP/1.1" 200
+12-Mar-24 16:58:27 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+12-Mar-24 16:58:27 INFO [h11_impl.py] 192.168.150.14:63349 - "GET /docs HTTP/1.1" 200
+12-Mar-24 16:58:27 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+12-Mar-24 16:58:27 INFO [h11_impl.py] 192.168.150.14:63318 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+12-Mar-24 16:58:28 INFO [h11_impl.py] 192.168.150.14:63349 - "GET /openapi.json HTTP/1.1" 200
+12-Mar-24 16:58:28 INFO [h11_impl.py] 192.168.150.14:63348 - "GET /openapi.json HTTP/1.1" 200
+12-Mar-24 17:00:03 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+12-Mar-24 17:00:03 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+12-Mar-24 17:00:03 INFO [h11_impl.py] 192.168.150.14:63386 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+12-Mar-24 17:00:56 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+12-Mar-24 17:00:56 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+12-Mar-24 17:00:56 INFO [h11_impl.py] 192.168.150.14:63398 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+12-Mar-24 17:01:03 INFO [h11_impl.py] 192.168.150.14:63400 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401

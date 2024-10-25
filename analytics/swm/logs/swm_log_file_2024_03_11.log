@@ -1,0 +1,21 @@
+11-Mar-24 09:24:03 INFO [swm_visualization.py] Loading csv file
+11-Mar-24 09:24:03 INFO [h11_impl.py] 192.168.150.10:49636 - "GET /swm_data_for_map HTTP/1.1" 200
+11-Mar-24 09:26:46 INFO [server.py] Shutting down
+11-Mar-24 09:26:46 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 09:26:46 INFO [on.py] Application shutdown complete.
+11-Mar-24 09:26:46 INFO [server.py] Finished server process [1293596]
+11-Mar-24 11:04:39 INFO [swm_visualization.py] Loading csv file
+11-Mar-24 11:04:39 INFO [swm_visualization.py] Processing swm map creation data...
+11-Mar-24 11:04:40 INFO [swm_visualization.py] Processing of swm map creation data completed
+11-Mar-24 11:04:40 INFO [h11_impl.py] 192.168.150.14:52972 - "GET /swm_data_for_map HTTP/1.1" 200
+11-Mar-24 11:13:12 INFO [server.py] Shutting down
+11-Mar-24 11:13:12 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 11:13:12 INFO [on.py] Application shutdown complete.
+11-Mar-24 11:13:12 INFO [server.py] Finished server process [1305519]
+11-Mar-24 16:05:37 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+11-Mar-24 16:05:37 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+11-Mar-24 16:05:37 INFO [h11_impl.py] 192.168.150.14:56865 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+11-Mar-24 16:06:24 INFO [server.py] Shutting down
+11-Mar-24 16:06:24 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 16:06:24 INFO [on.py] Application shutdown complete.
+11-Mar-24 16:06:24 INFO [server.py] Finished server process [1437309]

@@ -1,0 +1,507 @@
+22-Feb-24 09:29:35 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 09:29:35 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 09:32:17 INFO [server.py] Started server process [2815143]
+22-Feb-24 09:32:17 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:32:17 INFO [on.py] Application startup complete.
+22-Feb-24 09:32:18 INFO [server.py] Started server process [2815146]
+22-Feb-24 09:32:18 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:32:18 INFO [on.py] Application startup complete.
+22-Feb-24 09:32:18 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 09:32:18 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 09:32:35 INFO [server.py] Shutting down
+22-Feb-24 09:32:35 INFO [server.py] Shutting down
+22-Feb-24 09:32:35 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 09:32:35 INFO [on.py] Application shutdown complete.
+22-Feb-24 09:32:35 INFO [server.py] Finished server process [2815143]
+22-Feb-24 09:32:35 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 09:32:35 INFO [on.py] Application shutdown complete.
+22-Feb-24 09:32:35 INFO [server.py] Finished server process [2815146]
+22-Feb-24 09:34:26 INFO [server.py] Started server process [2815716]
+22-Feb-24 09:34:26 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:34:26 INFO [on.py] Application startup complete.
+22-Feb-24 09:34:26 INFO [server.py] Started server process [2815718]
+22-Feb-24 09:34:26 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:34:26 INFO [on.py] Application startup complete.
+22-Feb-24 09:34:28 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 09:34:28 INFO [config.py] Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+22-Feb-24 09:34:28 INFO [basereload.py] Started reloader process [2815723] using StatReload
+22-Feb-24 09:34:56 WARNING [basereload.py] StatReload detected changes in 'main.py'. Reloading...
+22-Feb-24 09:34:56 INFO [server.py] Shutting down
+22-Feb-24 09:34:56 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 09:34:56 INFO [on.py] Application shutdown complete.
+22-Feb-24 09:34:56 INFO [server.py] Finished server process [2815716]
+22-Feb-24 09:34:56 INFO [server.py] Shutting down
+22-Feb-24 09:34:56 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 09:34:56 INFO [on.py] Application shutdown complete.
+22-Feb-24 09:34:56 INFO [server.py] Finished server process [2815718]
+22-Feb-24 09:37:03 INFO [server.py] Started server process [2816290]
+22-Feb-24 09:37:03 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:37:03 INFO [on.py] Application startup complete.
+22-Feb-24 09:37:06 INFO [server.py] Started server process [2816311]
+22-Feb-24 09:37:06 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:37:06 INFO [on.py] Application startup complete.
+22-Feb-24 09:37:06 INFO [server.py] Started server process [2816314]
+22-Feb-24 09:37:06 INFO [on.py] Waiting for application startup.
+22-Feb-24 09:37:06 INFO [on.py] Application startup complete.
+22-Feb-24 10:20:14 INFO [server.py] Shutting down
+22-Feb-24 10:20:14 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 10:20:14 INFO [on.py] Application shutdown complete.
+22-Feb-24 10:20:14 INFO [server.py] Finished server process [2816314]
+22-Feb-24 10:20:14 INFO [server.py] Shutting down
+22-Feb-24 10:20:14 WARNING [basereload.py] StatReload detected changes in 'swm/router/swm_visualization.py'. Reloading...
+22-Feb-24 10:20:14 INFO [server.py] Shutting down
+22-Feb-24 10:20:14 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 10:20:14 INFO [on.py] Application shutdown complete.
+22-Feb-24 10:20:14 INFO [server.py] Finished server process [2816311]
+22-Feb-24 10:20:14 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 10:20:14 INFO [on.py] Application shutdown complete.
+22-Feb-24 10:20:14 INFO [server.py] Finished server process [2816290]
+22-Feb-24 10:22:32 INFO [server.py] Started server process [2824359]
+22-Feb-24 10:22:32 INFO [on.py] Waiting for application startup.
+22-Feb-24 10:22:32 INFO [on.py] Application startup complete.
+22-Feb-24 10:22:32 INFO [server.py] Started server process [2824361]
+22-Feb-24 10:22:32 INFO [on.py] Waiting for application startup.
+22-Feb-24 10:22:32 INFO [on.py] Application startup complete.
+22-Feb-24 10:22:35 INFO [server.py] Started server process [2824362]
+22-Feb-24 10:22:35 INFO [on.py] Waiting for application startup.
+22-Feb-24 10:22:35 INFO [on.py] Application startup complete.
+22-Feb-24 11:21:52 INFO [server.py] Shutting down
+22-Feb-24 11:21:52 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:21:52 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:21:52 INFO [server.py] Finished server process [2824362]
+22-Feb-24 11:21:54 INFO [basereload.py] Stopping reloader process [2815723]
+22-Feb-24 11:23:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:23:00 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 11:24:37 INFO [server.py] Shutting down
+22-Feb-24 11:24:37 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:24:37 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:24:37 INFO [server.py] Finished server process [2824361]
+22-Feb-24 11:24:38 INFO [server.py] Shutting down
+22-Feb-24 11:24:38 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:24:38 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:24:38 INFO [server.py] Finished server process [2824359]
+22-Feb-24 11:26:19 INFO [server.py] Started server process [2838651]
+22-Feb-24 11:26:19 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:26:19 INFO [on.py] Application startup complete.
+22-Feb-24 11:26:21 INFO [server.py] Started server process [2838660]
+22-Feb-24 11:26:21 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:26:21 INFO [on.py] Application startup complete.
+22-Feb-24 11:26:44 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:26:44 INFO [config.py] Uvicorn running on http://0.0.0.0:8004 (Press CTRL+C to quit)
+22-Feb-24 11:26:44 INFO [basereload.py] Started reloader process [2838729] using StatReload
+22-Feb-24 11:28:00 INFO [server.py] Started server process [2839058]
+22-Feb-24 11:28:00 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:28:00 INFO [on.py] Application startup complete.
+22-Feb-24 11:34:54 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:34:54 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 11:35:47 INFO [h11_impl.py] 192.168.150.10:62558 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:35:47 INFO [h11_impl.py] 192.168.150.10:62558 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:37:02 INFO [server.py] Shutting down
+22-Feb-24 11:37:02 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:37:02 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:37:02 INFO [server.py] Finished server process [2839058]
+22-Feb-24 11:37:03 INFO [basereload.py] Stopping reloader process [2838729]
+22-Feb-24 11:38:13 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:38:13 INFO [config.py] Uvicorn running on http://0.0.0.0:8004 (Press CTRL+C to quit)
+22-Feb-24 11:38:13 INFO [basereload.py] Started reloader process [2840864] using StatReload
+22-Feb-24 11:38:38 INFO [h11_impl.py] 192.168.150.10:62624 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:38:38 INFO [h11_impl.py] 192.168.150.10:62624 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:39:43 INFO [server.py] Started server process [2841274]
+22-Feb-24 11:39:43 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:39:43 INFO [on.py] Application startup complete.
+22-Feb-24 11:45:44 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:45:44 INFO [config.py] Uvicorn running on http://0.0.0.0:8004 (Press CTRL+C to quit)
+22-Feb-24 11:45:44 INFO [basereload.py] Started reloader process [2843430] using StatReload
+22-Feb-24 11:46:42 INFO [server.py] Started server process [2843603]
+22-Feb-24 11:46:42 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:46:42 INFO [on.py] Application startup complete.
+22-Feb-24 11:47:07 INFO [server.py] Shutting down
+22-Feb-24 11:47:07 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:47:07 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:47:07 INFO [server.py] Finished server process [2843603]
+22-Feb-24 11:47:08 INFO [basereload.py] Stopping reloader process [2843430]
+22-Feb-24 11:49:01 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:49:01 INFO [config.py] Uvicorn running on http://0.0.0.0:8004 (Press CTRL+C to quit)
+22-Feb-24 11:49:01 INFO [basereload.py] Started reloader process [2844364] using StatReload
+22-Feb-24 11:49:50 WARNING [basereload.py] StatReload detected changes in 'main.py'. Reloading...
+22-Feb-24 11:49:51 INFO [basereload.py] Stopping reloader process [2844364]
+22-Feb-24 11:49:51 INFO [server.py] Shutting down
+22-Feb-24 11:49:51 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:49:51 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:49:51 INFO [server.py] Finished server process [2838651]
+22-Feb-24 11:50:47 INFO [server.py] Started server process [2844746]
+22-Feb-24 11:50:47 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:50:47 INFO [on.py] Application startup complete.
+22-Feb-24 11:51:13 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:51:13 INFO [config.py] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 11:51:13 INFO [basereload.py] Started reloader process [2844927] using StatReload
+22-Feb-24 11:52:10 INFO [server.py] Started server process [2845120]
+22-Feb-24 11:52:10 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:52:10 INFO [on.py] Application startup complete.
+22-Feb-24 11:53:43 INFO [h11_impl.py] 127.0.0.1:56788 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:53:44 INFO [h11_impl.py] 127.0.0.1:56788 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:54:02 INFO [h11_impl.py] 127.0.0.1:50032 - "GET /docs/ HTTP/1.1" 307
+22-Feb-24 11:54:02 INFO [h11_impl.py] 127.0.0.1:50032 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:54:03 INFO [h11_impl.py] 127.0.0.1:50032 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:54:12 INFO [h11_impl.py] 192.168.150.10:62907 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:54:12 INFO [h11_impl.py] 192.168.150.10:62907 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:54:20 INFO [h11_impl.py] 192.168.150.12:57936 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:54:21 INFO [h11_impl.py] 192.168.150.12:57936 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:54:37 INFO [server.py] Shutting down
+22-Feb-24 11:54:37 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:54:37 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:54:37 INFO [server.py] Finished server process [2845120]
+22-Feb-24 11:54:37 INFO [basereload.py] Stopping reloader process [2844927]
+22-Feb-24 11:56:04 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:56:04 INFO [config.py] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 11:56:04 INFO [basereload.py] Started reloader process [2845846] using StatReload
+22-Feb-24 11:56:54 INFO [basereload.py] Stopping reloader process [2845846]
+22-Feb-24 11:57:40 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 11:57:40 INFO [config.py] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 11:57:40 INFO [basereload.py] Started reloader process [2846225] using StatReload
+22-Feb-24 11:58:38 INFO [server.py] Started server process [2846474]
+22-Feb-24 11:58:38 INFO [on.py] Waiting for application startup.
+22-Feb-24 11:58:38 INFO [on.py] Application startup complete.
+22-Feb-24 11:58:41 INFO [h11_impl.py] 192.168.150.10:62990 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:58:42 INFO [h11_impl.py] 192.168.150.10:62990 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:58:55 INFO [h11_impl.py] 192.168.150.12:58042 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:58:56 INFO [h11_impl.py] 192.168.150.12:58042 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:58:58 INFO [h11_impl.py] 192.168.150.10:62991 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:58:58 INFO [h11_impl.py] 192.168.150.10:62991 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:59:10 INFO [h11_impl.py] 192.168.150.13:50518 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:59:12 INFO [h11_impl.py] 192.168.150.13:50518 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:59:12 INFO [h11_impl.py] 192.168.150.14:54672 - "GET /docs HTTP/1.1" 200
+22-Feb-24 11:59:13 INFO [h11_impl.py] 192.168.150.14:54672 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 11:59:57 INFO [server.py] Shutting down
+22-Feb-24 11:59:57 WARNING [basereload.py] StatReload detected changes in 'main.py'. Reloading...
+22-Feb-24 11:59:57 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:59:57 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:59:57 INFO [server.py] Finished server process [2844746]
+22-Feb-24 11:59:57 INFO [server.py] Shutting down
+22-Feb-24 11:59:58 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 11:59:58 INFO [on.py] Application shutdown complete.
+22-Feb-24 11:59:58 INFO [server.py] Finished server process [2846474]
+22-Feb-24 12:00:08 INFO [basereload.py] Stopping reloader process [2846225]
+22-Feb-24 12:01:02 INFO [server.py] Started server process [2846994]
+22-Feb-24 12:01:02 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:01:02 INFO [on.py] Application startup complete.
+22-Feb-24 12:01:08 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 12:01:08 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 12:01:08 INFO [basereload.py] Started reloader process [2847100] using StatReload
+22-Feb-24 12:02:05 INFO [server.py] Started server process [2847272]
+22-Feb-24 12:02:05 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:02:05 INFO [on.py] Application startup complete.
+22-Feb-24 12:02:45 INFO [h11_impl.py] 192.168.150.13:50558 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:02:47 INFO [h11_impl.py] 192.168.150.13:50558 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:02:49 INFO [h11_impl.py] 192.168.150.14:54764 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:02:50 INFO [h11_impl.py] 192.168.150.14:54764 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:03:18 INFO [h11_impl.py] 192.168.150.10:63044 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:03:19 INFO [h11_impl.py] 192.168.150.10:63044 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:29:26 INFO [server.py] Shutting down
+22-Feb-24 12:29:26 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:29:26 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:29:26 INFO [server.py] Finished server process [2846994]
+22-Feb-24 12:29:26 WARNING [basereload.py] StatReload detected changes in 'cctv/router/cctv_visualization.py'. Reloading...
+22-Feb-24 12:29:26 INFO [server.py] Shutting down
+22-Feb-24 12:29:27 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:29:27 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:29:27 INFO [server.py] Finished server process [2847272]
+22-Feb-24 12:38:35 WARNING [basereload.py] StatReload detected changes in 'v1/cctv/endpoints.py'. Reloading...
+22-Feb-24 12:39:22 INFO [basereload.py] Stopping reloader process [2847100]
+22-Feb-24 12:39:41 INFO [server.py] Started server process [2853229]
+22-Feb-24 12:39:41 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:39:41 INFO [on.py] Application startup complete.
+22-Feb-24 12:41:03 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 12:41:03 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 12:41:03 INFO [basereload.py] Started reloader process [2854069] using StatReload
+22-Feb-24 12:41:58 INFO [server.py] Started server process [2854226]
+22-Feb-24 12:41:58 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:41:58 INFO [on.py] Application startup complete.
+22-Feb-24 12:42:50 INFO [h11_impl.py] 192.168.150.10:63488 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:42:50 INFO [h11_impl.py] 192.168.150.10:63488 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:45:28 WARNING [basereload.py] StatReload detected changes in 'cctv/router/cctv_visualization.py'. Reloading...
+22-Feb-24 12:45:29 INFO [server.py] Shutting down
+22-Feb-24 12:45:29 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:45:29 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:45:29 INFO [server.py] Finished server process [2853229]
+22-Feb-24 12:46:52 INFO [server.py] Started server process [2854929]
+22-Feb-24 12:46:52 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:46:52 INFO [on.py] Application startup complete.
+22-Feb-24 12:46:52 INFO [server.py] Started server process [2854928]
+22-Feb-24 12:46:52 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:46:52 INFO [on.py] Application startup complete.
+22-Feb-24 12:47:20 INFO [h11_impl.py] 192.168.150.10:63544 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:47:20 INFO [h11_impl.py] 192.168.150.10:63544 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:54:15 INFO [server.py] Shutting down
+22-Feb-24 12:54:15 WARNING [basereload.py] StatReload detected changes in 'cctv/router/cctv_visualization.py'. Reloading...
+22-Feb-24 12:54:15 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:54:15 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:54:15 INFO [server.py] Finished server process [2854929]
+22-Feb-24 12:55:43 INFO [server.py] Started server process [2856243]
+22-Feb-24 12:55:43 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:55:43 INFO [on.py] Application startup complete.
+22-Feb-24 12:55:44 INFO [server.py] Started server process [2856244]
+22-Feb-24 12:55:44 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:55:44 INFO [on.py] Application startup complete.
+22-Feb-24 12:55:45 INFO [h11_impl.py] 192.168.150.10:63624 - "GET /docs HTTP/1.1" 200
+22-Feb-24 12:55:46 INFO [h11_impl.py] 192.168.150.10:63624 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 12:56:57 WARNING [basereload.py] StatReload detected changes in 'cctv/router/cctv_visualization.py'. Reloading...
+22-Feb-24 12:56:57 INFO [server.py] Shutting down
+22-Feb-24 12:56:57 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 12:56:57 INFO [on.py] Application shutdown complete.
+22-Feb-24 12:56:57 INFO [server.py] Finished server process [2856243]
+22-Feb-24 12:58:17 INFO [server.py] Started server process [2856822]
+22-Feb-24 12:58:17 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:58:17 INFO [on.py] Application startup complete.
+22-Feb-24 12:58:20 INFO [server.py] Started server process [2856838]
+22-Feb-24 12:58:20 INFO [on.py] Waiting for application startup.
+22-Feb-24 12:58:20 INFO [on.py] Application startup complete.
+22-Feb-24 13:21:39 INFO [h11_impl.py] 192.168.150.10:63762 - "GET /docs HTTP/1.1" 200
+22-Feb-24 13:21:40 INFO [h11_impl.py] 192.168.150.10:63762 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 14:00:21 INFO [h11_impl.py] 192.168.150.14:56050 - "POST /Aqi_classification HTTP/1.1" 405
+22-Feb-24 14:01:41 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 14:01:41 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 14:13:34 INFO [server.py] Shutting down
+22-Feb-24 14:13:34 WARNING [basereload.py] StatReload detected changes in 'cctv/cctv_model.py'. Reloading...
+22-Feb-24 14:13:34 INFO [server.py] Shutting down
+22-Feb-24 14:13:34 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 14:13:34 INFO [on.py] Application shutdown complete.
+22-Feb-24 14:13:34 INFO [server.py] Finished server process [2856822]
+22-Feb-24 14:13:34 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 14:13:34 INFO [on.py] Application shutdown complete.
+22-Feb-24 14:13:34 INFO [server.py] Finished server process [2856838]
+22-Feb-24 14:14:53 INFO [server.py] Started server process [2869570]
+22-Feb-24 14:14:53 INFO [on.py] Waiting for application startup.
+22-Feb-24 14:14:53 INFO [on.py] Application startup complete.
+22-Feb-24 14:14:53 INFO [h11_impl.py] 192.168.150.10:64879 - "GET /docs HTTP/1.1" 200
+22-Feb-24 14:14:53 INFO [h11_impl.py] 192.168.150.10:64879 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 14:14:54 INFO [server.py] Started server process [2869569]
+22-Feb-24 14:14:54 INFO [on.py] Waiting for application startup.
+22-Feb-24 14:14:54 INFO [on.py] Application startup complete.
+22-Feb-24 14:17:24 INFO [server.py] Shutting down
+22-Feb-24 14:17:24 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 14:17:24 INFO [on.py] Application shutdown complete.
+22-Feb-24 14:17:24 INFO [server.py] Finished server process [2869569]
+22-Feb-24 14:17:24 WARNING [basereload.py] StatReload detected changes in 'cctv/cctv_model.py'. Reloading...
+22-Feb-24 14:18:54 INFO [server.py] Started server process [2870305]
+22-Feb-24 14:18:54 INFO [on.py] Waiting for application startup.
+22-Feb-24 14:18:54 INFO [on.py] Application startup complete.
+22-Feb-24 14:18:54 INFO [server.py] Started server process [2870310]
+22-Feb-24 14:18:54 INFO [on.py] Waiting for application startup.
+22-Feb-24 14:18:54 INFO [on.py] Application startup complete.
+22-Feb-24 14:18:54 INFO [h11_impl.py] 192.168.150.10:64925 - "GET /docs HTTP/1.1" 200
+22-Feb-24 14:18:55 INFO [h11_impl.py] 192.168.150.10:64925 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 14:42:17 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 14:42:17 ERROR [config.py] [Errno 98] Address already in use
+22-Feb-24 14:44:20 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 14:44:20 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 14:44:20 INFO [basereload.py] Started reloader process [2874535] using StatReload
+22-Feb-24 14:45:16 INFO [server.py] Started server process [2874702]
+22-Feb-24 14:45:16 INFO [on.py] Waiting for application startup.
+22-Feb-24 14:45:16 INFO [on.py] Application startup complete.
+22-Feb-24 14:46:05 INFO [h11_impl.py] 192.168.150.14:56688 - "GET /docs HTTP/1.1" 200
+22-Feb-24 14:46:06 INFO [h11_impl.py] 192.168.150.14:56688 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 14:46:32 INFO [server.py] Shutting down
+22-Feb-24 14:46:32 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 14:46:32 INFO [on.py] Application shutdown complete.
+22-Feb-24 14:46:32 INFO [server.py] Finished server process [2874702]
+22-Feb-24 14:46:33 INFO [basereload.py] Stopping reloader process [2874535]
+22-Feb-24 17:03:41 INFO [server.py] Shutting down
+22-Feb-24 17:03:41 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:03:41 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:03:41 INFO [server.py] Finished server process [2870305]
+22-Feb-24 17:04:34 INFO [server.py] Started server process [2900411]
+22-Feb-24 17:04:34 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:04:34 INFO [on.py] Application startup complete.
+22-Feb-24 17:08:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 17:08:00 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 17:08:00 INFO [basereload.py] Started reloader process [2901105] using StatReload
+22-Feb-24 17:09:13 INFO [server.py] Started server process [2901297]
+22-Feb-24 17:09:13 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:09:13 INFO [on.py] Application startup complete.
+22-Feb-24 17:13:38 INFO [h11_impl.py] 192.168.150.10:49835 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:13:38 INFO [h11_impl.py] 192.168.150.10:49835 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:32:12 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:32:12 INFO [server.py] Shutting down
+22-Feb-24 17:32:12 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:32:12 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:32:12 INFO [server.py] Finished server process [2901297]
+22-Feb-24 17:32:12 INFO [server.py] Shutting down
+22-Feb-24 17:32:13 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:32:13 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:32:13 INFO [server.py] Finished server process [2900411]
+22-Feb-24 17:32:18 WARNING [basereload.py] StatReload detected changes in 'es/es_visualization_model.py'. Reloading...
+22-Feb-24 17:33:54 INFO [server.py] Started server process [2905333]
+22-Feb-24 17:33:54 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:33:54 INFO [on.py] Application startup complete.
+22-Feb-24 17:33:55 INFO [server.py] Started server process [2905334]
+22-Feb-24 17:33:55 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:33:55 INFO [on.py] Application startup complete.
+22-Feb-24 17:33:55 INFO [h11_impl.py] 192.168.150.10:50053 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:33:55 INFO [h11_impl.py] 192.168.150.10:50053 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:35:14 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:35:14 INFO [server.py] Shutting down
+22-Feb-24 17:35:14 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:35:14 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:35:14 INFO [server.py] Finished server process [2905334]
+22-Feb-24 17:36:49 INFO [server.py] Started server process [2905812]
+22-Feb-24 17:36:49 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:36:49 INFO [on.py] Application startup complete.
+22-Feb-24 17:36:55 INFO [server.py] Started server process [2905868]
+22-Feb-24 17:36:55 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:36:55 INFO [on.py] Application startup complete.
+22-Feb-24 17:36:59 INFO [h11_impl.py] 192.168.150.10:50090 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:36:59 INFO [h11_impl.py] 192.168.150.10:50090 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:40:18 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:40:19 INFO [server.py] Shutting down
+22-Feb-24 17:40:19 INFO [server.py] Shutting down
+22-Feb-24 17:40:19 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:40:19 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:40:19 INFO [server.py] Finished server process [2905868]
+22-Feb-24 17:40:19 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:40:19 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:40:19 INFO [server.py] Finished server process [2905812]
+22-Feb-24 17:42:00 INFO [server.py] Started server process [2906628]
+22-Feb-24 17:42:00 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:42:00 INFO [on.py] Application startup complete.
+22-Feb-24 17:42:01 INFO [server.py] Started server process [2906627]
+22-Feb-24 17:42:01 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:42:01 INFO [on.py] Application startup complete.
+22-Feb-24 17:42:01 INFO [h11_impl.py] 192.168.150.10:50144 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:42:01 INFO [h11_impl.py] 192.168.150.10:50144 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:45:19 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:45:19 INFO [server.py] Shutting down
+22-Feb-24 17:45:19 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:45:19 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:45:19 INFO [server.py] Finished server process [2906628]
+22-Feb-24 17:46:33 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:47:11 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:48:49 INFO [server.py] Started server process [2907771]
+22-Feb-24 17:48:49 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:48:49 INFO [on.py] Application startup complete.
+22-Feb-24 17:48:49 INFO [h11_impl.py] 192.168.150.10:50221 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:48:49 INFO [h11_impl.py] 192.168.150.10:50221 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:48:50 INFO [server.py] Started server process [2907770]
+22-Feb-24 17:48:50 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:48:50 INFO [on.py] Application startup complete.
+22-Feb-24 17:50:32 WARNING [basereload.py] StatReload detected changes in 'es/es_visualization_model.py'. Reloading...
+22-Feb-24 17:50:32 INFO [server.py] Shutting down
+22-Feb-24 17:50:32 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:50:32 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:50:32 INFO [server.py] Finished server process [2907770]
+22-Feb-24 17:52:13 INFO [server.py] Started server process [2908409]
+22-Feb-24 17:52:13 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:52:13 INFO [on.py] Application startup complete.
+22-Feb-24 17:52:13 INFO [h11_impl.py] 192.168.150.10:50263 - "GET /docs HTTP/1.1" 200
+22-Feb-24 17:52:13 INFO [h11_impl.py] 192.168.150.10:50263 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 17:52:13 INFO [server.py] Started server process [2908410]
+22-Feb-24 17:52:13 INFO [on.py] Waiting for application startup.
+22-Feb-24 17:52:13 INFO [on.py] Application startup complete.
+22-Feb-24 17:59:43 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 17:59:44 INFO [server.py] Shutting down
+22-Feb-24 17:59:44 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:59:44 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:59:44 INFO [server.py] Finished server process [2908409]
+22-Feb-24 17:59:44 INFO [server.py] Shutting down
+22-Feb-24 17:59:44 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 17:59:44 INFO [on.py] Application shutdown complete.
+22-Feb-24 17:59:44 INFO [server.py] Finished server process [2908410]
+22-Feb-24 18:01:24 INFO [server.py] Started server process [2910017]
+22-Feb-24 18:01:24 INFO [on.py] Waiting for application startup.
+22-Feb-24 18:01:24 INFO [on.py] Application startup complete.
+22-Feb-24 18:01:24 INFO [h11_impl.py] 192.168.150.10:50373 - "GET /docs HTTP/1.1" 200
+22-Feb-24 18:01:24 INFO [h11_impl.py] 192.168.150.10:50373 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 18:01:27 INFO [server.py] Started server process [2910019]
+22-Feb-24 18:01:27 INFO [on.py] Waiting for application startup.
+22-Feb-24 18:01:27 INFO [on.py] Application startup complete.
+22-Feb-24 18:05:04 INFO [server.py] Shutting down
+22-Feb-24 18:05:04 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 18:05:04 INFO [on.py] Application shutdown complete.
+22-Feb-24 18:05:04 INFO [server.py] Finished server process [2910019]
+22-Feb-24 18:05:04 WARNING [basereload.py] StatReload detected changes in 'es/es_visualization_model.py'. Reloading...
+22-Feb-24 18:05:11 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 18:05:26 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 18:07:03 INFO [server.py] Started server process [2911075]
+22-Feb-24 18:07:03 INFO [on.py] Waiting for application startup.
+22-Feb-24 18:07:03 INFO [on.py] Application startup complete.
+22-Feb-24 18:07:03 INFO [h11_impl.py] 192.168.150.10:50434 - "GET /docs HTTP/1.1" 200
+22-Feb-24 18:07:04 INFO [h11_impl.py] 192.168.150.10:50434 - "GET /openapi.json HTTP/1.1" 200
+22-Feb-24 18:07:04 INFO [server.py] Started server process [2911073]
+22-Feb-24 18:07:04 INFO [on.py] Waiting for application startup.
+22-Feb-24 18:07:04 INFO [on.py] Application startup complete.
+22-Feb-24 18:08:02 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+22-Feb-24 18:08:03 INFO [server.py] Shutting down
+22-Feb-24 18:08:03 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 18:08:03 INFO [on.py] Application shutdown complete.
+22-Feb-24 18:08:03 INFO [server.py] Finished server process [2911073]
+22-Feb-24 18:08:07 INFO [basereload.py] Stopping reloader process [2901105]
+22-Feb-24 18:08:58 INFO [server.py] Started server process [2911511]
+22-Feb-24 18:08:58 INFO [on.py] Waiting for application startup.
+22-Feb-24 18:08:58 INFO [on.py] Application startup complete.
+22-Feb-24 19:24:08 INFO [server.py] Shutting down
+22-Feb-24 19:24:08 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 19:24:08 INFO [on.py] Application shutdown complete.
+22-Feb-24 19:24:08 INFO [server.py] Finished server process [2911511]
+22-Feb-24 19:25:04 INFO [server.py] Started server process [2924754]
+22-Feb-24 19:25:04 INFO [on.py] Waiting for application startup.
+22-Feb-24 19:25:04 INFO [on.py] Application startup complete.
+22-Feb-24 19:26:03 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Feb-24 19:26:03 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Feb-24 19:26:03 INFO [basereload.py] Started reloader process [2925116] using StatReload
+22-Feb-24 19:27:15 INFO [server.py] Started server process [2925382]
+22-Feb-24 19:27:15 INFO [on.py] Waiting for application startup.
+22-Feb-24 19:27:15 INFO [on.py] Application startup complete.
+22-Feb-24 19:27:19 INFO [server.py] Shutting down
+22-Feb-24 19:27:19 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 19:27:19 INFO [on.py] Application shutdown complete.
+22-Feb-24 19:27:19 INFO [server.py] Finished server process [2925382]
+22-Feb-24 19:27:20 INFO [basereload.py] Stopping reloader process [2925116]
+22-Feb-24 19:38:29 INFO [server.py] Shutting down
+22-Feb-24 19:38:29 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 19:38:29 INFO [on.py] Application shutdown complete.
+22-Feb-24 19:38:29 INFO [server.py] Finished server process [2924754]
+22-Feb-24 19:40:07 INFO [server.py] Started server process [2928013]
+22-Feb-24 19:40:07 INFO [on.py] Waiting for application startup.
+22-Feb-24 19:40:07 INFO [on.py] Application startup complete.
+22-Feb-24 19:46:31 INFO [server.py] Shutting down
+22-Feb-24 19:46:31 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 19:46:31 INFO [on.py] Application shutdown complete.
+22-Feb-24 19:46:31 INFO [server.py] Finished server process [2928013]
+22-Feb-24 19:51:28 INFO [server.py] Started server process [2930608]
+22-Feb-24 19:51:28 INFO [on.py] Waiting for application startup.
+22-Feb-24 19:51:28 INFO [on.py] Application startup complete.
+22-Feb-24 19:57:20 INFO [server.py] Shutting down
+22-Feb-24 19:57:20 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 19:57:20 INFO [on.py] Application shutdown complete.
+22-Feb-24 19:57:20 INFO [server.py] Finished server process [2930608]
+22-Feb-24 19:58:57 INFO [server.py] Started server process [2932443]
+22-Feb-24 19:58:57 INFO [on.py] Waiting for application startup.
+22-Feb-24 19:58:57 INFO [on.py] Application startup complete.
+22-Feb-24 20:01:03 INFO [server.py] Shutting down
+22-Feb-24 20:01:03 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 20:01:03 INFO [on.py] Application shutdown complete.
+22-Feb-24 20:01:03 INFO [server.py] Finished server process [2932443]
+22-Feb-24 20:02:42 INFO [server.py] Started server process [2933536]
+22-Feb-24 20:02:42 INFO [on.py] Waiting for application startup.
+22-Feb-24 20:02:43 INFO [on.py] Application startup complete.
+22-Feb-24 20:05:15 INFO [server.py] Shutting down
+22-Feb-24 20:05:15 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 20:05:15 INFO [on.py] Application shutdown complete.
+22-Feb-24 20:05:15 INFO [server.py] Finished server process [2933536]
+22-Feb-24 20:06:55 INFO [server.py] Started server process [2934756]
+22-Feb-24 20:06:55 INFO [on.py] Waiting for application startup.
+22-Feb-24 20:06:55 INFO [on.py] Application startup complete.
+22-Feb-24 20:07:05 INFO [server.py] Shutting down
+22-Feb-24 20:07:06 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 20:07:06 INFO [on.py] Application shutdown complete.
+22-Feb-24 20:07:06 INFO [server.py] Finished server process [2934756]
+22-Feb-24 20:08:47 INFO [server.py] Started server process [2935233]
+22-Feb-24 20:08:47 INFO [on.py] Waiting for application startup.
+22-Feb-24 20:08:47 INFO [on.py] Application startup complete.
+22-Feb-24 20:11:02 INFO [server.py] Shutting down
+22-Feb-24 20:11:02 INFO [on.py] Waiting for application shutdown.
+22-Feb-24 20:11:02 INFO [on.py] Application shutdown complete.
+22-Feb-24 20:11:02 INFO [server.py] Finished server process [2935233]
+22-Feb-24 20:12:39 INFO [server.py] Started server process [2936081]
+22-Feb-24 20:12:39 INFO [on.py] Waiting for application startup.
+22-Feb-24 20:12:39 INFO [on.py] Application startup complete.

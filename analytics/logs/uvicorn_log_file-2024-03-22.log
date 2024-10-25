@@ -1,0 +1,124 @@
+22-Mar-24 09:39:06 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 09:39:06 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 09:39:06 INFO [basereload.py] Started reloader process [1526745] using StatReload
+22-Mar-24 09:39:55 INFO [server.py] Started server process [1526782]
+22-Mar-24 09:39:55 INFO [on.py] Waiting for application startup.
+22-Mar-24 09:39:55 INFO [on.py] Application startup complete.
+22-Mar-24 09:50:07 INFO [server.py] Shutting down
+22-Mar-24 09:50:08 INFO [on.py] Waiting for application shutdown.
+22-Mar-24 09:50:08 INFO [on.py] Application shutdown complete.
+22-Mar-24 09:50:08 INFO [server.py] Finished server process [1526782]
+22-Mar-24 09:50:08 INFO [basereload.py] Stopping reloader process [1526745]
+22-Mar-24 09:51:51 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 09:51:51 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 09:51:51 INFO [basereload.py] Started reloader process [1527802] using StatReload
+22-Mar-24 09:52:51 INFO [server.py] Started server process [1528052]
+22-Mar-24 09:52:51 INFO [on.py] Waiting for application startup.
+22-Mar-24 09:52:51 INFO [on.py] Application startup complete.
+22-Mar-24 10:17:54 WARNING [basereload.py] StatReload detected changes in 'main.py'. Reloading...
+22-Mar-24 10:17:54 INFO [server.py] Shutting down
+22-Mar-24 10:17:54 INFO [on.py] Waiting for application shutdown.
+22-Mar-24 10:17:54 INFO [on.py] Application shutdown complete.
+22-Mar-24 10:17:54 INFO [server.py] Finished server process [1528052]
+22-Mar-24 10:18:47 INFO [server.py] Started server process [1530168]
+22-Mar-24 10:18:47 INFO [on.py] Waiting for application startup.
+22-Mar-24 10:18:47 INFO [on.py] Application startup complete.
+22-Mar-24 10:20:43 INFO [h11_impl.py] 192.168.0.100:47168 - "POST /model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 404
+22-Mar-24 10:20:46 INFO [h11_impl.py] 127.0.0.1:48402 - "POST /storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 404
+22-Mar-24 10:20:50 INFO [h11_impl.py] 127.0.0.1:48416 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 404
+22-Mar-24 11:38:50 INFO [basereload.py] Stopping reloader process [1527802]
+22-Mar-24 11:40:37 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 11:40:37 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 11:40:37 INFO [basereload.py] Started reloader process [1542540] using StatReload
+22-Mar-24 11:48:15 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 11:48:15 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 11:48:15 INFO [basereload.py] Started reloader process [1544389] using StatReload
+22-Mar-24 11:53:46 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 11:53:46 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 11:53:46 INFO [basereload.py] Started reloader process [1545339] using StatReload
+22-Mar-24 11:55:49 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 11:55:49 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 11:55:49 INFO [basereload.py] Started reloader process [1546162] using StatReload
+22-Mar-24 12:00:32 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 12:00:32 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 12:00:32 INFO [basereload.py] Started reloader process [1546757] using StatReload
+22-Mar-24 12:01:32 INFO [basereload.py] Stopping reloader process [1546757]
+22-Mar-24 12:04:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 12:04:09 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 12:04:09 INFO [basereload.py] Started reloader process [1548125] using StatReload
+22-Mar-24 12:05:02 INFO [server.py] Started server process [1548199]
+22-Mar-24 12:05:02 INFO [on.py] Waiting for application startup.
+22-Mar-24 12:05:02 INFO [on.py] Application startup complete.
+22-Mar-24 12:05:03 INFO [h11_impl.py] 192.168.150.10:64222 - "GET /docs HTTP/1.1" 200
+22-Mar-24 12:05:04 INFO [h11_impl.py] 192.168.150.10:64222 - "GET /openapi.json HTTP/1.1" 200
+22-Mar-24 12:05:06 INFO [h11_impl.py] 192.168.150.14:58071 - "GET /docs HTTP/1.1" 200
+22-Mar-24 12:05:07 INFO [h11_impl.py] 192.168.150.14:58071 - "GET /openapi.json HTTP/1.1" 200
+22-Mar-24 12:06:54 INFO [h11_impl.py] 192.168.150.10:64300 - "GET /docs HTTP/1.1" 200
+22-Mar-24 12:06:54 INFO [h11_impl.py] 192.168.150.10:64300 - "GET /openapi.json HTTP/1.1" 200
+22-Mar-24 12:35:37 INFO [basereload.py] Stopping reloader process [1548125]
+22-Mar-24 12:37:13 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 12:37:13 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 12:37:13 INFO [basereload.py] Started reloader process [1555159] using StatReload
+22-Mar-24 12:38:06 INFO [server.py] Started server process [1555422]
+22-Mar-24 12:38:06 INFO [on.py] Waiting for application startup.
+22-Mar-24 12:38:06 INFO [on.py] Application startup complete.
+22-Mar-24 13:25:18 INFO [basereload.py] Stopping reloader process [1555159]
+22-Mar-24 13:26:51 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 13:26:51 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 13:26:51 INFO [basereload.py] Started reloader process [1564931] using StatReload
+22-Mar-24 13:27:53 INFO [server.py] Started server process [1565155]
+22-Mar-24 13:27:53 INFO [on.py] Waiting for application startup.
+22-Mar-24 13:27:53 INFO [on.py] Application startup complete.
+22-Mar-24 13:32:07 INFO [basereload.py] Stopping reloader process [1564931]
+22-Mar-24 13:33:38 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 13:33:38 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 13:33:38 INFO [basereload.py] Started reloader process [1567121] using StatReload
+22-Mar-24 13:34:38 INFO [server.py] Started server process [1567346]
+22-Mar-24 13:34:38 INFO [on.py] Waiting for application startup.
+22-Mar-24 13:34:38 INFO [on.py] Application startup complete.
+22-Mar-24 13:50:26 INFO [basereload.py] Stopping reloader process [1567121]
+22-Mar-24 13:51:57 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 13:51:57 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 13:51:57 INFO [basereload.py] Started reloader process [1570430] using StatReload
+22-Mar-24 13:53:05 INFO [server.py] Started server process [1570661]
+22-Mar-24 13:53:05 INFO [on.py] Waiting for application startup.
+22-Mar-24 13:53:05 INFO [on.py] Application startup complete.
+22-Mar-24 13:53:27 INFO [h11_impl.py] 192.168.150.14:50198 - "GET /docs HTTP/1.1" 200
+22-Mar-24 13:53:27 INFO [h11_impl.py] 192.168.150.14:50198 - "GET /openapi.json HTTP/1.1" 200
+22-Mar-24 13:58:27 INFO [server.py] Shutting down
+22-Mar-24 13:58:27 INFO [on.py] Waiting for application shutdown.
+22-Mar-24 13:58:27 INFO [on.py] Application shutdown complete.
+22-Mar-24 13:58:27 INFO [server.py] Finished server process [1570661]
+22-Mar-24 13:58:28 INFO [basereload.py] Stopping reloader process [1570430]
+22-Mar-24 14:00:01 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 14:00:01 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 14:00:01 INFO [basereload.py] Started reloader process [1572714] using StatReload
+22-Mar-24 14:01:10 INFO [server.py] Started server process [1572979]
+22-Mar-24 14:01:11 INFO [on.py] Waiting for application startup.
+22-Mar-24 14:01:11 INFO [on.py] Application startup complete.
+22-Mar-24 14:06:07 INFO [server.py] Shutting down
+22-Mar-24 14:06:07 INFO [on.py] Waiting for application shutdown.
+22-Mar-24 14:06:07 INFO [on.py] Application shutdown complete.
+22-Mar-24 14:06:07 INFO [server.py] Finished server process [1572979]
+22-Mar-24 14:06:08 INFO [basereload.py] Stopping reloader process [1572714]
+22-Mar-24 14:07:40 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 14:07:40 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 14:07:40 INFO [basereload.py] Started reloader process [1574655] using StatReload
+22-Mar-24 14:08:49 INFO [server.py] Started server process [1575028]
+22-Mar-24 14:08:49 INFO [on.py] Waiting for application startup.
+22-Mar-24 14:08:49 INFO [on.py] Application startup complete.
+22-Mar-24 14:19:49 INFO [basereload.py] Stopping reloader process [1574655]
+22-Mar-24 14:21:25 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 14:21:25 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 14:21:25 INFO [basereload.py] Started reloader process [1579224] using StatReload
+22-Mar-24 14:22:32 INFO [server.py] Started server process [1579534]
+22-Mar-24 14:22:32 INFO [on.py] Waiting for application startup.
+22-Mar-24 14:22:32 INFO [on.py] Application startup complete.
+22-Mar-24 14:40:28 INFO [basereload.py] Stopping reloader process [1579224]
+22-Mar-24 14:42:01 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+22-Mar-24 14:42:01 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+22-Mar-24 14:42:01 INFO [basereload.py] Started reloader process [1584712] using StatReload
+22-Mar-24 14:43:10 INFO [server.py] Started server process [1584950]
+22-Mar-24 14:43:10 INFO [on.py] Waiting for application startup.
+22-Mar-24 14:43:10 INFO [on.py] Application startup complete.
+22-Mar-24 16:04:40 INFO [basereload.py] Stopping reloader process [1584712]

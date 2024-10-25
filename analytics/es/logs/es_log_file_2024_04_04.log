@@ -1,0 +1,603 @@
+04-Apr-24 11:53:19 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 11:53:20 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 11:53:22 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 11:53:22 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 11:53:22 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 11:53:35 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 11:53:35 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 11:53:35 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 11:53:37 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 11:53:37 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 11:53:37 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 11:53:42 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 11:53:42 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 11:53:42 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 11:53:51 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 11:53:51 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 11:53:51 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 11:53:59 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 11:53:59 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 11:53:59 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 11:54:01 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 11:54:01 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 11:54:01 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 11:54:12 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 11:54:12 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 11:54:12 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 11:54:19 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 11:54:19 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 11:54:19 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 11:54:26 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 11:54:26 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 11:54:26 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 11:54:39 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 11:54:39 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 11:54:39 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 11:54:41 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 11:54:41 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 11:54:41 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 11:54:43 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 11:54:43 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 11:54:43 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 11:54:43 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 11:54:43 INFO [h11_impl.py] 192.168.0.100:33446 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 11:57:21 INFO [server.py] Shutting down
+04-Apr-24 11:57:21 INFO [on.py] Waiting for application shutdown.
+04-Apr-24 11:57:21 INFO [on.py] Application shutdown complete.
+04-Apr-24 11:57:21 INFO [server.py] Finished server process [898737]
+04-Apr-24 12:00:18 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:00:20 INFO [h11_impl.py] 192.168.150.13:62525 - "GET /docs HTTP/1.1" 200
+04-Apr-24 12:00:20 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 12:00:20 INFO [h11_impl.py] 192.168.150.13:62525 - "GET /openapi.json HTTP/1.1" 200
+04-Apr-24 12:00:21 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 12:00:21 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 12:00:21 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 12:00:33 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 12:00:33 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:00:33 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:00:34 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 12:00:34 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:00:34 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:00:39 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 12:00:39 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:00:39 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:00:48 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 12:00:48 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:00:48 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:00:55 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 12:00:55 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:00:55 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:00:57 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 12:00:57 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:00:57 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:01:07 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 12:01:07 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:01:07 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:01:14 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 12:01:14 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 12:01:14 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 12:01:21 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 12:01:21 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 12:01:22 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 12:01:24 INFO [server.py] Shutting down
+04-Apr-24 12:01:25 INFO [server.py] Waiting for background tasks to complete. (CTRL+C to force quit)
+04-Apr-24 12:01:35 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 12:01:35 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:01:35 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:01:36 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 12:01:36 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:01:36 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:01:37 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 12:01:37 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 12:01:37 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 12:01:37 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 12:01:37 INFO [on.py] Waiting for application shutdown.
+04-Apr-24 12:01:37 INFO [on.py] Application shutdown complete.
+04-Apr-24 12:01:37 INFO [server.py] Finished server process [904664]
+04-Apr-24 12:08:02 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:08:03 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 12:08:05 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 12:08:05 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 12:08:05 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 12:08:17 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 12:08:17 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:08:17 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:08:18 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 12:08:18 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:08:18 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:08:23 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 12:08:23 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:08:23 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:08:32 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 12:08:32 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:08:32 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:08:39 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 12:08:39 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:08:39 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:08:40 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 12:08:40 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:08:40 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:08:51 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 12:08:51 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:08:51 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:08:58 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 12:08:58 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 12:08:58 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 12:09:05 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 12:09:05 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 12:09:05 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 12:09:17 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 12:09:17 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:09:17 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:09:19 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 12:09:19 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:09:19 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:09:20 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 12:09:20 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 12:09:20 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 12:09:20 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 12:09:20 INFO [h11_impl.py] 192.168.0.100:41770 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 12:09:23 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:09:24 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 12:09:24 INFO [h11_impl.py] 192.168.0.100:37124 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:10:05 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 12:10:05 INFO [h11_impl.py] 192.168.0.100:37004 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:10:08 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 12:10:08 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 12:10:08 INFO [h11_impl.py] 192.168.0.100:45096 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 12:10:08 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 12:10:09 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 12:10:09 INFO [h11_impl.py] 192.168.0.100:45106 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 12:10:09 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 12:10:10 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 12:10:10 INFO [h11_impl.py] 192.168.0.100:45122 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 12:10:10 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 12:10:11 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 12:10:13 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 12:10:15 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 12:10:17 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 12:10:19 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 12:10:20 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 12:10:20 INFO [h11_impl.py] 192.168.0.100:45128 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 12:10:21 INFO [es_visualization.py] Loading csv file
+04-Apr-24 12:10:21 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 12:10:21 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 12:10:21 INFO [h11_impl.py] 192.168.0.100:42022 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 12:11:22 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:11:23 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 12:11:25 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 12:11:25 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 12:11:25 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 12:11:37 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 12:11:37 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:11:37 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:11:38 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 12:11:38 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:11:38 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:11:43 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 12:11:43 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:11:43 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:11:52 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 12:11:52 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:11:52 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:11:59 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 12:11:59 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:11:59 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:12:00 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 12:12:00 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:12:00 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:12:11 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 12:12:11 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:12:11 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:12:19 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 12:12:19 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 12:12:19 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 12:12:25 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 12:12:25 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 12:12:25 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 12:12:38 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 12:12:38 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:12:38 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:12:39 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 12:12:39 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:12:39 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:12:40 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 12:12:40 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 12:12:40 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 12:12:40 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 12:12:40 INFO [h11_impl.py] 192.168.0.100:37074 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 12:12:44 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:12:45 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 12:12:45 INFO [h11_impl.py] 192.168.0.100:41960 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:13:28 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 12:13:28 INFO [h11_impl.py] 192.168.0.100:41962 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:13:31 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 12:13:31 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 12:13:31 INFO [h11_impl.py] 192.168.0.100:50988 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 12:13:31 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 12:13:32 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 12:13:32 INFO [h11_impl.py] 192.168.0.100:50992 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 12:13:32 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 12:13:32 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 12:13:32 INFO [h11_impl.py] 192.168.0.100:50994 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 12:13:32 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 12:13:34 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 12:13:36 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 12:13:37 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 12:13:39 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 12:13:41 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 12:13:43 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 12:13:43 INFO [h11_impl.py] 192.168.0.100:50996 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 12:13:43 INFO [es_visualization.py] Loading csv file
+04-Apr-24 12:13:43 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 12:13:43 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 12:13:43 INFO [h11_impl.py] 192.168.0.100:57072 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 12:31:08 INFO [server.py] Shutting down
+04-Apr-24 12:31:08 INFO [on.py] Waiting for application shutdown.
+04-Apr-24 12:31:08 INFO [on.py] Application shutdown complete.
+04-Apr-24 12:31:08 INFO [server.py] Finished server process [908612]
+04-Apr-24 12:40:49 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:40:50 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 12:40:52 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 12:40:52 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 12:40:52 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 12:41:04 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 12:41:04 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:41:04 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:41:05 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 12:41:05 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:41:05 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:41:10 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 12:41:10 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:41:10 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:41:18 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 12:41:18 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:41:18 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:41:25 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 12:41:25 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:41:25 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:41:27 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 12:41:27 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:41:27 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:41:38 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 12:41:38 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:41:38 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:41:44 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 12:41:44 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 12:41:44 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 12:41:51 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 12:41:51 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 12:41:51 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 12:42:03 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 12:42:03 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:42:03 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:42:04 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 12:42:04 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:42:04 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:42:06 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 12:42:06 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 12:42:06 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 12:42:06 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 12:42:06 INFO [h11_impl.py] 192.168.0.100:60830 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 12:42:09 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:42:10 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 12:42:10 INFO [h11_impl.py] 192.168.0.100:52966 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:42:52 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 12:42:52 INFO [h11_impl.py] 192.168.0.100:52974 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:42:54 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 12:42:55 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 12:42:55 INFO [h11_impl.py] 192.168.0.100:42236 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 12:42:55 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 12:42:56 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 12:42:56 INFO [h11_impl.py] 192.168.0.100:42242 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 12:42:56 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 12:42:56 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 12:42:56 INFO [h11_impl.py] 192.168.0.100:42248 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 12:42:56 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 12:42:58 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 12:43:00 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 12:43:01 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 12:43:03 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 12:43:05 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 12:43:07 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 12:43:07 INFO [h11_impl.py] 192.168.0.100:42250 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 12:43:07 INFO [es_visualization.py] Loading csv file
+04-Apr-24 12:43:07 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 12:43:07 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 12:43:07 INFO [h11_impl.py] 192.168.0.100:48432 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 12:53:01 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:53:03 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 12:53:04 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 12:53:04 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 12:53:04 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 12:53:16 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 12:53:16 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:53:16 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 12:53:17 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 12:53:17 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:53:17 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 12:53:22 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 12:53:22 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:53:22 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 12:53:31 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 12:53:31 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:53:31 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 12:53:37 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 12:53:37 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:53:37 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 12:53:39 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 12:53:39 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:53:39 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 12:53:50 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 12:53:50 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:53:50 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 12:53:57 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 12:53:57 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 12:53:57 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 12:54:04 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 12:54:04 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 12:54:04 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 12:54:16 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 12:54:16 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:54:16 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 12:54:18 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 12:54:18 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:54:18 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 12:54:19 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 12:54:19 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 12:54:19 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 12:54:19 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 12:54:19 INFO [h11_impl.py] 192.168.0.100:34724 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 12:54:22 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 12:54:24 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 12:54:24 INFO [h11_impl.py] 192.168.0.100:53660 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:55:05 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 12:55:05 INFO [h11_impl.py] 192.168.0.100:39920 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 12:55:08 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 12:55:08 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 12:55:08 INFO [h11_impl.py] 192.168.0.100:38016 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 12:55:08 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 12:55:08 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 12:55:09 INFO [h11_impl.py] 192.168.0.100:38020 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 12:55:09 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 12:55:09 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 12:55:09 INFO [h11_impl.py] 192.168.0.100:38034 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 12:55:09 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 12:55:11 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 12:55:12 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 12:55:14 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 12:55:16 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 12:55:18 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 12:55:20 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 12:55:20 INFO [h11_impl.py] 192.168.0.100:38044 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 12:55:20 INFO [es_visualization.py] Loading csv file
+04-Apr-24 12:55:20 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 12:55:20 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 12:55:20 INFO [h11_impl.py] 192.168.0.100:43248 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 13:13:25 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:13:26 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 13:13:28 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 13:13:28 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 13:13:28 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 13:13:40 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 13:13:40 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:13:40 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:13:42 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 13:13:42 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:13:42 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:13:46 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 13:13:46 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:13:46 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:13:55 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 13:13:55 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:13:55 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:14:02 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 13:14:02 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:14:02 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:14:04 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 13:14:04 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:14:04 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:14:15 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 13:14:15 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:14:15 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:14:21 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 13:14:21 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 13:14:21 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 13:14:28 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 13:14:28 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 13:14:28 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 13:14:41 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 13:14:41 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:14:41 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:14:43 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 13:14:43 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:14:43 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:14:44 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 13:14:44 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 13:14:44 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 13:14:44 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 13:14:44 INFO [h11_impl.py] 192.168.0.100:58798 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 13:14:47 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:14:49 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 13:14:49 INFO [h11_impl.py] 192.168.0.100:40634 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:15:31 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 13:15:31 INFO [h11_impl.py] 192.168.0.100:40642 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:15:34 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 13:15:34 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 13:15:34 INFO [h11_impl.py] 192.168.0.100:41226 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 13:15:34 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 13:15:35 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 13:15:35 INFO [h11_impl.py] 192.168.0.100:41228 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 13:15:35 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 13:15:35 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 13:15:35 INFO [h11_impl.py] 192.168.0.100:41240 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 13:15:35 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 13:15:37 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 13:15:38 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 13:15:40 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 13:15:42 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 13:15:44 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 13:15:46 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 13:15:46 INFO [h11_impl.py] 192.168.0.100:41256 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 13:15:46 INFO [es_visualization.py] Loading csv file
+04-Apr-24 13:15:46 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 13:15:46 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 13:15:46 INFO [h11_impl.py] 192.168.0.100:50062 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 13:19:44 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:19:45 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 13:19:47 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 13:19:47 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 13:19:47 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 13:19:58 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 13:19:58 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:19:58 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:20:00 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 13:20:00 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:20:00 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:20:04 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 13:20:04 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:20:04 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:20:14 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 13:20:14 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:20:14 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:20:21 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 13:20:21 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:20:21 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:20:23 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 13:20:23 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:20:23 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:20:35 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 13:20:35 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:20:35 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:20:41 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 13:20:41 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 13:20:41 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 13:20:48 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 13:20:48 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 13:20:48 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 13:21:01 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 13:21:01 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:21:01 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:21:02 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 13:21:02 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:21:02 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:21:04 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 13:21:04 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 13:21:04 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 13:21:04 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 13:21:04 INFO [h11_impl.py] 192.168.0.100:42766 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 13:21:09 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:21:11 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 13:21:11 INFO [h11_impl.py] 192.168.0.100:36418 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:21:57 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 13:21:57 INFO [h11_impl.py] 192.168.0.100:33802 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:22:30 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 13:22:30 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 13:22:30 INFO [h11_impl.py] 192.168.0.100:48526 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 13:22:30 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 13:22:31 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 13:22:31 INFO [h11_impl.py] 192.168.0.100:48530 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 13:22:31 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 13:22:31 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 13:22:31 INFO [h11_impl.py] 192.168.0.100:48536 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 13:22:31 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 13:22:32 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 13:22:34 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 13:22:36 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 13:22:38 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 13:22:40 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 13:22:42 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 13:22:42 INFO [h11_impl.py] 192.168.0.100:48550 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 13:22:42 INFO [es_visualization.py] Loading csv file
+04-Apr-24 13:22:42 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 13:22:42 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 13:22:42 INFO [h11_impl.py] 192.168.0.100:36858 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 13:22:53 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:22:55 INFO [es_model_fitting.py] TS data cleaning completed.
+04-Apr-24 13:22:56 INFO [es_model_fitting.py] The model is fitted for region Beach_Park.
+04-Apr-24 13:22:56 INFO [es_model_fitting.py] pickle file for modelresults zone Beach_Park created successfully
+04-Apr-24 13:22:56 INFO [es_model_fitting.py] pickle file for fitresults zone Beach_Park created successfully
+04-Apr-24 13:23:08 INFO [es_model_fitting.py] The model is fitted for region Changi_Boardwalk.
+04-Apr-24 13:23:08 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:23:08 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Boardwalk created successfully
+04-Apr-24 13:23:09 INFO [es_model_fitting.py] The model is fitted for region Changi_Chapel_Museum.
+04-Apr-24 13:23:09 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:23:09 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Chapel_Museum created successfully
+04-Apr-24 13:23:14 INFO [es_model_fitting.py] The model is fitted for region Changi_Cove_Park.
+04-Apr-24 13:23:14 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:23:14 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Cove_Park created successfully
+04-Apr-24 13:23:23 INFO [es_model_fitting.py] The model is fitted for region Changi_Golf_Club.
+04-Apr-24 13:23:23 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:23:23 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Golf_Club created successfully
+04-Apr-24 13:23:29 INFO [es_model_fitting.py] The model is fitted for region Changi_Jurassic_Mile.
+04-Apr-24 13:23:29 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:23:29 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Jurassic_Mile created successfully
+04-Apr-24 13:23:31 INFO [es_model_fitting.py] The model is fitted for region Changi_Point_Ferry_Terminal.
+04-Apr-24 13:23:31 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:23:31 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Point_Ferry_Terminal created successfully
+04-Apr-24 13:23:42 INFO [es_model_fitting.py] The model is fitted for region Changi_Sailing_Club.
+04-Apr-24 13:23:42 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:23:42 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Sailing_Club created successfully
+04-Apr-24 13:23:49 INFO [es_model_fitting.py] The model is fitted for region Changi_Village.
+04-Apr-24 13:23:49 INFO [es_model_fitting.py] pickle file for modelresults zone Changi_Village created successfully
+04-Apr-24 13:23:49 INFO [es_model_fitting.py] pickle file for fitresults zone Changi_Village created successfully
+04-Apr-24 13:23:56 INFO [es_model_fitting.py] The model is fitted for region City_Point_Mall.
+04-Apr-24 13:23:56 INFO [es_model_fitting.py] pickle file for modelresults zone City_Point_Mall created successfully
+04-Apr-24 13:23:56 INFO [es_model_fitting.py] pickle file for fitresults zone City_Point_Mall created successfully
+04-Apr-24 13:24:08 INFO [es_model_fitting.py] The model is fitted for region Creek_Reservoir_Park.
+04-Apr-24 13:24:08 INFO [es_model_fitting.py] pickle file for modelresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:24:08 INFO [es_model_fitting.py] pickle file for fitresults zone Creek_Reservoir_Park created successfully
+04-Apr-24 13:24:10 INFO [es_model_fitting.py] The model is fitted for region Point_Coastal_Walk.
+04-Apr-24 13:24:10 INFO [es_model_fitting.py] pickle file for modelresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:24:10 INFO [es_model_fitting.py] pickle file for fitresults zone Point_Coastal_Walk created successfully
+04-Apr-24 13:24:11 INFO [es_model_fitting.py] The model is fitted for region Tampines Mall.
+04-Apr-24 13:24:11 INFO [es_model_fitting.py] pickle file for modelresults zone Tampines Mall created successfully
+04-Apr-24 13:24:11 INFO [es_model_fitting.py] pickle file for fitresults zone Tampines Mall created successfully
+04-Apr-24 13:24:11 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+04-Apr-24 13:24:11 INFO [h11_impl.py] 192.168.0.100:50604 - "POST /ES_model_fitting?subsystem_name_for_pickle_file=es&test_size=2&validation_size=2 HTTP/1.1" 200
+04-Apr-24 13:24:15 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+04-Apr-24 13:24:16 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+04-Apr-24 13:24:16 INFO [h11_impl.py] 192.168.0.100:36388 - "POST /ES_storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:24:59 INFO [es_forecasting.py] Forecasted data was saved successfully
+04-Apr-24 13:24:59 INFO [h11_impl.py] 192.168.0.100:36402 - "GET /ES_forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+04-Apr-24 13:25:02 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+04-Apr-24 13:25:02 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+04-Apr-24 13:25:02 INFO [h11_impl.py] 192.168.0.100:49718 - "GET /ES_aqi_classification HTTP/1.1" 200
+04-Apr-24 13:25:02 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+04-Apr-24 13:25:03 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+04-Apr-24 13:25:03 INFO [h11_impl.py] 192.168.0.100:49720 - "GET /ES_monthly_average_values_of_pollutants_and_aqi HTTP/1.1" 200
+04-Apr-24 13:25:03 INFO [es_visualization.py] Processing data to generate outlier...
+04-Apr-24 13:25:03 INFO [es_visualization.py] Outlier detection completed.
+04-Apr-24 13:25:03 INFO [h11_impl.py] 192.168.0.100:49722 - "GET /ES_outlier HTTP/1.1" 200
+04-Apr-24 13:25:03 INFO [es_visualization.py] Processing value counts data...
+04-Apr-24 13:25:05 INFO [es_visualization.py] Value counts data processing PM10 completed.
+04-Apr-24 13:25:07 INFO [es_visualization.py] Value counts data processing PM25 completed.
+04-Apr-24 13:25:08 INFO [es_visualization.py] Value counts data processing SO2 completed.
+04-Apr-24 13:25:10 INFO [es_visualization.py] Value counts data processing CO completed.
+04-Apr-24 13:25:12 INFO [es_visualization.py] Value counts data processing O3 completed.
+04-Apr-24 13:25:14 INFO [es_visualization.py] Value counts data processing NO2 completed.
+04-Apr-24 13:25:14 INFO [h11_impl.py] 192.168.0.100:49728 - "GET /ES_pollutants_value_count HTTP/1.1" 200
+04-Apr-24 13:25:14 INFO [es_visualization.py] Loading csv file
+04-Apr-24 13:25:14 INFO [es_visualization.py] Processing es map creation data...
+04-Apr-24 13:25:14 INFO [es_visualization.py] Processing of es map creation data completed
+04-Apr-24 13:25:14 INFO [h11_impl.py] 192.168.0.100:47912 - "GET /ES_data_for_map HTTP/1.1" 200
+04-Apr-24 14:13:27 INFO [server.py] Shutting down
+04-Apr-24 14:13:27 INFO [on.py] Waiting for application shutdown.
+04-Apr-24 14:13:27 INFO [on.py] Application shutdown complete.
+04-Apr-24 14:13:27 INFO [server.py] Finished server process [918940]

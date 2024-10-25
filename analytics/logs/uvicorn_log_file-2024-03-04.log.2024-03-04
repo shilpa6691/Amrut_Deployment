@@ -1,0 +1,157 @@
+04-Mar-24 09:57:08 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+04-Mar-24 09:57:08 ERROR [config.py] [Errno 98] Address already in use
+04-Mar-24 09:58:54 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+04-Mar-24 09:58:54 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+04-Mar-24 09:58:54 INFO [basereload.py] Started reloader process [3023539] using StatReload
+04-Mar-24 09:59:43 INFO [server.py] Started server process [3023812]
+04-Mar-24 09:59:43 INFO [on.py] Waiting for application startup.
+04-Mar-24 09:59:43 INFO [on.py] Application startup complete.
+04-Mar-24 11:45:23 INFO [server.py] Shutting down
+04-Mar-24 11:45:23 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 11:45:23 INFO [on.py] Application shutdown complete.
+04-Mar-24 11:45:23 INFO [server.py] Finished server process [3023812]
+04-Mar-24 11:45:23 INFO [basereload.py] Stopping reloader process [3023539]
+04-Mar-24 11:49:05 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+04-Mar-24 11:49:05 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+04-Mar-24 11:49:05 INFO [basereload.py] Started reloader process [3055890] using StatReload
+04-Mar-24 11:49:57 INFO [server.py] Started server process [3056135]
+04-Mar-24 11:49:57 INFO [on.py] Waiting for application startup.
+04-Mar-24 11:49:57 INFO [on.py] Application startup complete.
+04-Mar-24 11:50:07 INFO [h11_impl.py] 192.168.150.14:49332 - "GET /docs HTTP/1.1" 200
+04-Mar-24 11:50:07 INFO [h11_impl.py] 192.168.150.14:49332 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 11:51:36 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 11:52:28 INFO [server.py] Started server process [3056885]
+04-Mar-24 11:52:28 INFO [on.py] Waiting for application startup.
+04-Mar-24 11:52:28 INFO [on.py] Application startup complete.
+04-Mar-24 11:52:28 INFO [h11_impl.py] 192.168.150.14:49370 - "GET /docs HTTP/1.1" 200
+04-Mar-24 11:52:29 INFO [h11_impl.py] 192.168.150.14:49370 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:30:16 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+04-Mar-24 16:30:16 ERROR [config.py] [Errno 98] Address already in use
+04-Mar-24 16:31:37 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+04-Mar-24 16:31:37 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+04-Mar-24 16:31:37 INFO [basereload.py] Started reloader process [3224268] using StatReload
+04-Mar-24 16:32:31 INFO [server.py] Started server process [3225158]
+04-Mar-24 16:32:31 INFO [on.py] Waiting for application startup.
+04-Mar-24 16:32:31 INFO [on.py] Application startup complete.
+04-Mar-24 16:32:38 INFO [h11_impl.py] 192.168.150.14:52285 - "GET /docs HTTP/1.1" 200
+04-Mar-24 16:32:38 INFO [h11_impl.py] 192.168.150.14:52285 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:33:26 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 16:34:24 INFO [server.py] Started server process [3226994]
+04-Mar-24 16:34:24 INFO [on.py] Waiting for application startup.
+04-Mar-24 16:34:24 INFO [on.py] Application startup complete.
+04-Mar-24 16:34:24 INFO [h11_impl.py] 192.168.150.14:52315 - "GET /docs HTTP/1.1" 200
+04-Mar-24 16:34:25 INFO [h11_impl.py] 192.168.150.14:52315 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:49:58 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 16:51:00 INFO [server.py] Started server process [3246835]
+04-Mar-24 16:51:00 INFO [on.py] Waiting for application startup.
+04-Mar-24 16:51:00 INFO [on.py] Application startup complete.
+04-Mar-24 16:52:03 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 16:52:03 INFO [server.py] Shutting down
+04-Mar-24 16:52:03 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 16:52:03 INFO [on.py] Application shutdown complete.
+04-Mar-24 16:52:03 INFO [server.py] Finished server process [3246835]
+04-Mar-24 16:52:37 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:06:41 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:07:41 INFO [server.py] Started server process [3267007]
+04-Mar-24 17:07:41 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:07:41 INFO [on.py] Application startup complete.
+04-Mar-24 17:08:47 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:08:47 INFO [server.py] Shutting down
+04-Mar-24 17:08:47 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:08:47 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:08:47 INFO [server.py] Finished server process [3267007]
+04-Mar-24 17:09:06 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:10:04 INFO [server.py] Started server process [3269721]
+04-Mar-24 17:10:04 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:10:04 INFO [on.py] Application startup complete.
+04-Mar-24 17:10:08 INFO [h11_impl.py] 192.168.150.14:52827 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:10:08 INFO [h11_impl.py] 192.168.150.14:52827 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:12:21 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:12:45 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:14:10 INFO [server.py] Started server process [3272740]
+04-Mar-24 17:14:10 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:14:10 INFO [on.py] Application startup complete.
+04-Mar-24 17:14:10 INFO [h11_impl.py] 192.168.150.14:52887 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:14:10 INFO [h11_impl.py] 192.168.150.14:52887 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:14:11 INFO [h11_impl.py] 192.168.150.14:52887 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:14:11 INFO [h11_impl.py] 192.168.150.14:52887 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:17:22 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:18:25 INFO [server.py] Started server process [3276404]
+04-Mar-24 17:18:25 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:18:25 INFO [on.py] Application startup complete.
+04-Mar-24 17:18:30 INFO [h11_impl.py] 192.168.150.14:52939 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:18:30 INFO [h11_impl.py] 192.168.150.14:52939 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:21:29 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:22:32 INFO [server.py] Started server process [3279115]
+04-Mar-24 17:22:32 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:22:32 INFO [on.py] Application startup complete.
+04-Mar-24 17:22:32 INFO [h11_impl.py] 192.168.150.14:52995 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:22:32 INFO [h11_impl.py] 192.168.150.14:52995 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:25:17 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:25:54 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:26:07 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:27:12 INFO [server.py] Started server process [3283722]
+04-Mar-24 17:27:12 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:27:12 INFO [on.py] Application startup complete.
+04-Mar-24 17:27:12 INFO [h11_impl.py] 192.168.150.14:53072 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:27:12 INFO [h11_impl.py] 192.168.150.14:53072 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:27:12 INFO [h11_impl.py] 192.168.150.14:53072 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:27:12 INFO [h11_impl.py] 192.168.150.14:53072 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:29:16 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:30:18 INFO [server.py] Started server process [3287279]
+04-Mar-24 17:30:18 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:30:18 INFO [on.py] Application startup complete.
+04-Mar-24 17:30:19 INFO [h11_impl.py] 192.168.150.14:53111 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:30:19 INFO [h11_impl.py] 192.168.150.14:53111 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:30:19 INFO [h11_impl.py] 192.168.150.14:53111 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:30:19 INFO [h11_impl.py] 192.168.150.14:53111 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:31:55 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:33:11 INFO [server.py] Started server process [3290340]
+04-Mar-24 17:33:11 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:33:11 INFO [on.py] Application startup complete.
+04-Mar-24 17:33:11 INFO [h11_impl.py] 192.168.150.14:53163 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:33:11 INFO [h11_impl.py] 192.168.150.14:53163 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:35:20 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:35:44 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:36:12 WARNING [basereload.py] StatReload detected changes in 'v1/crime/endpoints.py'. Reloading...
+04-Mar-24 17:37:37 INFO [server.py] Started server process [3294969]
+04-Mar-24 17:37:37 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:37:37 INFO [on.py] Application startup complete.
+04-Mar-24 17:37:37 INFO [h11_impl.py] 192.168.150.14:53222 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:37:38 INFO [h11_impl.py] 192.168.150.14:53222 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:39:52 WARNING [basereload.py] StatReload detected changes in 'v1/crime/endpoints.py'. Reloading...
+04-Mar-24 17:40:54 INFO [server.py] Started server process [3299354]
+04-Mar-24 17:40:54 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:40:54 INFO [on.py] Application startup complete.
+04-Mar-24 17:45:12 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:45:12 INFO [server.py] Shutting down
+04-Mar-24 17:45:12 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:45:12 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:45:12 INFO [server.py] Finished server process [3299354]
+04-Mar-24 17:45:32 WARNING [basereload.py] StatReload detected changes in 'crime/crime_model.py'. Reloading...
+04-Mar-24 17:46:15 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:47:13 INFO [server.py] Started server process [3306641]
+04-Mar-24 17:47:13 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:47:13 INFO [on.py] Application startup complete.
+04-Mar-24 17:47:14 INFO [h11_impl.py] 192.168.150.14:53345 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:47:14 INFO [h11_impl.py] 192.168.150.14:53345 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:48:56 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:49:56 INFO [server.py] Started server process [3309647]
+04-Mar-24 17:49:56 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:49:56 INFO [on.py] Application startup complete.
+04-Mar-24 17:49:56 INFO [h11_impl.py] 192.168.150.14:53390 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:49:58 INFO [h11_impl.py] 192.168.150.14:53390 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:52:04 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:53:06 INFO [server.py] Started server process [3313074]
+04-Mar-24 17:53:06 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:53:06 INFO [on.py] Application startup complete.
+04-Mar-24 17:53:06 INFO [h11_impl.py] 192.168.150.14:53429 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:53:07 INFO [h11_impl.py] 192.168.150.14:53429 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:55:19 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 17:56:18 INFO [server.py] Started server process [3316603]
+04-Mar-24 17:56:18 INFO [on.py] Waiting for application startup.
+04-Mar-24 17:56:18 INFO [on.py] Application startup complete.
+04-Mar-24 17:56:18 INFO [h11_impl.py] 192.168.150.14:53480 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:56:18 INFO [h11_impl.py] 192.168.150.14:53480 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:58:57 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...
+04-Mar-24 18:02:41 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis_singapore.py'. Reloading...

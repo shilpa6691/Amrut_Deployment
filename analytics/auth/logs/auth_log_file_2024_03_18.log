@@ -1,0 +1,38 @@
+18-Mar-24 10:00:12 INFO [authentication.py] login_for_access_token
+18-Mar-24 10:00:12 INFO [authbearer.py] Authenticating user: user1
+18-Mar-24 10:00:12 INFO [authbearer.py] user found
+18-Mar-24 10:00:12 INFO [authbearer.py] User authenticated successfully: user1
+18-Mar-24 10:00:12 INFO [authbearer.py] create access token
+18-Mar-24 10:00:12 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 18, 5, 0, 12, 257570), 'sub': "{'sub': 'user1'}"}
+18-Mar-24 10:00:12 INFO [authbearer.py] HS256
+18-Mar-24 10:00:12 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA3MzgwMTIsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.LosSuLKzbS6IcJ5_PtxF6GLfDweiL2AVGLrfPv642zY
+18-Mar-24 10:00:12 INFO [authentication.py] User authenticated successfully: user1
+18-Mar-24 10:00:12 INFO [h11_impl.py] 192.168.150.14:65324 - "POST /token HTTP/1.1" 200
+18-Mar-24 10:00:26 INFO [authbearer.py] verify_token
+18-Mar-24 10:00:43 INFO [authentication.py] login_for_access_token
+18-Mar-24 10:00:43 INFO [authbearer.py] Authenticating user: user1
+18-Mar-24 10:00:43 INFO [authbearer.py] user found
+18-Mar-24 10:00:43 INFO [authbearer.py] User authenticated successfully: user1
+18-Mar-24 10:00:43 INFO [authbearer.py] create access token
+18-Mar-24 10:00:43 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 18, 5, 0, 43, 316482), 'sub': "{'sub': 'user1'}"}
+18-Mar-24 10:00:43 INFO [authbearer.py] HS256
+18-Mar-24 10:00:43 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA3MzgwNDMsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.AHrp2fNJgjEx-cb_fq8yxEi_wTLD6gDrBolbgBsgfAw
+18-Mar-24 10:00:43 INFO [authentication.py] User authenticated successfully: user1
+18-Mar-24 10:00:43 INFO [h11_impl.py] 192.168.150.14:65342 - "POST /token HTTP/1.1" 200
+18-Mar-24 10:01:09 INFO [authbearer.py] verify_token
+18-Mar-24 10:01:09 INFO [h11_impl.py] 192.168.150.14:65356 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+18-Mar-24 10:35:54 INFO [server.py] Shutting down
+18-Mar-24 10:35:55 INFO [on.py] Waiting for application shutdown.
+18-Mar-24 10:35:55 INFO [on.py] Application shutdown complete.
+18-Mar-24 10:35:55 INFO [server.py] Finished server process [462444]
+18-Mar-24 16:42:01 INFO [authentication.py] login_for_access_token
+18-Mar-24 16:42:01 INFO [authbearer.py] Authenticating user: user1
+18-Mar-24 16:42:01 INFO [authbearer.py] user found
+18-Mar-24 16:42:01 INFO [authbearer.py] User authenticated successfully: user1
+18-Mar-24 16:42:01 INFO [authbearer.py] create access token
+18-Mar-24 16:42:01 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 18, 11, 42, 1, 163534), 'sub': "{'sub': 'user1'}"}
+18-Mar-24 16:42:01 INFO [authbearer.py] HS256
+18-Mar-24 16:42:01 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA3NjIxMjEsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.v4-6XD4lpCbXzrtDxUedSlBCbyO6G4Mm8EsiqHjcyj8
+18-Mar-24 16:42:01 INFO [authentication.py] User authenticated successfully: user1
+18-Mar-24 16:42:01 INFO [h11_impl.py] 192.168.150.14:55349 - "POST /token HTTP/1.1" 200
+18-Mar-24 16:42:19 INFO [authbearer.py] verify_token

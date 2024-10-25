@@ -1,0 +1,26 @@
+07-Mar-24 15:59:48 INFO [es_visualization.py] Loading csv file
+07-Mar-24 15:59:49 ERROR [es_visualization.py] Exception occurred: 'Latitude'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_visualization.py", line 253, in aqi_map_creation_data
+    processed_data = data_processor.map_creation_AQI()
+  File "/opt/siap/analytics/es/es_visualization_model.py", line 282, in map_creation_AQI
+    aqi_current_values = data.groupby(['id','Latitude','Longitude','Location','Zone','Ward']).AQI.last()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Latitude'
+07-Mar-24 16:31:20 INFO [es_visualization.py] Loading csv file
+07-Mar-24 16:40:39 INFO [es_visualization.py] Loading csv file
+07-Mar-24 16:40:45 INFO [es_visualization.py] Loading csv file
+07-Mar-24 16:44:36 INFO [es_visualization.py] Loading csv file
+07-Mar-24 18:03:12 INFO [es_visualization.py] Loading csv file
+07-Mar-24 18:07:25 INFO [es_visualization.py] Loading csv file
+07-Mar-24 18:07:45 INFO [swm_visualization.py] Loading csv file
+07-Mar-24 18:07:45 ERROR [swm_visualization.py] Exception occurred: SWM_Data_Visualization.__init__() missing 4 required positional arguments: 'base_col', 'first_col', 'second_col', and 'value_col'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/swm/router/swm_visualization.py", line 115, in swm_map_creation_data
+    data_processor = SWM_Data_Visualization(data)
+TypeError: SWM_Data_Visualization.__init__() missing 4 required positional arguments: 'base_col', 'first_col', 'second_col', and 'value_col'

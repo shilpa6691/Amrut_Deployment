@@ -1,0 +1,7 @@
+19-Mar-24 13:01:22 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+19-Mar-24 13:01:22 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+19-Mar-24 13:01:22 INFO [h11_impl.py] 192.168.150.10:65110 - "GET /ES_DEMO_aqi_classification HTTP/1.1" 200
+19-Mar-24 13:07:28 INFO [server.py] Shutting down
+19-Mar-24 13:07:28 INFO [on.py] Waiting for application shutdown.
+19-Mar-24 13:07:28 INFO [on.py] Application shutdown complete.
+19-Mar-24 13:07:28 INFO [server.py] Finished server process [906486]

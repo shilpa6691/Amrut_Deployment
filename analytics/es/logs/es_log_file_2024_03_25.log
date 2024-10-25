@@ -1,0 +1,6 @@
+26-Mar-24 10:15:10 INFO [h11_impl.py] 192.168.150.24:63414 - "GET /docs HTTP/1.1" 200
+26-Mar-24 10:15:11 INFO [h11_impl.py] 192.168.150.24:63417 - "GET /openapi.json HTTP/1.1" 200
+26-Mar-24 11:35:20 INFO [server.py] Shutting down
+26-Mar-24 11:35:20 INFO [on.py] Waiting for application shutdown.
+26-Mar-24 11:35:20 INFO [on.py] Application shutdown complete.
+26-Mar-24 11:35:20 INFO [server.py] Finished server process [34659]

@@ -1,0 +1,80 @@
+26-Feb-24 17:40:41 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:40:45 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:40:47 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:40:47 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:40:47 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:40:47 INFO [h11_impl.py] 192.168.150.10:50065 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 17:41:13 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:41:17 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:41:19 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:41:19 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:41:19 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:41:19 INFO [h11_impl.py] 192.168.150.10:50066 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 17:41:35 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:41:37 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:41:38 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:41:38 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:41:38 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:41:39 INFO [h11_impl.py] 192.168.150.10:50079 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=2&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 17:41:47 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:41:52 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:41:53 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:41:53 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:41:53 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:41:53 INFO [h11_impl.py] 192.168.150.10:50085 - "GET /total_cameras?start_date=2022-06-30&end_date=2023-09-10&page=8&rows_per_page=5 HTTP/1.1" 200
+26-Feb-24 17:42:28 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:42:30 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:42:32 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:42:32 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Calculating faulty cam percentage
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Merging dataframes
+26-Feb-24 17:42:34 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+26-Feb-24 17:42:34 INFO [h11_impl.py] 192.168.150.10:50094 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 17:43:08 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:43:11 INFO [cctv_visualization.py] Counting number of cameras...
+26-Feb-24 17:43:12 INFO [cctv_visualization.py] Counting completed!
+26-Feb-24 17:43:12 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Merging total comera dataframes...
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Merging completed!
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Calculating faulty cam percentage
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Merging dataframes
+26-Feb-24 17:43:14 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+26-Feb-24 17:43:14 INFO [h11_impl.py] 192.168.150.10:50101 - "GET /total_cameras_Vs_faulty_cameras?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=1000 HTTP/1.1" 200
+26-Feb-24 17:44:19 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:44:21 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:44:23 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:44:23 INFO [h11_impl.py] 192.168.150.10:50119 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=25 HTTP/1.1" 200
+26-Feb-24 17:44:50 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:44:52 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:44:54 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:44:54 INFO [h11_impl.py] 192.168.150.10:50120 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:45:41 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:45:43 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:45:45 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:45:46 INFO [h11_impl.py] 192.168.150.10:50140 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=2&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:46:25 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:46:27 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:46:30 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:46:30 INFO [h11_impl.py] 192.168.150.10:50147 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=5&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:46:49 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:46:51 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:46:54 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:46:54 INFO [h11_impl.py] 192.168.150.10:50153 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:47:23 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:47:25 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:47:27 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:47:27 INFO [h11_impl.py] 192.168.150.10:50161 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=7&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:47:55 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:47:57 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:47:59 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:47:59 INFO [h11_impl.py] 192.168.150.10:50167 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=13&rows_per_page=500 HTTP/1.1" 200
+26-Feb-24 17:48:17 INFO [cctv_visualization.py] Loading cleaned data files.
+26-Feb-24 17:48:21 INFO [cctv_visualization.py] Counting number of faulty cameras...
+26-Feb-24 17:48:23 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+26-Feb-24 17:48:23 INFO [h11_impl.py] 192.168.150.10:50171 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=12&rows_per_page=500 HTTP/1.1" 200

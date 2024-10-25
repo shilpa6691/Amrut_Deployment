@@ -1,0 +1,678 @@
+12-Mar-24 11:36:22 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:36:22 INFO [authbearer.py] authenticating user
+12-Mar-24 11:36:22 INFO [authbearer.py] user found
+12-Mar-24 11:36:22 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 11:36:22 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 11:36:22 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 11:36:22 INFO [authbearer.py] Creating access token for data
+12-Mar-24 11:36:22 INFO [h11_impl.py] 192.168.150.14:58612 - "POST /token HTTP/1.1" 200
+12-Mar-24 11:38:12 INFO [server.py] Shutting down
+12-Mar-24 11:38:12 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 11:38:12 INFO [on.py] Application shutdown complete.
+12-Mar-24 11:38:12 INFO [server.py] Finished server process [1714734]
+12-Mar-24 11:40:57 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:40:57 INFO [authbearer.py] authenticating user
+12-Mar-24 11:40:57 INFO [authbearer.py] user found
+12-Mar-24 11:40:57 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 11:40:57 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 11:40:57 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 11:40:57 INFO [authbearer.py] Creating access token for data
+12-Mar-24 11:40:57 INFO [h11_impl.py] 192.168.150.14:58682 - "POST /token HTTP/1.1" 200
+12-Mar-24 11:41:24 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:41:24 INFO [authbearer.py] authenticating user
+12-Mar-24 11:41:24 INFO [authbearer.py] user not found
+12-Mar-24 11:41:24 INFO [h11_impl.py] 192.168.150.14:58689 - "POST /token HTTP/1.1" 401
+12-Mar-24 11:41:30 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:41:30 INFO [authbearer.py] authenticating user
+12-Mar-24 11:41:30 INFO [authbearer.py] user not found
+12-Mar-24 11:41:30 INFO [h11_impl.py] 192.168.150.14:58690 - "POST /token HTTP/1.1" 401
+12-Mar-24 11:46:55 INFO [h11_impl.py] 192.168.150.14:58753 - "GET /docs HTTP/1.1" 200
+12-Mar-24 11:46:56 INFO [h11_impl.py] 192.168.150.14:58753 - "GET /openapi.json HTTP/1.1" 200
+12-Mar-24 11:47:13 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:47:13 INFO [authbearer.py] authenticating user
+12-Mar-24 11:47:13 INFO [authbearer.py] user found
+12-Mar-24 11:47:13 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 11:47:13 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 11:47:13 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 11:47:13 INFO [authbearer.py] Creating access token for data
+12-Mar-24 11:47:13 INFO [h11_impl.py] 192.168.150.14:58754 - "POST /token HTTP/1.1" 200
+12-Mar-24 11:47:22 INFO [h11_impl.py] 192.168.150.14:58760 - "GET /docs HTTP/1.1" 200
+12-Mar-24 11:47:22 INFO [h11_impl.py] 192.168.150.14:58760 - "GET /openapi.json HTTP/1.1" 200
+12-Mar-24 11:47:28 INFO [h11_impl.py] 192.168.150.14:58764 - "POST /token HTTP/1.1" 401
+12-Mar-24 11:47:35 INFO [authentication.py] login_for_access_token
+12-Mar-24 11:47:35 INFO [authbearer.py] authenticating user
+12-Mar-24 11:47:35 INFO [authbearer.py] user found
+12-Mar-24 11:47:35 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 11:47:35 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 11:47:35 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 11:47:35 INFO [authbearer.py] Creating access token for data
+12-Mar-24 11:47:35 INFO [h11_impl.py] 192.168.150.14:58766 - "POST /token HTTP/1.1" 200
+12-Mar-24 11:49:09 INFO [server.py] Shutting down
+12-Mar-24 11:49:09 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+12-Mar-24 12:14:58 INFO [server.py] Finished server process [1715942]
+12-Mar-24 12:14:58 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+12-Mar-24 12:16:54 INFO [authentication.py] login_for_access_token
+12-Mar-24 12:16:54 INFO [authbearer.py] authenticating user
+12-Mar-24 12:16:54 INFO [authbearer.py] user found
+12-Mar-24 12:16:54 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 12:16:54 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 12:16:54 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 12:16:54 INFO [authbearer.py] Creating access token for data
+12-Mar-24 12:16:54 INFO [h11_impl.py] 192.168.150.14:59251 - "POST /token HTTP/1.1" 200
+12-Mar-24 12:18:15 INFO [h11_impl.py] 192.168.150.14:59268 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 12:19:04 INFO [authentication.py] login_for_access_token
+12-Mar-24 12:19:04 INFO [authbearer.py] authenticating user
+12-Mar-24 12:19:04 INFO [authbearer.py] user not found
+12-Mar-24 12:19:04 INFO [h11_impl.py] 192.168.150.14:59279 - "POST /token HTTP/1.1" 401
+12-Mar-24 12:19:10 INFO [authentication.py] login_for_access_token
+12-Mar-24 12:19:10 INFO [authbearer.py] authenticating user
+12-Mar-24 12:19:10 INFO [authbearer.py] user not found
+12-Mar-24 12:19:10 INFO [h11_impl.py] 192.168.150.14:59280 - "POST /token HTTP/1.1" 401
+12-Mar-24 12:27:47 INFO [h11_impl.py] 192.168.150.14:59369 - "POST /token HTTP/1.1" 401
+12-Mar-24 12:34:52 INFO [server.py] Shutting down
+12-Mar-24 12:34:52 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 12:34:52 INFO [on.py] Application shutdown complete.
+12-Mar-24 12:34:52 INFO [server.py] Finished server process [1721939]
+12-Mar-24 12:36:28 INFO [authentication.py] login_for_access_token
+12-Mar-24 12:36:28 INFO [authbearer.py] authenticating user
+12-Mar-24 12:36:28 INFO [authbearer.py] user found
+12-Mar-24 12:36:28 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 12:36:28 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 12:36:28 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 12:36:28 INFO [authbearer.py] Creating access token for data
+12-Mar-24 12:36:28 INFO [h11_impl.py] 192.168.150.14:59500 - "POST /token HTTP/1.1" 200
+12-Mar-24 12:36:51 INFO [h11_impl.py] 192.168.150.14:59507 - "POST /token HTTP/1.1" 401
+12-Mar-24 12:36:58 INFO [authentication.py] login_for_access_token
+12-Mar-24 12:36:58 INFO [authbearer.py] authenticating user
+12-Mar-24 12:36:58 INFO [authbearer.py] user found
+12-Mar-24 12:36:58 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 12:36:58 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 12:36:58 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 12:36:58 INFO [authbearer.py] Creating access token for data
+12-Mar-24 12:36:58 INFO [h11_impl.py] 192.168.150.14:59508 - "POST /token HTTP/1.1" 200
+12-Mar-24 12:37:05 INFO [authbearer.py] verify_token
+12-Mar-24 12:37:05 INFO [h11_impl.py] 192.168.150.14:59510 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 13:33:06 INFO [server.py] Shutting down
+12-Mar-24 13:33:06 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 13:33:06 INFO [on.py] Application shutdown complete.
+12-Mar-24 13:33:06 INFO [server.py] Finished server process [1725087]
+12-Mar-24 13:36:22 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:36:22 INFO [authbearer.py] authenticating user
+12-Mar-24 13:36:22 INFO [authbearer.py] user found
+12-Mar-24 13:36:22 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 13:36:22 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 13:36:22 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 13:36:22 INFO [authbearer.py] Creating access token for data
+12-Mar-24 13:36:22 INFO [h11_impl.py] 192.168.150.14:60177 - "POST /token HTTP/1.1" 200
+12-Mar-24 13:36:48 INFO [h11_impl.py] 192.168.150.14:60184 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 13:37:01 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:37:01 INFO [authbearer.py] authenticating user
+12-Mar-24 13:37:01 INFO [authbearer.py] user not found
+12-Mar-24 13:37:01 INFO [h11_impl.py] 192.168.150.14:60188 - "POST /token HTTP/1.1" 401
+12-Mar-24 13:37:07 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:37:07 INFO [authbearer.py] authenticating user
+12-Mar-24 13:37:07 INFO [authbearer.py] user not found
+12-Mar-24 13:37:07 INFO [h11_impl.py] 192.168.150.14:60190 - "POST /token HTTP/1.1" 401
+12-Mar-24 13:39:19 INFO [server.py] Shutting down
+12-Mar-24 13:39:19 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 13:39:19 INFO [on.py] Application shutdown complete.
+12-Mar-24 13:39:19 INFO [server.py] Finished server process [1747796]
+12-Mar-24 13:43:26 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:43:26 INFO [authbearer.py] authenticating user
+12-Mar-24 13:43:26 INFO [authbearer.py] user found
+12-Mar-24 13:43:26 INFO [h11_impl.py] 192.168.150.14:60269 - "POST /token HTTP/1.1" 500
+12-Mar-24 13:43:26 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 89, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 52, in verify_password
+    return password_context.verify(password, hashed_pass)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 13:47:31 INFO [server.py] Shutting down
+12-Mar-24 13:47:31 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+12-Mar-24 13:47:51 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 13:47:51 INFO [on.py] Application shutdown complete.
+12-Mar-24 13:47:51 INFO [server.py] Finished server process [1750780]
+12-Mar-24 13:49:05 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:49:05 INFO [authbearer.py] authenticating user
+12-Mar-24 13:49:05 INFO [authbearer.py] user found
+12-Mar-24 13:49:05 INFO [h11_impl.py] 192.168.150.14:60338 - "POST /token HTTP/1.1" 500
+12-Mar-24 13:49:05 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 89, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 52, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 13:51:40 INFO [server.py] Shutting down
+12-Mar-24 13:51:40 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+12-Mar-24 13:51:43 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 13:51:43 INFO [on.py] Application shutdown complete.
+12-Mar-24 13:51:43 INFO [server.py] Finished server process [1753496]
+12-Mar-24 13:52:53 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:52:53 INFO [authbearer.py] authenticating user
+12-Mar-24 13:52:53 INFO [authbearer.py] user found
+12-Mar-24 13:52:53 INFO [h11_impl.py] 192.168.150.14:60396 - "POST /token HTTP/1.1" 500
+12-Mar-24 13:52:53 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 98, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 53, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 13:54:07 INFO [server.py] Shutting down
+12-Mar-24 13:54:07 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+12-Mar-24 13:54:21 INFO [server.py] Finished server process [1755209]
+12-Mar-24 13:54:21 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+12-Mar-24 13:57:02 INFO [authentication.py] login_for_access_token
+12-Mar-24 13:57:02 INFO [authbearer.py] authenticating user
+12-Mar-24 13:57:02 INFO [authbearer.py] user found
+12-Mar-24 13:57:02 INFO [h11_impl.py] 192.168.150.14:60464 - "POST /token HTTP/1.1" 500
+12-Mar-24 13:57:02 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 98, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 53, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 14:02:22 INFO [server.py] Shutting down
+12-Mar-24 14:02:22 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 14:02:22 INFO [on.py] Application shutdown complete.
+12-Mar-24 14:02:22 INFO [server.py] Finished server process [1757404]
+12-Mar-24 14:04:32 INFO [authentication.py] login_for_access_token
+12-Mar-24 14:04:32 INFO [authbearer.py] authenticating user
+12-Mar-24 14:04:32 INFO [authbearer.py] user found
+12-Mar-24 14:04:32 INFO [h11_impl.py] 192.168.150.14:60564 - "POST /token HTTP/1.1" 500
+12-Mar-24 14:04:32 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 99, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 54, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 14:06:55 INFO [authentication.py] login_for_access_token
+12-Mar-24 14:06:55 INFO [authbearer.py] authenticating user
+12-Mar-24 14:06:55 INFO [authbearer.py] user found
+12-Mar-24 14:06:55 INFO [h11_impl.py] 192.168.150.14:60589 - "POST /token HTTP/1.1" 500
+12-Mar-24 14:06:55 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 99, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 54, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 14:07:15 INFO [h11_impl.py] 192.168.150.14:60596 - "GET /docs HTTP/1.1" 200
+12-Mar-24 14:07:15 INFO [h11_impl.py] 192.168.150.14:60596 - "GET /openapi.json HTTP/1.1" 200
+12-Mar-24 14:09:00 INFO [server.py] Shutting down
+12-Mar-24 14:09:00 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 14:09:00 INFO [on.py] Application shutdown complete.
+12-Mar-24 14:09:00 INFO [server.py] Finished server process [1760541]
+12-Mar-24 14:12:55 INFO [authentication.py] login_for_access_token
+12-Mar-24 14:12:55 INFO [authbearer.py] authenticating user
+12-Mar-24 14:12:55 INFO [authbearer.py] user found
+12-Mar-24 14:12:55 INFO [h11_impl.py] 192.168.150.14:60674 - "POST /token HTTP/1.1" 500
+12-Mar-24 14:12:55 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 17, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 99, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 54, in verify_password
+    return password_context.verify(plain_password, hashed_password)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2343, in verify
+    record = self._get_or_identify_record(hash, scheme, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 2031, in _get_or_identify_record
+    return self._identify_record(hash, category)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/passlib/context.py", line 1132, in identify_record
+    raise exc.UnknownHashError("hash could not be identified")
+passlib.exc.UnknownHashError: hash could not be identified
+12-Mar-24 14:19:30 INFO [server.py] Shutting down
+12-Mar-24 14:19:30 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 14:19:30 INFO [on.py] Application shutdown complete.
+12-Mar-24 14:19:30 INFO [server.py] Finished server process [1764334]
+12-Mar-24 14:20:36 INFO [authentication.py] login_for_access_token
+12-Mar-24 14:20:36 INFO [authbearer.py] authenticating user
+12-Mar-24 14:20:36 INFO [authbearer.py] user found
+12-Mar-24 14:20:36 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 14:20:36 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 14:20:36 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 14:20:36 INFO [h11_impl.py] 192.168.150.14:60766 - "POST /token HTTP/1.1" 500
+12-Mar-24 14:20:36 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 25, in login_for_access_token
+    access_token = create_access_token(
+TypeError: create_access_token() got an unexpected keyword argument 'data'
+12-Mar-24 14:22:49 INFO [server.py] Shutting down
+12-Mar-24 14:22:49 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 14:22:49 INFO [on.py] Application shutdown complete.
+12-Mar-24 14:22:49 INFO [server.py] Finished server process [1767695]
+12-Mar-24 14:23:57 INFO [authentication.py] login_for_access_token
+12-Mar-24 14:23:57 INFO [authbearer.py] authenticating user
+12-Mar-24 14:23:57 INFO [authbearer.py] user found
+12-Mar-24 14:23:57 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 14:23:57 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 14:23:57 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 14:23:57 INFO [h11_impl.py] 192.168.150.14:60815 - "POST /token HTTP/1.1" 200
+12-Mar-24 14:25:47 INFO [server.py] Shutting down
+12-Mar-24 14:25:47 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 14:25:47 INFO [on.py] Application shutdown complete.
+12-Mar-24 14:25:47 INFO [server.py] Finished server process [1769165]
+12-Mar-24 16:08:31 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:08:31 INFO [authbearer.py] authenticating user
+12-Mar-24 16:08:31 INFO [authbearer.py] user found
+12-Mar-24 16:08:31 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:08:31 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:08:31 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:08:31 INFO [h11_impl.py] 192.168.150.14:62597 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:09:20 INFO [server.py] Shutting down
+12-Mar-24 16:09:20 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 16:09:20 INFO [on.py] Application shutdown complete.
+12-Mar-24 16:09:20 INFO [server.py] Finished server process [1804464]
+12-Mar-24 16:18:14 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:18:14 INFO [authbearer.py] authenticating user
+12-Mar-24 16:18:14 INFO [authbearer.py] user found
+12-Mar-24 16:18:14 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:18:14 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:18:14 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:18:14 INFO [h11_impl.py] 192.168.150.14:62790 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:18:34 INFO [h11_impl.py] 192.168.150.14:62806 - "GET /token HTTP/1.1" 405
+12-Mar-24 16:18:47 INFO [h11_impl.py] 192.168.150.14:62810 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:21:17 INFO [h11_impl.py] 192.168.150.14:62843 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:21:28 INFO [h11_impl.py] 192.168.150.14:62847 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:22:00 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:22:00 INFO [authbearer.py] authenticating user
+12-Mar-24 16:22:00 INFO [authbearer.py] user found
+12-Mar-24 16:22:00 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:22:00 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:22:00 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:22:00 INFO [h11_impl.py] 192.168.150.14:62857 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:22:31 INFO [h11_impl.py] 192.168.150.14:62864 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:23:15 INFO [authbearer.py] verify_token
+12-Mar-24 16:23:15 INFO [h11_impl.py] 192.168.150.14:62879 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:25:17 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:25:17 INFO [authbearer.py] authenticating user
+12-Mar-24 16:25:17 INFO [authbearer.py] user not found
+12-Mar-24 16:25:17 INFO [h11_impl.py] 192.168.150.14:62906 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:25:24 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:25:24 INFO [authbearer.py] authenticating user
+12-Mar-24 16:25:24 INFO [authbearer.py] user not found
+12-Mar-24 16:25:24 INFO [h11_impl.py] 192.168.150.14:62909 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:25:30 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:25:30 INFO [authbearer.py] authenticating user
+12-Mar-24 16:25:30 INFO [authbearer.py] user not found
+12-Mar-24 16:25:30 INFO [h11_impl.py] 192.168.150.14:62910 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:25:37 INFO [h11_impl.py] 192.168.150.14:62913 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:27:43 INFO [server.py] Shutting down
+12-Mar-24 16:27:43 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 16:27:43 INFO [on.py] Application shutdown complete.
+12-Mar-24 16:27:43 INFO [server.py] Finished server process [1822628]
+12-Mar-24 16:31:20 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:31:20 INFO [authbearer.py] authenticating user
+12-Mar-24 16:31:20 INFO [authbearer.py] user found
+12-Mar-24 16:31:20 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:31:20 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:31:20 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:31:20 INFO [h11_impl.py] 192.168.150.14:62984 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:35:27 INFO [h11_impl.py] 192.168.150.14:63035 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:36:12 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:36:12 INFO [authbearer.py] authenticating user
+12-Mar-24 16:36:12 INFO [authbearer.py] user not found
+12-Mar-24 16:36:12 INFO [h11_impl.py] 192.168.150.14:63045 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:36:18 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:36:18 INFO [authbearer.py] authenticating user
+12-Mar-24 16:36:18 INFO [authbearer.py] user not found
+12-Mar-24 16:36:18 INFO [h11_impl.py] 192.168.150.14:63048 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:43:18 INFO [server.py] Shutting down
+12-Mar-24 16:43:18 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 16:43:18 INFO [on.py] Application shutdown complete.
+12-Mar-24 16:43:18 INFO [server.py] Finished server process [1828673]
+12-Mar-24 16:47:13 INFO [authbearer.py] verify_token
+12-Mar-24 16:47:13 INFO [h11_impl.py] 192.168.150.14:63177 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:49:12 INFO [server.py] Shutting down
+12-Mar-24 16:49:12 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 16:49:12 INFO [on.py] Application shutdown complete.
+12-Mar-24 16:49:12 INFO [server.py] Finished server process [1834740]
+12-Mar-24 16:53:44 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:53:44 INFO [authbearer.py] authenticating user
+12-Mar-24 16:53:44 INFO [authbearer.py] user found
+12-Mar-24 16:53:44 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:53:44 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:53:44 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:53:44 INFO [h11_impl.py] 192.168.150.14:63281 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:54:01 INFO [authbearer.py] verify_token
+12-Mar-24 16:54:01 INFO [h11_impl.py] 192.168.150.14:63288 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:56:49 INFO [server.py] Shutting down
+12-Mar-24 16:56:50 INFO [on.py] Waiting for application shutdown.
+12-Mar-24 16:56:50 INFO [on.py] Application shutdown complete.
+12-Mar-24 16:56:50 INFO [server.py] Finished server process [1838836]
+12-Mar-24 16:58:26 INFO [authbearer.py] verify_token
+12-Mar-24 16:59:05 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:59:05 INFO [authbearer.py] authenticating user
+12-Mar-24 16:59:05 INFO [authbearer.py] user found
+12-Mar-24 16:59:05 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:59:05 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:59:05 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:59:05 INFO [h11_impl.py] 192.168.150.14:63363 - "POST /token HTTP/1.1" 200
+12-Mar-24 16:59:13 INFO [h11_impl.py] 192.168.150.14:63365 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+12-Mar-24 16:59:23 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:59:23 INFO [authbearer.py] authenticating user
+12-Mar-24 16:59:23 INFO [authbearer.py] user not found
+12-Mar-24 16:59:23 INFO [h11_impl.py] 192.168.150.14:63373 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:59:29 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:59:29 INFO [authbearer.py] authenticating user
+12-Mar-24 16:59:29 INFO [authbearer.py] user not found
+12-Mar-24 16:59:29 INFO [h11_impl.py] 192.168.150.14:63374 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:59:50 INFO [h11_impl.py] 192.168.150.14:63381 - "POST /token HTTP/1.1" 401
+12-Mar-24 16:59:57 INFO [authentication.py] login_for_access_token
+12-Mar-24 16:59:57 INFO [authbearer.py] authenticating user
+12-Mar-24 16:59:57 INFO [authbearer.py] user found
+12-Mar-24 16:59:57 INFO [authbearer.py] Verifying plain password:
+12-Mar-24 16:59:57 INFO [authbearer.py] Verifying hashed password:
+12-Mar-24 16:59:57 INFO [authbearer.py] User authenticated successfully
+12-Mar-24 16:59:57 INFO [h11_impl.py] 192.168.150.14:63382 - "POST /token HTTP/1.1" 200
+12-Mar-24 17:00:03 INFO [authbearer.py] verify_token
+12-Mar-24 17:00:56 INFO [authbearer.py] verify_token

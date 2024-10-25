@@ -1,0 +1,22 @@
+08-Apr-24 09:26:44 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+08-Apr-24 09:26:44 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+08-Apr-24 09:26:44 INFO [basereload.py] Started reloader process [1078645] using StatReload
+08-Apr-24 09:27:28 INFO [server.py] Started server process [1078788]
+08-Apr-24 09:27:28 INFO [on.py] Waiting for application startup.
+08-Apr-24 09:27:28 INFO [on.py] Application startup complete.
+08-Apr-24 09:27:53 INFO [h11_impl.py] 192.168.150.14:62721 - "GET /docs HTTP/1.1" 200
+08-Apr-24 09:27:53 INFO [h11_impl.py] 192.168.150.14:62721 - "GET /openapi.json HTTP/1.1" 200
+08-Apr-24 09:43:25 INFO [basereload.py] Stopping reloader process [1078645]
+08-Apr-24 09:45:34 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+08-Apr-24 09:45:34 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+08-Apr-24 09:45:34 INFO [basereload.py] Started reloader process [1091385] using StatReload
+08-Apr-24 09:46:18 INFO [server.py] Started server process [1091640]
+08-Apr-24 09:46:18 INFO [on.py] Waiting for application startup.
+08-Apr-24 09:46:18 INFO [on.py] Application startup complete.
+08-Apr-24 10:01:05 INFO [basereload.py] Stopping reloader process [1091385]
+08-Apr-24 20:09:32 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+08-Apr-24 20:09:32 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+08-Apr-24 20:09:32 INFO [basereload.py] Started reloader process [1106427] using StatReload
+08-Apr-24 20:10:19 INFO [server.py] Started server process [1106452]
+08-Apr-24 20:10:19 INFO [on.py] Waiting for application startup.
+08-Apr-24 20:10:19 INFO [on.py] Application startup complete.

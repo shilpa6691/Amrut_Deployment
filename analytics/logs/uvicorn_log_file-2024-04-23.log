@@ -1,0 +1,10 @@
+23-Apr-24 15:57:56 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+23-Apr-24 15:57:56 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+23-Apr-24 15:57:56 INFO [basereload.py] Started reloader process [2985804] using StatReload
+23-Apr-24 15:58:45 INFO [server.py] Started server process [2986177]
+23-Apr-24 15:58:45 INFO [on.py] Waiting for application startup.
+23-Apr-24 15:58:45 INFO [on.py] Application startup complete.
+23-Apr-24 15:58:48 INFO [h11_impl.py] 192.168.150.10:53798 - "GET /docs HTTP/1.1" 200
+23-Apr-24 15:58:48 INFO [h11_impl.py] 192.168.150.10:53798 - "GET /openapi.json HTTP/1.1" 200
+23-Apr-24 15:58:55 INFO [h11_impl.py] 192.168.150.10:53804 - "GET /docs HTTP/1.1" 200
+23-Apr-24 15:58:55 INFO [h11_impl.py] 192.168.150.10:53804 - "GET /openapi.json HTTP/1.1" 200

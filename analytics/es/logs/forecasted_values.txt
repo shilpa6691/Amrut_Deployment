@@ -1,0 +1,930 @@
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.10 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.15 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.02 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.423 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.04 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.06 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.08 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.15 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.08 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.612 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.25 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.01 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.07 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.05 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.545 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.04 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.08 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.13 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.02 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.511 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.10 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.31 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.703 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.05 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.06 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.38 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.05 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.703 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.11 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.04 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.28 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.681 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.06 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.07 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.51 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.07 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.864 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.18 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.364 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.15 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.292 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.13 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.338 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.18 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.04 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.330 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.22 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.09 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.05 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.18 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.14 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.11 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.06 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.25 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.07 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.279 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.20 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.03 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.03 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.21 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.22 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.13 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.09 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.18 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.08 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.312 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.26 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.04 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.08 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.09 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.18 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.11 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.06 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.06 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.25 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.09 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.271 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.17 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.07 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.14 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.24 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.22 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.14 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.07 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.16 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.07 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.345 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.50 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.11 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.719 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.37 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.05 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.503 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.47 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.06 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.07 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.10 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.747 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.47 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.640 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.30 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.441 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.28 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.482 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.18 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.284 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.32 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.508 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.08 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.04 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.08 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.18 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.07 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.624 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.09 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.01 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.08 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.339 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.10 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.05 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.07 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.17 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.570 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.09 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.06 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.07 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.17 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.514 seconds
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=-1587.098, Time=0.03 sec
+Total fit time: 0.033 seconds
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=-1587.098, Time=0.03 sec
+Total fit time: 0.032 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.11 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.13 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.02 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.528 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.03 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.14 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.05 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.429 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.10 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.04 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.08 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.38 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.06 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.803 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.09 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.05 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.04 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.06 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.04 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.45 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.04 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.859 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.14 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.07 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.06 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.333 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.14 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.354 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.09 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.02 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.25 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.26 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.11 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.12 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.32 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.06 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.364 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.11 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.05 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.17 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.22 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.13 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.15 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.36 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.07 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.382 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.27 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.451 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.60 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.07 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.07 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.10 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.876 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.23 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.03 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.02 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.331 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.29 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.03 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.03 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.07 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.03 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.461 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.11 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.03 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.09 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.19 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.05 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.586 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.05 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.03 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.04 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.04 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.14 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.358 seconds
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.24 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.08 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.13 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.17 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.08 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.21 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.29 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.11 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 1.305 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=383.006, Time=0.23 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=471.864, Time=0.07 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=381.718, Time=0.11 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=420.270, Time=0.22 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=558.861, Time=0.07 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=383.039, Time=0.24 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=384.982, Time=0.49 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=385.681, Time=0.11 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 1.539 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.28 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.09 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.12 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.18 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.05 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.10 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.43 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.08 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 1.345 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=369.139, Time=0.20 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=443.352, Time=0.03 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=368.121, Time=0.07 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=396.877, Time=0.17 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=594.084, Time=0.05 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=369.034, Time=0.19 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=368.469, Time=0.66 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=376.352, Time=0.03 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 1.417 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.19 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.08 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.416 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=607.425, Time=0.29 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=603.634, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=605.591, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=605.581, Time=0.10 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=601.666, Time=0.06 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.584 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.44 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.05 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.07 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.03 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.31 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.22 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.17 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.22 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.31 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.11 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.960 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=609.702, Time=0.21 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=663.401, Time=0.02 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=610.453, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=621.854, Time=0.12 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=830.715, Time=0.03 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=611.568, Time=0.20 sec
+ ARIMA(1,0,2)(0,0,0)[0] intercept   : AIC=611.573, Time=0.25 sec
+ ARIMA(0,0,2)(0,0,0)[0] intercept   : AIC=612.583, Time=0.14 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=610.235, Time=0.16 sec
+ ARIMA(2,0,2)(0,0,0)[0] intercept   : AIC=613.557, Time=0.33 sec
+ ARIMA(1,0,1)(0,0,0)[0]             : AIC=623.905, Time=0.07 sec
+
+Best model:  ARIMA(1,0,1)(0,0,0)[0] intercept
+Total fit time: 1.604 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.53 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.06 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.08 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.15 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.863 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=1.01 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=185.382, Time=0.07 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=187.382, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=187.382, Time=0.09 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=183.469, Time=0.05 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 1.270 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.72 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.11 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.05 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.988 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=inf, Time=0.48 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=319.259, Time=0.04 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=319.442, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=318.973, Time=0.10 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=317.289, Time=0.04 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[0]          
+Total fit time: 0.717 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.13 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.03 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.06 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.10 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.02 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.12 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.36 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.05 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.889 seconds
+Performing stepwise search to minimize aic
+ ARIMA(1,0,1)(0,0,0)[0] intercept   : AIC=357.363, Time=0.18 sec
+ ARIMA(0,0,0)(0,0,0)[0] intercept   : AIC=477.292, Time=0.03 sec
+ ARIMA(1,0,0)(0,0,0)[0] intercept   : AIC=356.794, Time=0.08 sec
+ ARIMA(0,0,1)(0,0,0)[0] intercept   : AIC=417.254, Time=0.13 sec
+ ARIMA(0,0,0)(0,0,0)[0]             : AIC=551.297, Time=0.04 sec
+ ARIMA(2,0,0)(0,0,0)[0] intercept   : AIC=357.344, Time=0.07 sec
+ ARIMA(2,0,1)(0,0,0)[0] intercept   : AIC=359.309, Time=0.32 sec
+ ARIMA(1,0,0)(0,0,0)[0]             : AIC=357.696, Time=0.08 sec
+
+Best model:  ARIMA(1,0,0)(0,0,0)[0] intercept
+Total fit time: 0.948 seconds
+                        DateTime         Loc  ... Value MonthYear
+0        2022-02-18 11:20:13.530      Zone_F  ...   1.0   2022-02
+1        2022-02-18 11:20:13.530      Zone_B  ...   0.0   2022-02
+2        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+3        2022-02-18 11:20:13.530      Zone_B  ...   3.0   2022-02
+4        2022-02-18 11:20:13.530      Zone_C  ...   2.0   2022-02
+...                          ...         ...  ...   ...       ...
+2110441  2023-08-23 09:57:52.535  ZoneH_W_32  ...   0.0   2023-08
+2110442  2023-08-23 09:57:52.535  ZoneH_W_20  ...   0.0   2023-08
+2110443  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110444  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+2110445  2023-08-23 13:09:28.840  ZoneF_W_11  ...   1.0   2023-08
+
+[2110446 rows x 7 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+encoded_jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA0MDg1ODYsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.DcAtip3SKp9pqv1G0kYRRxkSN273WTAHtWmniI2dIBA
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1203631 2024-03-13  PCW  Point_Coastal_Walk  ...  8.480  178.830002    2024-03
+1203632 2024-03-13  PCW  Point_Coastal_Walk  ...  6.344  339.890015    2024-03
+1203633 2024-03-13  PCW  Point_Coastal_Walk  ...  8.699   76.230003    2024-03
+1203634 2024-03-13  PCW  Point_Coastal_Walk  ...  7.499  142.039993    2024-03
+1203635 2024-03-13  PCW  Point_Coastal_Walk  ...  8.336  136.410004    2024-03
+
+[1203636 rows x 11 columns]
+login_for_access_token
+Authenticating user:
+{'username': 'user1', 'password': 'user1'}
+User found: {'username': 'user1', 'password': 'user1'}
+User authenticated successfully: user1
+create access token
+encoded_jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA0MTAyNjcsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.ZSAvPfm3QEbCq7nflhB3Kyp4Qa0Hd0BHywvnXu9FATs
+          DateTime   id            Location  ...    SO2         AQI  MonthYear
+0       2024-01-01   BP          Beach_Park  ...  8.648  366.619995    2024-01
+1       2024-01-08   BP          Beach_Park  ...  8.648  366.619995    2024-01
+2       2024-01-30   BP          Beach_Park  ...  8.870  150.589996    2024-01
+3       2024-01-30   BP          Beach_Park  ...  7.200  148.419998    2024-01
+4       2024-01-30   BP          Beach_Park  ...  6.932  277.869995    2024-01
+...            ...  ...                 ...  ...    ...         ...        ...
+1105496 2024-01-31  PCW  Point_Coastal_Walk  ...  8.328   55.470001    2024-01
+1105497 2024-01-31  PCW  Point_Coastal_Walk  ...  7.911  306.010010    2024-01
+1105498 2024-01-31  PCW  Point_Coastal_Walk  ...  7.987  370.859985    2024-01
+1105499 2024-01-31  PCW  Point_Coastal_Walk  ...  5.024  310.630005    2024-01
+1105500 2024-01-31  PCW  Point_Coastal_Walk  ...  8.212  115.980003    2024-01
+
+[25465 rows x 11 columns]

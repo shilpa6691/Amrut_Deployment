@@ -1,0 +1,18 @@
+01-Mar-24 09:49:03 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+01-Mar-24 09:49:03 ERROR [config.py] [Errno 98] Address already in use
+01-Mar-24 09:50:40 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+01-Mar-24 09:50:40 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+01-Mar-24 09:50:40 INFO [basereload.py] Started reloader process [1841816] using StatReload
+01-Mar-24 09:51:28 INFO [server.py] Started server process [1842050]
+01-Mar-24 09:51:28 INFO [on.py] Waiting for application startup.
+01-Mar-24 09:51:28 INFO [on.py] Application startup complete.
+01-Mar-24 09:51:37 INFO [h11_impl.py] 192.168.150.14:60295 - "GET /docs HTTP/1.1" 200
+01-Mar-24 09:51:37 INFO [h11_impl.py] 192.168.150.14:60295 - "GET /openapi.json HTTP/1.1" 200
+01-Mar-24 09:53:00 INFO [h11_impl.py] 192.168.150.11:59038 - "GET /docs HTTP/1.1" 200
+01-Mar-24 09:53:01 INFO [h11_impl.py] 192.168.150.11:59038 - "GET /openapi.json HTTP/1.1" 200
+01-Mar-24 09:53:08 INFO [h11_impl.py] 192.168.150.11:59045 - "GET /docs HTTP/1.1" 200
+01-Mar-24 09:53:08 INFO [h11_impl.py] 192.168.150.11:59045 - "GET /openapi.json HTTP/1.1" 200
+01-Mar-24 11:17:58 WARNING [basereload.py] StatReload detected changes in 'crime/crime_forecasting_model.py'. Reloading...
+01-Mar-24 11:18:49 INFO [server.py] Started server process [1866899]
+01-Mar-24 11:18:49 INFO [on.py] Waiting for application startup.
+01-Mar-24 11:18:49 INFO [on.py] Application startup complete.

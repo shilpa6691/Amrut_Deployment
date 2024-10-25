@@ -1,0 +1,383 @@
+04-Mar-24 11:50:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 11:50:23 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 11:50:23 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['Type_Description', 'Month-Year','WARD', 'WARD_LAT', 'WARD_LONG'],['Year'],['Month-Year','Disposition'],'Year_count',{"Disposition": "Crime_counts"},'Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 17, in get_crime_count_locationwise
+    crime_count_locationwise = data.groupby(column_list1).Disposition.count().reset_index().sort_values(by=sort_column1, ascending=False)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Type_Description'
+04-Mar-24 11:50:23 INFO [h11_impl.py] 192.168.150.14:49337 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 11:51:36 INFO [server.py] Shutting down
+04-Mar-24 11:51:36 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 11:51:36 INFO [on.py] Application shutdown complete.
+04-Mar-24 11:51:36 INFO [server.py] Finished server process [3056135]
+04-Mar-24 11:53:07 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 11:53:09 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 11:53:09 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 11:53:09 INFO [h11_impl.py] 192.168.150.14:49381 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 11:53:31 INFO [h11_impl.py] 192.168.150.14:49388 - "GET /docs HTTP/1.1" 200
+04-Mar-24 11:53:32 INFO [h11_impl.py] 192.168.150.14:49388 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 11:53:59 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 11:54:02 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 11:54:02 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 11:54:02 INFO [h11_impl.py] 192.168.150.14:49395 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=3&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 11:54:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 11:54:36 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 11:54:36 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 11:54:36 INFO [h11_impl.py] 192.168.150.14:49402 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=4&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 16:20:55 INFO [crime_analysis.py] Loading cleaned data files.
+04-Mar-24 16:20:57 INFO [crime_analysis.py] Counting number of crimes...
+04-Mar-24 16:20:58 INFO [crime_analysis.py] Counting completed!
+04-Mar-24 16:20:58 INFO [h11_impl.py] 192.168.150.14:52056 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 16:22:09 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:22:10 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:22:10 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:22:10 ERROR [crime_analysis_singapore.py] Exception occurred during spatial_distribution_of_crimes:'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Type_Description'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 104, in singapore_spatial_distribution_of_crimes
+    max_type=total_locationwise_data['Type_Description'].iloc[0]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Type_Description'
+04-Mar-24 16:22:10 INFO [h11_impl.py] 192.168.150.14:52080 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 16:23:33 INFO [h11_impl.py] 192.168.150.14:52121 - "GET /docs HTTP/1.1" 200
+04-Mar-24 16:23:33 INFO [h11_impl.py] 192.168.150.14:52121 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:23:38 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:23:40 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:23:40 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:23:40 ERROR [crime_analysis_singapore.py] Exception occurred during spatial_distribution_of_crimes:'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Type_Description'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 104, in singapore_spatial_distribution_of_crimes
+    max_type=total_locationwise_data['New_Type_Description'].iloc[0]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Type_Description'
+04-Mar-24 16:23:40 INFO [h11_impl.py] 192.168.150.14:52121 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 16:26:36 INFO [h11_impl.py] 192.168.150.14:52159 - "GET /docs HTTP/1.1" 200
+04-Mar-24 16:26:37 INFO [h11_impl.py] 192.168.150.14:52159 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:26:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:26:51 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:26:51 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:26:51 ERROR [crime_analysis_singapore.py] Exception occurred during spatial_distribution_of_crimes:'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Type_Description'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 104, in singapore_spatial_distribution_of_crimes
+    max_type=total_locationwise_data['New_Type_Description'].iloc[0]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Type_Description'
+04-Mar-24 16:26:51 INFO [h11_impl.py] 192.168.150.14:52163 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 16:28:03 INFO [h11_impl.py] 192.168.150.14:52192 - "GET /docs HTTP/1.1" 200
+04-Mar-24 16:28:03 INFO [h11_impl.py] 192.168.150.14:52192 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 16:28:28 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:28:30 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:28:31 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:28:31 ERROR [crime_analysis_singapore.py] Exception occurred during spatial_distribution_of_crimes:'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Type_Description'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 104, in singapore_spatial_distribution_of_crimes
+    # max_type=total_locationwise_data['New_Type_Description'].iloc[0]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Type_Description'
+04-Mar-24 16:28:31 INFO [h11_impl.py] 192.168.150.14:52203 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 16:32:51 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:32:53 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:32:53 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:32:53 INFO [h11_impl.py] 192.168.150.14:52288 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 16:33:26 INFO [server.py] Shutting down
+04-Mar-24 16:33:26 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 16:33:26 INFO [on.py] Application shutdown complete.
+04-Mar-24 16:33:26 INFO [server.py] Finished server process [3225158]
+04-Mar-24 16:34:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 16:34:32 INFO [crime_analysis_singapore.py] Counting number of crimes...
+04-Mar-24 16:34:32 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 16:34:32 INFO [h11_impl.py] 192.168.150.14:52318 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 16:49:58 INFO [server.py] Shutting down
+04-Mar-24 16:49:58 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 16:49:58 INFO [on.py] Application shutdown complete.
+04-Mar-24 16:49:58 INFO [server.py] Finished server process [3226994]
+04-Mar-24 17:10:30 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:10:32 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:10:32 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Event_Date'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Event_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 40, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'],['Month-Year','Disposition'],'Year_count','Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 17, in get_crime_count_locationwise
+    data['Event_Date']=data['Event_Date'].dt.strftime('%B-%Y')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Event_Date'
+04-Mar-24 17:10:33 INFO [h11_impl.py] 192.168.150.14:52832 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:12:21 INFO [server.py] Shutting down
+04-Mar-24 17:12:21 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:12:21 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:12:21 INFO [server.py] Finished server process [3269721]
+04-Mar-24 17:14:29 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:14:31 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:14:32 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Event_Date'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Event_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'],['Month-Year','Disposition'],'Year_count','Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 19, in get_crime_count_locationwise
+    data['Event_Date']=data['Event_Date'].dt.strftime('%B-%Y')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Event_Date'
+04-Mar-24 17:14:32 INFO [h11_impl.py] 192.168.150.14:52890 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:17:22 INFO [server.py] Shutting down
+04-Mar-24 17:17:22 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:17:22 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:17:22 INFO [server.py] Finished server process [3272740]
+04-Mar-24 17:18:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:18:44 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:18:47 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Disposition'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'],['Year'],'Year_count','Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 28, in get_crime_count_locationwise
+    crime_year=data.groupby(column_list3).Type.count().reset_index(name=rename_column).sort_values(by=sort_column1, ascending=False)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Disposition'
+04-Mar-24 17:18:47 INFO [h11_impl.py] 192.168.150.14:52944 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:20:24 INFO [h11_impl.py] 192.168.150.14:52963 - "GET /docs HTTP/1.1" 200
+04-Mar-24 17:20:24 INFO [h11_impl.py] 192.168.150.14:52963 - "GET /openapi.json HTTP/1.1" 200
+04-Mar-24 17:20:34 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:20:37 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:20:39 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Disposition'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'],['Month-Year','Disposition'],'Year_count','Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 28, in get_crime_count_locationwise
+    crime_year=data.groupby(column_list3).Type.count().reset_index(name=rename_column).sort_values(by=sort_column1, ascending=False)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Disposition'
+04-Mar-24 17:20:39 INFO [h11_impl.py] 192.168.150.14:52969 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:21:29 INFO [server.py] Shutting down
+04-Mar-24 17:21:29 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:21:29 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:21:29 INFO [server.py] Finished server process [3276404]
+04-Mar-24 17:22:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:22:53 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:22:57 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Year'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'],['Year'],'Year_count','Year_count')
+  File "/opt/siap/analytics/crime/crime_model.py", line 28, in get_crime_count_locationwise
+    crime_year=data.groupby(column_list3).Type.count().reset_index(name=rename_column).sort_values(by=sort_column1, ascending=False)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 8252, in groupby
+    return DataFrameGroupBy(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 931, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 985, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'Year'
+04-Mar-24 17:22:57 INFO [h11_impl.py] 192.168.150.14:53000 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:25:17 INFO [server.py] Shutting down
+04-Mar-24 17:25:17 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:25:17 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:25:17 INFO [server.py] Finished server process [3279115]
+04-Mar-24 17:27:44 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:27:46 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:27:49 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 38, in singapore_monthly_yearly_total_crimes
+    total_monthly_data, total_yearly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['New_Type_Description','WARD','WARD_LAT','WARD_LONG'],['Month-Year','WARD_LAT','WARD_LONG','WARD'])
+ValueError: too many values to unpack (expected 2)
+04-Mar-24 17:27:49 INFO [h11_impl.py] 192.168.150.14:53075 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:29:16 INFO [server.py] Shutting down
+04-Mar-24 17:29:16 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:29:16 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:29:16 INFO [server.py] Finished server process [3283722]
+04-Mar-24 17:30:33 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:30:35 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:30:39 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 17:30:39 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 51, in singapore_monthly_yearly_total_crimes
+    entry['Month-Year'] = entry['Month-Year'].strftime('%B-%Y')
+AttributeError: 'str' object has no attribute 'strftime'
+04-Mar-24 17:30:39 INFO [h11_impl.py] 192.168.150.14:53117 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:31:55 INFO [server.py] Shutting down
+04-Mar-24 17:31:55 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:31:55 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:31:55 INFO [server.py] Finished server process [3287279]
+04-Mar-24 17:33:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:33:26 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:33:30 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 17:33:30 INFO [h11_impl.py] 192.168.150.14:53164 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 17:34:02 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:34:05 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:34:09 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 17:34:09 INFO [h11_impl.py] 192.168.150.14:53175 - "GET /wardwise_monthly_count_of_crimes_and_yearly_total_counts?start_date=06-2018&end_date=07-2023&page=3&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 17:35:20 INFO [server.py] Shutting down
+04-Mar-24 17:35:20 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:35:20 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:35:20 INFO [server.py] Finished server process [3290340]
+04-Mar-24 17:38:03 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:38:05 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:38:07 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 17:38:07 INFO [h11_impl.py] 192.168.150.14:53227 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 17:38:23 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:38:25 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+04-Mar-24 17:38:27 INFO [crime_analysis_singapore.py] Counting completed!
+04-Mar-24 17:38:27 INFO [h11_impl.py] 192.168.150.14:53234 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=3&rows_per_page=1000 HTTP/1.1" 200
+04-Mar-24 17:39:52 INFO [server.py] Shutting down
+04-Mar-24 17:39:52 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:39:52 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:39:52 INFO [server.py] Finished server process [3294969]
+04-Mar-24 17:47:31 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:47:34 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: cannot reindex on an axis with duplicate labels
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 39, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3748, in __getitem__
+    return self.where(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 11527, in where
+    return super().where(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/generic.py", line 9933, in where
+    return self._where(cond, other, inplace, axis, level)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/generic.py", line 9660, in _where
+    cond = cond.reindex(self._info_axis, axis=self._info_axis_number, copy=False)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 5055, in reindex
+    return super().reindex(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/generic.py", line 5360, in reindex
+    return self._reindex_axes(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 4890, in _reindex_axes
+    frame = frame._reindex_columns(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 4932, in _reindex_columns
+    new_columns, indexer = self.columns.reindex(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 4275, in reindex
+    raise ValueError("cannot reindex on an axis with duplicate labels")
+ValueError: cannot reindex on an axis with duplicate labels
+04-Mar-24 17:47:34 INFO [h11_impl.py] 192.168.150.14:53353 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:48:56 INFO [server.py] Shutting down
+04-Mar-24 17:48:56 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:48:56 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:48:56 INFO [server.py] Finished server process [3306641]
+04-Mar-24 17:50:14 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:50:17 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 39, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+TypeError: 'NoneType' object is not subscriptable
+04-Mar-24 17:50:17 INFO [h11_impl.py] 192.168.150.14:53395 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:52:04 INFO [server.py] Shutting down
+04-Mar-24 17:52:04 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:52:04 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:52:04 INFO [server.py] Finished server process [3309647]
+04-Mar-24 17:53:22 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:53:27 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 39, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+TypeError: 'NoneType' object is not subscriptable
+04-Mar-24 17:53:27 INFO [h11_impl.py] 192.168.150.14:53435 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:55:19 INFO [server.py] Shutting down
+04-Mar-24 17:55:19 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:55:19 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:55:19 INFO [server.py] Finished server process [3313074]
+04-Mar-24 17:56:32 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+04-Mar-24 17:56:35 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 36, in singapore_monthly_total_crimes
+    cleaned_data['Month-Year'] = pd.to_datetime(cleaned_data['Month-Year'], format='%B-%Y')
+TypeError: 'NoneType' object is not subscriptable
+04-Mar-24 17:56:35 INFO [h11_impl.py] 192.168.150.14:53484 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+04-Mar-24 17:58:57 INFO [server.py] Shutting down
+04-Mar-24 17:58:57 INFO [on.py] Waiting for application shutdown.
+04-Mar-24 17:58:57 INFO [on.py] Application shutdown complete.
+04-Mar-24 17:58:57 INFO [server.py] Finished server process [3316603]

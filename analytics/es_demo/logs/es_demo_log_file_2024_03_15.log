@@ -1,0 +1,2 @@
+18-Mar-24 09:59:54 INFO [h11_impl.py] 192.168.150.14:65319 - "GET /docs HTTP/1.1" 200
+18-Mar-24 09:59:54 INFO [h11_impl.py] 192.168.150.14:65319 - "GET /openapi.json HTTP/1.1" 200

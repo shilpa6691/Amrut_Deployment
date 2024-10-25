@@ -1,0 +1,317 @@
+15-Mar-24 09:50:27 INFO [authentication.py] login_for_access_token
+15-Mar-24 09:50:27 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 09:50:27 INFO [authbearer.py] user found
+15-Mar-24 09:50:27 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 09:50:27 INFO [authbearer.py] create access token
+15-Mar-24 09:50:27 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 4, 50, 27, 483389), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 09:50:27 INFO [authbearer.py] HS256
+15-Mar-24 09:50:27 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 09:50:27 INFO [h11_impl.py] 192.168.150.14:58657 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 09:50:49 INFO [h11_impl.py] 192.168.150.14:58665 - "POST /token HTTP/1.1" 404
+15-Mar-24 09:51:40 INFO [h11_impl.py] 192.168.150.14:58675 - "POST /token HTTP/1.1" 404
+15-Mar-24 09:52:55 INFO [h11_impl.py] 192.168.150.14:58697 - "GET /docs HTTP/1.1" 200
+15-Mar-24 09:52:55 INFO [h11_impl.py] 192.168.150.14:58697 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 09:53:10 INFO [authentication.py] login_for_access_token
+15-Mar-24 09:53:10 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 09:53:10 INFO [authbearer.py] user found
+15-Mar-24 09:53:10 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 09:53:10 INFO [authbearer.py] create access token
+15-Mar-24 09:53:10 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 4, 53, 10, 661170), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 09:53:10 INFO [authbearer.py] HS256
+15-Mar-24 09:53:10 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 09:53:10 INFO [h11_impl.py] 192.168.150.14:58703 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 09:53:25 INFO [h11_impl.py] 192.168.150.14:58708 - "POST /token HTTP/1.1" 404
+15-Mar-24 09:55:05 INFO [server.py] Shutting down
+15-Mar-24 09:55:05 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 09:55:05 INFO [on.py] Application shutdown complete.
+15-Mar-24 09:55:05 INFO [server.py] Finished server process [328115]
+15-Mar-24 10:13:08 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:13:08 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:13:08 INFO [authbearer.py] user found
+15-Mar-24 10:13:08 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:13:08 INFO [authbearer.py] create access token
+15-Mar-24 10:13:08 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 13, 8, 194861), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:13:08 INFO [authbearer.py] HS256
+15-Mar-24 10:13:08 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:13:08 INFO [h11_impl.py] 192.168.150.14:58953 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:13:29 INFO [h11_impl.py] 192.168.150.14:58960 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:14:42 INFO [server.py] Shutting down
+15-Mar-24 10:14:42 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 10:14:42 INFO [on.py] Application shutdown complete.
+15-Mar-24 10:14:42 INFO [server.py] Finished server process [331117]
+15-Mar-24 10:29:34 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:29:34 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:29:34 INFO [authbearer.py] user found
+15-Mar-24 10:29:34 INFO [authbearer.py] Incorrect password for user: user1
+15-Mar-24 10:29:34 INFO [h11_impl.py] 192.168.150.14:59193 - "POST /generate_token HTTP/1.1" 401
+15-Mar-24 10:29:42 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:29:42 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:29:42 INFO [authbearer.py] user found
+15-Mar-24 10:29:42 INFO [authbearer.py] Incorrect password for user: user1
+15-Mar-24 10:29:42 INFO [h11_impl.py] 192.168.150.14:59195 - "POST /generate_token HTTP/1.1" 401
+15-Mar-24 10:29:55 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:29:55 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:29:55 INFO [authbearer.py] user found
+15-Mar-24 10:29:55 INFO [authbearer.py] Incorrect password for user: user1
+15-Mar-24 10:29:55 INFO [h11_impl.py] 192.168.150.14:59199 - "POST /generate_token HTTP/1.1" 401
+15-Mar-24 10:30:02 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:30:02 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:30:02 INFO [authbearer.py] user found
+15-Mar-24 10:30:02 INFO [authbearer.py] Incorrect password for user: user1
+15-Mar-24 10:30:02 INFO [h11_impl.py] 192.168.150.14:59203 - "POST /generate_token HTTP/1.1" 401
+15-Mar-24 10:30:07 INFO [h11_impl.py] 192.168.150.14:59206 - "GET /docs HTTP/1.1" 200
+15-Mar-24 10:30:08 INFO [h11_impl.py] 192.168.150.14:59206 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 10:30:22 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:30:22 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:30:22 INFO [authbearer.py] user found
+15-Mar-24 10:30:22 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:30:22 INFO [authbearer.py] create access token
+15-Mar-24 10:30:22 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 30, 22, 624853), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:30:22 INFO [authbearer.py] HS256
+15-Mar-24 10:30:22 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:30:22 INFO [h11_impl.py] 192.168.150.14:59213 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:30:53 INFO [h11_impl.py] 192.168.150.14:59226 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:31:33 INFO [h11_impl.py] 192.168.150.14:59234 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:35:07 INFO [server.py] Shutting down
+15-Mar-24 10:35:08 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 10:35:08 INFO [on.py] Application shutdown complete.
+15-Mar-24 10:35:08 INFO [server.py] Finished server process [335005]
+15-Mar-24 10:37:30 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:37:30 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:37:30 INFO [authbearer.py] user found
+15-Mar-24 10:37:30 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:37:30 INFO [authbearer.py] create access token
+15-Mar-24 10:37:30 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 37, 30, 517481), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:37:30 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 10:37:30 INFO [authbearer.py] HS256
+15-Mar-24 10:37:30 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:37:30 INFO [h11_impl.py] 192.168.150.14:59310 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:37:56 INFO [h11_impl.py] 192.168.150.14:59318 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:38:23 INFO [h11_impl.py] 192.168.150.14:59325 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:39:05 INFO [h11_impl.py] 192.168.150.14:59335 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:45:01 INFO [server.py] Shutting down
+15-Mar-24 10:45:01 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 10:45:01 INFO [on.py] Application shutdown complete.
+15-Mar-24 10:45:01 INFO [server.py] Finished server process [336512]
+15-Mar-24 10:46:12 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:46:12 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:46:12 INFO [authbearer.py] user found
+15-Mar-24 10:46:12 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:46:12 INFO [authbearer.py] create access token
+15-Mar-24 10:46:12 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 46, 12, 132122), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:46:12 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 10:46:12 INFO [authbearer.py] HS256
+15-Mar-24 10:46:12 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:46:12 INFO [h11_impl.py] 192.168.150.14:59434 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:46:25 INFO [h11_impl.py] 192.168.150.14:59439 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:46:32 INFO [h11_impl.py] 192.168.150.14:59442 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:48:18 INFO [h11_impl.py] 192.168.150.14:59463 - "GET /docs HTTP/1.1" 200
+15-Mar-24 10:48:19 INFO [h11_impl.py] 192.168.150.14:59463 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 10:48:35 INFO [h11_impl.py] 192.168.150.14:59469 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:48:59 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:48:59 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:48:59 INFO [authbearer.py] user found
+15-Mar-24 10:48:59 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:48:59 INFO [authbearer.py] create access token
+15-Mar-24 10:48:59 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 48, 59, 645075), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:48:59 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 10:48:59 INFO [authbearer.py] HS256
+15-Mar-24 10:48:59 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:48:59 INFO [h11_impl.py] 192.168.150.14:59474 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:50:02 INFO [h11_impl.py] 192.168.150.14:59493 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:51:20 INFO [server.py] Shutting down
+15-Mar-24 10:51:20 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 10:51:20 INFO [on.py] Application shutdown complete.
+15-Mar-24 10:51:20 INFO [server.py] Finished server process [337973]
+15-Mar-24 10:53:02 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:53:02 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:53:02 INFO [authbearer.py] user found
+15-Mar-24 10:53:02 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:53:02 INFO [authbearer.py] create access token
+15-Mar-24 10:53:02 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 53, 2, 191744), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:53:02 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 10:53:02 INFO [authbearer.py] HS256
+15-Mar-24 10:53:02 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:53:02 INFO [h11_impl.py] 192.168.150.14:59543 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:53:21 INFO [h11_impl.py] 192.168.150.14:59548 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:53:48 INFO [h11_impl.py] 192.168.150.14:59557 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:54:05 INFO [h11_impl.py] 192.168.150.14:59566 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:54:14 INFO [h11_impl.py] 192.168.150.14:59573 - "GET /docs HTTP/1.1" 200
+15-Mar-24 10:54:14 INFO [h11_impl.py] 192.168.150.14:59573 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 10:54:18 INFO [h11_impl.py] 192.168.150.14:59574 - "POST /token HTTP/1.1" 404
+15-Mar-24 10:54:35 INFO [authentication.py] login_for_access_token
+15-Mar-24 10:54:35 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 10:54:35 INFO [authbearer.py] user found
+15-Mar-24 10:54:35 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 10:54:35 INFO [authbearer.py] create access token
+15-Mar-24 10:54:35 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 5, 54, 35, 351097), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 10:54:35 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 10:54:35 INFO [authbearer.py] HS256
+15-Mar-24 10:54:35 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 10:54:35 INFO [h11_impl.py] 192.168.150.14:59581 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 10:54:46 INFO [authbearer.py] verify_token
+15-Mar-24 10:54:46 INFO [h11_impl.py] 192.168.150.14:59585 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:55:02 INFO [authbearer.py] verify_token
+15-Mar-24 10:56:10 INFO [authbearer.py] verify_token
+15-Mar-24 10:59:28 INFO [authbearer.py] verify_token
+15-Mar-24 10:59:28 INFO [authbearer.py] {'sub': 'user1'}
+15-Mar-24 10:59:37 INFO [authbearer.py] verify_token
+15-Mar-24 10:59:37 INFO [authbearer.py] {'sub': 'user1'}
+15-Mar-24 11:25:03 INFO [authentication.py] login_for_access_token
+15-Mar-24 11:25:03 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 11:25:03 INFO [authbearer.py] user found
+15-Mar-24 11:25:03 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 11:25:03 INFO [authbearer.py] create access token
+15-Mar-24 11:25:03 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 6, 25, 3, 793483), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 11:25:03 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 11:25:03 INFO [authbearer.py] HS256
+15-Mar-24 11:25:03 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 11:25:03 INFO [h11_impl.py] 192.168.150.14:60063 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 13:23:33 INFO [h11_impl.py] 192.168.150.14:61662 - "GET /docs HTTP/1.1" 200
+15-Mar-24 13:23:33 INFO [h11_impl.py] 192.168.150.14:61662 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 13:23:57 INFO [h11_impl.py] 192.168.150.14:61670 - "POST /token HTTP/1.1" 404
+15-Mar-24 13:24:04 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:24:04 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:24:04 INFO [authbearer.py] user found
+15-Mar-24 13:24:04 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:24:04 INFO [authbearer.py] create access token
+15-Mar-24 13:24:04 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 24, 4, 850382), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:24:04 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 13:24:04 INFO [authbearer.py] HS256
+15-Mar-24 13:24:04 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 13:24:04 INFO [h11_impl.py] 192.168.150.14:61673 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 13:24:13 INFO [h11_impl.py] 192.168.150.14:61676 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 13:25:11 INFO [h11_impl.py] 192.168.150.14:61691 - "POST /token HTTP/1.1" 404
+15-Mar-24 13:31:38 INFO [server.py] Shutting down
+15-Mar-24 13:31:38 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 13:31:38 INFO [on.py] Application shutdown complete.
+15-Mar-24 13:31:38 INFO [server.py] Finished server process [342644]
+15-Mar-24 13:32:38 INFO [main.py] Endpoints registered successfully.
+15-Mar-24 13:32:38 INFO [main.py] Endpoints registered successfully.
+15-Mar-24 13:32:38 INFO [server.py] Started server process [385609]
+15-Mar-24 13:32:38 INFO [on.py] Waiting for application startup.
+15-Mar-24 13:32:38 INFO [on.py] Application startup complete.
+15-Mar-24 13:32:38 INFO [h11_impl.py] 192.168.150.14:61796 - "GET /docs HTTP/1.1" 200
+15-Mar-24 13:32:38 INFO [h11_impl.py] 192.168.150.14:61796 - "GET /docs HTTP/1.1" 200
+15-Mar-24 13:32:38 INFO [h11_impl.py] 192.168.150.14:61796 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 13:32:39 INFO [h11_impl.py] 192.168.150.14:61800 - "GET /openapi.json HTTP/1.1" 200
+15-Mar-24 13:33:43 INFO [server.py] Shutting down
+15-Mar-24 13:33:43 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+15-Mar-24 13:33:43 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 13:33:43 INFO [on.py] Application shutdown complete.
+15-Mar-24 13:33:43 INFO [server.py] Finished server process [385609]
+15-Mar-24 13:38:54 INFO [authbearer.py] verify_token
+15-Mar-24 13:38:54 INFO [h11_impl.py] 192.168.150.14:61880 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 13:39:02 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:39:02 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:39:02 INFO [authbearer.py] user found
+15-Mar-24 13:39:02 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:39:02 INFO [authbearer.py] create access token
+15-Mar-24 13:39:02 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 39, 2, 182744), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:39:02 INFO [authbearer.py] e19ed9473bb90bf9e878515baa1c1f4a21ac327b48224a068b3ba7b5df4d3ffa
+15-Mar-24 13:39:02 INFO [authbearer.py] HS256
+15-Mar-24 13:39:02 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 13:39:02 INFO [h11_impl.py] 192.168.150.14:61885 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 13:39:15 INFO [authbearer.py] verify_token
+15-Mar-24 13:39:15 INFO [authbearer.py] {'sub': 'user1'}
+15-Mar-24 13:39:25 INFO [authbearer.py] verify_token
+15-Mar-24 13:39:25 INFO [authbearer.py] {'sub': 'user1'}
+15-Mar-24 13:43:31 INFO [authbearer.py] verify_token
+15-Mar-24 13:44:11 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:44:11 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:44:11 INFO [authbearer.py] user found
+15-Mar-24 13:44:11 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:44:11 INFO [authbearer.py] create access token
+15-Mar-24 13:44:11 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 44, 11, 623090), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:44:11 INFO [h11_impl.py] 192.168.150.14:61972 - "POST /generate_token HTTP/1.1" 500
+15-Mar-24 13:44:11 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/auth/authbearer.py", line 77, in create_access_token
+    logging.info(SECRET_KEY)
+NameError: name 'SECRET_KEY' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 26, in login_for_access_token
+    access_token = create_access_token(
+  File "/opt/siap/analytics/auth/authbearer.py", line 82, in create_access_token
+    except exception as e:
+NameError: name 'exception' is not defined
+15-Mar-24 13:44:44 INFO [server.py] Shutting down
+15-Mar-24 13:44:44 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+15-Mar-24 13:46:12 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 13:46:12 INFO [on.py] Application shutdown complete.
+15-Mar-24 13:46:12 INFO [server.py] Finished server process [390878]
+15-Mar-24 13:47:50 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:47:50 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:47:50 INFO [authbearer.py] user found
+15-Mar-24 13:47:50 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:47:50 INFO [authbearer.py] create access token
+15-Mar-24 13:47:50 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 47, 50, 784650), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:47:50 INFO [authbearer.py] HS256
+15-Mar-24 13:47:50 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 13:47:50 INFO [h11_impl.py] 192.168.150.14:62028 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 13:48:12 INFO [h11_impl.py] 192.168.150.14:62053 - "POST /token HTTP/1.1" 404
+15-Mar-24 13:48:27 INFO [h11_impl.py] 192.168.150.14:62062 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 13:50:04 INFO [server.py] Shutting down
+15-Mar-24 13:50:04 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 13:50:04 INFO [on.py] Application shutdown complete.
+15-Mar-24 13:50:04 INFO [server.py] Finished server process [392712]
+15-Mar-24 13:52:31 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:52:31 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:52:31 INFO [authbearer.py] user found
+15-Mar-24 13:52:31 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:52:31 INFO [authbearer.py] create access token
+15-Mar-24 13:52:31 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 52, 31, 437253), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:52:31 INFO [authbearer.py] HS256
+15-Mar-24 13:52:31 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA0OTI3NTEsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.bLHsJQCAKPBpcwEJDwDTlvQvla0Q2340l9uzPKSCSio
+15-Mar-24 13:52:31 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 13:52:31 INFO [h11_impl.py] 192.168.150.14:62129 - "POST /generate_token HTTP/1.1" 200
+15-Mar-24 13:52:53 INFO [h11_impl.py] 192.168.150.14:62135 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 13:53:07 INFO [h11_impl.py] 192.168.150.14:62141 - "POST /token HTTP/1.1" 404
+15-Mar-24 13:55:06 INFO [server.py] Shutting down
+15-Mar-24 13:55:06 INFO [on.py] Waiting for application shutdown.
+15-Mar-24 13:55:06 INFO [on.py] Application shutdown complete.
+15-Mar-24 13:55:06 INFO [server.py] Finished server process [395198]
+15-Mar-24 13:58:45 INFO [authentication.py] login_for_access_token
+15-Mar-24 13:58:45 INFO [authbearer.py] Authenticating user: user1
+15-Mar-24 13:58:45 INFO [authbearer.py] user found
+15-Mar-24 13:58:45 INFO [authbearer.py] User authenticated successfully: user1
+15-Mar-24 13:58:45 INFO [authbearer.py] create access token
+15-Mar-24 13:58:45 INFO [authbearer.py] {'exp': datetime.datetime(2024, 3, 15, 8, 58, 45, 299341), 'sub': "{'sub': 'user1'}"}
+15-Mar-24 13:58:45 INFO [authbearer.py] HS256
+15-Mar-24 13:58:45 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA0OTMxMjUsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.xSUNhqvcfl9CJN1qAOWpzxdo6uw3hhoaTOZ4ToSF7Uk
+15-Mar-24 13:58:45 INFO [authentication.py] User authenticated successfully: user1
+15-Mar-24 13:58:45 INFO [h11_impl.py] 192.168.150.14:62233 - "POST /token HTTP/1.1" 200
+15-Mar-24 13:58:56 INFO [authbearer.py] verify_token

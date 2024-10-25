@@ -1,0 +1,248 @@
+14-Mar-24 09:49:22 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 09:49:22 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 09:49:22 INFO [basereload.py] Started reloader process [141771] using StatReload
+14-Mar-24 09:50:17 INFO [server.py] Started server process [141897]
+14-Mar-24 09:50:17 INFO [on.py] Waiting for application startup.
+14-Mar-24 09:50:17 INFO [on.py] Application startup complete.
+14-Mar-24 09:50:21 INFO [h11_impl.py] 192.168.150.14:53621 - "GET /docs HTTP/1.1" 200
+14-Mar-24 09:50:22 INFO [h11_impl.py] 192.168.150.14:53621 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 09:50:41 INFO [h11_impl.py] 192.168.150.14:53633 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:50:46 INFO [h11_impl.py] 192.168.150.14:53637 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:50:55 INFO [h11_impl.py] 192.168.150.14:53641 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:51:22 INFO [h11_impl.py] 192.168.150.14:53655 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:51:57 INFO [h11_impl.py] 192.168.150.14:53667 - "GET /docs HTTP/1.1" 200
+14-Mar-24 09:51:57 INFO [h11_impl.py] 192.168.150.14:53667 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 09:52:16 INFO [h11_impl.py] 192.168.150.14:53676 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:52:32 INFO [h11_impl.py] 192.168.150.14:53685 - "POST /token HTTP/1.1" 404
+14-Mar-24 09:54:36 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 10:58:25 INFO [basereload.py] Stopping reloader process [141771]
+14-Mar-24 10:59:21 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 10:59:21 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 10:59:21 INFO [basereload.py] Started reloader process [148429] using StatReload
+14-Mar-24 11:00:12 INFO [server.py] Started server process [148585]
+14-Mar-24 11:00:12 INFO [on.py] Waiting for application startup.
+14-Mar-24 11:00:12 INFO [on.py] Application startup complete.
+14-Mar-24 11:00:17 INFO [h11_impl.py] 192.168.150.14:54469 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:00:18 INFO [h11_impl.py] 192.168.150.14:54469 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:00:49 INFO [basereload.py] Stopping reloader process [148429]
+14-Mar-24 11:02:56 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 11:02:56 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 11:02:56 INFO [basereload.py] Started reloader process [149158] using StatReload
+14-Mar-24 11:03:47 INFO [server.py] Started server process [149441]
+14-Mar-24 11:03:47 INFO [on.py] Waiting for application startup.
+14-Mar-24 11:03:47 INFO [on.py] Application startup complete.
+14-Mar-24 11:03:48 INFO [h11_impl.py] 192.168.150.14:54542 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:03:49 INFO [h11_impl.py] 192.168.150.14:54542 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:37:23 WARNING [basereload.py] StatReload detected changes in 'es/router/es_forecasting.py'. Reloading...
+14-Mar-24 11:38:22 INFO [server.py] Started server process [156091]
+14-Mar-24 11:38:22 INFO [on.py] Waiting for application startup.
+14-Mar-24 11:38:22 INFO [on.py] Application startup complete.
+14-Mar-24 11:44:08 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:08 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:10 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:10 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:12 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:12 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:14 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:14 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:16 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:16 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:18 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:18 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:19 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:19 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:21 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:21 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:23 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:23 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:24 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:24 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:25 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:25 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:26 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:26 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:28 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:28 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:30 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:30 INFO [h11_impl.py] 192.168.150.10:51703 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:56 INFO [h11_impl.py] 192.168.150.10:51721 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:56 INFO [h11_impl.py] 192.168.150.10:51721 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:44:57 INFO [h11_impl.py] 192.168.150.10:51721 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:44:57 INFO [h11_impl.py] 192.168.150.10:51721 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:45:51 INFO [server.py] Shutting down
+14-Mar-24 11:45:51 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 11:45:51 INFO [on.py] Application shutdown complete.
+14-Mar-24 11:45:51 INFO [server.py] Finished server process [156091]
+14-Mar-24 11:45:52 INFO [basereload.py] Stopping reloader process [149158]
+14-Mar-24 11:54:11 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 11:54:11 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 11:54:11 INFO [basereload.py] Started reloader process [159094] using StatReload
+14-Mar-24 11:55:08 INFO [server.py] Started server process [159255]
+14-Mar-24 11:55:08 INFO [on.py] Waiting for application startup.
+14-Mar-24 11:55:08 INFO [on.py] Application startup complete.
+14-Mar-24 12:09:42 WARNING [basereload.py] StatReload detected changes in 'es/router/es_forecasting.py'. Reloading...
+14-Mar-24 12:10:41 INFO [server.py] Started server process [162645]
+14-Mar-24 12:10:41 INFO [on.py] Waiting for application startup.
+14-Mar-24 12:10:41 INFO [on.py] Application startup complete.
+14-Mar-24 13:07:22 WARNING [basereload.py] StatReload detected changes in 'swm/router/swm_visualization.py'. Reloading...
+14-Mar-24 13:08:20 INFO [server.py] Started server process [178997]
+14-Mar-24 13:08:20 INFO [on.py] Waiting for application startup.
+14-Mar-24 13:08:20 INFO [on.py] Application startup complete.
+14-Mar-24 13:08:20 INFO [h11_impl.py] 192.168.150.10:52800 - "GET /docs HTTP/1.1" 200
+14-Mar-24 13:08:21 INFO [h11_impl.py] 192.168.150.10:52800 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 13:19:45 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 13:19:45 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 14:07:51 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:09:09 INFO [server.py] Started server process [192163]
+14-Mar-24 14:09:09 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:09:09 INFO [on.py] Application startup complete.
+14-Mar-24 14:09:15 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 14:09:15 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 14:09:26 INFO [h11_impl.py] 192.168.150.14:56210 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:09:26 INFO [h11_impl.py] 192.168.150.14:56210 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:12:19 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:15:33 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:16:28 INFO [server.py] Started server process [193409]
+14-Mar-24 14:16:28 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:16:28 INFO [on.py] Application startup complete.
+14-Mar-24 14:20:16 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:20:17 INFO [server.py] Shutting down
+14-Mar-24 14:20:17 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 14:20:17 INFO [on.py] Application shutdown complete.
+14-Mar-24 14:20:17 INFO [server.py] Finished server process [193409]
+14-Mar-24 14:20:40 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:21:37 INFO [server.py] Started server process [194283]
+14-Mar-24 14:21:37 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:21:37 INFO [on.py] Application startup complete.
+14-Mar-24 14:21:38 INFO [h11_impl.py] 192.168.150.14:56362 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:21:38 INFO [h11_impl.py] 192.168.150.14:56362 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:21:38 INFO [h11_impl.py] 192.168.150.14:56362 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:21:38 INFO [h11_impl.py] 192.168.150.14:56362 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:24:53 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 14:24:53 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 14:28:34 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:29:31 INFO [server.py] Started server process [196019]
+14-Mar-24 14:29:31 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:29:31 INFO [on.py] Application startup complete.
+14-Mar-24 14:29:31 INFO [h11_impl.py] 192.168.150.14:56475 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:29:31 INFO [h11_impl.py] 192.168.150.14:56474 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:29:31 INFO [h11_impl.py] 192.168.150.14:56474 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:29:32 INFO [h11_impl.py] 192.168.150.14:56475 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:30:59 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:31:56 INFO [server.py] Started server process [196466]
+14-Mar-24 14:31:56 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:31:56 INFO [on.py] Application startup complete.
+14-Mar-24 14:31:56 INFO [h11_impl.py] 192.168.150.14:56512 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:31:57 INFO [h11_impl.py] 192.168.150.14:56512 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:32:37 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:41:21 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:42:32 INFO [server.py] Started server process [199029]
+14-Mar-24 14:42:32 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:42:32 INFO [on.py] Application startup complete.
+14-Mar-24 14:42:33 INFO [h11_impl.py] 192.168.150.14:56659 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:42:33 INFO [h11_impl.py] 192.168.150.10:53374 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:42:33 INFO [h11_impl.py] 192.168.150.10:53374 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:42:33 INFO [h11_impl.py] 192.168.150.14:56659 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:43:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 14:43:00 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 14:49:14 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 14:49:14 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 14:58:54 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 14:59:54 INFO [server.py] Started server process [205663]
+14-Mar-24 14:59:54 INFO [on.py] Waiting for application startup.
+14-Mar-24 14:59:54 INFO [on.py] Application startup complete.
+14-Mar-24 15:00:02 WARNING [basereload.py] StatReload detected changes in 'auth/auth_config.py'. Reloading...
+14-Mar-24 15:01:03 INFO [server.py] Started server process [205991]
+14-Mar-24 15:01:03 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:01:03 INFO [on.py] Application startup complete.
+14-Mar-24 15:01:04 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 15:01:36 WARNING [basereload.py] StatReload detected changes in 'auth/authentication.py'. Reloading...
+14-Mar-24 15:02:33 INFO [server.py] Started server process [206790]
+14-Mar-24 15:02:33 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:02:33 INFO [on.py] Application startup complete.
+14-Mar-24 15:04:02 WARNING [basereload.py] StatReload detected changes in 'auth/authbearer.py'. Reloading...
+14-Mar-24 15:05:04 INFO [server.py] Started server process [207260]
+14-Mar-24 15:05:04 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:05:04 INFO [on.py] Application startup complete.
+14-Mar-24 15:05:05 INFO [h11_impl.py] 192.168.150.14:56905 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:05:05 INFO [h11_impl.py] 192.168.150.14:56906 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:05:05 INFO [h11_impl.py] 192.168.150.14:56906 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:05:05 INFO [h11_impl.py] 192.168.150.14:56905 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:11:57 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+14-Mar-24 15:12:58 INFO [server.py] Started server process [209368]
+14-Mar-24 15:12:58 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:12:58 INFO [on.py] Application startup complete.
+14-Mar-24 15:12:58 INFO [h11_impl.py] 192.168.150.14:56997 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:12:58 INFO [h11_impl.py] 192.168.150.10:53832 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:12:58 INFO [h11_impl.py] 192.168.150.10:53832 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:12:58 INFO [h11_impl.py] 192.168.150.14:56997 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:16:43 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+14-Mar-24 15:17:45 INFO [server.py] Started server process [210214]
+14-Mar-24 15:17:45 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:17:45 INFO [on.py] Application startup complete.
+14-Mar-24 15:18:13 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis.py'. Reloading...
+14-Mar-24 15:18:13 INFO [server.py] Shutting down
+14-Mar-24 15:18:13 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 15:18:13 INFO [on.py] Application shutdown complete.
+14-Mar-24 15:18:13 INFO [server.py] Finished server process [210214]
+14-Mar-24 15:19:09 INFO [server.py] Started server process [210478]
+14-Mar-24 15:19:09 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:19:09 INFO [on.py] Application startup complete.
+14-Mar-24 15:19:09 INFO [h11_impl.py] 192.168.150.14:57081 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:19:10 INFO [h11_impl.py] 192.168.150.14:57081 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:19:10 INFO [h11_impl.py] 192.168.150.14:57081 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:19:10 INFO [h11_impl.py] 192.168.150.14:57084 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:21:53 WARNING [basereload.py] StatReload detected changes in 'crime/router/crime_analysis.py'. Reloading...
+14-Mar-24 15:22:52 INFO [server.py] Started server process [211651]
+14-Mar-24 15:22:52 INFO [on.py] Waiting for application startup.
+14-Mar-24 15:22:52 INFO [on.py] Application startup complete.
+14-Mar-24 15:22:52 INFO [h11_impl.py] 192.168.150.14:57130 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:22:52 INFO [h11_impl.py] 192.168.150.14:57130 - "GET /docs HTTP/1.1" 200
+14-Mar-24 15:22:53 INFO [h11_impl.py] 192.168.150.14:57130 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 15:22:54 INFO [h11_impl.py] 192.168.150.14:57130 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 16:09:18 INFO [basereload.py] Stopping reloader process [159094]
+14-Mar-24 16:11:54 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 16:11:54 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 16:11:54 INFO [basereload.py] Started reloader process [218542] using StatReload
+14-Mar-24 16:12:52 INFO [server.py] Started server process [219004]
+14-Mar-24 16:12:52 INFO [on.py] Waiting for application startup.
+14-Mar-24 16:12:52 INFO [on.py] Application startup complete.
+14-Mar-24 16:18:04 INFO [server.py] Shutting down
+14-Mar-24 16:18:04 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 16:18:04 INFO [on.py] Application shutdown complete.
+14-Mar-24 16:18:04 INFO [server.py] Finished server process [219004]
+14-Mar-24 16:18:07 INFO [basereload.py] Stopping reloader process [218542]
+14-Mar-24 16:20:03 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 16:20:03 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+14-Mar-24 16:20:03 INFO [basereload.py] Started reloader process [221228] using StatReload
+14-Mar-24 16:21:04 INFO [server.py] Started server process [221473]
+14-Mar-24 16:21:04 INFO [on.py] Waiting for application startup.
+14-Mar-24 16:21:04 INFO [on.py] Application startup complete.
+14-Mar-24 16:23:08 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 16:23:08 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 16:26:52 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+14-Mar-24 16:26:52 ERROR [config.py] [Errno 98] Address already in use
+14-Mar-24 16:31:38 WARNING [basereload.py] StatReload detected changes in 'cctv/router/cctv_visualization.py'. Reloading...
+14-Mar-24 16:32:35 INFO [server.py] Started server process [224702]
+14-Mar-24 16:32:35 INFO [on.py] Waiting for application startup.
+14-Mar-24 16:32:35 INFO [on.py] Application startup complete.
+14-Mar-24 16:32:36 INFO [h11_impl.py] 192.168.150.10:55067 - "GET /docs HTTP/1.1" 200
+14-Mar-24 16:32:36 INFO [h11_impl.py] 192.168.150.10:55067 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 17:31:23 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+14-Mar-24 17:32:13 INFO [server.py] Started server process [231519]
+14-Mar-24 17:32:13 INFO [on.py] Waiting for application startup.
+14-Mar-24 17:32:13 INFO [on.py] Application startup complete.
+14-Mar-24 17:32:13 INFO [h11_impl.py] 192.168.150.10:55883 - "GET /docs HTTP/1.1" 200
+14-Mar-24 17:32:14 INFO [h11_impl.py] 192.168.150.10:55883 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 17:37:29 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+14-Mar-24 17:38:19 INFO [server.py] Started server process [232305]
+14-Mar-24 17:38:19 INFO [on.py] Waiting for application startup.
+14-Mar-24 17:38:19 INFO [on.py] Application startup complete.
+14-Mar-24 17:38:19 INFO [h11_impl.py] 192.168.150.10:55922 - "GET /docs HTTP/1.1" 200
+14-Mar-24 17:38:19 INFO [h11_impl.py] 192.168.150.10:55922 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 17:40:33 WARNING [basereload.py] StatReload detected changes in 'es/router/es_visualization.py'. Reloading...
+14-Mar-24 17:41:31 INFO [server.py] Started server process [232635]
+14-Mar-24 17:41:31 INFO [on.py] Waiting for application startup.
+14-Mar-24 17:41:31 INFO [on.py] Application startup complete.
+14-Mar-24 17:41:31 INFO [h11_impl.py] 192.168.150.10:55958 - "GET /docs HTTP/1.1" 200
+14-Mar-24 17:41:31 INFO [h11_impl.py] 192.168.150.10:55958 - "GET /openapi.json HTTP/1.1" 200

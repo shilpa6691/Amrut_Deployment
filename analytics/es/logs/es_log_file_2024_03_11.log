@@ -1,0 +1,24 @@
+11-Mar-24 09:23:47 INFO [es_visualization.py] Loading csv file
+11-Mar-24 09:23:48 INFO [h11_impl.py] 192.168.150.10:49633 - "GET /ES_data_for_map HTTP/1.1" 200
+11-Mar-24 11:03:58 INFO [es_visualization.py] Loading csv file
+11-Mar-24 11:03:58 INFO [es_visualization.py] Processing es map creation data...
+11-Mar-24 11:03:59 INFO [es_visualization.py] Processing of es map creation data completed
+11-Mar-24 11:03:59 INFO [h11_impl.py] 192.168.150.14:52966 - "GET /ES_data_for_map HTTP/1.1" 200
+11-Mar-24 12:26:25 ERROR [es_forecasting.py] Exception occurred during forecasting
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_forecasting.py", line 52, in forecasting
+    regionwise_predictions = fitted_model.predict(len(regionwise_data[regionwise_data[region_column]==region1]), len(regionwise_data[regionwise_data[region_column]==region])+(test_size-1), typ='levels').round(2)
+NameError: name 'region1' is not defined
+11-Mar-24 12:26:25 INFO [h11_impl.py] 192.168.150.10:50681 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 500
+11-Mar-24 12:26:48 INFO [server.py] Shutting down
+11-Mar-24 12:26:48 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+11-Mar-24 12:31:16 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 12:31:16 INFO [on.py] Application shutdown complete.
+11-Mar-24 12:31:16 INFO [server.py] Finished server process [1334543]
+11-Mar-24 12:49:52 INFO [es_forecasting.py] Forecasted data was saved successfully
+11-Mar-24 12:49:52 INFO [h11_impl.py] 192.168.150.10:50799 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+11-Mar-24 12:50:01 INFO [h11_impl.py] 192.168.150.10:50805 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=swm HTTP/1.1" 404
+11-Mar-24 12:52:09 INFO [server.py] Shutting down
+11-Mar-24 12:52:09 INFO [on.py] Waiting for application shutdown.
+11-Mar-24 12:52:09 INFO [on.py] Application shutdown complete.
+11-Mar-24 12:52:09 INFO [server.py] Finished server process [1337308]

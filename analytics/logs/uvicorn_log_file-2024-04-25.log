@@ -1,0 +1,67 @@
+25-Apr-24 11:17:06 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+25-Apr-24 11:17:06 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+25-Apr-24 11:17:06 INFO [basereload.py] Started reloader process [3313636] using StatReload
+25-Apr-24 11:17:51 INFO [server.py] Started server process [3313780]
+25-Apr-24 11:17:51 INFO [on.py] Waiting for application startup.
+25-Apr-24 11:17:51 INFO [on.py] Application startup complete.
+25-Apr-24 11:22:15 INFO [h11_impl.py] 192.168.150.10:56384 - "GET /docs HTTP/1.1" 200
+25-Apr-24 11:22:15 INFO [h11_impl.py] 192.168.150.10:56384 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 12:48:41 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 12:49:28 INFO [server.py] Started server process [3322732]
+25-Apr-24 12:49:28 INFO [on.py] Waiting for application startup.
+25-Apr-24 12:49:28 INFO [on.py] Application startup complete.
+25-Apr-24 12:49:28 INFO [h11_impl.py] 192.168.150.10:58231 - "GET /docs HTTP/1.1" 200
+25-Apr-24 12:49:28 INFO [h11_impl.py] 192.168.150.10:58231 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 12:50:40 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 12:51:27 INFO [server.py] Started server process [3323011]
+25-Apr-24 12:51:27 INFO [on.py] Waiting for application startup.
+25-Apr-24 12:51:27 INFO [on.py] Application startup complete.
+25-Apr-24 12:51:27 INFO [h11_impl.py] 192.168.150.10:58279 - "GET /docs HTTP/1.1" 200
+25-Apr-24 12:51:27 INFO [h11_impl.py] 192.168.150.10:58279 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 12:52:19 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 12:53:06 INFO [server.py] Started server process [3323216]
+25-Apr-24 12:53:06 INFO [on.py] Waiting for application startup.
+25-Apr-24 12:53:06 INFO [on.py] Application startup complete.
+25-Apr-24 12:53:06 INFO [h11_impl.py] 192.168.150.10:58320 - "GET /docs HTTP/1.1" 200
+25-Apr-24 12:53:07 INFO [h11_impl.py] 192.168.150.10:58320 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 12:55:58 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 12:56:45 INFO [server.py] Started server process [3323918]
+25-Apr-24 12:56:45 INFO [on.py] Waiting for application startup.
+25-Apr-24 12:56:45 INFO [on.py] Application startup complete.
+25-Apr-24 12:56:45 INFO [h11_impl.py] 192.168.150.10:58418 - "GET /docs HTTP/1.1" 200
+25-Apr-24 12:56:45 INFO [h11_impl.py] 192.168.150.10:58418 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 14:49:03 WARNING [basereload.py] StatReload detected changes in 'ahu/ahu_model.py'. Reloading...
+25-Apr-24 14:49:13 INFO [basereload.py] Stopping reloader process [3313636]
+25-Apr-24 14:51:10 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+25-Apr-24 14:51:10 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+25-Apr-24 14:51:10 INFO [basereload.py] Started reloader process [3335253] using StatReload
+25-Apr-24 14:51:57 INFO [server.py] Started server process [3335450]
+25-Apr-24 14:51:57 INFO [on.py] Waiting for application startup.
+25-Apr-24 14:51:57 INFO [on.py] Application startup complete.
+25-Apr-24 14:55:17 INFO [h11_impl.py] 192.168.150.10:60336 - "GET /docs HTTP/1.1" 200
+25-Apr-24 14:55:17 INFO [h11_impl.py] 192.168.150.10:60336 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 15:12:45 INFO [basereload.py] Stopping reloader process [3335253]
+25-Apr-24 15:15:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+25-Apr-24 15:15:09 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+25-Apr-24 15:15:09 INFO [basereload.py] Started reloader process [3338538] using StatReload
+25-Apr-24 15:15:57 INFO [server.py] Started server process [3339058]
+25-Apr-24 15:15:57 INFO [on.py] Waiting for application startup.
+25-Apr-24 15:15:57 INFO [on.py] Application startup complete.
+25-Apr-24 15:16:04 INFO [h11_impl.py] 192.168.150.10:60989 - "GET /docs HTTP/1.1" 200
+25-Apr-24 15:16:05 INFO [h11_impl.py] 192.168.150.10:60989 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 15:16:08 INFO [h11_impl.py] 192.168.150.10:60989 - "GET /docs HTTP/1.1" 200
+25-Apr-24 15:16:09 INFO [h11_impl.py] 192.168.150.10:60989 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 16:17:23 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 16:17:33 INFO [basereload.py] Stopping reloader process [3338538]
+25-Apr-24 16:52:06 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+25-Apr-24 16:52:06 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+25-Apr-24 16:52:06 INFO [basereload.py] Started reloader process [3360098] using StatReload
+25-Apr-24 16:52:57 INFO [server.py] Started server process [3360254]
+25-Apr-24 16:52:57 INFO [on.py] Waiting for application startup.
+25-Apr-24 16:52:57 INFO [on.py] Application startup complete.
+25-Apr-24 16:53:18 INFO [h11_impl.py] 192.168.150.10:63791 - "GET /docs HTTP/1.1" 200
+25-Apr-24 16:53:18 INFO [h11_impl.py] 192.168.150.10:63791 - "GET /openapi.json HTTP/1.1" 200
+25-Apr-24 16:54:23 WARNING [basereload.py] StatReload detected changes in 'ahu/router/ahu_anomaly_detection.py'. Reloading...
+25-Apr-24 16:55:21 INFO [server.py] Started server process [3361102]
+25-Apr-24 16:55:21 INFO [on.py] Waiting for application startup.
+25-Apr-24 16:55:21 INFO [on.py] Application startup complete.

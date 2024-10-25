@@ -1,0 +1,673 @@
+07-Mar-24 11:49:58 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 11:50:00 INFO [crime_analysis.py] Counting number of monthly crimes....
+07-Mar-24 11:50:00 ERROR [crime_analysis.py] Exception occurred during monthly_total_crimes: name 'Crime_counts' is not defined
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis.py", line 38, in monthly_total_crimes
+    total_monthly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['Type_Description','WARD','Month-Year'],Crime_counts,Disposition)
+NameError: name 'Crime_counts' is not defined
+07-Mar-24 11:50:00 INFO [h11_impl.py] 192.168.150.14:60953 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 11:52:26 INFO [server.py] Shutting down
+07-Mar-24 11:52:26 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 11:52:26 INFO [on.py] Application shutdown complete.
+07-Mar-24 11:52:26 INFO [server.py] Finished server process [557119]
+07-Mar-24 11:53:48 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 11:53:50 INFO [crime_analysis.py] Counting number of monthly crimes....
+07-Mar-24 11:53:50 ERROR [crime_analysis.py] Exception occurred during monthly_total_crimes: name 'Disposition' is not defined
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis.py", line 38, in monthly_total_crimes
+    total_monthly_data = data_processor_class.get_crime_count_locationwise(filtered_data,['Type_Description','WARD','Month-Year'],Disposition,{"Disposition":"Crime_counts"})
+NameError: name 'Disposition' is not defined
+07-Mar-24 11:53:50 INFO [h11_impl.py] 192.168.150.14:60999 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 11:56:44 INFO [server.py] Shutting down
+07-Mar-24 11:56:44 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 11:56:44 INFO [on.py] Application shutdown complete.
+07-Mar-24 11:56:44 INFO [server.py] Finished server process [557615]
+07-Mar-24 11:57:43 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 11:57:46 INFO [crime_analysis.py] Counting number of monthly crimes....
+07-Mar-24 11:57:46 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 11:57:46 INFO [h11_impl.py] 192.168.150.14:61057 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 11:58:11 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 11:58:13 INFO [crime_analysis.py] Counting number of monthly crimes....
+07-Mar-24 11:58:13 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 11:58:13 INFO [h11_impl.py] 192.168.150.14:61064 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=7&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 12:08:45 INFO [server.py] Shutting down
+07-Mar-24 12:08:45 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 12:08:45 INFO [on.py] Application shutdown complete.
+07-Mar-24 12:08:45 INFO [server.py] Finished server process [558042]
+07-Mar-24 12:14:50 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 12:14:53 INFO [crime_analysis.py] Counting number of crimes...
+07-Mar-24 12:14:53 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 12:14:53 INFO [h11_impl.py] 192.168.150.14:61244 - "GET /yearly_count_of_crimes_locationwise?page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 12:16:01 INFO [server.py] Shutting down
+07-Mar-24 12:16:01 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 12:16:01 INFO [on.py] Application shutdown complete.
+07-Mar-24 12:16:01 INFO [server.py] Finished server process [559812]
+07-Mar-24 12:23:54 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 12:23:55 INFO [crime_analysis.py] Counting number of crimes...
+07-Mar-24 12:23:56 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 12:23:56 INFO [h11_impl.py] 192.168.150.14:61346 - "GET /hotspot_detection_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 12:26:55 INFO [server.py] Shutting down
+07-Mar-24 12:26:55 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 12:26:55 INFO [on.py] Application shutdown complete.
+07-Mar-24 12:26:55 INFO [server.py] Finished server process [560841]
+07-Mar-24 12:35:50 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 12:35:51 INFO [crime_analysis.py] Counting number of severity...
+07-Mar-24 12:35:52 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 12:35:53 INFO [h11_impl.py] 192.168.150.14:61494 - "GET /classification_of_crimes_based_on_severity?page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 12:37:27 INFO [server.py] Shutting down
+07-Mar-24 12:37:27 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 12:37:27 INFO [on.py] Application shutdown complete.
+07-Mar-24 12:37:27 INFO [server.py] Finished server process [562628]
+07-Mar-24 13:11:13 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:11:14 INFO [crime_analysis.py] Counting number of accidents...
+07-Mar-24 13:11:15 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:11:15 INFO [h11_impl.py] 192.168.150.14:61773 - "GET /time_and_location_at_which_accidents_happen_the_most?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 13:11:48 INFO [h11_impl.py] 192.168.150.14:61780 - "GET /docs HTTP/1.1" 200
+07-Mar-24 13:11:49 INFO [h11_impl.py] 192.168.150.14:61780 - "GET /openapi.json HTTP/1.1" 200
+07-Mar-24 13:11:57 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:11:58 INFO [crime_analysis.py] Counting number of accidents...
+07-Mar-24 13:11:58 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:11:59 INFO [h11_impl.py] 192.168.150.14:61784 - "GET /time_and_location_at_which_accidents_happen_the_most?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 13:15:22 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:15:24 INFO [crime_analysis.py] Counting number of accidents...
+07-Mar-24 13:15:24 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:15:24 INFO [h11_impl.py] 192.168.150.14:61847 - "GET /time_and_location_at_which_accidents_happen_the_most?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 13:16:43 INFO [server.py] Shutting down
+07-Mar-24 13:16:43 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 13:16:43 INFO [on.py] Application shutdown complete.
+07-Mar-24 13:16:43 INFO [server.py] Finished server process [573060]
+07-Mar-24 13:30:50 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:30:52 INFO [crime_analysis.py] Counting number of crime rates...
+07-Mar-24 13:30:55 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:30:55 INFO [h11_impl.py] 192.168.150.14:62016 - "GET /yearwise_total_crime_rate HTTP/1.1" 200
+07-Mar-24 13:47:02 INFO [server.py] Shutting down
+07-Mar-24 13:47:02 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 13:47:02 INFO [on.py] Application shutdown complete.
+07-Mar-24 13:47:02 INFO [server.py] Finished server process [579596]
+07-Mar-24 13:48:06 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:48:08 INFO [crime_analysis.py] Counting number of crime rates of cctv and streetlight...
+07-Mar-24 13:48:08 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:48:08 INFO [h11_impl.py] 192.168.150.14:62185 - "GET /effect_of_cctv_and_streetlight?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 13:48:48 INFO [server.py] Shutting down
+07-Mar-24 13:48:48 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 13:48:48 INFO [on.py] Application shutdown complete.
+07-Mar-24 13:48:48 INFO [server.py] Finished server process [586534]
+07-Mar-24 13:49:47 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 13:49:49 INFO [crime_analysis.py] Counting number of crime rates of cctv and streetlight...
+07-Mar-24 13:49:49 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 13:49:49 INFO [h11_impl.py] 192.168.150.14:62213 - "GET /effect_of_cctv_and_streetlight?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 13:53:06 INFO [server.py] Shutting down
+07-Mar-24 13:53:06 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 13:53:06 INFO [on.py] Application shutdown complete.
+07-Mar-24 13:53:06 INFO [server.py] Finished server process [587220]
+07-Mar-24 14:09:41 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:09:43 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:09:54 ERROR [crime_analysis.py] Exception occurred during Las_vegas_and_San_francisco_crime_trends:'Type_Description'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Type_Description'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis.py", line 421, in Las_vegas_and_San_francisco_crime_trends
+    total_crime_rate_data = data_processor_class.merging_datframes(cleaned_data1,cleaned_data2,["Year","City","Population"],'Crime_counts')
+  File "/opt/siap/analytics/crime/crime_model.py", line 150, in merging_datframes
+    data2['Type_Description'] = data2['Type_Description'].fillna('Other')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Type_Description'
+07-Mar-24 14:09:55 INFO [h11_impl.py] 192.168.150.14:62429 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 500
+07-Mar-24 14:10:56 INFO [server.py] Shutting down
+07-Mar-24 14:10:57 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:10:57 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:10:57 INFO [server.py] Finished server process [595223]
+07-Mar-24 14:13:31 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:13:33 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:13:48 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:13:48 INFO [h11_impl.py] 192.168.150.14:62479 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:16:56 INFO [server.py] Shutting down
+07-Mar-24 14:16:56 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:16:56 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:16:56 INFO [server.py] Finished server process [596699]
+07-Mar-24 14:18:25 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:18:27 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:18:41 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:18:41 INFO [h11_impl.py] 192.168.150.14:62676 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:20:36 INFO [server.py] Shutting down
+07-Mar-24 14:20:36 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:20:36 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:20:36 INFO [server.py] Finished server process [598849]
+07-Mar-24 14:23:08 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:23:11 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:23:26 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:23:26 INFO [h11_impl.py] 192.168.150.14:62730 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:37:14 INFO [server.py] Shutting down
+07-Mar-24 14:37:14 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:37:14 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:37:14 INFO [server.py] Finished server process [600475]
+07-Mar-24 14:38:30 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:38:32 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:38:47 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:38:47 INFO [h11_impl.py] 192.168.150.14:62901 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:40:22 INFO [server.py] Shutting down
+07-Mar-24 14:40:22 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:40:22 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:40:22 INFO [server.py] Finished server process [606958]
+07-Mar-24 14:42:03 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:42:05 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:42:20 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:42:20 INFO [h11_impl.py] 192.168.150.14:63284 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:44:40 INFO [server.py] Shutting down
+07-Mar-24 14:44:40 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:44:40 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:44:40 INFO [server.py] Finished server process [608603]
+07-Mar-24 14:45:33 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:45:35 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:45:50 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:45:50 INFO [h11_impl.py] 192.168.150.14:63332 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:47:58 INFO [server.py] Shutting down
+07-Mar-24 14:47:58 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:47:58 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:47:58 INFO [server.py] Finished server process [610281]
+07-Mar-24 14:52:18 INFO [crime_analysis.py] Loading cleaned data files.
+07-Mar-24 14:52:20 INFO [crime_analysis.py] Counting number of crime rates of 2 cities...
+07-Mar-24 14:52:32 INFO [crime_analysis.py] Counting completed!
+07-Mar-24 14:52:32 INFO [h11_impl.py] 192.168.150.14:63423 - "GET /comparison_of_crimes_in_2_cities HTTP/1.1" 200
+07-Mar-24 14:56:38 INFO [server.py] Shutting down
+07-Mar-24 14:56:38 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 14:56:38 INFO [on.py] Application shutdown complete.
+07-Mar-24 14:56:38 INFO [server.py] Finished server process [612967]
+07-Mar-24 15:14:30 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+07-Mar-24 15:14:32 INFO [crime_model_fitting.py] TS data cleaning completed.
+07-Mar-24 15:15:15 INFO [crime_model_fitting.py] The model is fitted for ward W_1.
+07-Mar-24 15:15:15 INFO [crime_model_fitting.py] pickle file for modelresults ward W_1 created successfully
+07-Mar-24 15:15:15 INFO [crime_model_fitting.py] pickle file for fitresults ward W_1 created successfully
+07-Mar-24 15:15:19 INFO [crime_model_fitting.py] The model is fitted for ward W_2.
+07-Mar-24 15:15:19 INFO [crime_model_fitting.py] pickle file for modelresults ward W_2 created successfully
+07-Mar-24 15:15:19 INFO [crime_model_fitting.py] pickle file for fitresults ward W_2 created successfully
+07-Mar-24 15:15:24 INFO [crime_model_fitting.py] The model is fitted for ward W_3.
+07-Mar-24 15:15:24 INFO [crime_model_fitting.py] pickle file for modelresults ward W_3 created successfully
+07-Mar-24 15:15:24 INFO [crime_model_fitting.py] pickle file for fitresults ward W_3 created successfully
+07-Mar-24 15:16:49 INFO [crime_model_fitting.py] The model is fitted for ward W_4.
+07-Mar-24 15:16:49 INFO [crime_model_fitting.py] pickle file for modelresults ward W_4 created successfully
+07-Mar-24 15:16:49 INFO [crime_model_fitting.py] pickle file for fitresults ward W_4 created successfully
+07-Mar-24 15:16:53 INFO [crime_model_fitting.py] The model is fitted for ward W_5.
+07-Mar-24 15:16:53 INFO [crime_model_fitting.py] pickle file for modelresults ward W_5 created successfully
+07-Mar-24 15:16:53 INFO [crime_model_fitting.py] pickle file for fitresults ward W_5 created successfully
+07-Mar-24 15:17:31 INFO [crime_model_fitting.py] The model is fitted for ward W_6.
+07-Mar-24 15:17:31 INFO [crime_model_fitting.py] pickle file for modelresults ward W_6 created successfully
+07-Mar-24 15:17:31 INFO [crime_model_fitting.py] pickle file for fitresults ward W_6 created successfully
+07-Mar-24 15:17:31 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:17:31 INFO [h11_impl.py] 192.168.150.14:63686 - "POST /model_fitting_ward_wise?name_for_pickle_file=ward&test_size=2&validation_size=2 HTTP/1.1" 200
+07-Mar-24 15:19:22 INFO [crime_forecasting.py] Forecasted data was saved successfully
+07-Mar-24 15:19:22 INFO [h11_impl.py] 192.168.150.14:63723 - "GET /forecasting_ward_wise?test_size=2&validation_size=2&name_for_pickle_file=ward HTTP/1.1" 200
+07-Mar-24 15:20:13 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+07-Mar-24 15:20:16 INFO [crime_model_fitting.py] TS data cleaning completed.
+07-Mar-24 15:20:18 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:20:18 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident created successfully
+07-Mar-24 15:20:18 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident created successfully
+07-Mar-24 15:20:27 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:20:27 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery created successfully
+07-Mar-24 15:20:27 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery created successfully
+07-Mar-24 15:20:30 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:20:30 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary created successfully
+07-Mar-24 15:20:30 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary created successfully
+07-Mar-24 15:20:37 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:20:37 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance created successfully
+07-Mar-24 15:20:37 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance created successfully
+07-Mar-24 15:21:00 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:21:00 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance created successfully
+07-Mar-24 15:21:00 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance created successfully
+07-Mar-24 15:21:05 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:21:05 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property created successfully
+07-Mar-24 15:21:05 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property created successfully
+07-Mar-24 15:21:09 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:21:09 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other created successfully
+07-Mar-24 15:21:09 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other created successfully
+07-Mar-24 15:21:29 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:21:29 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious created successfully
+07-Mar-24 15:21:29 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious created successfully
+07-Mar-24 15:21:31 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:21:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen created successfully
+07-Mar-24 15:21:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen created successfully
+07-Mar-24 15:21:59 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:21:59 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY created successfully
+07-Mar-24 15:21:59 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY created successfully
+07-Mar-24 15:21:59 INFO [crime_model_fitting.py] Model fitting of all crime types completed successfully
+07-Mar-24 15:21:59 INFO [h11_impl.py] 192.168.150.14:63750 - "POST /model_fitting_crime_type_wise?name_for_pickle_file=crime_type&test_size=4&validation_size=4 HTTP/1.1" 200
+07-Mar-24 15:23:24 INFO [crime_forecasting.py] Forecasted data was saved successfully
+07-Mar-24 15:23:24 INFO [h11_impl.py] 192.168.150.14:63787 - "GET /forecasting_crime_type_wise?test_size=4&validation_size=4&name_for_pickle_file=crime_type HTTP/1.1" 200
+07-Mar-24 15:26:26 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+07-Mar-24 15:26:28 INFO [crime_model_fitting.py] TS data cleaning completed.
+07-Mar-24 15:26:42 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:42 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_1 created successfully
+07-Mar-24 15:26:42 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_1 created successfully
+07-Mar-24 15:26:44 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:44 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_2 created successfully
+07-Mar-24 15:26:44 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_2 created successfully
+07-Mar-24 15:26:46 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:46 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_3 created successfully
+07-Mar-24 15:26:46 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_3 created successfully
+07-Mar-24 15:26:48 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:48 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_4 created successfully
+07-Mar-24 15:26:48 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_4 created successfully
+07-Mar-24 15:26:53 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_5 created successfully
+07-Mar-24 15:26:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_5 created successfully
+07-Mar-24 15:26:56 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+07-Mar-24 15:26:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward W_6 created successfully
+07-Mar-24 15:26:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward W_6 created successfully
+07-Mar-24 15:26:56 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:27:04 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_1 created successfully
+07-Mar-24 15:27:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_1 created successfully
+07-Mar-24 15:27:13 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:13 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_2 created successfully
+07-Mar-24 15:27:13 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_2 created successfully
+07-Mar-24 15:27:18 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:18 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_3 created successfully
+07-Mar-24 15:27:18 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_3 created successfully
+07-Mar-24 15:27:24 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:24 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_4 created successfully
+07-Mar-24 15:27:24 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_4 created successfully
+07-Mar-24 15:27:31 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_5 created successfully
+07-Mar-24 15:27:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_5 created successfully
+07-Mar-24 15:27:39 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+07-Mar-24 15:27:39 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward W_6 created successfully
+07-Mar-24 15:27:39 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward W_6 created successfully
+07-Mar-24 15:27:39 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:27:49 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:27:49 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_1 created successfully
+07-Mar-24 15:27:49 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_1 created successfully
+07-Mar-24 15:27:56 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:27:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_2 created successfully
+07-Mar-24 15:27:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_2 created successfully
+07-Mar-24 15:28:04 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:28:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_3 created successfully
+07-Mar-24 15:28:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_3 created successfully
+07-Mar-24 15:28:11 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:28:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_4 created successfully
+07-Mar-24 15:28:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_4 created successfully
+07-Mar-24 15:28:34 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:28:34 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_5 created successfully
+07-Mar-24 15:28:34 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_5 created successfully
+07-Mar-24 15:28:45 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+07-Mar-24 15:28:45 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward W_6 created successfully
+07-Mar-24 15:28:45 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward W_6 created successfully
+07-Mar-24 15:28:45 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:28:49 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:28:49 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_1 created successfully
+07-Mar-24 15:28:49 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_1 created successfully
+07-Mar-24 15:28:56 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:28:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_2 created successfully
+07-Mar-24 15:28:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_2 created successfully
+07-Mar-24 15:29:05 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:29:05 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_3 created successfully
+07-Mar-24 15:29:05 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_3 created successfully
+07-Mar-24 15:29:09 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:29:09 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_4 created successfully
+07-Mar-24 15:29:09 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_4 created successfully
+07-Mar-24 15:29:19 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:29:19 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_5 created successfully
+07-Mar-24 15:29:19 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_5 created successfully
+07-Mar-24 15:29:21 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+07-Mar-24 15:29:21 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward W_6 created successfully
+07-Mar-24 15:29:21 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward W_6 created successfully
+07-Mar-24 15:29:21 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:29:26 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:29:26 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_1 created successfully
+07-Mar-24 15:29:26 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_1 created successfully
+07-Mar-24 15:29:31 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:29:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_2 created successfully
+07-Mar-24 15:29:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_2 created successfully
+07-Mar-24 15:29:43 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:29:43 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_3 created successfully
+07-Mar-24 15:29:43 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_3 created successfully
+07-Mar-24 15:29:48 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:29:48 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_4 created successfully
+07-Mar-24 15:29:48 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_4 created successfully
+07-Mar-24 15:29:53 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:29:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_5 created successfully
+07-Mar-24 15:29:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_5 created successfully
+07-Mar-24 15:30:51 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+07-Mar-24 15:30:51 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward W_6 created successfully
+07-Mar-24 15:30:51 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward W_6 created successfully
+07-Mar-24 15:30:51 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:30:58 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:30:58 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_1 created successfully
+07-Mar-24 15:30:58 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_1 created successfully
+07-Mar-24 15:31:04 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:31:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_2 created successfully
+07-Mar-24 15:31:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_2 created successfully
+07-Mar-24 15:31:11 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:31:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_3 created successfully
+07-Mar-24 15:31:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_3 created successfully
+07-Mar-24 15:31:21 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:31:21 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_4 created successfully
+07-Mar-24 15:31:22 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_4 created successfully
+07-Mar-24 15:31:31 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:31:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_5 created successfully
+07-Mar-24 15:31:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_5 created successfully
+07-Mar-24 15:31:43 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+07-Mar-24 15:31:43 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward W_6 created successfully
+07-Mar-24 15:31:43 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward W_6 created successfully
+07-Mar-24 15:31:43 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:31:56 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:31:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_1 created successfully
+07-Mar-24 15:31:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_1 created successfully
+07-Mar-24 15:32:01 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:32:01 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_2 created successfully
+07-Mar-24 15:32:01 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_2 created successfully
+07-Mar-24 15:32:04 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:32:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_3 created successfully
+07-Mar-24 15:32:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_3 created successfully
+07-Mar-24 15:32:38 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:32:38 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_4 created successfully
+07-Mar-24 15:32:39 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_4 created successfully
+07-Mar-24 15:32:53 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:32:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_5 created successfully
+07-Mar-24 15:32:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_5 created successfully
+07-Mar-24 15:33:11 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+07-Mar-24 15:33:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward W_6 created successfully
+07-Mar-24 15:33:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward W_6 created successfully
+07-Mar-24 15:33:11 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:33:17 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:17 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_1 created successfully
+07-Mar-24 15:33:17 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_1 created successfully
+07-Mar-24 15:33:20 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:20 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_2 created successfully
+07-Mar-24 15:33:20 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_2 created successfully
+07-Mar-24 15:33:45 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:45 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_3 created successfully
+07-Mar-24 15:33:46 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_3 created successfully
+07-Mar-24 15:33:48 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:48 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_4 created successfully
+07-Mar-24 15:33:48 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_4 created successfully
+07-Mar-24 15:33:53 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_5 created successfully
+07-Mar-24 15:33:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_5 created successfully
+07-Mar-24 15:33:56 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+07-Mar-24 15:33:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward W_6 created successfully
+07-Mar-24 15:33:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward W_6 created successfully
+07-Mar-24 15:33:56 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:33:59 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:33:59 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_1 created successfully
+07-Mar-24 15:33:59 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_1 created successfully
+07-Mar-24 15:34:01 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:34:01 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_2 created successfully
+07-Mar-24 15:34:01 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_2 created successfully
+07-Mar-24 15:34:03 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:34:03 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_3 created successfully
+07-Mar-24 15:34:03 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_3 created successfully
+07-Mar-24 15:34:06 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:34:06 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_4 created successfully
+07-Mar-24 15:34:06 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_4 created successfully
+07-Mar-24 15:34:08 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:34:08 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_5 created successfully
+07-Mar-24 15:34:08 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_5 created successfully
+07-Mar-24 15:34:28 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+07-Mar-24 15:34:28 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward W_6 created successfully
+07-Mar-24 15:34:28 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward W_6 created successfully
+07-Mar-24 15:34:28 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:34:32 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:34:32 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_1 created successfully
+07-Mar-24 15:34:32 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_1 created successfully
+07-Mar-24 15:34:43 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:34:43 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_2 created successfully
+07-Mar-24 15:34:43 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_2 created successfully
+07-Mar-24 15:34:47 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:34:47 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_3 created successfully
+07-Mar-24 15:34:47 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_3 created successfully
+07-Mar-24 15:35:41 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:35:41 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_4 created successfully
+07-Mar-24 15:35:41 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_4 created successfully
+07-Mar-24 15:36:22 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:36:22 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_5 created successfully
+07-Mar-24 15:36:22 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_5 created successfully
+07-Mar-24 15:36:50 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+07-Mar-24 15:36:50 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward W_6 created successfully
+07-Mar-24 15:36:50 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward W_6 created successfully
+07-Mar-24 15:36:50 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+07-Mar-24 15:36:50 INFO [crime_model_fitting.py] Model fitting of all crime types completed successfully
+07-Mar-24 15:36:50 INFO [h11_impl.py] 192.168.150.14:63827 - "POST /model_fitting_crime_type_and_wardwise?name_for_pickle_file=ward_crime_type&test_size=2&validation_size=2 HTTP/1.1" 200
+07-Mar-24 15:37:28 ERROR [crime_forecasting.py] Exception occurred during forecasting:[Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/ward_crime_type_modelresults_AccidentW_0.pkl'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 183, in forecasting_crime_type_and_wardwise
+    model_results=load_pickle_file(config.PICKLE_FILES_DIRECTORY['pickle_files_path']+f'{name_for_pickle_file}_modelresults_{crime}{ward}.pkl')
+  File "/opt/siap/analytics/utils/file_operations.py", line 36, in load_pickle_file
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/siap/analytics/crime/files/ward_crime_type_modelresults_AccidentW_0.pkl'
+07-Mar-24 15:37:28 INFO [h11_impl.py] 192.168.150.14:63952 - "GET /forecasting_crime_type_and_wardwise?test_size=2&validation_size=2&name_for_pickle_file=ward_crime_type HTTP/1.1" 500
+07-Mar-24 15:38:40 INFO [server.py] Shutting down
+07-Mar-24 15:38:40 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 15:38:40 INFO [on.py] Application shutdown complete.
+07-Mar-24 15:38:40 INFO [server.py] Finished server process [623349]
+07-Mar-24 15:41:19 INFO [server.py] Shutting down
+07-Mar-24 15:41:19 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+07-Mar-24 15:44:35 INFO [crime_forecasting.py] Forecasted data was saved successfully
+07-Mar-24 15:44:35 INFO [h11_impl.py] 192.168.150.14:63986 - "GET /forecasting_crime_type_and_wardwise?test_size=2&validation_size=2&name_for_pickle_file=ward_crime_type HTTP/1.1" 200
+07-Mar-24 15:49:42 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 15:49:42 INFO [on.py] Application shutdown complete.
+07-Mar-24 15:49:42 INFO [server.py] Finished server process [640120]
+07-Mar-24 16:13:26 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:13:29 INFO [crime_analysis_singapore.py] Counting number of crimes...
+07-Mar-24 16:13:29 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 16:13:29 INFO [h11_impl.py] 192.168.150.14:64427 - "GET /spatial_distribution_of_crimes?page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 16:17:54 INFO [server.py] Shutting down
+07-Mar-24 16:17:54 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 16:17:54 INFO [on.py] Application shutdown complete.
+07-Mar-24 16:17:54 INFO [server.py] Finished server process [657405]
+07-Mar-24 16:41:12 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:41:17 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 49, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+TypeError: 'NoneType' object is not subscriptable
+07-Mar-24 16:41:17 INFO [h11_impl.py] 192.168.150.14:64733 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 16:41:48 INFO [server.py] Shutting down
+07-Mar-24 16:41:48 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 16:41:48 INFO [on.py] Application shutdown complete.
+07-Mar-24 16:41:48 INFO [server.py] Finished server process [671550]
+07-Mar-24 16:44:43 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:44:47 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Month-Year'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Month-Year'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 49, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Month-Year'
+07-Mar-24 16:44:47 INFO [h11_impl.py] 192.168.150.14:64792 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 16:46:03 INFO [server.py] Shutting down
+07-Mar-24 16:46:03 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 16:46:03 INFO [on.py] Application shutdown complete.
+07-Mar-24 16:46:03 INFO [server.py] Finished server process [673500]
+07-Mar-24 16:47:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:47:56 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'Month-Year'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Month-Year'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 49, in singapore_monthly_total_crimes
+    filtered_data = cleaned_data[(cleaned_data['Month-Year'] >= start_date) & (cleaned_data['Month-Year'] <= end_date)]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Month-Year'
+07-Mar-24 16:47:56 INFO [h11_impl.py] 192.168.150.14:64838 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 16:48:24 INFO [server.py] Shutting down
+07-Mar-24 16:48:24 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 16:48:24 INFO [on.py] Application shutdown complete.
+07-Mar-24 16:48:24 INFO [server.py] Finished server process [675181]
+07-Mar-24 16:50:48 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:50:52 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 16:50:52 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'CrimeCount'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'CrimeCount'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 53, in singapore_monthly_total_crimes
+    total_monthly_data=cleaned_data.groupby(['Month-Year','WARD_LAT','WARD_LONG','WARD']).apply(lambda x: x.nlargest(10, 'CrimeCount')).reset_index(drop=True)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1353, in apply
+    result = self._python_apply_general(f, self._selected_obj)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1402, in _python_apply_general
+    values, mutated = self.grouper.apply(f, data, self.axis)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 767, in apply
+    res = f(group)
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 53, in <lambda>
+    total_monthly_data=cleaned_data.groupby(['Month-Year','WARD_LAT','WARD_LONG','WARD']).apply(lambda x: x.nlargest(10, 'CrimeCount')).reset_index(drop=True)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 7203, in nlargest
+    return selectn.SelectNFrame(self, n=n, keep=keep, columns=columns).nlargest()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/methods/selectn.py", line 54, in nlargest
+    return self.compute("nlargest")
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/methods/selectn.py", line 192, in compute
+    dtype = frame[column].dtype
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'CrimeCount'
+07-Mar-24 16:50:52 INFO [h11_impl.py] 192.168.150.14:64881 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 16:53:18 INFO [server.py] Shutting down
+07-Mar-24 16:53:18 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 16:53:18 INFO [on.py] Application shutdown complete.
+07-Mar-24 16:53:18 INFO [server.py] Finished server process [676732]
+07-Mar-24 16:54:21 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 16:54:24 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 42, in singapore_monthly_total_crimes
+    cleaned_data=cleaned_data.groupby(['Type_Description','WARD','WARD_LAT','WARD_LONG']).resample('M').size().reset_index(name='CrimeCount')
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 2626, in resample
+    return get_resampler_for_grouping(self, rule, *args, **kwargs)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/resample.py", line 1544, in get_resampler_for_grouping
+    resampler = tg._get_resampler(groupby.obj, kind=kind)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/resample.py", line 1713, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+07-Mar-24 16:54:24 INFO [h11_impl.py] 192.168.150.14:64931 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 17:11:50 INFO [server.py] Shutting down
+07-Mar-24 17:11:50 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:11:50 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:11:50 INFO [server.py] Finished server process [679130]
+07-Mar-24 17:13:49 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:13:50 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:13:50 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 17:13:50 INFO [h11_impl.py] 192.168.150.14:65150 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 17:15:30 INFO [server.py] Shutting down
+07-Mar-24 17:15:30 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:15:30 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:15:30 INFO [server.py] Finished server process [689073]
+07-Mar-24 17:17:20 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:17:22 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:17:23 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 17:17:23 INFO [h11_impl.py] 192.168.150.14:65200 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 17:18:08 INFO [server.py] Shutting down
+07-Mar-24 17:18:09 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:18:09 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:18:09 INFO [server.py] Finished server process [690774]
+07-Mar-24 17:21:15 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:21:19 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:21:19 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 17:21:19 INFO [h11_impl.py] 192.168.150.14:65253 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 17:23:20 INFO [server.py] Shutting down
+07-Mar-24 17:23:20 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:23:20 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:23:20 INFO [server.py] Finished server process [692662]
+07-Mar-24 17:25:10 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:25:13 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:25:13 ERROR [crime_analysis_singapore.py] Exception occurred during monthly_total_crimes: 'CrimeCount'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'CrimeCount'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 39, in singapore_monthly_total_crimes
+    top_10_crimes = total_monthly_data.groupby(['Month-Year','WARD_LAT','WARD_LONG','WARD']).apply(lambda x: x.nlargest(10, 'CrimeCount')).reset_index(drop=True)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1353, in apply
+    result = self._python_apply_general(f, self._selected_obj)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1402, in _python_apply_general
+    values, mutated = self.grouper.apply(f, data, self.axis)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/groupby/ops.py", line 767, in apply
+    res = f(group)
+  File "/opt/siap/analytics/crime/router/crime_analysis_singapore.py", line 39, in <lambda>
+    top_10_crimes = total_monthly_data.groupby(['Month-Year','WARD_LAT','WARD_LONG','WARD']).apply(lambda x: x.nlargest(10, 'CrimeCount')).reset_index(drop=True)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 7203, in nlargest
+    return selectn.SelectNFrame(self, n=n, keep=keep, columns=columns).nlargest()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/methods/selectn.py", line 54, in nlargest
+    return self.compute("nlargest")
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/methods/selectn.py", line 192, in compute
+    dtype = frame[column].dtype
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'CrimeCount'
+07-Mar-24 17:25:13 INFO [h11_impl.py] 192.168.150.14:65312 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 500
+07-Mar-24 17:25:51 INFO [server.py] Shutting down
+07-Mar-24 17:25:51 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:25:51 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:25:51 INFO [server.py] Finished server process [694489]
+07-Mar-24 17:27:40 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:27:44 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:27:45 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 17:27:45 INFO [h11_impl.py] 192.168.150.14:65346 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 17:31:29 INFO [server.py] Shutting down
+07-Mar-24 17:31:29 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:31:29 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:31:29 INFO [server.py] Finished server process [695892]
+07-Mar-24 17:33:18 INFO [crime_analysis_singapore.py] Loading cleaned data files.
+07-Mar-24 17:33:21 INFO [crime_analysis_singapore.py] Counting number of monthly crimes....
+07-Mar-24 17:33:22 INFO [crime_analysis_singapore.py] Counting completed!
+07-Mar-24 17:33:22 INFO [h11_impl.py] 192.168.150.14:65422 - "GET /wardwise_monthly_count_of_crimes?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+07-Mar-24 17:59:25 INFO [server.py] Shutting down
+07-Mar-24 17:59:25 INFO [on.py] Waiting for application shutdown.
+07-Mar-24 17:59:25 INFO [on.py] Application shutdown complete.
+07-Mar-24 17:59:25 INFO [server.py] Finished server process [697766]

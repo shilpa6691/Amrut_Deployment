@@ -1,0 +1,260 @@
+27-Feb-24 11:59:41 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 11:59:46 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 11:59:48 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:00:02 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:00:05 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:00:07 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:00:33 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:00:35 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:00:37 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:00:51 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:00:56 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:00:58 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:01:26 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:01:31 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 12:01:32 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 12:01:32 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 12:01:32 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 12:01:32 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 12:02:02 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:02:07 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 12:02:08 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 12:02:08 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 12:02:08 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 12:02:08 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 12:02:21 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:02:23 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 12:02:24 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 12:02:24 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 12:02:24 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 12:02:24 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 12:02:50 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:02:52 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 12:02:52 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 12:02:52 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 12:02:52 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 12:02:52 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 12:08:02 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:08:04 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:08:07 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:08:07 INFO [h11_impl.py] 192.168.150.10:52429 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:14:04 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:14:07 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:14:09 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:14:09 INFO [h11_impl.py] 192.168.150.10:52547 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=2&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:14:19 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:14:22 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:14:24 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:14:24 INFO [h11_impl.py] 192.168.150.10:52551 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=3&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:14:35 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:14:37 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:14:39 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:14:39 INFO [h11_impl.py] 192.168.150.10:52556 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=4&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:14:49 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:14:51 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:14:53 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:14:53 INFO [h11_impl.py] 192.168.150.10:52560 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=5&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:15:03 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:15:06 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:15:08 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:15:09 INFO [h11_impl.py] 192.168.150.10:52564 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=6&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:15:25 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:15:27 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:15:29 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:15:30 INFO [h11_impl.py] 192.168.150.10:52568 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=7&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:15:47 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:15:49 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:15:51 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:15:51 INFO [h11_impl.py] 192.168.150.10:52572 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=8&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:16:11 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:16:16 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 12:16:16 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 12:16:16 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 12:16:16 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 12:16:16 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 12:16:16 INFO [h11_impl.py] 192.168.150.10:52578 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:23:52 INFO [server.py] Shutting down
+27-Feb-24 12:23:52 INFO [on.py] Waiting for application shutdown.
+27-Feb-24 12:23:52 INFO [on.py] Application shutdown complete.
+27-Feb-24 12:23:52 INFO [server.py] Finished server process [364316]
+27-Feb-24 12:27:52 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:27:54 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:27:56 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:27:56 INFO [h11_impl.py] 192.168.150.10:52727 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:29:35 INFO [server.py] Shutting down
+27-Feb-24 12:29:35 INFO [on.py] Waiting for application shutdown.
+27-Feb-24 12:29:35 INFO [on.py] Application shutdown complete.
+27-Feb-24 12:29:35 INFO [server.py] Finished server process [368740]
+27-Feb-24 12:56:00 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 12:56:03 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 12:56:07 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 12:56:07 INFO [cctv_visualization.py] {'total_rows_data1': 2953}
+27-Feb-24 12:56:07 INFO [cctv_visualization.py] {'total_rows_data2': 2919}
+27-Feb-24 12:56:07 INFO [cctv_visualization.py] {'total_rows_data3': 1922}
+27-Feb-24 12:56:07 INFO [h11_impl.py] 192.168.150.10:52947 - "GET /faulty_cameras_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 12:58:32 INFO [server.py] Shutting down
+27-Feb-24 12:58:32 INFO [on.py] Waiting for application shutdown.
+27-Feb-24 12:58:32 INFO [on.py] Application shutdown complete.
+27-Feb-24 12:58:32 INFO [server.py] Finished server process [377262]
+27-Feb-24 13:03:17 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:03:19 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:03:20 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:03:20 INFO [h11_impl.py] 192.168.150.10:53052 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=1&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 13:03:44 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:03:49 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:03:50 INFO [h11_impl.py] 192.168.150.10:53066 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=2&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 13:04:00 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:04:02 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:04:03 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:04:03 INFO [h11_impl.py] 192.168.150.10:53072 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=3&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 13:04:33 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:04:35 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:04:35 INFO [h11_impl.py] 192.168.150.10:53078 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=4&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 13:05:07 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:05:09 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:05:10 INFO [h11_impl.py] 192.168.150.10:53085 - "GET /events_captured_per_day?start_date=2022-06-30&end_date=2023-09-10&page=5&rows_per_page=1000 HTTP/1.1" 200
+27-Feb-24 13:16:59 INFO [server.py] Shutting down
+27-Feb-24 13:16:59 INFO [on.py] Waiting for application shutdown.
+27-Feb-24 13:16:59 INFO [on.py] Application shutdown complete.
+27-Feb-24 13:16:59 INFO [server.py] Finished server process [378844]
+27-Feb-24 13:38:39 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'ptz': (1678, 4)}
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'dome': (1016, 4)}
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'fixed': (822, 4)}
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'total_rows_data1': 1678}
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'total_rows_data2': 1016}
+27-Feb-24 13:38:42 INFO [cctv_visualization.py] {'total_rows_data3': 822}
+27-Feb-24 13:39:12 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:39:15 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:39:15 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:39:15 INFO [cctv_visualization.py] {'ptz': (165, 4)}
+27-Feb-24 13:39:15 INFO [cctv_visualization.py] {'dome': (130, 4)}
+27-Feb-24 13:39:15 INFO [cctv_visualization.py] {'fixed': (168, 4)}
+27-Feb-24 13:39:48 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:39:51 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:39:51 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:39:51 INFO [cctv_visualization.py] {'ptz': (165, 4)}
+27-Feb-24 13:39:51 INFO [cctv_visualization.py] {'dome': (130, 4)}
+27-Feb-24 13:39:51 INFO [cctv_visualization.py] {'fixed': (168, 4)}
+27-Feb-24 13:40:06 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:40:07 INFO [cctv_visualization.py] Counting number of events captured in each cameras...
+27-Feb-24 13:40:08 INFO [cctv_visualization.py] Preparation of number of events captured is completed!
+27-Feb-24 13:40:08 INFO [cctv_visualization.py] {'ptz': (165, 4)}
+27-Feb-24 13:40:08 INFO [cctv_visualization.py] {'dome': (130, 4)}
+27-Feb-24 13:40:08 INFO [cctv_visualization.py] {'fixed': (168, 4)}
+27-Feb-24 13:41:00 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:41:02 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:41:03 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:41:03 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:41:03 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:41:46 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:41:48 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:41:49 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:41:49 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:41:51 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 13:46:01 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:46:03 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:46:04 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:46:04 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:46:04 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:49:08 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:49:10 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:49:11 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:49:11 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:49:15 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:49:16 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 13:51:38 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:51:40 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:51:42 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:51:42 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:51:43 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 13:52:21 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:52:23 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:52:24 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:52:24 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:52:26 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 13:52:43 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:52:45 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:52:47 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:52:47 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:52:50 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 13:53:11 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 13:53:13 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 13:53:14 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 13:53:14 INFO [cctv_visualization.py] Counting number of faulty cameras...
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Preparation of number of faulty cameras dataframe completed!
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Merging completed!
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Calculating faulty cam percentage
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Calculation of faulty camera percentage completed!
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Merging dataframes
+27-Feb-24 13:53:15 INFO [cctv_visualization.py] Merging of faulty camera percentage dataframe completed!
+27-Feb-24 18:31:38 INFO [cctv_visualization.py] Loading cleaned data files.
+27-Feb-24 18:31:39 INFO [cctv_visualization.py] Counting number of cameras...
+27-Feb-24 18:31:39 INFO [cctv_visualization.py] Counting completed!
+27-Feb-24 18:31:39 INFO [cctv_visualization.py] Merging total comera dataframes...
+27-Feb-24 18:31:39 INFO [cctv_visualization.py] Merging completed!

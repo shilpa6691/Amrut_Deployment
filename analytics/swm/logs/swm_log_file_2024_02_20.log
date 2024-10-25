@@ -1,0 +1,130 @@
+20-Feb-24 10:15:49 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 10:15:49 INFO [h11_impl.py] 192.168.150.14:59302 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 10:15:49 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 10:16:55 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 10:16:55 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 10:16:55 INFO [h11_impl.py] 192.168.150.14:59327 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-03 HTTP/1.1" 200
+20-Feb-24 11:38:02 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:38:02 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:38:02 INFO [h11_impl.py] 192.168.150.10:52876 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02 HTTP/1.1" 200
+20-Feb-24 11:38:27 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:38:27 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:38:27 INFO [h11_impl.py] 192.168.150.10:52880 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-06 HTTP/1.1" 200
+20-Feb-24 11:39:08 INFO [server.py] Shutting down
+20-Feb-24 11:39:08 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 11:39:08 INFO [on.py] Application shutdown complete.
+20-Feb-24 11:39:08 INFO [server.py] Finished server process [2323392]
+20-Feb-24 11:41:24 INFO [h11_impl.py] 192.168.150.14:60218 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 11:41:25 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:41:25 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:41:25 INFO [h11_impl.py] 192.168.150.10:52888 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-04 HTTP/1.1" 200
+20-Feb-24 11:41:53 INFO [server.py] Shutting down
+20-Feb-24 11:41:53 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 11:41:53 INFO [on.py] Application shutdown complete.
+20-Feb-24 11:41:53 INFO [server.py] Finished server process [2324370]
+20-Feb-24 11:42:42 INFO [h11_impl.py] 192.168.150.10:52891 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 11:42:42 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:42:42 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:42:50 INFO [server.py] Shutting down
+20-Feb-24 11:42:50 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 11:42:50 INFO [on.py] Application shutdown complete.
+20-Feb-24 11:42:50 INFO [server.py] Finished server process [2325020]
+20-Feb-24 11:43:46 INFO [h11_impl.py] 192.168.150.14:60246 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 11:43:46 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:43:46 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:43:46 INFO [h11_impl.py] 192.168.150.10:52894 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-04 HTTP/1.1" 200
+20-Feb-24 11:48:26 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:48:27 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:48:27 INFO [h11_impl.py] 192.168.150.10:52910 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-04 HTTP/1.1" 200
+20-Feb-24 11:48:27 INFO [crime_model_fitting.py] TS data cleaning completed.
+20-Feb-24 11:48:55 INFO [server.py] Shutting down
+20-Feb-24 11:48:55 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+20-Feb-24 11:49:04 INFO [crime_model_fitting.py] The model is fitted for ward W_1.
+20-Feb-24 11:49:04 INFO [crime_model_fitting.py] pickle file for modelresults ward W_1 created successfully
+20-Feb-24 11:49:04 INFO [crime_model_fitting.py] pickle file for fitresults ward W_1 created successfully
+20-Feb-24 11:49:05 INFO [crime_model_fitting.py] The model is fitted for ward W_2.
+20-Feb-24 11:49:05 INFO [crime_model_fitting.py] pickle file for modelresults ward W_2 created successfully
+20-Feb-24 11:49:05 INFO [crime_model_fitting.py] pickle file for fitresults ward W_2 created successfully
+20-Feb-24 11:49:07 INFO [crime_model_fitting.py] The model is fitted for ward W_3.
+20-Feb-24 11:49:07 INFO [crime_model_fitting.py] pickle file for modelresults ward W_3 created successfully
+20-Feb-24 11:49:07 INFO [crime_model_fitting.py] pickle file for fitresults ward W_3 created successfully
+20-Feb-24 11:49:56 INFO [crime_model_fitting.py] The model is fitted for ward W_4.
+20-Feb-24 11:49:56 INFO [crime_model_fitting.py] pickle file for modelresults ward W_4 created successfully
+20-Feb-24 11:49:56 INFO [crime_model_fitting.py] pickle file for fitresults ward W_4 created successfully
+20-Feb-24 11:49:58 INFO [crime_model_fitting.py] The model is fitted for ward W_5.
+20-Feb-24 11:49:58 INFO [crime_model_fitting.py] pickle file for modelresults ward W_5 created successfully
+20-Feb-24 11:49:58 INFO [crime_model_fitting.py] pickle file for fitresults ward W_5 created successfully
+20-Feb-24 11:50:22 INFO [crime_model_fitting.py] The model is fitted for ward W_6.
+20-Feb-24 11:50:22 INFO [crime_model_fitting.py] pickle file for modelresults ward W_6 created successfully
+20-Feb-24 11:50:22 INFO [crime_model_fitting.py] pickle file for fitresults ward W_6 created successfully
+20-Feb-24 11:50:22 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+20-Feb-24 11:50:22 INFO [h11_impl.py] 192.168.150.14:60299 - "POST /model_fitting_ward_wise?name_for_pickle_file=ward&test_size=2&validation_size=2 HTTP/1.1" 200
+20-Feb-24 11:50:22 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 11:50:22 INFO [on.py] Application shutdown complete.
+20-Feb-24 11:50:22 INFO [server.py] Finished server process [2326617]
+20-Feb-24 11:51:12 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 11:51:12 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 11:51:12 INFO [h11_impl.py] 192.168.150.10:52923 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-06 HTTP/1.1" 200
+20-Feb-24 11:51:52 INFO [server.py] Shutting down
+20-Feb-24 11:51:52 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 11:51:52 INFO [on.py] Application shutdown complete.
+20-Feb-24 11:51:52 INFO [server.py] Finished server process [2327322]
+20-Feb-24 12:15:52 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 12:15:54 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 12:15:54 INFO [h11_impl.py] 192.168.150.10:53054 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-08 HTTP/1.1" 200
+20-Feb-24 12:16:19 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+20-Feb-24 12:16:22 INFO [swm_visualization.py] SWM sunburst data processing completed.
+20-Feb-24 12:16:22 INFO [h11_impl.py] 192.168.150.10:53056 - "GET /swm_sunburst?start_date=2022-02&end_date=2022-08 HTTP/1.1" 200
+20-Feb-24 12:17:28 INFO [crime_forecasting.py] Forecasted data was saved successfully
+20-Feb-24 12:17:28 INFO [crime_forecasting.py] Forecasted data was saved successfully
+20-Feb-24 12:17:28 INFO [h11_impl.py] 192.168.150.14:60592 - "GET /forecasting_crime_type_wise?test_size=4&validation_size=4&name_for_pickle_file=crime_type HTTP/1.1" 200
+20-Feb-24 12:17:44 INFO [server.py] Shutting down
+20-Feb-24 12:17:44 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 12:17:44 INFO [on.py] Application shutdown complete.
+20-Feb-24 12:17:44 INFO [server.py] Finished server process [2334307]
+20-Feb-24 14:19:45 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 14:19:45 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 14:19:46 INFO [h11_impl.py] 192.168.150.10:53495 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-05 HTTP/1.1" 200
+20-Feb-24 14:21:26 INFO [server.py] Shutting down
+20-Feb-24 14:21:26 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 14:21:26 INFO [on.py] Application shutdown complete.
+20-Feb-24 14:21:26 INFO [server.py] Finished server process [2377210]
+20-Feb-24 14:22:16 INFO [h11_impl.py] 192.168.150.10:53499 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 14:22:16 INFO [h11_impl.py] 192.168.150.10:53500 - "GET /openapi.json HTTP/1.1" 200
+20-Feb-24 14:22:16 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 14:22:17 ERROR [swm_visualization.py] Exception occurred: 'Series' object has no attribute 'strftime'
+20-Feb-24 14:22:28 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 14:22:29 ERROR [swm_visualization.py] Exception occurred: 'Series' object has no attribute 'strftime'
+20-Feb-24 14:22:29 INFO [h11_impl.py] 192.168.150.10:53504 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-05 HTTP/1.1" 500
+20-Feb-24 14:24:04 INFO [server.py] Shutting down
+20-Feb-24 14:24:05 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 14:24:05 INFO [on.py] Application shutdown complete.
+20-Feb-24 14:24:05 INFO [server.py] Finished server process [2377676]
+20-Feb-24 14:25:35 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 14:25:35 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 14:25:35 INFO [h11_impl.py] 192.168.150.10:53521 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-05 HTTP/1.1" 200
+20-Feb-24 14:30:17 INFO [server.py] Shutting down
+20-Feb-24 14:30:17 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 14:30:17 INFO [on.py] Application shutdown complete.
+20-Feb-24 14:30:17 INFO [server.py] Finished server process [2378140]
+20-Feb-24 14:31:26 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 14:31:27 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 14:31:27 INFO [h11_impl.py] 192.168.150.10:53530 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-06 HTTP/1.1" 200
+20-Feb-24 14:32:50 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+20-Feb-24 14:32:52 INFO [swm_visualization.py] SWM sunburst data processing completed.
+20-Feb-24 14:32:52 INFO [h11_impl.py] 192.168.150.10:53537 - "GET /swm_sunburst?start_date=2022-02&end_date=2022-08 HTTP/1.1" 200
+20-Feb-24 15:20:37 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 15:20:37 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 15:20:37 INFO [h11_impl.py] 192.168.150.10:53778 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02 HTTP/1.1" 200
+20-Feb-24 15:21:01 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+20-Feb-24 15:21:02 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+20-Feb-24 15:21:02 INFO [h11_impl.py] 192.168.150.10:53780 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-07 HTTP/1.1" 200
+20-Feb-24 15:21:56 ERROR [swm_visualization.py] Exception occurred: [Errno 5] Input/output error
+20-Feb-24 15:21:56 INFO [h11_impl.py] 192.168.150.10:53784 - "GET /swm_sunburst?start_date=2022-02&end_date=2022-02 HTTP/1.1" 500
+20-Feb-24 15:22:03 INFO [swm_visualization.py] Processing data to generate SWM sunburst...
+20-Feb-24 15:22:03 INFO [swm_visualization.py] SWM sunburst data processing completed.
+20-Feb-24 15:22:03 INFO [h11_impl.py] 192.168.150.10:53785 - "GET /swm_sunburst?start_date=2022-02&end_date=2022-02 HTTP/1.1" 200
+20-Feb-24 16:20:16 INFO [server.py] Shutting down
+20-Feb-24 16:20:16 INFO [on.py] Waiting for application shutdown.
+20-Feb-24 16:20:16 INFO [on.py] Application shutdown complete.
+20-Feb-24 16:20:16 INFO [server.py] Finished server process [2380714]

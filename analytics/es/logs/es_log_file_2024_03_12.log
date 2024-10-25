@@ -1,0 +1,32 @@
+12-Mar-24 15:27:27 INFO [es_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+12-Mar-24 15:27:29 INFO [es_model_fitting.py] TS data cleaning completed.
+12-Mar-24 15:27:31 INFO [es_model_fitting.py] The model is fitted for region A.
+12-Mar-24 15:27:31 INFO [es_model_fitting.py] pickle file for modelresults zone A created successfully
+12-Mar-24 15:27:31 INFO [es_model_fitting.py] pickle file for fitresults zone A created successfully
+12-Mar-24 15:27:33 INFO [es_model_fitting.py] The model is fitted for region B.
+12-Mar-24 15:27:33 INFO [es_model_fitting.py] pickle file for modelresults zone B created successfully
+12-Mar-24 15:27:33 INFO [es_model_fitting.py] pickle file for fitresults zone B created successfully
+12-Mar-24 15:27:35 INFO [es_model_fitting.py] The model is fitted for region C.
+12-Mar-24 15:27:35 INFO [es_model_fitting.py] pickle file for modelresults zone C created successfully
+12-Mar-24 15:27:35 INFO [es_model_fitting.py] pickle file for fitresults zone C created successfully
+12-Mar-24 15:28:19 INFO [es_model_fitting.py] The model is fitted for region D.
+12-Mar-24 15:28:19 INFO [es_model_fitting.py] pickle file for modelresults zone D created successfully
+12-Mar-24 15:28:19 INFO [es_model_fitting.py] pickle file for fitresults zone D created successfully
+12-Mar-24 15:28:48 INFO [es_model_fitting.py] The model is fitted for region E.
+12-Mar-24 15:28:48 INFO [es_model_fitting.py] pickle file for modelresults zone E created successfully
+12-Mar-24 15:28:48 INFO [es_model_fitting.py] pickle file for fitresults zone E created successfully
+12-Mar-24 15:29:04 INFO [es_model_fitting.py] The model is fitted for region F.
+12-Mar-24 15:29:04 INFO [es_model_fitting.py] pickle file for modelresults zone F created successfully
+12-Mar-24 15:29:04 INFO [es_model_fitting.py] pickle file for fitresults zone F created successfully
+12-Mar-24 15:29:07 INFO [es_model_fitting.py] The model is fitted for region G.
+12-Mar-24 15:29:07 INFO [es_model_fitting.py] pickle file for modelresults zone G created successfully
+12-Mar-24 15:29:07 INFO [es_model_fitting.py] pickle file for fitresults zone G created successfully
+12-Mar-24 15:29:10 INFO [es_model_fitting.py] The model is fitted for region H.
+12-Mar-24 15:29:10 INFO [es_model_fitting.py] pickle file for modelresults zone H created successfully
+12-Mar-24 15:29:10 INFO [es_model_fitting.py] pickle file for fitresults zone H created successfully
+12-Mar-24 15:29:10 INFO [es_model_fitting.py] Model fitting of all zones completed successfully
+12-Mar-24 15:29:24 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+12-Mar-24 15:29:25 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+12-Mar-24 15:30:46 INFO [es_forecasting.py] Forecasted data was saved successfully

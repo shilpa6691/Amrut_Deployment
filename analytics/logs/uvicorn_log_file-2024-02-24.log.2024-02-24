@@ -1,0 +1,20 @@
+24-Feb-24 23:39:47 INFO [server.py] Started server process [3778377]
+24-Feb-24 23:39:47 INFO [on.py] Waiting for application startup.
+24-Feb-24 23:39:47 INFO [on.py] Application startup complete.
+24-Feb-24 23:39:48 INFO [server.py] Started server process [3778400]
+24-Feb-24 23:39:48 INFO [on.py] Waiting for application startup.
+24-Feb-24 23:39:48 INFO [on.py] Application startup complete.
+24-Feb-24 23:49:10 INFO [server.py] Shutting down
+24-Feb-24 23:49:10 INFO [on.py] Waiting for application shutdown.
+24-Feb-24 23:49:10 INFO [on.py] Application shutdown complete.
+24-Feb-24 23:49:10 INFO [server.py] Finished server process [3778400]
+24-Feb-24 23:50:42 INFO [server.py] Started server process [3780648]
+24-Feb-24 23:50:42 INFO [on.py] Waiting for application startup.
+24-Feb-24 23:50:42 INFO [on.py] Application startup complete.
+24-Feb-24 23:50:42 INFO [h11_impl.py] 192.168.150.10:60129 - "GET /docs HTTP/1.1" 200
+24-Feb-24 23:50:42 INFO [h11_impl.py] 192.168.150.10:60130 - "GET /docs HTTP/1.1" 200
+24-Feb-24 23:50:42 INFO [h11_impl.py] 192.168.150.10:60129 - "GET /openapi.json HTTP/1.1" 200
+24-Feb-24 23:50:42 INFO [h11_impl.py] 192.168.150.10:60130 - "GET /openapi.json HTTP/1.1" 200
+24-Feb-24 23:50:43 INFO [server.py] Started server process [3780647]
+24-Feb-24 23:50:43 INFO [on.py] Waiting for application startup.
+24-Feb-24 23:50:43 INFO [on.py] Application startup complete.

@@ -1,0 +1,648 @@
+19-Feb-24 10:55:35 INFO [crime_analysis.py] Loading cleaned data files.
+19-Feb-24 10:55:36 INFO [crime_analysis.py] Counting number of monthly crimes....
+19-Feb-24 10:55:36 INFO [crime_analysis.py] Counting completed!
+19-Feb-24 10:55:37 INFO [h11_impl.py] 192.168.150.14:54662 - "GET /monthly_count_of_crimes_locationwise_and_yearly_total_counts?start_date=07-2023&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+19-Feb-24 11:01:25 INFO [server.py] Shutting down
+19-Feb-24 11:01:25 INFO [on.py] Waiting for application shutdown.
+19-Feb-24 11:01:25 INFO [on.py] Application shutdown complete.
+19-Feb-24 11:01:25 INFO [server.py] Finished server process [2042021]
+19-Feb-24 11:57:47 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 11:57:51 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 11:57:51 ERROR [crime_model_fitting.py] Exception occurred during model fitting:'CRIME_Time_Series_Forecasting_for_2_columns' object has no attribute 'determine_ARIMA_order'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_model_fitting.py", line 191, in model_fitting_crime_type_and_wardwise
+    class_for_model_fitting.determine_ARIMA_order('Crime_Count')
+AttributeError: 'CRIME_Time_Series_Forecasting_for_2_columns' object has no attribute 'determine_ARIMA_order'
+19-Feb-24 11:57:51 INFO [h11_impl.py] 192.168.150.14:55344 - "POST /model_fitting_crime_type_and_wardwise?subsystem_name_for_pickle_file=crime_ward&test_size=2&validation_size=2 HTTP/1.1" 500
+19-Feb-24 11:59:52 INFO [server.py] Shutting down
+19-Feb-24 11:59:52 INFO [on.py] Waiting for application shutdown.
+19-Feb-24 11:59:52 INFO [on.py] Application shutdown complete.
+19-Feb-24 11:59:52 INFO [server.py] Finished server process [2060040]
+19-Feb-24 12:02:55 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:02:59 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:14:39 INFO [server.py] Shutting down
+19-Feb-24 12:14:39 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+19-Feb-24 12:14:43 INFO [server.py] Finished server process [2061049]
+19-Feb-24 12:14:43 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+19-Feb-24 12:14:43 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+asyncio.exceptions.CancelledError
+19-Feb-24 12:14:43 INFO [h11_impl.py] 192.168.150.14:55406 - "POST /model_fitting_crime_type_and_wardwise?subsystem_name_for_pickle_file=crime_type_ward&test_size=2&validation_size=2 HTTP/1.1" 500
+19-Feb-24 12:23:29 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:23:33 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:24:15 INFO [server.py] Shutting down
+19-Feb-24 12:24:15 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+19-Feb-24 12:25:59 INFO [server.py] Finished server process [2066993]
+19-Feb-24 12:25:59 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+19-Feb-24 12:25:59 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/anyio/to_thread.py", line 33, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 877, in run_sync_in_worker_thread
+    return await future
+asyncio.exceptions.CancelledError
+19-Feb-24 12:25:59 INFO [h11_impl.py] 192.168.150.14:55736 - "POST /model_fitting_crime_type_and_wardwise?subsystem_name_for_pickle_file=crime_type_ward&test_size=2&validation_size=2 HTTP/1.1" 500
+19-Feb-24 12:46:03 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:46:07 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:46:07 ERROR [crime_model_fitting.py] Exception occurred during model fitting:'CRIME_Time_Series_Forecasting' object has no attribute 'column_name1'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_model_fitting.py", line 190, in model_fitting_crime_type_and_wardwise
+    class_for_model_fitting.column_type_dataframe_for_2_columns(crime_type_column,ward_name_column,crime,ward)
+  File "/opt/siap/analytics/crime/crime_forecasting_model.py", line 57, in column_type_dataframe_for_2_columns
+    self.data = self.data[(self.data[self.column_name1] == self.column_type1) & (self.data[self.column_name2] == self.column_type2)]
+AttributeError: 'CRIME_Time_Series_Forecasting' object has no attribute 'column_name1'
+19-Feb-24 12:48:19 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:48:24 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:48:24 ERROR [crime_model_fitting.py] Exception occurred during model fitting:'Accident'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Accident'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_model_fitting.py", line 190, in model_fitting_crime_type_and_wardwise
+    class_for_model_fitting.column_type_dataframe_for_2_columns(crime_type_column,ward_name_column,crime,ward)
+  File "/opt/siap/analytics/crime/crime_forecasting_model.py", line 57, in column_type_dataframe_for_2_columns
+    self.data = self.data[(self.data[column_name1] == column_type1) & (self.data[column_name2] == column_type2)]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Accident'
+19-Feb-24 12:50:46 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:50:51 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:50:51 ERROR [crime_model_fitting.py] Exception occurred during model fitting:'Accident'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Accident'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_model_fitting.py", line 190, in model_fitting_crime_type_and_wardwise
+    class_for_model_fitting.column_type_dataframe_for_2_columns(crime_type_column,ward_name_column,crime,ward)
+  File "/opt/siap/analytics/crime/crime_forecasting_model.py", line 57, in column_type_dataframe_for_2_columns
+    self.data = self.data[(self.data[column_name1] == column_type1) & (self.data[column_name2] == column_type2)]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Accident'
+19-Feb-24 12:52:59 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 12:53:03 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 12:53:42 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:53:42 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 0.0 created successfully
+19-Feb-24 12:53:42 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 0.0 created successfully
+19-Feb-24 12:53:58 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:53:58 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 1.0 created successfully
+19-Feb-24 12:53:58 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 1.0 created successfully
+19-Feb-24 12:54:02 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:54:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 2.0 created successfully
+19-Feb-24 12:54:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 2.0 created successfully
+19-Feb-24 12:54:04 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:54:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 3.0 created successfully
+19-Feb-24 12:54:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 3.0 created successfully
+19-Feb-24 12:54:06 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:54:06 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 4.0 created successfully
+19-Feb-24 12:54:06 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 4.0 created successfully
+19-Feb-24 12:54:13 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:54:13 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 5.0 created successfully
+19-Feb-24 12:54:13 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 5.0 created successfully
+19-Feb-24 12:54:16 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 12:54:16 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 6.0 created successfully
+19-Feb-24 12:54:16 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 6.0 created successfully
+19-Feb-24 12:54:16 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:54:20 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:20 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 0.0 created successfully
+19-Feb-24 12:54:20 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 0.0 created successfully
+19-Feb-24 12:54:46 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:46 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 1.0 created successfully
+19-Feb-24 12:54:46 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 1.0 created successfully
+19-Feb-24 12:54:48 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:48 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 2.0 created successfully
+19-Feb-24 12:54:48 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 2.0 created successfully
+19-Feb-24 12:54:51 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:51 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 3.0 created successfully
+19-Feb-24 12:54:51 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 3.0 created successfully
+19-Feb-24 12:54:57 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:57 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 4.0 created successfully
+19-Feb-24 12:54:57 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 4.0 created successfully
+19-Feb-24 12:54:59 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:54:59 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 5.0 created successfully
+19-Feb-24 12:54:59 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 5.0 created successfully
+19-Feb-24 12:55:03 INFO [crime_model_fitting.py] The model is fitted for crime Animal Complaint.
+19-Feb-24 12:55:03 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Animal Complaint and ward 6.0 created successfully
+19-Feb-24 12:55:03 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Animal Complaint and ward 6.0 created successfully
+19-Feb-24 12:55:03 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:55:29 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:55:29 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 0.0 created successfully
+19-Feb-24 12:55:29 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 0.0 created successfully
+19-Feb-24 12:55:37 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:55:37 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 1.0 created successfully
+19-Feb-24 12:55:37 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 1.0 created successfully
+19-Feb-24 12:55:47 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:55:47 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 2.0 created successfully
+19-Feb-24 12:55:47 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 2.0 created successfully
+19-Feb-24 12:55:54 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:55:54 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 3.0 created successfully
+19-Feb-24 12:55:54 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 3.0 created successfully
+19-Feb-24 12:56:02 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:56:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 4.0 created successfully
+19-Feb-24 12:56:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 4.0 created successfully
+19-Feb-24 12:56:11 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:56:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 5.0 created successfully
+19-Feb-24 12:56:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 5.0 created successfully
+19-Feb-24 12:56:25 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 12:56:25 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 6.0 created successfully
+19-Feb-24 12:56:25 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 6.0 created successfully
+19-Feb-24 12:56:25 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:56:33 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:56:33 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 0.0 created successfully
+19-Feb-24 12:56:33 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 0.0 created successfully
+19-Feb-24 12:56:41 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:56:41 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 1.0 created successfully
+19-Feb-24 12:56:41 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 1.0 created successfully
+19-Feb-24 12:56:51 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:56:51 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 2.0 created successfully
+19-Feb-24 12:56:51 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 2.0 created successfully
+19-Feb-24 12:57:04 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:57:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 3.0 created successfully
+19-Feb-24 12:57:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 3.0 created successfully
+19-Feb-24 12:57:14 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:57:14 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 4.0 created successfully
+19-Feb-24 12:57:14 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 4.0 created successfully
+19-Feb-24 12:57:47 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:57:47 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 5.0 created successfully
+19-Feb-24 12:57:47 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 5.0 created successfully
+19-Feb-24 12:58:01 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 12:58:01 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 6.0 created successfully
+19-Feb-24 12:58:01 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 6.0 created successfully
+19-Feb-24 12:58:01 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:58:06 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:06 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 0.0 created successfully
+19-Feb-24 12:58:06 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 0.0 created successfully
+19-Feb-24 12:58:20 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:20 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 1.0 created successfully
+19-Feb-24 12:58:20 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 1.0 created successfully
+19-Feb-24 12:58:29 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:29 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 2.0 created successfully
+19-Feb-24 12:58:29 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 2.0 created successfully
+19-Feb-24 12:58:38 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:38 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 3.0 created successfully
+19-Feb-24 12:58:38 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 3.0 created successfully
+19-Feb-24 12:58:44 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:44 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 4.0 created successfully
+19-Feb-24 12:58:44 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 4.0 created successfully
+19-Feb-24 12:58:49 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:49 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 5.0 created successfully
+19-Feb-24 12:58:49 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 5.0 created successfully
+19-Feb-24 12:58:51 INFO [crime_model_fitting.py] The model is fitted for crime Civil matter.
+19-Feb-24 12:58:51 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Civil matter and ward 6.0 created successfully
+19-Feb-24 12:58:51 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Civil matter and ward 6.0 created successfully
+19-Feb-24 12:58:51 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:58:53 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:58:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 0.0 created successfully
+19-Feb-24 12:58:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 0.0 created successfully
+19-Feb-24 12:59:06 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:06 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 1.0 created successfully
+19-Feb-24 12:59:06 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 1.0 created successfully
+19-Feb-24 12:59:11 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 2.0 created successfully
+19-Feb-24 12:59:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 2.0 created successfully
+19-Feb-24 12:59:29 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:29 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 3.0 created successfully
+19-Feb-24 12:59:29 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 3.0 created successfully
+19-Feb-24 12:59:33 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:33 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 4.0 created successfully
+19-Feb-24 12:59:33 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 4.0 created successfully
+19-Feb-24 12:59:36 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:36 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 5.0 created successfully
+19-Feb-24 12:59:36 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 5.0 created successfully
+19-Feb-24 12:59:39 INFO [crime_model_fitting.py] The model is fitted for crime Dead body.
+19-Feb-24 12:59:39 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Dead body and ward 6.0 created successfully
+19-Feb-24 12:59:39 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Dead body and ward 6.0 created successfully
+19-Feb-24 12:59:39 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 12:59:42 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 12:59:42 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 0.0 created successfully
+19-Feb-24 12:59:42 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 0.0 created successfully
+19-Feb-24 12:59:45 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 12:59:45 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 1.0 created successfully
+19-Feb-24 12:59:45 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 1.0 created successfully
+19-Feb-24 12:59:47 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 12:59:47 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 2.0 created successfully
+19-Feb-24 12:59:47 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 2.0 created successfully
+19-Feb-24 12:59:52 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 12:59:52 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 3.0 created successfully
+19-Feb-24 12:59:52 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 3.0 created successfully
+19-Feb-24 12:59:55 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 12:59:55 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 4.0 created successfully
+19-Feb-24 12:59:55 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 4.0 created successfully
+19-Feb-24 13:00:00 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 13:00:00 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 5.0 created successfully
+19-Feb-24 13:00:00 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 5.0 created successfully
+19-Feb-24 13:00:02 INFO [crime_model_fitting.py] The model is fitted for crime Drunk driver(driving under influence).
+19-Feb-24 13:00:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Drunk driver(driving under influence) and ward 6.0 created successfully
+19-Feb-24 13:00:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Drunk driver(driving under influence) and ward 6.0 created successfully
+19-Feb-24 13:00:02 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:00:09 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:00:09 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 0.0 created successfully
+19-Feb-24 13:00:09 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 0.0 created successfully
+19-Feb-24 13:00:39 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:00:39 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 1.0 created successfully
+19-Feb-24 13:00:39 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 1.0 created successfully
+19-Feb-24 13:00:52 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:00:52 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 2.0 created successfully
+19-Feb-24 13:00:52 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 2.0 created successfully
+19-Feb-24 13:00:57 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:00:57 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 3.0 created successfully
+19-Feb-24 13:00:57 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 3.0 created successfully
+19-Feb-24 13:01:00 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:01:00 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 4.0 created successfully
+19-Feb-24 13:01:00 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 4.0 created successfully
+19-Feb-24 13:01:02 INFO [crime_model_fitting.py] The model is fitted for crime Explosive device.
+19-Feb-24 13:01:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Explosive device and ward 5.0 created successfully
+19-Feb-24 13:01:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Explosive device and ward 5.0 created successfully
+19-Feb-24 13:01:02 ERROR [crime_model_fitting.py] Exception occurred during model fitting:zero-size array to reduction operation maximum which has no identity
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_model_fitting.py", line 195, in model_fitting_crime_type_and_wardwise
+    model_results=class_for_model_fitting.get_model_and_validation_results('Crime_Count',test_size,validation_size)[0]
+  File "/opt/siap/analytics/crime/crime_forecasting_model.py", line 141, in get_model_and_validation_results
+    fit_results = ARIMA(train,order=self.determine_ARIMA_order(value_column)).fit()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/arima/model.py", line 158, in __init__
+    self._spec_arima = SARIMAXSpecification(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/arima/specification.py", line 446, in __init__
+    self._model = TimeSeriesModel(endog, exog=exog, dates=dates, freq=freq,
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/base/tsa_model.py", line 470, in __init__
+    super().__init__(endog, exog, missing=missing, **kwargs)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/model.py", line 270, in __init__
+    super().__init__(endog, exog, **kwargs)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/model.py", line 95, in __init__
+    self.data = self._handle_data(endog, exog, missing, hasconst,
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/model.py", line 135, in _handle_data
+    data = handle_data(endog, exog, missing, hasconst, **kwargs)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/data.py", line 675, in handle_data
+    return klass(endog, exog=exog, missing=missing, hasconst=hasconst,
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/data.py", line 88, in __init__
+    self._handle_constant(hasconst)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/data.py", line 132, in _handle_constant
+    exog_max = np.max(self.exog, axis=0)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 2810, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+ValueError: zero-size array to reduction operation maximum which has no identity
+19-Feb-24 13:04:21 INFO [crime_model_fitting.py] Venv Path(Model Fitting): /opt/siap/analytics/analytics_env/bin/python3
+
+19-Feb-24 13:04:28 INFO [crime_model_fitting.py] TS data cleaning completed.
+19-Feb-24 13:05:10 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:05:10 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 1.0 created successfully
+19-Feb-24 13:05:10 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 1.0 created successfully
+19-Feb-24 13:05:23 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:05:23 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 2.0 created successfully
+19-Feb-24 13:05:23 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 2.0 created successfully
+19-Feb-24 13:05:29 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:05:29 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 3.0 created successfully
+19-Feb-24 13:05:29 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 3.0 created successfully
+19-Feb-24 13:05:35 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:05:35 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 4.0 created successfully
+19-Feb-24 13:05:35 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 4.0 created successfully
+19-Feb-24 13:05:58 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:05:58 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 5.0 created successfully
+19-Feb-24 13:05:58 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 5.0 created successfully
+19-Feb-24 13:06:02 INFO [crime_model_fitting.py] The model is fitted for crime Accident.
+19-Feb-24 13:06:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Accident and ward 6.0 created successfully
+19-Feb-24 13:06:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Accident and ward 6.0 created successfully
+19-Feb-24 13:06:02 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:06:15 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:15 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 1.0 created successfully
+19-Feb-24 13:06:15 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 1.0 created successfully
+19-Feb-24 13:06:21 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:21 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 2.0 created successfully
+19-Feb-24 13:06:21 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 2.0 created successfully
+19-Feb-24 13:06:26 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:26 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 3.0 created successfully
+19-Feb-24 13:06:26 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 3.0 created successfully
+19-Feb-24 13:06:34 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:34 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 4.0 created successfully
+19-Feb-24 13:06:34 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 4.0 created successfully
+19-Feb-24 13:06:40 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:41 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 5.0 created successfully
+19-Feb-24 13:06:41 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 5.0 created successfully
+19-Feb-24 13:06:49 INFO [crime_model_fitting.py] The model is fitted for crime Assault Battery.
+19-Feb-24 13:06:49 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Assault Battery and ward 6.0 created successfully
+19-Feb-24 13:06:49 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Assault Battery and ward 6.0 created successfully
+19-Feb-24 13:06:49 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:06:55 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:06:55 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 1.0 created successfully
+19-Feb-24 13:06:55 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 1.0 created successfully
+19-Feb-24 13:07:02 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:07:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 2.0 created successfully
+19-Feb-24 13:07:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 2.0 created successfully
+19-Feb-24 13:07:12 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:07:12 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 3.0 created successfully
+19-Feb-24 13:07:12 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 3.0 created successfully
+19-Feb-24 13:07:18 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:07:18 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 4.0 created successfully
+19-Feb-24 13:07:18 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 4.0 created successfully
+19-Feb-24 13:07:45 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:07:45 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 5.0 created successfully
+19-Feb-24 13:07:45 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 5.0 created successfully
+19-Feb-24 13:07:58 INFO [crime_model_fitting.py] The model is fitted for crime Burglary.
+19-Feb-24 13:07:58 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Burglary and ward 6.0 created successfully
+19-Feb-24 13:07:58 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Burglary and ward 6.0 created successfully
+19-Feb-24 13:07:58 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:08:01 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:01 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 1.0 created successfully
+19-Feb-24 13:08:01 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 1.0 created successfully
+19-Feb-24 13:08:08 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:08 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 2.0 created successfully
+19-Feb-24 13:08:08 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 2.0 created successfully
+19-Feb-24 13:08:15 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:15 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 3.0 created successfully
+19-Feb-24 13:08:15 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 3.0 created successfully
+19-Feb-24 13:08:20 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:20 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 4.0 created successfully
+19-Feb-24 13:08:20 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 4.0 created successfully
+19-Feb-24 13:08:31 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 5.0 created successfully
+19-Feb-24 13:08:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 5.0 created successfully
+19-Feb-24 13:08:35 INFO [crime_model_fitting.py] The model is fitted for crime Family Disturbance.
+19-Feb-24 13:08:35 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Family Disturbance and ward 6.0 created successfully
+19-Feb-24 13:08:35 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Family Disturbance and ward 6.0 created successfully
+19-Feb-24 13:08:35 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:08:42 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:08:42 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 1.0 created successfully
+19-Feb-24 13:08:42 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 1.0 created successfully
+19-Feb-24 13:08:47 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:08:47 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 2.0 created successfully
+19-Feb-24 13:08:47 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 2.0 created successfully
+19-Feb-24 13:09:02 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:09:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 3.0 created successfully
+19-Feb-24 13:09:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 3.0 created successfully
+19-Feb-24 13:09:09 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:09:09 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 4.0 created successfully
+19-Feb-24 13:09:09 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 4.0 created successfully
+19-Feb-24 13:09:15 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:09:15 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 5.0 created successfully
+19-Feb-24 13:09:15 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 5.0 created successfully
+19-Feb-24 13:10:25 INFO [crime_model_fitting.py] The model is fitted for crime Fight disturbance.
+19-Feb-24 13:10:25 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Fight disturbance and ward 6.0 created successfully
+19-Feb-24 13:10:25 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Fight disturbance and ward 6.0 created successfully
+19-Feb-24 13:10:25 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:10:32 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:10:32 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 1.0 created successfully
+19-Feb-24 13:10:32 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 1.0 created successfully
+19-Feb-24 13:10:41 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:10:41 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 2.0 created successfully
+19-Feb-24 13:10:41 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 2.0 created successfully
+19-Feb-24 13:10:48 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:10:48 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 3.0 created successfully
+19-Feb-24 13:10:48 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 3.0 created successfully
+19-Feb-24 13:10:57 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:10:57 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 4.0 created successfully
+19-Feb-24 13:10:57 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 4.0 created successfully
+19-Feb-24 13:11:05 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:11:05 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 5.0 created successfully
+19-Feb-24 13:11:05 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 5.0 created successfully
+19-Feb-24 13:11:19 INFO [crime_model_fitting.py] The model is fitted for crime Malicious destruction of property.
+19-Feb-24 13:11:19 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Malicious destruction of property and ward 6.0 created successfully
+19-Feb-24 13:11:19 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Malicious destruction of property and ward 6.0 created successfully
+19-Feb-24 13:11:19 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:11:32 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:11:32 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 1.0 created successfully
+19-Feb-24 13:11:32 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 1.0 created successfully
+19-Feb-24 13:11:35 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:11:35 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 2.0 created successfully
+19-Feb-24 13:11:35 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 2.0 created successfully
+19-Feb-24 13:11:38 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:11:38 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 3.0 created successfully
+19-Feb-24 13:11:38 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 3.0 created successfully
+19-Feb-24 13:12:20 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:12:20 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 4.0 created successfully
+19-Feb-24 13:12:20 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 4.0 created successfully
+19-Feb-24 13:12:44 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:12:44 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 5.0 created successfully
+19-Feb-24 13:12:45 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 5.0 created successfully
+19-Feb-24 13:13:12 INFO [crime_model_fitting.py] The model is fitted for crime Other.
+19-Feb-24 13:13:12 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Other and ward 6.0 created successfully
+19-Feb-24 13:13:12 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Other and ward 6.0 created successfully
+19-Feb-24 13:13:12 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:13:19 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:13:19 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 1.0 created successfully
+19-Feb-24 13:13:19 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 1.0 created successfully
+19-Feb-24 13:13:24 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:13:24 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 2.0 created successfully
+19-Feb-24 13:13:24 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 2.0 created successfully
+19-Feb-24 13:13:54 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:13:54 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 3.0 created successfully
+19-Feb-24 13:13:54 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 3.0 created successfully
+19-Feb-24 13:13:56 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:13:56 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 4.0 created successfully
+19-Feb-24 13:13:56 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 4.0 created successfully
+19-Feb-24 13:14:02 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:14:02 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 5.0 created successfully
+19-Feb-24 13:14:02 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 5.0 created successfully
+19-Feb-24 13:14:04 INFO [crime_model_fitting.py] The model is fitted for crime Suspicious.
+19-Feb-24 13:14:04 INFO [crime_model_fitting.py] pickle file for modelresults crime_type Suspicious and ward 6.0 created successfully
+19-Feb-24 13:14:04 INFO [crime_model_fitting.py] pickle file for fitresults crime_type Suspicious and ward 6.0 created successfully
+19-Feb-24 13:14:04 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:14:06 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:06 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 1.0 created successfully
+19-Feb-24 13:14:06 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 1.0 created successfully
+19-Feb-24 13:14:09 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:09 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 2.0 created successfully
+19-Feb-24 13:14:09 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 2.0 created successfully
+19-Feb-24 13:14:11 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:11 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 3.0 created successfully
+19-Feb-24 13:14:11 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 3.0 created successfully
+19-Feb-24 13:14:16 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:16 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 4.0 created successfully
+19-Feb-24 13:14:16 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 4.0 created successfully
+19-Feb-24 13:14:19 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:19 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 5.0 created successfully
+19-Feb-24 13:14:19 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 5.0 created successfully
+19-Feb-24 13:14:35 INFO [crime_model_fitting.py] The model is fitted for crime assist citizen.
+19-Feb-24 13:14:35 INFO [crime_model_fitting.py] pickle file for modelresults crime_type assist citizen and ward 6.0 created successfully
+19-Feb-24 13:14:35 INFO [crime_model_fitting.py] pickle file for fitresults crime_type assist citizen and ward 6.0 created successfully
+19-Feb-24 13:14:35 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:14:39 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:14:39 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 1.0 created successfully
+19-Feb-24 13:14:39 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 1.0 created successfully
+19-Feb-24 13:14:54 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:14:54 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 2.0 created successfully
+19-Feb-24 13:14:54 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 2.0 created successfully
+19-Feb-24 13:14:57 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:14:57 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 3.0 created successfully
+19-Feb-24 13:14:57 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 3.0 created successfully
+19-Feb-24 13:16:31 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:16:31 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 4.0 created successfully
+19-Feb-24 13:16:31 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 4.0 created successfully
+19-Feb-24 13:17:26 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:17:26 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 5.0 created successfully
+19-Feb-24 13:17:26 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 5.0 created successfully
+19-Feb-24 13:17:53 INFO [crime_model_fitting.py] The model is fitted for crime small LARCENY.
+19-Feb-24 13:17:53 INFO [crime_model_fitting.py] pickle file for modelresults crime_type small LARCENY and ward 6.0 created successfully
+19-Feb-24 13:17:53 INFO [crime_model_fitting.py] pickle file for fitresults crime_type small LARCENY and ward 6.0 created successfully
+19-Feb-24 13:17:53 INFO [crime_model_fitting.py] Model fitting of all wards completed successfully
+19-Feb-24 13:17:53 INFO [crime_model_fitting.py] Model fitting of all crime types completed successfully
+19-Feb-24 13:49:33 ERROR [crime_forecasting.py] Exception occurred during forecasting:'WARD'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'WARD'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 178, in forecasting_crime_type_and_wardwise
+    ward_name_list = list(cleaned_data[ward_name_column].unique())
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'WARD'
+19-Feb-24 13:58:15 ERROR [crime_forecasting.py] Exception occurred during forecasting:'WARD'
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'WARD'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 178, in forecasting_crime_type_and_wardwise
+    ward_name_list = list(cleaned_data[ward_name_column].unique())
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'WARD'
+19-Feb-24 14:03:35 ERROR [crime_forecasting.py] Exception occurred during forecasting:Prediction must have `end` after `start`.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 195, in forecasting_crime_type_and_wardwise
+    crimewise_predictions = fitted_model.predict((len(cleaned_data[cleaned_data[crime_type_column]==crime])) & (len(cleaned_data[cleaned_data[ward_name_column]==ward])), (len(cleaned_data[cleaned_data[crime_type_column]==crime])+(test_size-1)) & (len(cleaned_data[cleaned_data[ward_name_column]==ward])+(test_size-1)), typ='levels').round(0)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/wrapper.py", line 113, in wrapper
+    obj = data.wrap_output(func(results, *args, **kwargs), how)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3487, in predict
+    prediction_results = self.get_prediction(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3340, in get_prediction
+    self.model._get_prediction_index(start, end, index))
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/base/tsa_model.py", line 836, in _get_prediction_index
+    return get_prediction_index(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/base/tsa_model.py", line 389, in get_prediction_index
+    raise ValueError("Prediction must have `end` after `start`.")
+ValueError: Prediction must have `end` after `start`.
+19-Feb-24 14:08:23 ERROR [crime_forecasting.py] Exception occurred during forecasting:Prediction must have `end` after `start`.
+Traceback (most recent call last):
+  File "/opt/siap/analytics/crime/router/crime_forecasting.py", line 195, in forecasting_crime_type_and_wardwise
+    crimewise_predictions = fitted_model.predict((len(cleaned_data[cleaned_data[crime_type_column]==crime])) & (len(cleaned_data[cleaned_data[ward_name_column]==ward])), (len(cleaned_data[cleaned_data[crime_type_column]==crime])) & (len(cleaned_data[cleaned_data[ward_name_column]==ward]))+(test_size-1), typ='levels').round(0)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/base/wrapper.py", line 113, in wrapper
+    obj = data.wrap_output(func(results, *args, **kwargs), how)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3487, in predict
+    prediction_results = self.get_prediction(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/statespace/mlemodel.py", line 3340, in get_prediction
+    self.model._get_prediction_index(start, end, index))
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/base/tsa_model.py", line 836, in _get_prediction_index
+    return get_prediction_index(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/statsmodels/tsa/base/tsa_model.py", line 389, in get_prediction_index
+    raise ValueError("Prediction must have `end` after `start`.")
+ValueError: Prediction must have `end` after `start`.
+19-Feb-24 14:17:59 INFO [crime_forecasting.py] Forecasted data was saved successfully

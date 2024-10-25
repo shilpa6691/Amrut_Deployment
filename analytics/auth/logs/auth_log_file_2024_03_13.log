@@ -1,0 +1,619 @@
+13-Mar-24 11:07:57 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:07:57 INFO [authbearer.py] authenticating user
+13-Mar-24 11:07:57 INFO [authbearer.py] user found
+13-Mar-24 11:07:57 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:07:57 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:07:57 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:07:57 INFO [h11_impl.py] 192.168.150.14:65184 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:08:02 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:08:02 INFO [authbearer.py] authenticating user
+13-Mar-24 11:08:02 INFO [authbearer.py] user found
+13-Mar-24 11:08:02 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:08:02 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:08:02 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:08:02 INFO [h11_impl.py] 192.168.150.14:65184 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:08:10 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:08:10 INFO [authbearer.py] authenticating user
+13-Mar-24 11:08:10 INFO [authbearer.py] user not found
+13-Mar-24 11:08:10 INFO [h11_impl.py] 192.168.150.14:65192 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:08:19 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:08:19 INFO [authbearer.py] authenticating user
+13-Mar-24 11:08:19 INFO [authbearer.py] user found
+13-Mar-24 11:08:19 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:08:19 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:08:19 INFO [authbearer.py] Incorrect password
+13-Mar-24 11:08:19 INFO [h11_impl.py] 192.168.150.14:65194 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:08:55 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:08:55 INFO [authbearer.py] authenticating user
+13-Mar-24 11:08:55 INFO [authbearer.py] user found
+13-Mar-24 11:08:55 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:08:55 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:08:55 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:08:55 INFO [h11_impl.py] 192.168.150.14:65206 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:09:09 INFO [h11_impl.py] 192.168.150.14:65210 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:09:15 INFO [authbearer.py] verify_token
+13-Mar-24 11:09:38 INFO [authbearer.py] verify_token
+13-Mar-24 11:10:06 INFO [authbearer.py] verify_token
+13-Mar-24 11:10:26 INFO [authbearer.py] verify_token
+13-Mar-24 11:11:14 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:11:14 INFO [authbearer.py] authenticating user
+13-Mar-24 11:11:14 INFO [authbearer.py] user not found
+13-Mar-24 11:11:14 INFO [h11_impl.py] 192.168.150.14:65249 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:11:20 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:11:20 INFO [authbearer.py] authenticating user
+13-Mar-24 11:11:20 INFO [authbearer.py] user not found
+13-Mar-24 11:11:20 INFO [h11_impl.py] 192.168.150.14:65252 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:11:26 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:11:26 INFO [authbearer.py] authenticating user
+13-Mar-24 11:11:26 INFO [authbearer.py] user not found
+13-Mar-24 11:11:26 INFO [h11_impl.py] 192.168.150.14:65253 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:11:47 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:11:47 INFO [authbearer.py] authenticating user
+13-Mar-24 11:11:47 INFO [authbearer.py] user found
+13-Mar-24 11:11:47 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:11:47 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:11:47 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:11:47 INFO [h11_impl.py] 192.168.150.14:65259 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:12:20 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:12:20 INFO [authbearer.py] authenticating user
+13-Mar-24 11:12:20 INFO [authbearer.py] user not found
+13-Mar-24 11:12:20 INFO [h11_impl.py] 192.168.150.14:65265 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:12:31 INFO [h11_impl.py] 192.168.150.14:65269 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:12:37 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:12:37 INFO [authbearer.py] authenticating user
+13-Mar-24 11:12:37 INFO [authbearer.py] user found
+13-Mar-24 11:12:37 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:12:37 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:12:37 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:12:37 INFO [h11_impl.py] 192.168.150.14:65270 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:12:45 INFO [authbearer.py] verify_token
+13-Mar-24 11:14:40 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:14:40 INFO [authbearer.py] authenticating user
+13-Mar-24 11:14:40 INFO [authbearer.py] user found
+13-Mar-24 11:14:40 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:14:40 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:14:40 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:14:40 INFO [h11_impl.py] 192.168.150.14:65300 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:14:55 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:14:55 INFO [authbearer.py] authenticating user
+13-Mar-24 11:14:55 INFO [authbearer.py] user found
+13-Mar-24 11:14:55 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:14:55 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:14:55 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:14:55 INFO [h11_impl.py] 192.168.150.14:65307 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:14:59 INFO [authbearer.py] verify_token
+13-Mar-24 11:16:29 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:16:29 INFO [authbearer.py] authenticating user
+13-Mar-24 11:16:29 INFO [authbearer.py] user found
+13-Mar-24 11:16:29 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:16:29 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:16:29 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:16:29 INFO [h11_impl.py] 192.168.150.14:65322 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:16:45 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:16:45 INFO [authbearer.py] authenticating user
+13-Mar-24 11:16:45 INFO [authbearer.py] user found
+13-Mar-24 11:16:45 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:16:45 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:16:45 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:16:45 INFO [h11_impl.py] 192.168.150.14:65326 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:16:59 INFO [h11_impl.py] 192.168.150.14:65332 - "GET /docs HTTP/1.1" 200
+13-Mar-24 11:16:59 INFO [h11_impl.py] 192.168.150.14:65332 - "GET /openapi.json HTTP/1.1" 200
+13-Mar-24 11:17:09 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:17:09 INFO [authbearer.py] authenticating user
+13-Mar-24 11:17:09 INFO [authbearer.py] user found
+13-Mar-24 11:17:09 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:17:09 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:17:09 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:17:09 INFO [h11_impl.py] 192.168.150.14:65335 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:17:32 INFO [h11_impl.py] 192.168.150.14:65341 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 11:17:45 INFO [h11_impl.py] 192.168.150.14:65347 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:17:51 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:17:51 INFO [authbearer.py] authenticating user
+13-Mar-24 11:17:51 INFO [authbearer.py] user found
+13-Mar-24 11:17:51 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:17:51 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:17:51 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:17:51 INFO [h11_impl.py] 192.168.150.14:65348 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:17:57 INFO [authbearer.py] verify_token
+13-Mar-24 11:31:02 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:31:02 INFO [authbearer.py] authenticating user
+13-Mar-24 11:31:02 INFO [authbearer.py] user found
+13-Mar-24 11:31:02 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:31:02 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:31:02 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:31:02 INFO [h11_impl.py] 192.168.150.14:65490 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:31:21 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:31:21 INFO [authbearer.py] authenticating user
+13-Mar-24 11:31:21 INFO [authbearer.py] user found
+13-Mar-24 11:31:21 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:31:21 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:31:21 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:31:21 INFO [h11_impl.py] 192.168.150.14:65496 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:31:26 INFO [authbearer.py] verify_token
+13-Mar-24 11:33:15 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:33:15 INFO [authbearer.py] authenticating user
+13-Mar-24 11:33:15 INFO [authbearer.py] user found
+13-Mar-24 11:33:15 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:33:15 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:33:15 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:33:15 INFO [h11_impl.py] 192.168.150.14:65524 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:33:30 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:33:30 INFO [authbearer.py] authenticating user
+13-Mar-24 11:33:30 INFO [authbearer.py] user not found
+13-Mar-24 11:33:30 INFO [h11_impl.py] 192.168.150.14:65528 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:33:37 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:33:37 INFO [authbearer.py] authenticating user
+13-Mar-24 11:33:37 INFO [authbearer.py] user not found
+13-Mar-24 11:33:37 INFO [h11_impl.py] 192.168.150.14:65531 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:33:44 INFO [h11_impl.py] 192.168.150.14:65535 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:33:51 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:33:51 INFO [authbearer.py] authenticating user
+13-Mar-24 11:33:51 INFO [authbearer.py] user found
+13-Mar-24 11:33:51 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:33:51 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:33:51 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:33:51 INFO [h11_impl.py] 192.168.150.14:49152 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:33:59 INFO [authbearer.py] verify_token
+13-Mar-24 11:44:08 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:44:08 INFO [authbearer.py] authenticating user
+13-Mar-24 11:44:08 INFO [authbearer.py] user found
+13-Mar-24 11:44:08 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:44:08 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:44:08 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:44:08 INFO [h11_impl.py] 192.168.150.14:49275 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:44:23 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:44:23 INFO [authbearer.py] authenticating user
+13-Mar-24 11:44:23 INFO [authbearer.py] user found
+13-Mar-24 11:44:23 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:44:23 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:44:23 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:44:23 INFO [h11_impl.py] 192.168.150.14:49281 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:44:28 INFO [authbearer.py] verify_token
+13-Mar-24 11:50:44 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:50:44 INFO [authbearer.py] authenticating user
+13-Mar-24 11:50:44 INFO [authbearer.py] user found
+13-Mar-24 11:50:44 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:50:44 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:50:44 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:50:44 INFO [h11_impl.py] 192.168.150.14:49357 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:50:49 INFO [authbearer.py] verify_token
+13-Mar-24 11:54:28 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:54:28 INFO [authbearer.py] authenticating user
+13-Mar-24 11:54:28 INFO [authbearer.py] user found
+13-Mar-24 11:54:28 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:54:28 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:54:28 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:54:28 INFO [h11_impl.py] 192.168.150.14:49422 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:54:41 INFO [authbearer.py] verify_token
+13-Mar-24 11:57:06 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:57:06 INFO [authbearer.py] authenticating user
+13-Mar-24 11:57:06 INFO [authbearer.py] user found
+13-Mar-24 11:57:07 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:57:07 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:57:07 INFO [authbearer.py] Incorrect password
+13-Mar-24 11:57:07 INFO [h11_impl.py] 192.168.150.14:49458 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:57:13 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:57:13 INFO [authbearer.py] authenticating user
+13-Mar-24 11:57:13 INFO [authbearer.py] user found
+13-Mar-24 11:57:13 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:57:13 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:57:13 INFO [authbearer.py] Incorrect password
+13-Mar-24 11:57:13 INFO [h11_impl.py] 192.168.150.14:49461 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:57:22 INFO [h11_impl.py] 192.168.150.14:49463 - "POST /token HTTP/1.1" 401
+13-Mar-24 11:57:28 INFO [authentication.py] login_for_access_token
+13-Mar-24 11:57:28 INFO [authbearer.py] authenticating user
+13-Mar-24 11:57:28 INFO [authbearer.py] user found
+13-Mar-24 11:57:28 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 11:57:28 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 11:57:28 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 11:57:28 INFO [h11_impl.py] 192.168.150.14:49466 - "POST /token HTTP/1.1" 200
+13-Mar-24 11:58:20 INFO [authbearer.py] verify_token
+13-Mar-24 12:02:01 INFO [authbearer.py] verify_token
+13-Mar-24 12:02:01 INFO [h11_impl.py] 192.168.150.14:49526 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 12:02:18 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:02:18 INFO [authbearer.py] authenticating user
+13-Mar-24 12:02:18 INFO [authbearer.py] user found
+13-Mar-24 12:02:18 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:02:18 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:02:18 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 12:02:18 INFO [h11_impl.py] 192.168.150.14:49530 - "POST /token HTTP/1.1" 200
+13-Mar-24 12:02:26 INFO [authbearer.py] verify_token
+13-Mar-24 12:02:26 INFO [h11_impl.py] 192.168.150.14:49532 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 12:02:32 INFO [authbearer.py] verify_token
+13-Mar-24 12:09:25 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:09:25 INFO [authbearer.py] authenticating user
+13-Mar-24 12:09:25 INFO [authbearer.py] user found
+13-Mar-24 12:09:25 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:09:25 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:09:25 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 12:09:25 INFO [h11_impl.py] 192.168.150.14:49634 - "POST /token HTTP/1.1" 200
+13-Mar-24 12:11:29 INFO [server.py] Shutting down
+13-Mar-24 12:11:29 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:11:29 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:11:29 INFO [server.py] Finished server process [2035483]
+13-Mar-24 12:32:51 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:32:51 INFO [authbearer.py] authenticating user
+13-Mar-24 12:32:51 INFO [authbearer.py] user not found
+13-Mar-24 12:32:51 INFO [h11_impl.py] 192.168.150.14:49920 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:32:57 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:32:57 INFO [authbearer.py] authenticating user
+13-Mar-24 12:32:57 INFO [authbearer.py] user not found
+13-Mar-24 12:32:57 INFO [h11_impl.py] 192.168.150.14:49923 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:33:13 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:33:13 INFO [authbearer.py] authenticating user
+13-Mar-24 12:33:13 INFO [authbearer.py] user not found
+13-Mar-24 12:33:13 INFO [h11_impl.py] 192.168.150.14:49929 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:33:20 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:33:20 INFO [authbearer.py] authenticating user
+13-Mar-24 12:33:20 INFO [authbearer.py] user not found
+13-Mar-24 12:33:20 INFO [h11_impl.py] 192.168.150.14:49930 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:33:31 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:33:31 INFO [authbearer.py] authenticating user
+13-Mar-24 12:33:31 INFO [authbearer.py] user not found
+13-Mar-24 12:33:31 INFO [h11_impl.py] 192.168.150.14:49933 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:33:39 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:33:39 INFO [authbearer.py] authenticating user
+13-Mar-24 12:33:39 INFO [authbearer.py] user not found
+13-Mar-24 12:33:39 INFO [h11_impl.py] 192.168.150.14:49937 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:33:52 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:33:52 INFO [authbearer.py] authenticating user
+13-Mar-24 12:33:52 INFO [authbearer.py] user not found
+13-Mar-24 12:33:52 INFO [h11_impl.py] 192.168.150.14:49942 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:34:00 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:34:00 INFO [authbearer.py] authenticating user
+13-Mar-24 12:34:00 INFO [authbearer.py] user not found
+13-Mar-24 12:34:00 INFO [h11_impl.py] 192.168.150.14:49943 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:34:25 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:34:25 INFO [authbearer.py] authenticating user
+13-Mar-24 12:34:25 INFO [authbearer.py] user not found
+13-Mar-24 12:34:25 INFO [h11_impl.py] 192.168.150.14:49950 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:34:32 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:34:32 INFO [authbearer.py] authenticating user
+13-Mar-24 12:34:32 INFO [authbearer.py] user not found
+13-Mar-24 12:34:32 INFO [h11_impl.py] 192.168.150.14:49953 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:35:06 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:35:06 INFO [authbearer.py] authenticating user
+13-Mar-24 12:35:06 INFO [authbearer.py] user not found
+13-Mar-24 12:35:06 INFO [h11_impl.py] 192.168.150.14:49954 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:35:16 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:35:16 INFO [authbearer.py] authenticating user
+13-Mar-24 12:35:16 INFO [authbearer.py] user not found
+13-Mar-24 12:35:16 INFO [h11_impl.py] 192.168.150.14:49961 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:35:23 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:35:23 INFO [authbearer.py] authenticating user
+13-Mar-24 12:35:23 INFO [authbearer.py] user not found
+13-Mar-24 12:35:23 INFO [h11_impl.py] 192.168.150.14:49962 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:36:48 INFO [server.py] Shutting down
+13-Mar-24 12:36:48 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+13-Mar-24 12:36:52 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:36:52 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:36:52 INFO [server.py] Finished server process [2038530]
+13-Mar-24 12:38:02 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:38:02 INFO [authbearer.py] authenticating user
+13-Mar-24 12:38:02 INFO [authbearer.py] user found
+13-Mar-24 12:38:02 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:38:02 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:38:02 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 12:38:02 INFO [h11_impl.py] 192.168.150.14:50007 - "POST /token HTTP/1.1" 200
+13-Mar-24 12:38:45 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:38:45 INFO [authbearer.py] authenticating user
+13-Mar-24 12:38:45 INFO [authbearer.py] user not found
+13-Mar-24 12:38:45 INFO [h11_impl.py] 192.168.150.14:50014 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:38:51 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:38:51 INFO [authbearer.py] authenticating user
+13-Mar-24 12:38:51 INFO [authbearer.py] user not found
+13-Mar-24 12:38:51 INFO [h11_impl.py] 192.168.150.14:50019 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:38:56 INFO [h11_impl.py] 192.168.150.14:50021 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:39:03 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:39:03 INFO [authbearer.py] authenticating user
+13-Mar-24 12:39:03 INFO [authbearer.py] user found
+13-Mar-24 12:39:03 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:39:03 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:39:03 INFO [authbearer.py] Incorrect password
+13-Mar-24 12:39:03 INFO [h11_impl.py] 192.168.150.14:50024 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:39:11 INFO [h11_impl.py] 192.168.150.14:50026 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:39:18 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:39:18 INFO [authbearer.py] authenticating user
+13-Mar-24 12:39:18 INFO [authbearer.py] user not found
+13-Mar-24 12:39:18 INFO [h11_impl.py] 192.168.150.14:50027 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:39:24 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:39:24 INFO [authbearer.py] authenticating user
+13-Mar-24 12:39:24 INFO [authbearer.py] user found
+13-Mar-24 12:39:24 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:39:24 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:39:24 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 12:39:24 INFO [h11_impl.py] 192.168.150.14:50031 - "POST /token HTTP/1.1" 200
+13-Mar-24 12:39:38 INFO [authbearer.py] verify_token
+13-Mar-24 12:41:53 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:41:53 INFO [authbearer.py] authenticating user
+13-Mar-24 12:41:53 INFO [authbearer.py] user found
+13-Mar-24 12:41:53 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:41:53 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:41:53 INFO [authbearer.py] Incorrect password
+13-Mar-24 12:41:53 INFO [h11_impl.py] 192.168.150.14:50073 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:42:00 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:42:00 INFO [authbearer.py] authenticating user
+13-Mar-24 12:42:00 INFO [authbearer.py] user found
+13-Mar-24 12:42:00 INFO [authbearer.py] Verifying plain password:
+13-Mar-24 12:42:00 INFO [authbearer.py] Verifying hashed password:
+13-Mar-24 12:42:00 INFO [authbearer.py] User authenticated successfully
+13-Mar-24 12:42:00 INFO [h11_impl.py] 192.168.150.14:50074 - "POST /token HTTP/1.1" 200
+13-Mar-24 12:42:08 INFO [authbearer.py] verify_token
+13-Mar-24 12:51:10 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:51:10 INFO [authbearer.py] Authenticating user: 
+13-Mar-24 12:51:10 INFO [authbearer.py] User not found: 
+13-Mar-24 12:51:10 INFO [h11_impl.py] 192.168.150.14:50180 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:51:17 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:51:17 INFO [authbearer.py] Authenticating user: 
+13-Mar-24 12:51:17 INFO [authbearer.py] User not found: 
+13-Mar-24 12:51:17 INFO [h11_impl.py] 192.168.150.14:50181 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:51:22 INFO [h11_impl.py] 192.168.150.14:50181 - "POST /token HTTP/1.1" 401
+13-Mar-24 12:51:28 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:51:28 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 12:51:28 INFO [h11_impl.py] 192.168.150.14:50185 - "POST /token HTTP/1.1" 500
+13-Mar-24 12:51:28 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 18, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 101, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 85, in verify_password
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+ValueError: Invalid salt
+13-Mar-24 12:51:40 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:51:40 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 12:51:40 INFO [h11_impl.py] 192.168.150.14:50190 - "POST /token HTTP/1.1" 500
+13-Mar-24 12:51:40 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 18, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 101, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 85, in verify_password
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+ValueError: Invalid salt
+13-Mar-24 12:56:46 INFO [server.py] Shutting down
+13-Mar-24 12:56:46 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+13-Mar-24 12:56:47 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:56:47 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:56:47 INFO [server.py] Finished server process [2041603]
+13-Mar-24 12:59:06 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:59:06 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 12:59:06 INFO [h11_impl.py] 192.168.150.14:50278 - "POST /token HTTP/1.1" 500
+13-Mar-24 12:59:06 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 18, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 101, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 85, in verify_password
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+AttributeError: 'bytes' object has no attribute 'encode'
+13-Mar-24 12:59:11 INFO [authentication.py] login_for_access_token
+13-Mar-24 12:59:11 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 12:59:11 INFO [h11_impl.py] 192.168.150.14:50280 - "POST /token HTTP/1.1" 500
+13-Mar-24 12:59:11 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 18, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 101, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 85, in verify_password
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+AttributeError: 'bytes' object has no attribute 'encode'
+13-Mar-24 12:59:43 INFO [server.py] Shutting down
+13-Mar-24 12:59:43 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+13-Mar-24 12:59:48 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 12:59:48 INFO [on.py] Application shutdown complete.
+13-Mar-24 12:59:48 INFO [server.py] Finished server process [2042581]
+13-Mar-24 13:01:13 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:01:13 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:01:13 INFO [h11_impl.py] 192.168.150.14:50307 - "POST /token HTTP/1.1" 500
+13-Mar-24 13:01:13 ERROR [h11_impl.py] Exception in ASGI application
+Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/applications.py", line 289, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/fastapi/routing.py", line 190, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/opt/siap/analytics/auth/authentication.py", line 18, in login_for_access_token
+    user = authenticate_user(credentials.username, credentials.password)
+  File "/opt/siap/analytics/auth/authbearer.py", line 101, in authenticate_user
+    if not verify_password(password, user["password"]):
+  File "/opt/siap/analytics/auth/authbearer.py", line 85, in verify_password
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+ValueError: Invalid salt
+13-Mar-24 13:03:23 INFO [server.py] Shutting down
+13-Mar-24 13:03:23 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+13-Mar-24 13:06:16 INFO [on.py] Waiting for application shutdown.
+13-Mar-24 13:06:16 INFO [on.py] Application shutdown complete.
+13-Mar-24 13:06:16 INFO [server.py] Finished server process [2042902]
+13-Mar-24 13:33:53 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:33:53 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:33:53 INFO [authbearer.py] user found
+13-Mar-24 13:33:53 INFO [authbearer.py] User authenticated successfully: user1
+13-Mar-24 13:33:53 INFO [authentication.py] User authenticated successfully: user1
+13-Mar-24 13:33:53 INFO [h11_impl.py] 192.168.150.14:50652 - "POST /token HTTP/1.1" 200
+13-Mar-24 13:34:05 INFO [authbearer.py] verify_token
+13-Mar-24 13:34:31 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:34:31 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:34:31 INFO [authbearer.py] user found
+13-Mar-24 13:34:31 INFO [authbearer.py] User authenticated successfully: user1
+13-Mar-24 13:34:31 INFO [authentication.py] User authenticated successfully: user1
+13-Mar-24 13:34:31 INFO [h11_impl.py] 192.168.150.14:50662 - "POST /token HTTP/1.1" 200
+13-Mar-24 13:34:48 INFO [authbearer.py] verify_token
+13-Mar-24 13:35:03 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:35:03 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:35:03 INFO [authbearer.py] user found
+13-Mar-24 13:35:03 INFO [authbearer.py] User authenticated successfully: user1
+13-Mar-24 13:35:03 INFO [authentication.py] User authenticated successfully: user1
+13-Mar-24 13:35:03 INFO [h11_impl.py] 192.168.150.14:50671 - "POST /token HTTP/1.1" 200
+13-Mar-24 13:35:18 INFO [authbearer.py] verify_token
+13-Mar-24 13:36:36 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:36:36 INFO [authbearer.py] Authenticating user: user
+13-Mar-24 13:36:36 INFO [authbearer.py] User not found: user
+13-Mar-24 13:36:36 INFO [h11_impl.py] 192.168.150.14:50699 - "POST /token HTTP/1.1" 401
+13-Mar-24 13:36:44 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:36:44 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:36:44 INFO [authbearer.py] user found
+13-Mar-24 13:36:44 INFO [authbearer.py] Incorrect password for user: user1
+13-Mar-24 13:36:44 INFO [h11_impl.py] 192.168.150.14:50704 - "POST /token HTTP/1.1" 401
+13-Mar-24 13:36:51 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:36:51 INFO [authbearer.py] Authenticating user: user
+13-Mar-24 13:36:51 INFO [authbearer.py] User not found: user
+13-Mar-24 13:36:51 INFO [h11_impl.py] 192.168.150.14:50707 - "POST /token HTTP/1.1" 401
+13-Mar-24 13:36:55 INFO [authentication.py] login_for_access_token
+13-Mar-24 13:36:55 INFO [authbearer.py] Authenticating user: user1
+13-Mar-24 13:36:55 INFO [authbearer.py] user found
+13-Mar-24 13:36:55 INFO [authbearer.py] User authenticated successfully: user1
+13-Mar-24 13:36:55 INFO [authentication.py] User authenticated successfully: user1
+13-Mar-24 13:36:55 INFO [h11_impl.py] 192.168.150.14:50707 - "POST /token HTTP/1.1" 200
+13-Mar-24 13:37:14 INFO [authbearer.py] verify_token
+13-Mar-24 13:37:14 INFO [h11_impl.py] 192.168.150.14:50715 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+13-Mar-24 13:37:33 INFO [authbearer.py] verify_token
+13-Mar-24 13:37:48 INFO [authbearer.py] verify_token

@@ -1,0 +1,3 @@
+23-Feb-24 13:56:45 INFO [crime_analysis.py] Loading cleaned data files.
+23-Feb-24 13:56:48 INFO [crime_analysis.py] Counting number of crimes...
+23-Feb-24 13:56:49 INFO [crime_analysis.py] Counting completed

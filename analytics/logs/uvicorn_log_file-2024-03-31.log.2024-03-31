@@ -1,0 +1,340 @@
+31-Mar-24 15:42:08 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 15:42:08 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 15:42:08 INFO [basereload.py] Started reloader process [322639] using StatReload
+31-Mar-24 15:43:00 INFO [server.py] Started server process [322727]
+31-Mar-24 15:43:00 INFO [on.py] Waiting for application startup.
+31-Mar-24 15:43:00 INFO [on.py] Application startup complete.
+31-Mar-24 15:51:28 INFO [basereload.py] Stopping reloader process [322639]
+31-Mar-24 15:52:56 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 15:52:56 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 15:52:56 INFO [basereload.py] Started reloader process [325409] using StatReload
+31-Mar-24 15:54:00 INFO [server.py] Started server process [325751]
+31-Mar-24 15:54:00 INFO [on.py] Waiting for application startup.
+31-Mar-24 15:54:00 INFO [on.py] Application startup complete.
+31-Mar-24 16:09:08 INFO [basereload.py] Stopping reloader process [325409]
+31-Mar-24 16:10:43 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:10:43 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:10:43 INFO [basereload.py] Started reloader process [328309] using StatReload
+31-Mar-24 16:11:31 INFO [server.py] Started server process [328798]
+31-Mar-24 16:11:31 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:11:31 INFO [on.py] Application startup complete.
+31-Mar-24 16:19:42 INFO [server.py] Shutting down
+31-Mar-24 16:19:42 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:19:42 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:19:42 INFO [server.py] Finished server process [328798]
+31-Mar-24 16:19:43 INFO [basereload.py] Stopping reloader process [328309]
+31-Mar-24 16:21:12 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:21:12 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:21:12 INFO [basereload.py] Started reloader process [330381] using StatReload
+31-Mar-24 16:22:00 INFO [server.py] Started server process [330979]
+31-Mar-24 16:22:00 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:22:00 INFO [on.py] Application startup complete.
+31-Mar-24 16:22:47 INFO [server.py] Shutting down
+31-Mar-24 16:22:47 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:22:47 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:22:47 INFO [server.py] Finished server process [330979]
+31-Mar-24 16:22:48 INFO [basereload.py] Stopping reloader process [330381]
+31-Mar-24 16:24:33 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:24:33 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:24:33 INFO [basereload.py] Started reloader process [332224] using StatReload
+31-Mar-24 16:25:17 INFO [server.py] Started server process [332860]
+31-Mar-24 16:25:17 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:25:17 INFO [on.py] Application startup complete.
+31-Mar-24 16:32:16 INFO [server.py] Shutting down
+31-Mar-24 16:32:17 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:32:17 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:32:17 INFO [server.py] Finished server process [332860]
+31-Mar-24 16:32:17 INFO [basereload.py] Stopping reloader process [332224]
+31-Mar-24 16:35:18 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:35:18 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:35:18 INFO [basereload.py] Started reloader process [334576] using StatReload
+31-Mar-24 16:36:03 INFO [server.py] Started server process [334846]
+31-Mar-24 16:36:03 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:36:03 INFO [on.py] Application startup complete.
+31-Mar-24 16:37:50 INFO [server.py] Shutting down
+31-Mar-24 16:37:50 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:37:50 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:37:50 INFO [server.py] Finished server process [334846]
+31-Mar-24 16:37:51 INFO [basereload.py] Stopping reloader process [334576]
+31-Mar-24 16:39:18 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:39:18 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:39:18 INFO [basereload.py] Started reloader process [335747] using StatReload
+31-Mar-24 16:40:02 INFO [server.py] Started server process [336148]
+31-Mar-24 16:40:02 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:40:02 INFO [on.py] Application startup complete.
+31-Mar-24 16:48:36 INFO [server.py] Shutting down
+31-Mar-24 16:48:36 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:48:36 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:48:36 INFO [server.py] Finished server process [336148]
+31-Mar-24 16:48:37 INFO [basereload.py] Stopping reloader process [335747]
+31-Mar-24 16:50:04 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:50:04 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:50:04 INFO [basereload.py] Started reloader process [337262] using StatReload
+31-Mar-24 16:50:48 INFO [server.py] Started server process [337505]
+31-Mar-24 16:50:48 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:50:48 INFO [on.py] Application startup complete.
+31-Mar-24 16:52:43 INFO [server.py] Shutting down
+31-Mar-24 16:52:43 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 16:52:43 INFO [on.py] Application shutdown complete.
+31-Mar-24 16:52:43 INFO [server.py] Finished server process [337505]
+31-Mar-24 16:52:44 INFO [basereload.py] Stopping reloader process [337262]
+31-Mar-24 16:54:09 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 16:54:09 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 16:54:09 INFO [basereload.py] Started reloader process [338826] using StatReload
+31-Mar-24 16:54:54 INFO [server.py] Started server process [339094]
+31-Mar-24 16:54:54 INFO [on.py] Waiting for application startup.
+31-Mar-24 16:54:54 INFO [on.py] Application startup complete.
+31-Mar-24 17:00:43 INFO [server.py] Shutting down
+31-Mar-24 17:00:43 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 17:00:43 INFO [on.py] Application shutdown complete.
+31-Mar-24 17:00:43 INFO [server.py] Finished server process [339094]
+31-Mar-24 17:00:44 INFO [basereload.py] Stopping reloader process [338826]
+31-Mar-24 17:02:11 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:02:11 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:02:11 INFO [basereload.py] Started reloader process [340681] using StatReload
+31-Mar-24 17:02:53 INFO [basereload.py] Stopping reloader process [340681]
+31-Mar-24 17:04:25 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:04:25 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:04:25 INFO [basereload.py] Started reloader process [341603] using StatReload
+31-Mar-24 17:04:31 INFO [basereload.py] Stopping reloader process [341603]
+31-Mar-24 17:06:05 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:06:05 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:06:05 INFO [basereload.py] Started reloader process [342448] using StatReload
+31-Mar-24 17:06:50 INFO [server.py] Started server process [342681]
+31-Mar-24 17:06:50 INFO [on.py] Waiting for application startup.
+31-Mar-24 17:06:50 INFO [on.py] Application startup complete.
+31-Mar-24 17:07:17 INFO [server.py] Shutting down
+31-Mar-24 17:07:17 INFO [server.py] Finished server process [342681]
+31-Mar-24 17:07:17 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+31-Mar-24 17:07:19 INFO [basereload.py] Stopping reloader process [342448]
+31-Mar-24 17:08:55 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:08:55 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:08:55 INFO [basereload.py] Started reloader process [343556] using StatReload
+31-Mar-24 17:09:39 INFO [server.py] Started server process [343951]
+31-Mar-24 17:09:39 INFO [on.py] Waiting for application startup.
+31-Mar-24 17:09:39 INFO [on.py] Application startup complete.
+31-Mar-24 17:21:11 INFO [server.py] Shutting down
+31-Mar-24 17:21:11 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 17:21:11 INFO [on.py] Application shutdown complete.
+31-Mar-24 17:21:11 INFO [server.py] Finished server process [343951]
+31-Mar-24 17:21:12 INFO [basereload.py] Stopping reloader process [343556]
+31-Mar-24 17:22:39 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:22:39 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:22:39 INFO [basereload.py] Started reloader process [345235] using StatReload
+31-Mar-24 17:23:24 INFO [server.py] Started server process [345708]
+31-Mar-24 17:23:24 INFO [on.py] Waiting for application startup.
+31-Mar-24 17:23:24 INFO [on.py] Application startup complete.
+31-Mar-24 17:29:47 INFO [server.py] Shutting down
+31-Mar-24 17:29:48 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 17:29:48 INFO [on.py] Application shutdown complete.
+31-Mar-24 17:29:48 INFO [server.py] Finished server process [345708]
+31-Mar-24 17:29:48 INFO [basereload.py] Stopping reloader process [345235]
+31-Mar-24 17:31:22 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:31:22 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:31:22 INFO [basereload.py] Started reloader process [347220] using StatReload
+31-Mar-24 17:31:35 INFO [basereload.py] Stopping reloader process [347220]
+31-Mar-24 17:33:14 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:33:14 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:33:14 INFO [basereload.py] Started reloader process [348210] using StatReload
+31-Mar-24 17:34:00 INFO [server.py] Started server process [348843]
+31-Mar-24 17:34:00 INFO [on.py] Waiting for application startup.
+31-Mar-24 17:34:00 INFO [on.py] Application startup complete.
+31-Mar-24 17:34:39 INFO [server.py] Shutting down
+31-Mar-24 17:34:39 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 17:34:39 INFO [on.py] Application shutdown complete.
+31-Mar-24 17:34:39 INFO [server.py] Finished server process [348843]
+31-Mar-24 17:34:39 INFO [basereload.py] Stopping reloader process [348210]
+31-Mar-24 17:36:18 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 17:36:18 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 17:36:18 INFO [basereload.py] Started reloader process [349803] using StatReload
+31-Mar-24 17:37:05 INFO [server.py] Started server process [350137]
+31-Mar-24 17:37:05 INFO [on.py] Waiting for application startup.
+31-Mar-24 17:37:05 INFO [on.py] Application startup complete.
+31-Mar-24 18:03:49 INFO [server.py] Shutting down
+31-Mar-24 18:03:49 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:03:49 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:03:49 INFO [server.py] Finished server process [350137]
+31-Mar-24 18:03:50 INFO [basereload.py] Stopping reloader process [349803]
+31-Mar-24 18:05:16 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:05:16 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:05:16 INFO [basereload.py] Started reloader process [351755] using StatReload
+31-Mar-24 18:06:01 INFO [server.py] Started server process [351974]
+31-Mar-24 18:06:01 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:06:01 INFO [on.py] Application startup complete.
+31-Mar-24 18:07:45 INFO [server.py] Shutting down
+31-Mar-24 18:07:45 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:07:45 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:07:45 INFO [server.py] Finished server process [351974]
+31-Mar-24 18:07:45 INFO [basereload.py] Stopping reloader process [351755]
+31-Mar-24 18:09:12 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:09:12 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:09:12 INFO [basereload.py] Started reloader process [352734] using StatReload
+31-Mar-24 18:09:47 INFO [basereload.py] Stopping reloader process [352734]
+31-Mar-24 18:11:57 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:11:57 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:11:57 INFO [basereload.py] Started reloader process [354019] using StatReload
+31-Mar-24 18:12:02 INFO [basereload.py] Stopping reloader process [354019]
+31-Mar-24 18:13:36 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:13:36 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:13:36 INFO [basereload.py] Started reloader process [354765] using StatReload
+31-Mar-24 18:14:20 INFO [server.py] Started server process [355218]
+31-Mar-24 18:14:20 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:14:20 INFO [on.py] Application startup complete.
+31-Mar-24 18:20:59 INFO [server.py] Shutting down
+31-Mar-24 18:20:59 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:20:59 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:20:59 INFO [server.py] Finished server process [355218]
+31-Mar-24 18:21:00 INFO [basereload.py] Stopping reloader process [354765]
+31-Mar-24 18:22:27 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:22:27 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:22:27 INFO [basereload.py] Started reloader process [356537] using StatReload
+31-Mar-24 18:23:12 INFO [server.py] Started server process [357042]
+31-Mar-24 18:23:12 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:23:12 INFO [on.py] Application startup complete.
+31-Mar-24 18:23:44 INFO [server.py] Shutting down
+31-Mar-24 18:23:44 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:23:44 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:23:44 INFO [server.py] Finished server process [357042]
+31-Mar-24 18:23:45 INFO [basereload.py] Stopping reloader process [356537]
+31-Mar-24 18:25:21 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:25:21 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:25:21 INFO [basereload.py] Started reloader process [358193] using StatReload
+31-Mar-24 18:26:06 INFO [server.py] Started server process [358591]
+31-Mar-24 18:26:06 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:26:06 INFO [on.py] Application startup complete.
+31-Mar-24 18:33:10 INFO [server.py] Shutting down
+31-Mar-24 18:33:10 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:33:10 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:33:10 INFO [server.py] Finished server process [358591]
+31-Mar-24 18:33:10 INFO [basereload.py] Stopping reloader process [358193]
+31-Mar-24 18:37:00 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:37:00 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:37:00 INFO [basereload.py] Started reloader process [360173] using StatReload
+31-Mar-24 18:37:46 INFO [server.py] Started server process [360835]
+31-Mar-24 18:37:46 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:37:46 INFO [on.py] Application startup complete.
+31-Mar-24 18:40:24 INFO [server.py] Shutting down
+31-Mar-24 18:40:24 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:40:24 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:40:24 INFO [server.py] Finished server process [360835]
+31-Mar-24 18:40:24 INFO [basereload.py] Stopping reloader process [360173]
+31-Mar-24 18:41:49 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:41:49 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:41:49 INFO [basereload.py] Started reloader process [362092] using StatReload
+31-Mar-24 18:42:35 INFO [server.py] Started server process [362432]
+31-Mar-24 18:42:35 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:42:35 INFO [on.py] Application startup complete.
+31-Mar-24 18:42:54 INFO [server.py] Shutting down
+31-Mar-24 18:42:55 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:42:55 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:42:55 INFO [server.py] Finished server process [362432]
+31-Mar-24 18:42:55 INFO [basereload.py] Stopping reloader process [362092]
+31-Mar-24 18:44:53 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:44:53 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:44:53 INFO [basereload.py] Started reloader process [363246] using StatReload
+31-Mar-24 18:45:46 INFO [server.py] Started server process [363905]
+31-Mar-24 18:45:46 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:45:46 INFO [on.py] Application startup complete.
+31-Mar-24 18:52:47 INFO [server.py] Shutting down
+31-Mar-24 18:52:47 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 18:52:47 INFO [on.py] Application shutdown complete.
+31-Mar-24 18:52:47 INFO [server.py] Finished server process [363905]
+31-Mar-24 18:52:47 INFO [basereload.py] Stopping reloader process [363246]
+31-Mar-24 18:55:15 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 18:55:15 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 18:55:15 INFO [basereload.py] Started reloader process [365920] using StatReload
+31-Mar-24 18:56:03 INFO [server.py] Started server process [366605]
+31-Mar-24 18:56:03 INFO [on.py] Waiting for application startup.
+31-Mar-24 18:56:03 INFO [on.py] Application startup complete.
+31-Mar-24 19:06:17 INFO [basereload.py] Stopping reloader process [365920]
+31-Mar-24 19:07:48 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 19:07:48 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 19:07:48 INFO [basereload.py] Started reloader process [369052] using StatReload
+31-Mar-24 19:08:35 INFO [server.py] Started server process [369589]
+31-Mar-24 19:08:35 INFO [on.py] Waiting for application startup.
+31-Mar-24 19:08:35 INFO [on.py] Application startup complete.
+31-Mar-24 19:09:57 INFO [server.py] Shutting down
+31-Mar-24 19:09:57 INFO [server.py] Finished server process [369589]
+31-Mar-24 19:09:57 ERROR [on.py] Traceback (most recent call last):
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/starlette/routing.py", line 686, in lifespan
+    await receive()
+  File "/opt/siap/analytics/analytics_env/lib/python3.10/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "/usr/lib/python3.10/asyncio/queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+31-Mar-24 19:09:59 INFO [basereload.py] Stopping reloader process [369052]
+31-Mar-24 19:11:35 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 19:11:35 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 19:11:35 INFO [basereload.py] Started reloader process [370754] using StatReload
+31-Mar-24 19:12:28 INFO [server.py] Started server process [371374]
+31-Mar-24 19:12:28 INFO [on.py] Waiting for application startup.
+31-Mar-24 19:12:28 INFO [on.py] Application startup complete.
+31-Mar-24 20:09:20 INFO [server.py] Shutting down
+31-Mar-24 20:09:20 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 20:09:20 INFO [on.py] Application shutdown complete.
+31-Mar-24 20:09:20 INFO [server.py] Finished server process [371374]
+31-Mar-24 20:09:21 INFO [basereload.py] Stopping reloader process [370754]
+31-Mar-24 20:10:48 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 20:10:48 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 20:10:48 INFO [basereload.py] Started reloader process [374896] using StatReload
+31-Mar-24 20:10:53 INFO [basereload.py] Stopping reloader process [374896]
+31-Mar-24 20:13:41 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 20:13:41 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 20:13:41 INFO [basereload.py] Started reloader process [376503] using StatReload
+31-Mar-24 20:14:27 INFO [server.py] Started server process [376863]
+31-Mar-24 20:14:27 INFO [on.py] Waiting for application startup.
+31-Mar-24 20:14:27 INFO [on.py] Application startup complete.
+31-Mar-24 20:16:27 INFO [server.py] Shutting down
+31-Mar-24 20:16:27 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 20:16:27 INFO [on.py] Application shutdown complete.
+31-Mar-24 20:16:27 INFO [server.py] Finished server process [376863]
+31-Mar-24 20:16:28 INFO [basereload.py] Stopping reloader process [376503]
+31-Mar-24 20:17:55 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 20:17:55 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 20:17:55 INFO [basereload.py] Started reloader process [377955] using StatReload
+31-Mar-24 20:18:43 INFO [server.py] Started server process [378606]
+31-Mar-24 20:18:43 INFO [on.py] Waiting for application startup.
+31-Mar-24 20:18:43 INFO [on.py] Application startup complete.
+31-Mar-24 21:22:32 INFO [server.py] Shutting down
+31-Mar-24 21:22:32 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 21:22:32 INFO [on.py] Application shutdown complete.
+31-Mar-24 21:22:32 INFO [server.py] Finished server process [378606]
+31-Mar-24 21:22:33 INFO [basereload.py] Stopping reloader process [377955]
+31-Mar-24 21:24:02 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 21:24:02 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 21:24:02 INFO [basereload.py] Started reloader process [382893] using StatReload
+31-Mar-24 21:24:51 INFO [server.py] Started server process [383599]
+31-Mar-24 21:24:51 INFO [on.py] Waiting for application startup.
+31-Mar-24 21:24:51 INFO [on.py] Application startup complete.
+31-Mar-24 21:30:35 INFO [server.py] Shutting down
+31-Mar-24 21:30:35 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 21:30:35 INFO [on.py] Application shutdown complete.
+31-Mar-24 21:30:35 INFO [server.py] Finished server process [383599]
+31-Mar-24 21:30:35 INFO [basereload.py] Stopping reloader process [382893]
+31-Mar-24 21:32:50 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 21:32:50 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 21:32:50 INFO [basereload.py] Started reloader process [386025] using StatReload
+31-Mar-24 21:33:41 INFO [server.py] Started server process [386642]
+31-Mar-24 21:33:41 INFO [on.py] Waiting for application startup.
+31-Mar-24 21:33:41 INFO [on.py] Application startup complete.
+31-Mar-24 21:56:57 INFO [server.py] Shutting down
+31-Mar-24 21:56:57 INFO [on.py] Waiting for application shutdown.
+31-Mar-24 21:56:57 INFO [on.py] Application shutdown complete.
+31-Mar-24 21:56:57 INFO [server.py] Finished server process [386642]
+31-Mar-24 21:56:58 INFO [basereload.py] Stopping reloader process [386025]
+31-Mar-24 21:58:25 INFO [config.py] Will watch for changes in these directories: ['/opt/siap/analytics']
+31-Mar-24 21:58:25 INFO [config.py] Uvicorn running on https://0.0.0.0:8000 (Press CTRL+C to quit)
+31-Mar-24 21:58:25 INFO [basereload.py] Started reloader process [390017] using StatReload
+31-Mar-24 21:59:15 INFO [server.py] Started server process [390661]
+31-Mar-24 21:59:15 INFO [on.py] Waiting for application startup.
+31-Mar-24 21:59:15 INFO [on.py] Application startup complete.

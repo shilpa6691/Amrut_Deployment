@@ -1,0 +1,28 @@
+14-Mar-24 15:15:56 INFO [crime_analysis.py] Loading cleaned data files.
+14-Mar-24 15:15:58 INFO [crime_analysis.py] Counting number of monthly crimes....
+14-Mar-24 15:15:58 INFO [crime_analysis.py] Counting completed!
+14-Mar-24 15:15:58 INFO [h11_impl.py] 192.168.150.14:57036 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:16:03 INFO [crime_analysis.py] Loading cleaned data files.
+14-Mar-24 15:16:05 INFO [crime_analysis.py] Counting number of monthly crimes....
+14-Mar-24 15:16:05 INFO [crime_analysis.py] Counting completed!
+14-Mar-24 15:16:05 INFO [h11_impl.py] 192.168.150.14:57040 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:16:43 INFO [server.py] Shutting down
+14-Mar-24 15:16:43 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 15:16:43 INFO [on.py] Application shutdown complete.
+14-Mar-24 15:16:43 INFO [server.py] Finished server process [209368]
+14-Mar-24 15:19:22 INFO [crime_analysis.py] Loading cleaned data files.
+14-Mar-24 15:19:24 INFO [crime_analysis.py] Counting number of monthly crimes....
+14-Mar-24 15:19:24 INFO [crime_analysis.py] Counting completed!
+14-Mar-24 15:19:24 INFO [h11_impl.py] 192.168.150.14:57088 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:19:38 INFO [crime_analysis.py] Loading cleaned data files.
+14-Mar-24 15:19:40 INFO [crime_analysis.py] Counting number of monthly crimes....
+14-Mar-24 15:19:40 INFO [crime_analysis.py] Counting completed!
+14-Mar-24 15:19:40 INFO [h11_impl.py] 192.168.150.14:57089 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:21:53 INFO [server.py] Shutting down
+14-Mar-24 15:21:53 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 15:21:53 INFO [on.py] Application shutdown complete.
+14-Mar-24 15:21:53 INFO [server.py] Finished server process [210478]
+14-Mar-24 15:23:02 INFO [crime_analysis.py] Loading cleaned data files.
+14-Mar-24 15:23:04 INFO [crime_analysis.py] Counting number of monthly crimes....
+14-Mar-24 15:23:05 INFO [crime_analysis.py] Counting completed!
+14-Mar-24 15:23:05 INFO [h11_impl.py] 192.168.150.14:57135 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=07-2023&page=1&rows_per_page=1000 HTTP/1.1" 200

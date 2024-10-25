@@ -1,0 +1,245 @@
+14-Mar-24 11:00:33 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 11:00:34 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 11:00:34 INFO [h11_impl.py] 192.168.150.14:54477 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 11:00:49 INFO [server.py] Shutting down
+14-Mar-24 11:00:49 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 11:00:49 INFO [on.py] Application shutdown complete.
+14-Mar-24 11:00:49 INFO [server.py] Finished server process [148585]
+14-Mar-24 11:04:06 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 11:04:06 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 11:04:06 INFO [h11_impl.py] 192.168.0.100:56508 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 11:04:23 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 11:04:24 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 11:04:24 INFO [h11_impl.py] 192.168.150.14:54549 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 11:08:16 INFO [h11_impl.py] 192.168.0.100:55662 - "GET /aqi_classification?page=all&rows_per_page=1000 HTTP/1.1" 422
+14-Mar-24 11:12:22 INFO [h11_impl.py] 192.168.150.10:51560 - "GET /docs HTTP/1.1" 200
+14-Mar-24 11:12:22 INFO [h11_impl.py] 192.168.150.10:51560 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 11:12:31 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 11:12:32 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 11:12:32 INFO [h11_impl.py] 192.168.150.10:51562 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 11:13:01 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 11:13:01 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 11:13:01 INFO [h11_impl.py] 192.168.150.10:51567 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 11:14:58 INFO [h11_impl.py] 192.168.150.14:54679 - "POST /token HTTP/1.1" 404
+14-Mar-24 12:07:06 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+14-Mar-24 12:07:11 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 12:07:11 INFO [h11_impl.py] 192.168.0.100:58294 - "POST /storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+14-Mar-24 12:07:39 INFO [es_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 12:07:39 ERROR [es_forecasting.py] Exception occurred during forecasting
+Traceback (most recent call last):
+  File "/opt/siap/analytics/es/router/es_forecasting.py", line 98, in forecasting
+    predicted_results.to_json('/opt/siap/analytics/es/logs/forecasted_values.txt')
+AttributeError: 'dict' object has no attribute 'to_json'
+14-Mar-24 12:07:39 INFO [h11_impl.py] 192.168.0.100:58306 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 500
+14-Mar-24 12:09:42 INFO [server.py] Shutting down
+14-Mar-24 12:09:43 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 12:09:43 INFO [on.py] Application shutdown complete.
+14-Mar-24 12:09:43 INFO [server.py] Finished server process [159255]
+14-Mar-24 12:23:06 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+14-Mar-24 12:23:10 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 12:23:10 INFO [h11_impl.py] 192.168.0.100:49182 - "POST /storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+14-Mar-24 12:23:39 INFO [es_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 12:23:39 INFO [h11_impl.py] 192.168.0.100:49198 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+14-Mar-24 12:37:31 INFO [h11_impl.py] 192.168.150.10:52674 - "GET /docs HTTP/1.1" 200
+14-Mar-24 12:37:31 INFO [h11_impl.py] 192.168.150.10:52674 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 13:34:37 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:34:38 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:34:38 INFO [h11_impl.py] 192.168.150.10:53150 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:35:14 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:35:15 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:35:15 INFO [h11_impl.py] 192.168.0.100:36616 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:35:36 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:35:38 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:35:38 INFO [h11_impl.py] 192.168.150.10:53157 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:35:55 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:35:58 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:35:58 INFO [h11_impl.py] 192.168.0.100:35634 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:36:53 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:36:53 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:36:53 INFO [h11_impl.py] 192.168.0.100:41964 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:37:23 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:37:23 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:37:23 INFO [h11_impl.py] 192.168.0.100:59496 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:37:23 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:37:26 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:37:26 INFO [h11_impl.py] 192.168.0.100:59500 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:38:45 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:38:46 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:38:46 INFO [h11_impl.py] 192.168.0.100:33180 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:38:46 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:38:51 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:38:51 INFO [h11_impl.py] 192.168.0.100:38538 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:41:13 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:41:14 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:41:14 INFO [h11_impl.py] 192.168.0.100:57722 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:41:14 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:41:17 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:41:17 INFO [h11_impl.py] 192.168.0.100:57734 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:42:11 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 13:42:11 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 13:42:11 INFO [h11_impl.py] 192.168.150.10:53175 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:42:44 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 13:42:44 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 13:42:44 INFO [h11_impl.py] 192.168.0.100:34556 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:43:37 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 13:43:37 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 13:43:37 INFO [h11_impl.py] 192.168.0.100:51218 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:43:37 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 13:43:39 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 13:43:40 INFO [h11_impl.py] 192.168.0.100:51234 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:43:40 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 13:43:40 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 13:43:40 INFO [h11_impl.py] 192.168.0.100:51236 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:44:06 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 13:44:19 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 13:44:30 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 13:44:41 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 13:44:54 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 13:45:05 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 13:45:16 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 13:45:16 INFO [h11_impl.py] 192.168.150.10:53184 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 13:45:42 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 13:45:54 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 13:46:07 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 13:46:17 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 13:46:28 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 13:46:41 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 13:46:53 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 13:46:53 INFO [h11_impl.py] 192.168.0.100:40318 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:07:51 INFO [server.py] Shutting down
+14-Mar-24 14:07:51 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 14:07:51 INFO [on.py] Application shutdown complete.
+14-Mar-24 14:07:51 INFO [server.py] Finished server process [178997]
+14-Mar-24 14:32:04 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 14:32:05 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 14:32:05 INFO [h11_impl.py] 192.168.0.100:59388 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:32:05 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 14:32:10 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 14:32:11 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 14:32:11 INFO [h11_impl.py] 192.168.0.100:52808 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:32:11 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 14:32:22 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 14:32:33 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 14:32:37 INFO [server.py] Shutting down
+14-Mar-24 14:32:37 INFO [server.py] Waiting for connections to close. (CTRL+C to force quit)
+14-Mar-24 14:32:44 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 14:32:55 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 14:33:05 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 14:33:15 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 14:33:15 INFO [h11_impl.py] 192.168.0.100:52816 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:33:15 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 14:33:15 INFO [on.py] Application shutdown complete.
+14-Mar-24 14:33:15 INFO [server.py] Finished server process [196466]
+14-Mar-24 14:42:47 INFO [es_visualization.py] Loading csv file
+14-Mar-24 14:42:47 INFO [es_visualization.py] Processing es map creation data...
+14-Mar-24 14:42:49 INFO [es_visualization.py] Processing of es map creation data completed
+14-Mar-24 14:42:49 INFO [h11_impl.py] 192.168.150.10:53378 - "GET /ES_data_for_map HTTP/1.1" 200
+14-Mar-24 14:43:08 INFO [es_visualization.py] Loading csv file
+14-Mar-24 14:43:08 INFO [es_visualization.py] Processing es map creation data...
+14-Mar-24 14:43:09 INFO [es_visualization.py] Processing of es map creation data completed
+14-Mar-24 14:43:09 INFO [h11_impl.py] 192.168.0.100:49874 - "GET /ES_data_for_map HTTP/1.1" 200
+14-Mar-24 14:43:56 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 14:43:57 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 14:43:57 INFO [h11_impl.py] 192.168.0.100:50134 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:43:57 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 14:44:00 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 14:44:00 INFO [h11_impl.py] 192.168.0.100:50144 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:44:01 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 14:44:01 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 14:44:01 INFO [h11_impl.py] 192.168.0.100:50148 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:44:02 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 14:44:15 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 14:44:25 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 14:44:37 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 14:44:50 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 14:45:00 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 14:45:13 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 14:45:13 INFO [h11_impl.py] 192.168.0.100:50152 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:45:13 INFO [es_visualization.py] Loading csv file
+14-Mar-24 14:45:13 INFO [es_visualization.py] Processing es map creation data...
+14-Mar-24 14:45:15 INFO [es_visualization.py] Processing of es map creation data completed
+14-Mar-24 14:45:15 INFO [h11_impl.py] 192.168.0.100:51468 - "GET /ES_data_for_map HTTP/1.1" 200
+14-Mar-24 14:47:44 INFO [h11_impl.py] 192.168.150.10:53397 - "GET /docs HTTP/1.1" 200
+14-Mar-24 14:47:44 INFO [h11_impl.py] 192.168.150.10:53397 - "GET /openapi.json HTTP/1.1" 200
+14-Mar-24 14:48:18 INFO [es_storing_csv_as_pickle.py] Venv Path(Storing csv as pickle file): /opt/siap/analytics/analytics_env/bin/python3
+
+14-Mar-24 14:48:25 INFO [es_storing_csv_as_pickle.py] The csv file is saved as a pickle file
+14-Mar-24 14:48:25 INFO [h11_impl.py] 192.168.0.100:40750 - "POST /storing_csv_pickle?subsystem_name_for_pickle_file=es HTTP/1.1" 200
+14-Mar-24 14:49:12 INFO [es_forecasting.py] Forecasted data was saved successfully
+14-Mar-24 14:49:12 INFO [h11_impl.py] 192.168.0.100:54306 - "GET /forecasting?test_size=2&validation_size=2&subsystem_name_for_pickle_file=es HTTP/1.1" 200
+14-Mar-24 14:49:16 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 14:49:17 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 14:49:17 INFO [h11_impl.py] 192.168.0.100:55724 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:49:17 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 14:49:19 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 14:49:19 INFO [h11_impl.py] 192.168.0.100:55732 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-03&page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:49:20 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 14:49:20 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 14:49:20 INFO [h11_impl.py] 192.168.0.100:55742 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:49:20 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 14:49:34 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 14:49:44 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 14:49:55 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 14:50:08 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 14:50:19 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 14:50:30 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 14:50:30 INFO [h11_impl.py] 192.168.0.100:55750 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 14:50:30 INFO [es_visualization.py] Loading csv file
+14-Mar-24 14:50:30 INFO [es_visualization.py] Processing es map creation data...
+14-Mar-24 14:50:30 INFO [es_visualization.py] Processing of es map creation data completed
+14-Mar-24 14:50:30 INFO [h11_impl.py] 192.168.0.100:43670 - "GET /ES_data_for_map HTTP/1.1" 200
+14-Mar-24 15:13:22 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 15:13:23 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 15:13:23 INFO [h11_impl.py] 192.168.150.14:57004 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:14:28 INFO [es_visualization.py] Processing data to generate outlier...
+14-Mar-24 15:14:28 INFO [es_visualization.py] Outlier detection completed.
+14-Mar-24 15:14:28 INFO [h11_impl.py] 192.168.150.14:57016 - "GET /es_outlier?start_date=2024-01-01&end_date=2024-01-01&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:15:04 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 15:15:04 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 15:15:04 INFO [h11_impl.py] 192.168.150.14:57022 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-01-01&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 15:15:20 INFO [es_visualization.py] Processing data to generate Average value of pollutants and AQI...
+14-Mar-24 15:15:21 INFO [es_visualization.py] Average values of pollutants and aqi data processing completed.
+14-Mar-24 15:15:21 INFO [h11_impl.py] 192.168.150.14:57028 - "GET /monthly_average_values_of_pollutants_and_aqi?start_date=2024-01&end_date=2024-01&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:25:24 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 17:25:25 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 17:25:25 INFO [h11_impl.py] 192.168.150.10:55806 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:28:25 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 17:28:38 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 17:28:50 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 17:29:01 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 17:29:13 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 17:29:25 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 17:29:36 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 17:29:36 INFO [h11_impl.py] 192.168.150.10:55838 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:31:23 INFO [server.py] Shutting down
+14-Mar-24 17:31:23 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 17:31:23 INFO [on.py] Application shutdown complete.
+14-Mar-24 17:31:23 INFO [server.py] Finished server process [224702]
+14-Mar-24 17:32:23 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 17:32:23 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 17:32:23 INFO [h11_impl.py] 192.168.150.10:55885 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:37:29 INFO [server.py] Shutting down
+14-Mar-24 17:37:30 INFO [on.py] Waiting for application shutdown.
+14-Mar-24 17:37:30 INFO [on.py] Application shutdown complete.
+14-Mar-24 17:37:30 INFO [server.py] Finished server process [231519]
+14-Mar-24 17:38:32 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 17:38:32 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 17:38:32 INFO [h11_impl.py] 192.168.150.10:55924 - "GET /aqi_classification?page=1&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:38:42 INFO [es_visualization.py] Processing data to classify aqi location and zonewise ...
+14-Mar-24 17:38:42 INFO [es_visualization.py] Aqi location and zonewise classification completed.
+14-Mar-24 17:38:42 INFO [h11_impl.py] 192.168.150.10:55926 - "GET /aqi_classification?page=2&rows_per_page=1000 HTTP/1.1" 200
+14-Mar-24 17:44:05 INFO [es_visualization.py] Processing value counts data...
+14-Mar-24 17:44:14 INFO [es_visualization.py] Value counts data processing PM10 completed.
+14-Mar-24 17:44:23 INFO [es_visualization.py] Value counts data processing PM25 completed.
+14-Mar-24 17:44:32 INFO [es_visualization.py] Value counts data processing SO2 completed.
+14-Mar-24 17:44:43 INFO [es_visualization.py] Value counts data processing CO completed.
+14-Mar-24 17:44:51 INFO [es_visualization.py] Value counts data processing O3 completed.
+14-Mar-24 17:45:01 INFO [es_visualization.py] Value counts data processing NO2 completed.
+14-Mar-24 17:45:01 INFO [h11_impl.py] 192.168.150.10:55963 - "GET /pollutants_value_count?start_date=2024-01-01&end_date=2024-03-13&page=1&rows_per_page=1000 HTTP/1.1" 200

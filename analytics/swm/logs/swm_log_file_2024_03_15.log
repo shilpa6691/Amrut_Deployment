@@ -1,0 +1,17 @@
+15-Mar-24 10:55:02 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+15-Mar-24 10:55:03 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+15-Mar-24 10:55:03 INFO [h11_impl.py] 192.168.150.14:59592 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+15-Mar-24 10:55:23 INFO [h11_impl.py] 192.168.150.14:59598 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:55:47 INFO [h11_impl.py] 192.168.150.14:59605 - "GET /monthly_count_of_crimes_locationwise?start_date=06-2018&end_date=06-2018&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:59:28 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+15-Mar-24 10:59:29 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+15-Mar-24 10:59:29 INFO [h11_impl.py] 192.168.150.14:59660 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+15-Mar-24 10:59:32 INFO [h11_impl.py] 192.168.150.14:59664 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 10:59:37 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+15-Mar-24 10:59:37 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+15-Mar-24 10:59:37 INFO [h11_impl.py] 192.168.150.14:59667 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
+15-Mar-24 11:00:08 INFO [h11_impl.py] 192.168.150.14:59677 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 401
+15-Mar-24 11:00:34 INFO [h11_impl.py] 192.168.150.14:59688 - "POST /token HTTP/1.1" 404
+15-Mar-24 13:39:16 INFO [swm_visualization.py] Processing data to generate SWM bargraph...
+15-Mar-24 13:39:16 INFO [swm_visualization.py] SWM Bargraph data processing completed.
+15-Mar-24 13:39:16 INFO [h11_impl.py] 192.168.150.14:61890 - "GET /swm_bargraph?start_date=2022-02&end_date=2022-02&page=1&rows_per_page=1000 HTTP/1.1" 200
