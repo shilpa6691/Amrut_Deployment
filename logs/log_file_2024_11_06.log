@@ -1,0 +1,1864 @@
+06-Nov-24 10:07:43 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 110, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 26, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 10:08:35 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 110, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 26, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 10:08:59 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 111, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 26, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 10:10:23 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 111, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 26, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 10:20:55 ERROR [usecases.py] Exception occurred: 'str' object has no attribute 'resample'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 113, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 15, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'resample'
+06-Nov-24 10:29:06 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 128, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 40, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 10:37:03 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'apply'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 110, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 38, in plant_availability_finder
+    data['plant status'] = data['remarks category'].apply(self.plant_status)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'apply'
+06-Nov-24 10:37:55 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'apply'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 111, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 38, in plant_availability_finder
+    data['plant status'] = data['remarks category'].apply(self.plant_status)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'apply'
+06-Nov-24 10:41:28 ERROR [usecases.py] Exception occurred: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 110, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 38, in plant_availability_finder
+    data['plant status'] = data['remarks category'].apply(self.plant_status)
+                           ~~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+06-Nov-24 10:56:55 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'resample'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 87, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 15, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'resample'
+06-Nov-24 10:57:08 ERROR [usecases.py] Exception occurred: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 137, in shift_and_zone_wise_water_production
+    processed_data = data_processor.shift_and_zone_water_production_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 70, in shift_and_zone_water_production_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+06-Nov-24 11:00:11 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'resample'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 89, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 15, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'resample'
+06-Nov-24 11:04:40 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 98, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 19, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:07:26 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 98, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 19, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:09:56 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 98, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 20, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:10:24 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 98, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 20, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:12:07 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 16, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:14:40 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 16, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:15:11 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 17, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:17:06 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 18, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:17:37 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 19, in recovery_percentage_capacity_utilization_finder
+    data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/utils/file_operations.py", line 74, in time_resample
+    data = df.resample(window).agg(agg_dict)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 9771, in resample
+    return get_resampler(
+           ^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2050, in get_resampler
+    return tg._get_resampler(obj, kind=kind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 11:27:25 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 32, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:30:39 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 30, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:32:16 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 30, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:32:39 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 31, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:33:05 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 31, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:33:33 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 79, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 30, in recovery_percentage_capacity_utilization_finder
+    data_day['Standardized_Date'] = data_day['Standardized_Date'].astype('str')
+                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:33:45 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 11:34:31 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 95, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 45, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:34:40 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 129, in shift_and_zone_wise_water_production
+    processed_data = data_processor.shift_and_zone_water_production_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 75, in shift_and_zone_water_production_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:37:55 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 11:39:37 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 42, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:40:00 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 41, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:40:30 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 42, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:40:55 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 41, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:41:38 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 41, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:42:12 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 41, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:43:16 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 43, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:43:38 ERROR [usecases.py] Exception occurred: 'STANDARDIZED_TIME'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'STANDARDIZED_TIME'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 44, in plant_availability_finder
+    data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
+                                  ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'STANDARDIZED_TIME'
+06-Nov-24 11:44:23 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 93, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 47, in plant_availability_finder
+    data['Year'] = data['Standardized_Date'].dt.year
+                   ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 11:45:17 INFO [usecases.py] Processing plant_availability data...
+06-Nov-24 11:46:16 INFO [usecases.py] Processing shift wise and zone wise water production data...
+06-Nov-24 12:07:23 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 13:16:35 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 13:16:48 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'standardized_date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 132, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 39, in plant_availability_finder
+    data['standardized_date'] = pd.to_datetime(data['standardized_date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'standardized_date'
+06-Nov-24 13:17:57 INFO [usecases.py] Processing plant_availability data...
+06-Nov-24 13:18:20 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 85, in ebill_new_columns_adder
+    data_month_start = data.groupby(['Zone']).resample('M').agg({'RAW WATER FLOW IN ML':'sum',
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/groupby/groupby.py", line 3743, in resample
+    return get_resampler_for_grouping(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2072, in get_resampler_for_grouping
+    resampler = tg._get_resampler(groupby.obj, kind=kind)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 13:18:56 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 105, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:19:17 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:21:41 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 182, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:24:19 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 182, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:25:28 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 105, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:26:11 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:26:50 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:27:03 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 106, in ebill_new_columns_adder
+    data_month_ebill = data_month_start_pivot.merge(data_ebill,on='standardized_date')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 10832, in merge
+    return merge(
+           ^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 170, in merge
+    op = _MergeOperation(
+         ^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 794, in __init__
+    ) = self._get_merge_keys()
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/reshape/merge.py", line 1297, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'standardized_date'
+06-Nov-24 13:27:48 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 87, in ebill_new_columns_adder
+    data_month_start = data.groupby(['Zone']).resample('M').agg({'RAW WATER FLOW IN ML':'sum',
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/groupby/groupby.py", line 3743, in resample
+    return get_resampler_for_grouping(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2072, in get_resampler_for_grouping
+    resampler = tg._get_resampler(groupby.obj, kind=kind)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 13:28:57 ERROR [usecases.py] Exception occurred: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 89, in ebill_new_columns_adder
+    data_month_start = data.groupby(['Zone']).resample('M').agg({'RAW WATER FLOW IN ML':'sum',
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/groupby/groupby.py", line 3743, in resample
+    return get_resampler_for_grouping(  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2072, in get_resampler_for_grouping
+    resampler = tg._get_resampler(groupby.obj, kind=kind)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/resample.py", line 2272, in _get_resampler
+    raise TypeError(
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'RangeIndex'
+06-Nov-24 13:29:08 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 110, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:31:56 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 111, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:32:40 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 111, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:33:52 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 112, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:34:43 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 111, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:35:23 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 111, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:36:16 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 112, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:37:30 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 114, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:38:06 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 115, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:40:03 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 115, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:40:21 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 115, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:41:22 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 115, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:43:24 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 114, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:43:36 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'standardized_date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 83, in ebill_new_columns_adder
+    data['standardized_date'] = pd.to_datetime(data['standardized_date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'standardized_date'
+06-Nov-24 13:44:16 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 112, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:46:27 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 134, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] / (
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:49:10 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 135, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] / (
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 13:49:33 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 112, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 14:06:09 ERROR [usecases.py] Exception occurred: 'standardized_date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'standardized_date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 83, in ebill_new_columns_adder
+    data['standardized_date'] = pd.to_datetime(data['standardized_date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'standardized_date'
+06-Nov-24 14:08:04 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 112, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] = pd.to_numeric(data_month_ebill['units_kwh'], errors='coerce')
+                                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 14:09:45 ERROR [usecases.py] Exception occurred: 'units_kwh'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'units_kwh'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 134, in ebill_new_columns_adder
+    data_month_ebill['units_kwh'] / (
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'units_kwh'
+06-Nov-24 14:10:36 ERROR [usecases.py] Exception occurred: 'energy_charge_rs'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'energy_charge_rs'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 181, in ebill_analysis
+    processed_data = data_processor.ebill_new_columns_adder(df1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 141, in ebill_new_columns_adder
+    data_month_ebill['charge_per_unit'] = data_month_ebill['energy_charge_rs']/ data_month_ebill['Units_kWh']
+                                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'energy_charge_rs'
+06-Nov-24 14:11:37 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:12:35 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:13:50 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:14:04 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:14:42 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:15:10 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:16:16 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:17:01 ERROR [usecases.py] Exception occurred: 'list' object has no attribute 'head'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 185, in ebill_analysis
+    print(processed_data.head(6))
+          ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'head'
+06-Nov-24 14:17:37 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:19:28 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:21:01 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:21:32 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:22:02 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:22:26 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:22:38 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:23:37 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:25:25 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:26:30 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:27:45 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:32:08 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:37:14 INFO [usecases.py] Processing ebill data...
+06-Nov-24 14:39:16 INFO [usecases.py] Processing ebill data...
+06-Nov-24 15:16:24 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:24:41 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:25:15 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:25:49 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 133, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 39, in plant_availability_finder
+    data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 15:26:44 ERROR [usecases.py] Exception occurred: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 133, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 44, in plant_availability_finder
+    data['Year'] = data['Standardized_Date'].dt.year
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+06-Nov-24 15:27:44 INFO [usecases.py] Processing plant_availability data...
+06-Nov-24 15:37:25 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:41:15 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 118, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 15, in recovery_percentage_capacity_utilization_finder
+    data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 15:41:25 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 118, in recovery_percentage_capacity_utilization
+    processed_data = data_processor.recovery_percentage_capacity_utilization_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 15, in recovery_percentage_capacity_utilization_finder
+    data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 15:41:49 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:47:26 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+06-Nov-24 15:48:04 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 134, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 39, in plant_availability_finder
+    data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 15:48:35 ERROR [usecases.py] Exception occurred: 'Standardized_Date'
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Standardized_Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 134, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 39, in plant_availability_finder
+    data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+                                               ~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Standardized_Date'
+06-Nov-24 15:48:51 ERROR [usecases.py] Exception occurred: Can only use .dt accessor with datetimelike values
+Traceback (most recent call last):
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/routers/usecases.py", line 134, in plant_availability
+    processed_data = data_processor.plant_availability_finder()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/visualization_model.py", line 44, in plant_availability_finder
+    data['Year'] = data['Standardized_Date'].dt.year
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shilpa.av/Desktop/Bayesian_Ways/Amrut_Deployment/myenv/lib/python3.12/site-packages/pandas/core/indexes/accessors.py", line 643, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+06-Nov-24 15:49:15 INFO [usecases.py] Processing plant_availability data...
+06-Nov-24 15:49:52 INFO [usecases.py] Processing plant_availability data...

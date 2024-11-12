@@ -9,17 +9,19 @@ logger=setup_logger(config.LOG_FILE_PATH['logs_path'],config.LOG_FILE_PATH['logs
 class Data_Visualization:
     def __init__(self, data):
         self.data = data
+        data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+        data.set_index('Standardized_Date', inplace=True)
 
-    def recovery_percentage_capacity_utilization_finder(self):
-        data=self.data
-        data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
-                                   'CLEAR WATER SUMP LEVEL IN Meter':'mean',
-                                   'CLEAR WATER PUMPING FLOW ML':'sum',
-                                   'TREATED WATER PRODUCTION IN ML':'sum', 'remarks category':'unique'})
-
+    def recovery_percentage_capacity_utilization_finder(self,data_day):
+        data_day['Standardized_Date'] = pd.to_datetime(data_day['Standardized_Date'])
+        data_day.set_index('Standardized_Date', inplace=True)
+        # data_day = time_resample(data,'D',{'RAW WATER FLOW IN ML':'sum',
+        #                            'CLEAR WATER SUMP LEVEL IN Meter':'mean',
+        #                            'CLEAR WATER PUMPING FLOW ML':'sum',
+        #                            'TREATED WATER PRODUCTION IN ML':'sum', 'remarks category':'unique'})
         data_day['Recovery_percentage'] = ((data_day['TREATED WATER PRODUCTION IN ML']/data_day['RAW WATER FLOW IN ML'])*100).round(2)
         data_day['Capacity_utilization'] = ((data_day['TREATED WATER PRODUCTION IN ML']/93)*100).round(2)
-        data_day['Recovery_percentage'].fillna(0.0,inplace=True)
+        data_day['Recovery_percentage'] = data_day['Recovery_percentage'].fillna(0.0)
         # Convert 'remarks category' to a serializable format (list of unique values)
         data_day['remarks category'] = data_day['remarks category'].apply(lambda x: list(x))
         data_day=data_day.reset_index()
@@ -35,6 +37,8 @@ class Data_Visualization:
 
     def plant_availability_finder(self):
         data=self.data
+        # data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+        # data.set_index('Standardized_Date', inplace=True)
         data['plant status'] = data['remarks category'].apply(self.plant_status)
         data=data.reset_index()
         data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
@@ -77,6 +81,10 @@ class Data_Visualization:
 
     def ebill_new_columns_adder(self,data_ebill):
         data=self.data
+        # data['Standardized_Date'] = pd.to_datetime(data['Standardized_Date'])
+        # data.set_index('Standardized_Date', inplace=True)
+        data_ebill['Standardized_Date'] = pd.to_datetime(data_ebill['Standardized_Date'])
+        data_ebill.set_index('Standardized_Date', inplace=True)
         data['Hour'] = pd.to_datetime(data['STANDARDIZED_TIME']).dt.hour
         data['Zone'] = data['Hour'].apply(self.assign_zone)
         data_month_start = data.groupby(['Zone']).resample('M').agg({'RAW WATER FLOW IN ML':'sum',
@@ -98,7 +106,7 @@ class Data_Visualization:
         data_month_start_pivot.columns = [col.replace(' ', '_') for col in data_month_start_pivot.columns]
 
         data_month_ebill = data_month_start_pivot.merge(data_ebill,on='Standardized_Date')
-        # Convert columns to numeric and handle any non-numeric values
+        #Convert columns to numeric and handle any non-numeric values
         data_month_ebill['Units_kWh'] = pd.to_numeric(data_month_ebill['Units_kWh'], errors='coerce')
 
         data_month_ebill['TREATED_WATER_PRODUCTION_IN_ML_Z1'] = pd.to_numeric(data_month_ebill['TREATED_WATER_PRODUCTION_IN_ML_Z1'], errors='coerce')
@@ -117,8 +125,7 @@ class Data_Visualization:
         data_month_ebill['CLEAR_WATER_SUMP_LEVEL_IN_Meter_Z2'] = pd.to_numeric(data_month_ebill['CLEAR_WATER_SUMP_LEVEL_IN_Meter_Z2'], errors='coerce')
         data_month_ebill['CLEAR_WATER_SUMP_LEVEL_IN_Meter_Z3'] = pd.to_numeric(data_month_ebill['CLEAR_WATER_SUMP_LEVEL_IN_Meter_Z3'], errors='coerce')
 
-
-
+        
         # Perform the specific energy consumption calculation and round to 2 decimal places
         data_month_ebill['specific_energy_consumption'] = (
             data_month_ebill['Units_kWh'] / (
@@ -127,7 +134,6 @@ class Data_Visualization:
                 data_month_ebill['TREATED_WATER_PRODUCTION_IN_ML_Z3']
             )
         ).round(2)
-
         data_month_ebill['charge_per_unit'] = data_month_ebill['Energy Charge (Rs)']/ data_month_ebill['Units_kWh']
         data_month_ebill['unit_cost'] = (data_month_ebill['Energy Charge (Rs)']/(
                 data_month_ebill['TREATED_WATER_PRODUCTION_IN_ML_Z1'] +
@@ -135,6 +141,7 @@ class Data_Visualization:
                 data_month_ebill['TREATED_WATER_PRODUCTION_IN_ML_Z3']
             )).round(2)
         data_month_ebill=data_month_ebill.reset_index()
+        data_month_ebill=data_month_ebill.fillna(0)
         data_month_ebill['Standardized_Date'] = data_month_ebill['Standardized_Date'].astype('str')
         
         return data_month_ebill

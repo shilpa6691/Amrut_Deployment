@@ -1,0 +1,84 @@
+05-Nov-24 10:08:06 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:08:06 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:08:06 INFO [authbearer.py] user found
+05-Nov-24 10:08:06 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:08:06 INFO [authbearer.py] create access token
+05-Nov-24 10:08:06 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 8, 6, 429174), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:08:06 INFO [authbearer.py] HS256
+05-Nov-24 10:08:06 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODMyODYsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.S4C3YT930CxQQtX_LmADw4R00mlwAjJFWGh0P6gAr0o
+05-Nov-24 10:08:06 INFO [authentication.py] User authenticated successfully: user1
+05-Nov-24 10:08:51 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:08:51 INFO [authbearer.py] Authenticating user: shilpa
+05-Nov-24 10:08:51 INFO [authbearer.py] User not found: shilpa
+05-Nov-24 10:08:58 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:08:58 INFO [authbearer.py] Authenticating user: shilpa
+05-Nov-24 10:08:58 INFO [authbearer.py] User not found: shilpa
+05-Nov-24 10:09:19 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:09:19 INFO [authbearer.py] Authenticating user: shilpa
+05-Nov-24 10:09:19 INFO [authbearer.py] User not found: shilpa
+05-Nov-24 10:09:25 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:09:25 INFO [authbearer.py] Authenticating user: shilpa
+05-Nov-24 10:09:25 INFO [authbearer.py] User not found: shilpa
+05-Nov-24 10:09:44 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:09:44 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:09:44 INFO [authbearer.py] user found
+05-Nov-24 10:09:44 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:09:44 INFO [authbearer.py] create access token
+05-Nov-24 10:09:44 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 9, 44, 579126), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:09:44 INFO [authbearer.py] HS256
+05-Nov-24 10:09:44 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODMzODQsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.Qw1ati9GCH86s58xYI97LcnKkbfUw6Wy0fnBUEcXmts
+05-Nov-24 10:09:44 INFO [authentication.py] User authenticated successfully: user1
+05-Nov-24 10:10:05 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+05-Nov-24 10:15:37 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:15:37 INFO [authbearer.py] Authenticating user: 
+05-Nov-24 10:15:37 INFO [authbearer.py] User not found: 
+05-Nov-24 10:15:44 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:15:44 INFO [authbearer.py] Authenticating user: 
+05-Nov-24 10:15:44 INFO [authbearer.py] User not found: 
+05-Nov-24 10:15:57 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:15:57 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:15:57 INFO [authbearer.py] user found
+05-Nov-24 10:15:57 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:15:57 INFO [authbearer.py] create access token
+05-Nov-24 10:15:57 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 15, 57, 60542), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:15:57 INFO [authbearer.py] HS256
+05-Nov-24 10:15:57 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODM3NTcsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.JP7YdB-Ap21LJsjFv7Wu4sX1qiMJhV7QalPOdAlwLf8
+05-Nov-24 10:15:57 INFO [authentication.py] User authenticated successfully: user1
+05-Nov-24 10:16:24 INFO [authbearer.py] verify_token
+05-Nov-24 10:16:24 INFO [usecases.py] Processing recovery percentage and capacity utilization data...
+05-Nov-24 10:17:04 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:17:04 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:17:04 INFO [authbearer.py] user found
+05-Nov-24 10:17:04 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:17:04 INFO [authbearer.py] create access token
+05-Nov-24 10:17:04 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 17, 4, 699898), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:17:04 INFO [authbearer.py] HS256
+05-Nov-24 10:17:04 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODM4MjQsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.KC14wWDOlILw1OtlFtlPfx5QdRBZV8Ei8hU67lw8D7k
+05-Nov-24 10:17:04 INFO [authentication.py] User authenticated successfully: user1
+05-Nov-24 10:17:18 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:17:18 INFO [authbearer.py] Authenticating user: 
+05-Nov-24 10:17:18 INFO [authbearer.py] User not found: 
+05-Nov-24 10:17:24 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:17:24 INFO [authbearer.py] Authenticating user: 
+05-Nov-24 10:17:24 INFO [authbearer.py] User not found: 
+05-Nov-24 10:17:34 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:17:34 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:17:34 INFO [authbearer.py] user found
+05-Nov-24 10:17:34 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:17:34 INFO [authbearer.py] create access token
+05-Nov-24 10:17:34 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 17, 34, 115897), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:17:34 INFO [authbearer.py] HS256
+05-Nov-24 10:17:34 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODM4NTQsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.HlFOOXBHEqicvuUaOQe87DKyZSKeYLuypQQehznhUiM
+05-Nov-24 10:17:34 INFO [authentication.py] User authenticated successfully: user1
+05-Nov-24 10:18:35 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:18:35 INFO [authbearer.py] Authenticating user: shilpa
+05-Nov-24 10:18:35 INFO [authbearer.py] User not found: shilpa
+05-Nov-24 10:35:40 INFO [authentication.py] login_for_access_token
+05-Nov-24 10:35:40 INFO [authbearer.py] Authenticating user: user1
+05-Nov-24 10:35:40 INFO [authbearer.py] user found
+05-Nov-24 10:35:40 INFO [authbearer.py] User authenticated successfully: user1
+05-Nov-24 10:35:40 INFO [authbearer.py] create access token
+05-Nov-24 10:35:40 INFO [authbearer.py] {'exp': datetime.datetime(2024, 11, 5, 5, 35, 40, 786850), 'sub': "{'sub': 'user1'}"}
+05-Nov-24 10:35:40 INFO [authbearer.py] HS256
+05-Nov-24 10:35:40 INFO [authbearer.py] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA3ODQ5NDAsInN1YiI6Insnc3ViJzogJ3VzZXIxJ30ifQ.IvCIt1z6FTD2_gX2uzpc7qDI3ZUbAMR9lZKrL08Otp8
+05-Nov-24 10:35:40 INFO [authentication.py] User authenticated successfully: user1

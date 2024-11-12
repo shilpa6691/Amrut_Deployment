@@ -15,12 +15,12 @@ import_config = f"from {subsystem_name} import analytics_es_config as config"
 exec(import_model)
 exec(import_config)
 
-with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
-    key = filekey.read()
+#with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
+    #key = filekey.read()
 
-data_csv = file_decrypt(config.CSV_FILE_PATH['upload_file_path']+config.DATA_FILE_NAMES['processed_data_csv_file_name'],key)
-data = pd.read_csv(data_csv)
-# data = pd.read_csv(config.CSV_FILE_PATH['upload_file_path']+config.DATA_FILE_NAMES['processed_data_csv_file_name'])
+#data_csv = file_decrypt(config.CSV_FILE_PATH['upload_file_path']+config.DATA_FILE_NAMES['processed_data_csv_file_name'],key)
+#data = pd.read_csv(data_csv)
+data = pd.read_csv(config.CSV_FILE_PATH['upload_file_path']+config.DATA_FILE_NAMES['processed_data_csv_file_name'])
 # data['DateTime'] = pd.to_datetime(data['DateTime']).dt.strftime('%Y-%m-%d')
 # # data['MonthYear'] = pd.to_datetime(data['DateTime'])+MonthEnd(0)
 # data['MonthYear'] = pd.to_datetime(data['DateTime']).dt.strftime('%Y-%m')

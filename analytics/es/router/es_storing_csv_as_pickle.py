@@ -17,8 +17,8 @@ exec(import_config)
 
 
 
-with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
-    key = filekey.read()
+#with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
+    #key = filekey.read()
 # router = APIRouter(tags=['ES Time Series Forecasting'])
 # Define an API endpoint to store the uploaded CSV file as a pickle file
 # @router.post('/Storing_csv_pickle',summary='csv to pickle file')

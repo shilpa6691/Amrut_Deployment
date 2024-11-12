@@ -18,8 +18,8 @@ exec(import_config)
 # router = APIRouter(tags=['ES Time Series Forecasting'])
 # Define an API endpoint to train the model and save the results as pickle files
 # @router.post('/Model_fitting',summary='Model results and fitted model to pickle files')
-with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
-    key = filekey.read()
+#with open('/opt/siap/data/raw_data/filekey.key', 'rb') as filekey:
+    #key = filekey.read()
 
 def model_fitting(subsystem_name_for_pickle_file: str= Query(..., description="Please provide the subsystem name for the pickle file"),
                   #Upload_file: UploadFile = File("..."),
